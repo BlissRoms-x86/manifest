@@ -7,7 +7,7 @@
            revision="refs/tags/android-6.0.1_r22" />
 
   <remote  name="github"
-           fetch=".."
+           fetch=".." />
 
   <remote name="BlissRoms"
           fetch="https://github.com/BlissRoms"
