@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/BlissRoms/platform_manifest/mm6.0/bliss-logo.png">
+<img src="https://raw.github.com/BlissRoms/platform_manifest/new-mm6.0/bliss-logo.png">
 
 Getting Started 
 ---------------
@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the Bliss trees, use this command:
 
 
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b mm6.0
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b new-mm6.0
 
 Then to sync up:
 
@@ -57,7 +57,7 @@ Clone the repo you would like to commit to from the Gerrit [Project List](http:/
 Make sure you have git review installed
    - sudo apt-get install git-review
    
-Make sure you are on the correct branch----mm6.0
+Make sure you are on the correct branch----new-mm6.0
 
 Make your change and commit it
 
