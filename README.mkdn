@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 To initialize your local repository using the Bliss trees, use this command:
 
 
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b new-mm6.0
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b mm6.0
 
 Then to sync up:
 
