@@ -41,7 +41,7 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="mm6.0" />
   <project path="external/busybox" name="platform_external_busybox" remote="BlissRoms" revision="mm6.0" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
-  <project path="external/pdfium" name="platform_external_pdfium" remote="bliss" revision="mm6.0" />
+  <project path="external/pdfium" name="platform_external_pdfium" remote="BlissRoms" revision="mm6.0" />
   <project path="external/sepolicy" name="platform_external_sepolicy" remote="BlissRoms" revision="mm6.0" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="mm6.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="mm6.0" />
