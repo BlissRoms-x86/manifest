@@ -44,8 +44,6 @@
   <project path="external/sepolicy" name="platform_external_sepolicy" remote="BlissRoms" revision="mm6.0" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="mm6.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="mm6.0" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="mm6.0" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="mm6.0" />
   <project path="hardware/qcom/media-caf/msm8994" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="8994" />
   <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" remote="github" revision="m" />
@@ -175,6 +173,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -187,6 +186,7 @@
   <project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
