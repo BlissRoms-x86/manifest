@@ -26,23 +26,79 @@
   <remote name="bitbucket" 
           fetch="https://bitbucket.org/" />
 
+  <remote name="x86" 
+           fetch="git://gitscm.sf.net/gitroot/android-x86/" />
+
+  <remote name="meijjaa"
+           fetch="https://github.com/meijjaa" />
+
+  <remote name="git" 
+           fetch="https://github.com/maurossi" />
+		   
+  <remote name="cng"
+           fetch="https://github.com/cng-tap" />
+		  
   <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-<!-- BEGIN BLISS -->
-  <project path="build" name="platform_build" remote="BlissRoms" revision="mm6.0" >
+<!-- from Bliss-x86 repository -->
+  <project path="build" name="build" remote="cng" revision="bliss-mm6.0-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="mm6.0" />
-  <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="mm6.0" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="mm6.0" />
-  <project path="external/busybox" name="platform_external_busybox" remote="BlissRoms" revision="mm6.0" />
+  <project path="manifest" name="manifest" remote="cng" revision="bliss-mm6.0-x86" />
+  <project path="device/generic/x86" name="device_generic_x86" remote="cng" revision="bliss-mm6.0-x86" />
+  <project path="device/generic/common" name="device_generic_common" remote="cng" revision="bliss-mm6.0-x86" />
+  <project path="frameworks/av" name="frameworks_av" remote="cng" revision="bliss-mm6.0-x86" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="cng" revision="bliss-mm6.0-x86" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="cng" revision="bliss-mm6.0-x86" groups="pdk" />
+		  
+<!-- from Android-x86 repository -->
+  <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.4" />
+  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="marshmallow-x86" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="marshmallow-x86" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="marshmallow-x86" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="x86" revision="marshmallow-x86" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="marshmallow-x86" />
+  <project path="external/bluetooth/sbc" name="platform/external/bluetooth/sbc" remote="x86" revision="marshmallow-x86" />
+  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="marshmallow-x86" />
+  <project path="external/drm_gralloc" name="platform/hardware/drm_gralloc" remote="x86" revision="marshmallow-x86" />
+  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="marshmallow-x86" />
+  <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="marshmallow-x86" />
+  <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="marshmallow-x86" />
+  <project path="external/libpciaccess" name="platform/external/libpciaccess" remote="x86" revision="marshmallow-x86" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project path="external/mesa" name="maurossi/mesa" remote="git" revision="11.1.2_marshmallow-x86_12-feb-2016" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="marshmallow-x86"/>
+  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/apps/CMFileManager" name="platform/packages/apps/CMFileManager" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="marshmallow-x86" />
+  
+<!-- from CyanogenMod-x86 repository -->
+  <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="hardware/intel/intel-driver" name="vaapi-intel-driver" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="hardware/intel/libva" name="vaapi-libva" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" revision="cm-13.0" />
+  <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" remote="x86" revision="cm-13.0-x86" />
+  <project path="system/core" name="system_core" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
+  <project path="system/extras" name="android_system_extras" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
+  <project path="system/vold" name="android_system_vold" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
+  
+<!-- BEGIN BLISS -->
   <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
   <project path="external/sepolicy" name="platform_external_sepolicy" remote="BlissRoms" revision="mm6.0" />
-  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="mm6.0" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="mm6.0" />
   <project path="hardware/qcom/media-caf/msm8994" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="8994" />
   <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" remote="github" revision="m" />
   <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" remote="github" revision="m" />
@@ -67,13 +123,6 @@
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
-  <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
-  <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
@@ -100,7 +149,6 @@
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
@@ -158,10 +206,8 @@
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
   <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" />
@@ -170,7 +216,6 @@
   <project path="external/unzip" name="CyanogenMod/android_external_unzip" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
   <project path="external/vogar" name="CyanogenMod/android_external_vogar" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
@@ -181,7 +226,6 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -207,7 +251,6 @@
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />
   <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
   <project path="hardware/intel/common/libva" name="CyanogenMod/android_hardware_intel_common_libva" groups="intel" />
@@ -217,7 +260,6 @@
   <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <include name="snippets/hal_cm_all.xml" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
@@ -237,7 +279,6 @@
   <project path="packages/apps/CarrierConfig" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" groups="pdk-fs" />
@@ -264,7 +305,6 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker" name="CyanogenMod/android_packages_apps_WallpaperPicker" />
@@ -300,16 +340,12 @@
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
-  <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
 
 <!-- CMSDK SAMPLES -->
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
@@ -322,17 +358,6 @@
 <!-- BEGIN AOSP -->
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
-  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
-  <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
-  <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -355,8 +380,6 @@
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" remote="aosp" />
-  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="aosp" />
-  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="aosp" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -403,7 +426,6 @@
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
-  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
   <project path="external/libedit" name="platform/external/libedit" groups="pdk-fs" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
@@ -426,12 +448,10 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" remote="aosp" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk-fs" remote="aosp" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -540,6 +560,8 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
 <!-- BEGIN TOOLCHAINS -->

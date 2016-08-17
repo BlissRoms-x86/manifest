@@ -1,93 +1,31 @@
 <img src="https://raw.github.com/BlissRoms/platform_manifest/new-mm6.0/bliss-logo.png">
 
-Getting Started 
----------------
+Download the Bliss-x86 source code, based on Android-x86
+---------------------------------------------------
 
-To get started with Android/Bliss, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
-To initialize your local repository using the Bliss trees, use this command:
+Initializing Repository
+-----------------------
+
+Repo initialization:
+
+    $ repo init -u https://github.com/cng-tap/manifest.git -b bliss-mm6.0-x86
 
 
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b mm6.0
+sync repo :
 
-Then to sync up:
-
-    repo sync -j#
-
-This(j#) depends on number of cpu cores - use just "repo sync" if you are unsure.
-
-To build for your device.
-
-. build/envsetup.sh
-
-breakfast `device name here`
-
-brunch `device name here`
-
-or make it all in one line.
-
-. build/envsetup.sh && breakfast `device name here` && brunch *device name here*
-
-For more information on this Github Organization and how it is structured,
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+    $ repo sync
 
 ***
 
-Using Build Script
-------------------
+Building
+--------
 
-run command  ". build.sh" and follow the command prompts.
+After the sync is finished, please read the [Building the image instructions from the Android-x86 site](http://www.android-x86.org/getsourcecode) on how to build.
 
-
-GERRIT
-------
-review.blissroms.com
-
-If you would like to contribute to the blissrom project submit patches to:
-`review.blissroms.com`. Then head into the project and clone it locally make changes and push back to bliss review.
-
-HOW TO SUBMIT TO OUR GERRIT:
-
-First and foremost, setup your github with out Gerrit.
-
-Clone the repo you would like to commit to from the Gerrit [Project List](http://review.blissroms.com:8081/#/admin/projects/)
-   -Select from the list and copy clone command line.
-
-Make sure you have git review installed
-   - sudo apt-get install git-review
+   $ . build/envsetup.sh
    
-Make sure you are on the correct branch----new-mm6.0
-
-Make your change and commit it
-
-Now just type git review, if it does not have the remote yet it will automatically add it and just answer yes to its questions. It will push to the gerrit for you.
-
-BLISS BUILD FLAGS
------------------
-
-These can be added to your device trees BoardConfig.mk
-
-`BLISS_STRICT:= true`    "run strict aliasing"
-
-`BLISS_O3 := true`   run   "O3 optimizations on build"
-
-`BLISS_GRAPHITE := true`    "run Graphite optimiations on build"
-
-`BLISS_KRAIT := true`    "run krait optimizations on build-- CPU specific, please verify if you can use this"
-
-`BLISS_PIPE := true`   "This flag actually has no effect on the generated code, but it makes the compilation process faster."
-
-`TARGET_TC_ROM := "@@"` Specify toolchain for Rom to be compiled with
-
-`TARGET_TC_KERNEL := "@@"` Specify toolchain for kernel to be complied with.
-
-@@= Toolchains are located in prebuilts/gcc/linux-x86/arm You only need to specify the end number be it 4.8-sm for 4.8 SaberMod Toolchain, this goes for both ROM and KERNEL.
-
-If you use TARGET_TC_ROM and/or TARGET_TC_KERNEL, please add the following to BoardConfig.mk as well
-
-`TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)`
-
-`TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)`
-
-Last but not least, add this line to end of BoardConfig.mk `-include vendor/bliss/config/sm.mk`
+   $ lunch android_x86-eng
+   
+   $ make iso_img
