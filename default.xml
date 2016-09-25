@@ -36,7 +36,7 @@
            fetch="https://github.com/maurossi" />
 		   
   <remote name="cng"
-           fetch="https://github.com/cng-tap" />
+           fetch="https://github.com/gpandcb" />
 		  
   <default revision="refs/heads/cm-13.0"
            remote="github"
