@@ -57,6 +57,7 @@
 <!-- from Android-x86 repository -->
   <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.4" />
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="marshmallow-x86" />
+  <project path="device/generic/firmware" name="device_generic_firmware" remote="x86" revision="marshmallow-x86"/>
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="marshmallow-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="marshmallow-x86" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="x86" revision="marshmallow-x86" />
