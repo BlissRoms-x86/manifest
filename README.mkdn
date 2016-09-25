@@ -10,12 +10,12 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/cng-tap/manifest.git -b bliss-mm6.0-x86
+    $ repo init -u https://github.com/gpandcb/manifest.git -b bliss-mm6.0-x86
 
 
 sync repo :
 
-    $ repo sync
+    $ repo sync --no-tags --no-clone-bundle
 
 ***
 
