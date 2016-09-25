@@ -74,6 +74,7 @@
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/intel/audio_media" name="hardware_intel_audio_media" groups="intel" remote="x86" revision="marshmallow-x86"/>
   <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="marshmallow-x86"/>
   <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="marshmallow-x86" />
