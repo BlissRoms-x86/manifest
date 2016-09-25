@@ -72,6 +72,7 @@
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="external/mesa" name="maurossi/mesa" remote="git" revision="11.1.2_marshmallow-x86_12-feb-2016" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="marshmallow-x86" />
+  <project path="frameworks/native" name="frameworks_native" remote="cng" revision="aicp_mm6.0-x86" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/intel/audio_media" name="hardware_intel_audio_media" groups="intel" remote="x86" revision="marshmallow-x86"/>
@@ -90,7 +91,6 @@
   <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/intel/intel-driver" name="vaapi-intel-driver" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/intel/libva" name="vaapi-libva" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" revision="cm-13.0-x86" />
