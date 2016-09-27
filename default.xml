@@ -27,13 +27,10 @@
           fetch="https://bitbucket.org/" />
 
   <remote name="x86" 
-           fetch="git://gitscm.sf.net/gitroot/android-x86/" />
+           fetch="https://github.com/android-x86-mirror" />
 
   <remote name="meijjaa"
            fetch="https://github.com/meijjaa" />
-
-  <remote name="git" 
-           fetch="https://github.com/maurossi" />
 		   
   <remote name="cng"
            fetch="https://github.com/gpandcb" />
@@ -48,44 +45,45 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="manifest" remote="cng" revision="bliss-mm6.0-x86" />
-  <project path="device/generic/x86" name="device_generic_x86" remote="cng" revision="mm6.0-x86" />
-  <project path="device/generic/common" name="device_generic_common" remote="cng" revision="bliss-mm6.0-x86" />
+  <project path="device/generic/x86" name="device_generic_x86" remote="cng" revision="bliss-mm6.0-x86" />
+  <project path="device/generic/common" name="device_generic_common" remote="cng" revision="mm6.0-x86" />
   <project path="frameworks/av" name="frameworks_av" remote="cng" revision="bliss-mm6.0-x86" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="cng" revision="bliss-mm6.0-x86" />
+  <project path="frameworks/native" name="frameworks_native" remote="cng" revision="aicp_mm6.0-x86" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="cng" revision="bliss-mm6.0-x86" groups="pdk" />
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="x86" revision="bliss-mm6.0-x86" />
 		  
 <!-- from Android-x86 repository -->
-  <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.4" />
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="marshmallow-x86" />
+  <project path="kernel" name="kernel_common" remote="x86" revision="kernel-4.4" />
+  <project path="bootable/newinstaller" name="platform_bootable_newinstaller" remote="x86" revision="marshmallow-x86" />
   <project path="device/generic/firmware" name="device_generic_firmware" remote="x86" revision="marshmallow-x86"/>
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="marshmallow-x86" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="marshmallow-x86" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="x86" revision="marshmallow-x86" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="marshmallow-x86" />
-  <project path="external/bluetooth/sbc" name="platform/external/bluetooth/sbc" remote="x86" revision="marshmallow-x86" />
-  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="marshmallow-x86" />
-  <project path="external/drm_gralloc" name="platform/hardware/drm_gralloc" remote="x86" revision="marshmallow-x86" />
-  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="marshmallow-x86" />
-  <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="marshmallow-x86" />
-  <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="marshmallow-x86" />
-  <project path="external/libpciaccess" name="platform/external/libpciaccess" remote="x86" revision="marshmallow-x86" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
-  <project path="external/mesa" name="maurossi/mesa" remote="git" revision="11.1.2_marshmallow-x86_12-feb-2016" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="marshmallow-x86" />
-  <project path="frameworks/native" name="frameworks_native" remote="cng" revision="aicp_mm6.0-x86" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/intel/audio_media" name="hardware_intel_audio_media" groups="intel" remote="x86" revision="marshmallow-x86"/>
-  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="marshmallow-x86"/>
-  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="marshmallow-x86"/>
+  <project path="external/alsa-lib" name="platform_external_alsa-lib" remote="x86" revision="marshmallow-x86" />
+  <project path="external/alsa-utils" name="platform_external_alsa-utils" remote="x86" revision="marshmallow-x86" />
+  <project path="external/bluetooth/glib" name="platform_external_bluetooth_glib" remote="x86" revision="marshmallow-x86" />
+  <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="x86" revision="marshmallow-x86" />
+  <project path="external/bluetooth/sbc" name="platform_external_bluetooth_sbc" remote="x86" revision="marshmallow-x86" />
+  <project path="external/busybox" name="platform_external_busybox" remote="x86" revision="marshmallow-x86" />
+  <project path="external/drm_gralloc" name="platform_hardware_drm_gralloc" remote="x86" revision="marshmallow-x86" />
+  <project path="external/drm_hwcomposer" name="platform_external_drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="marshmallow-x86" />
+  <project path="external/googleanalytics" name="platform_external_googleanalytics" remote="x86" revision="marshmallow-x86" />
+  <project path="external/libdrm" name="platform_external_libdrm" remote="x86" revision="marshmallow-x86" />
+  <project path="external/libpciaccess" name="platform_external_libpciaccess" remote="x86" revision="marshmallow-x86" />
+  <project path="external/llvm" name="platform_external_llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project path="external/mesa" name="platform_external_mesa" remote="x86" revision="marshmallow-x86" />
+  <project path="external/v86d" name="platform_external_v86d" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/gps" name="platform_hardware_gps" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/intel/audio_media" name="platform_hardware_intel_audio_media" groups="intel" remote="x86" revision="marshmallow-x86"/>
+  <project path="hardware/intel/libsensors" name="platform_hardware_intel_libsensors" remote="x86" revision="marshmallow-x86"/>
+  <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/libcamera" name="platform_hardware_libcamera" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/liblights" name="platform_hardware_liblights" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/libsensors" name="platform_hardware_libsensors" remote="x86" revision="marshmallow-x86"/>
   <!--project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="marshmallow-x86" -->
-  <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="marshmallow-x86" />
-  <project path="packages/apps/CMFileManager" name="platform/packages/apps/CMFileManager" remote="x86" revision="marshmallow-x86" />
-  <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
-  <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="marshmallow-x86" />
+  <project path="hardware/x86power" name="platform_hardware_x86power" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/apps/CMFileManager" name="platform_packages_apps_CMFileManager" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/apps/TSCalibration2" name="platform_packages_apps_TSCalibration2" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/services/Analytics" name="platform_packages_services_Analytics" remote="x86" revision="marshmallow-x86" />
   
 <!-- from CyanogenMod-x86 repository -->
   <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
@@ -94,15 +92,14 @@
   <project path="hardware/intel/intel-driver" name="vaapi-intel-driver" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/intel/libva" name="vaapi-libva" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" revision="cm-13.0-x86" />
-  <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" remote="x86" revision="cm-13.0-x86" />
-  <project path="system/core" name="system_core" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
+  <project path="system/core" name="android_system_core" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   <project path="system/extras" name="android_system_extras" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   <project path="system/vold" name="android_system_vold" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   
 <!-- BEGIN BLISS -->
   <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
   <project path="external/sepolicy" name="platform_external_sepolicy" remote="BlissRoms" revision="mm6.0" />
-  <project path="hardware/qcom/media-caf/msm8994" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="8994" />
+  <!--project path="hardware/qcom/media-caf/msm8994" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="8994" -->
   <project path="packages/apps/BlissOTA" name="chummydevteam/TeamBlissOTA" remote="github" revision="m" />
   <project path="packages/apps/CalendarWidget" name="DirtyUnicorns/android_packages_apps_CalendarWidget" remote="github" revision="m" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" revision="mm6.0" />
@@ -516,12 +513,12 @@
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" remote="aosp" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
+  <!--project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" remote="aosp" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
+  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" -->
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
@@ -565,51 +562,5 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
-
-<!-- BEGIN TOOLCHAINS -->
-  <!-- SABERMOD ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="xanaxdroid/arm-linux-androideabi-4.8" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="xanaxdroid/arm-linux-androideabi-4.9" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3-sm" name="xanaxdroid/arm-linux-androideabi-5.3" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.0-sm" name="xanaxdroid/arm-linux-androideabi-6.0" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.1-sm" name="xanaxdroid/arm-linux-androideabi-6.1" remote="bitbucket" revision="sabermod" />
-
-  <!-- SABERMOD ROM TOOLCHAINS ARM64 -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.1-sm" name="xanaxdroid/aarch64-linux-android-6.1" remote="bitbucket" revision="sabermod" />
-
-  <!-- SAMBERMOD KERNEL TOOLCAHINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="xanaxdroid/arm-eabi-4.8" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="xanaxdroid/arm-eabi-4.9" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-sm" name="xanaxdroid/arm-eabi-5.3" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-sm" name="xanaxdroid/arm-eabi-6.0" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.0-sm" name="xanaxdroid/arm-eabi-7.0" remote="bitbucket" revision="sabermod" />
-
-  <!--SABERMOD KERNEL TOOLCHAINS ARM64 -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-5.3-sm" name="xanaxdroid/aarch64-5.3" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.1-sm" name="xanaxdroid/aarch64-6.1" remote="bitbucket" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0-sm" name="xanaxdroid/aarch64-7.0" remote="bitbucket" revision="sabermod" />
-
-  <!-- HYPER KERNEL TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x-HYPER-linaro" name="hyper-toolchains/arm-eabi-6.x" remote="bitbucket" revision="LxSM" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x-HYPER-uber" name="hyper-toolchains/arm-eabi-6.x" remote="bitbucket" revision="UxSM" />
-
-  <!-- HYPER ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-HYPER-linaro" name="hyper-toolchains/arm-linux-androideabi-5.x" remote="bitbucket" revision="LxSM" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-HYPER-uber" name="hyper-toolchains/arm-linux-androideabi-5.x" remote="bitbucket" revision="UxSM" />
-
-  <!-- LINARO ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="UBERTC/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.3-linaro" name="UBERTC/arm-linux-androideabi-5.3" remote="bitbucket" revision="master" />
-
-  <!-- LINARO ROM TOOLCHAINS ARM64 -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-linaro" name="xanaxdroid/aarch64-linux-android-5.3" remote="bitbucket" revision="linaro" />
-  
-  <!-- LINARO KERNEL TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3-linaro" name="UBERTC/arm-eabi-5.3" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-linaro" name="UBERTC/arm-eabi-6.0" remote="bitbucket" revision="master" />
-<!-- END TOOLCHAINS -->
 
 </manifest>
