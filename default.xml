@@ -51,7 +51,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="cng" revision="bliss-mm6.0-x86" />
   <project path="frameworks/native" name="frameworks_native" remote="cng" revision="aicp_mm6.0-x86" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="cng" revision="bliss-mm6.0-x86" groups="pdk" />
-  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="x86" revision="bliss-mm6.0-x86" />
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="cng" revision="bliss-mm6.0-x86" />
 		  
 <!-- from Android-x86 repository -->
   <project path="kernel" name="kernel_common" remote="x86" revision="kernel-4.4" />
@@ -279,6 +279,8 @@
   <project path="packages/apps/CarrierConfig" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" />
+  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
