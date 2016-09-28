@@ -34,7 +34,10 @@
 		   
   <remote name="cng"
            fetch="https://github.com/gpandcb" />
-		  
+		
+  <remote name="danielhk"
+	   fetch="https://github.com/danielhk" />
+	
   <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
@@ -60,7 +63,7 @@
   <project path="external/alsa-lib" name="platform_external_alsa-lib" remote="x86" revision="marshmallow-x86" />
   <project path="external/alsa-utils" name="platform_external_alsa-utils" remote="x86" revision="marshmallow-x86" />
   <project path="external/bluetooth/glib" name="platform_external_bluetooth_glib" remote="x86" revision="marshmallow-x86" />
-  <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="x86" revision="marshmallow-x86" />
+  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="danielhk" revision="cm-13.0" />
   <project path="external/bluetooth/sbc" name="platform_external_bluetooth_sbc" remote="x86" revision="marshmallow-x86" />
   <project path="external/busybox" name="platform_external_busybox" remote="x86" revision="marshmallow-x86" />
   <project path="external/drm_gralloc" name="platform_hardware_drm_gralloc" remote="x86" revision="marshmallow-x86" />
