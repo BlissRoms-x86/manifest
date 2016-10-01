@@ -58,6 +58,7 @@
 		  
 <!-- from Android-x86 repository -->
   <project path="kernel" name="kernel_common" remote="x86" revision="kernel-4.4" />
+  <project path="art" name="platform_art" remote="x86" groups="pdk" revision="marshmallow-x86" />
   <project path="bootable/newinstaller" name="platform_bootable_newinstaller" remote="x86" revision="marshmallow-x86" />
   <project path="device/generic/firmware" name="device_generic_firmware" remote="x86" revision="marshmallow-x86"/>
   <project path="external/alsa-lib" name="platform_external_alsa-lib" remote="x86" revision="marshmallow-x86" />
@@ -87,7 +88,8 @@
   <project path="packages/apps/CMFileManager" name="platform_packages_apps_CMFileManager" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/TSCalibration2" name="platform_packages_apps_TSCalibration2" remote="x86" revision="marshmallow-x86" />
   <project path="packages/services/Analytics" name="platform_packages_services_Analytics" remote="x86" revision="marshmallow-x86" />
-  
+  <project path="system/vold" name="platform_system_vold" remote="x86" revision="marshmallow-x86" />
+	
 <!-- from CyanogenMod-x86 repository -->
   <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-13.0-x86" />
@@ -97,7 +99,6 @@
   <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="system/core" name="android_system_core" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   <project path="system/extras" name="android_system_extras" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
-  <project path="system/vold" name="android_system_vold" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   
 <!-- BEGIN BLISS -->
   <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
@@ -121,7 +122,6 @@
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
