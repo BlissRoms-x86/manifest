@@ -531,8 +531,8 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" remote="aosp" />
+  <!--project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" remote="aosp" -->
+  <!--project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" remote="aosp" -->
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
   <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
