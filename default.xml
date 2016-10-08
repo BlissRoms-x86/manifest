@@ -70,7 +70,7 @@
   <project path="external/libpciaccess" name="platform/external/libpciaccess" remote="x86" revision="marshmallow-x86" />
   <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="marshmallow-x86" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
-  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="marshmallow-x86" />
+  <project path="external/mesa" name="platform_external_mesa" remote="BR-x86" revision="mm6.0" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="marshmallow-x86" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="marshmallow-x86" />
