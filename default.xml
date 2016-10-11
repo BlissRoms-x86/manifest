@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r66" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com"
+          revision="refs/tags/android-6.0.1_r66" />
 
-  <remote  name="github"
-           fetch=".." />
+  <remote name="github"
+          fetch=".." />
 
   <remote name="BlissRoms"
           fetch="https://github.com/BlissRoms"
