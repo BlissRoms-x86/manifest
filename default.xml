@@ -102,8 +102,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="manifest" remote="BR-x86" revision="mm6.0-x86" />
-  <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="mm6.0" /> -->
-  <project path="device/generic/x86_64" name="device_generic_x86_64" remote="BR-x86" revision="mm6.0" /> -->
+  <project path="device/generic/android_x86" name="android_x86" remote="BR-x86" revision="mm6.0" /> -->
+  <project path="device/generic/android_x86_64" name="android_x86_64" remote="BR-x86" revision="mm6.0" /> -->
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="mm6.0" /> -->
   <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="mm6.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="cng" revision="bliss-mm6.0-x86" />
