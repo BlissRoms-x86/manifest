@@ -24,8 +24,18 @@ Building
 
 After the sync is finished, please read the [Building the image instructions from the Android-x86 site](http://www.android-x86.org/getsourcecode) on how to build.
 
+For 32 bit userspace:
+
    $ . build/envsetup.sh
    
-   $ lunch android_x86-eng
+   $ lunch bliss_android_x86-eng
    
-   $ make iso_img
+   $ mka iso_img
+
+For 64 bit userspace:
+
+   $ . build/envsetup.sh
+   
+   $ lunch bliss_android_x86_64-eng
+   
+   $ mka iso_img
