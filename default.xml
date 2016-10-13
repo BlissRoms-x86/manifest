@@ -83,6 +83,8 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/apps/CMFileManager" name="platform/packages/apps/CMFileManager" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="x86" revision="marshmallow-x86" />
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="marshmallow-x86" />
   <project path="system/vold" name="platform/system/vold" remote="x86" revision="marshmallow-x86" />
 
@@ -102,17 +104,18 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="manifest" remote="BR-x86" revision="mm6.0-x86" />
-  <project path="device/generic/android_x86" name="android_x86" remote="BR-x86" revision="mm6.0" /> -->
-  <project path="device/generic/android_x86_64" name="device_generic_x86_64" remote="BR-x86" revision="mm6.0" /> -->
-  <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="mm6.0" /> -->
+  <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="mm-x86" />
+  <!-- <project path="device/generic/android_x86_64" name="device_generic_x86_64" remote="BR-x86" revision="mm6.0" /> -->
+  <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="mm-x86" /> -->
   <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="mm6.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="cng" revision="bliss-mm6.0-x86" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="mm6.0" />
-  <!--<project path="hardware/libhardware" name="hardware_libhardware" remote="BR-x86" revision="mm6.0" groups="pdk" /> -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="BR-x86" revision="mm6.0" groups="pdk" />
   <!--<project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="BR-x86" revision="mm6.0" /> -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="mm6.0" />
-  <!--<project path="system/keymaster" name="system_keymaster" remote="BR-x86" revision="mm6.0" groups="pdk" /> -->
+  <project path="system/keymaster" name="system_keymaster" remote="BR-x86" revision="mm6.0" groups="pdk" />
   <project path="system/security" name="system_security" remote="BR-x86" revision="mm6.0" groups="pdk" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="mm-x86" />  
 
 <!-- BEGIN BLISS -->
   <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
@@ -129,8 +132,6 @@
   <project path="packages/inputmethods/LatinIME" name="BlissRoms/platform_packages_inputmethods_LatinIME" revision="mm6.0" remote="github" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" revision="mm6.0" />
   <project path="vendor/cmsdk" name="platform_cmsdk" remote="BlissRoms" revision="mm6.0" />
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="mm6.0" />  
-
 <!-- END BLISS -->
 
 <!-- BEGIN CYANOGENMOD-X86 -->
@@ -143,7 +144,7 @@
   <project path="hardware/intel/intel-driver" name="platform/hardware/intel/intel-driver" remote="x86" revision="cm-13.0-x86" />
   <project path="hardware/intel/libva" name="platform/hardware/intel/libva" remote="x86" revision="cm-13.0-x86" />
   <project path="hardware/powerbtnd" name="platform/hardware/powerbtnd" remote="x86" revision="cm-13.0-x86" />
-  <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" remote="x86" revision="cm-13.0-x86" />
+  <!-- <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" remote="x86" revision="cm-13.0-x86" /> -->
   <project path="system/core" name="platform/system/core" remote="x86" revision="cm-13.0-x86" />
   <project path="system/extras" name="platform/system/extras" remote="x86" revision="cm-13.0-x86" />
 <!-- END CYANOGENMOD-X86 -->
@@ -300,7 +301,7 @@
   <project path="hardware/intel/img/psb_headers" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
+  <!-- <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" /> -->
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8084" />
@@ -352,7 +353,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
+  <!-- <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" /> -->
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" />
@@ -424,7 +425,7 @@
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
-  <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
+  <!-- <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" /> -->
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
