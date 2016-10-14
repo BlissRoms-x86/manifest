@@ -39,3 +39,7 @@ For 64 bit userspace:
     $ lunch bliss_android_x86_64-eng
    
     $ mka iso_img
+
+If you would like to make a UEFI .img file:
+   
+    $ mka efi_img
