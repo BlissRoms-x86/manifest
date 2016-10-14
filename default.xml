@@ -85,6 +85,7 @@
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="marshmallow-x86" />
   <project path="system/vold" name="platform/system/vold" remote="x86" revision="marshmallow-x86" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="x86" revision="marshmallow-x86" />
 
 <!-- END ANDROID-X86 -->
 
