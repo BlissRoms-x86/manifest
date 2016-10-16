@@ -113,7 +113,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="BR-x86" revision="mm6.0" groups="pdk" />
   <!--<project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="BR-x86" revision="mm6.0" /> -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="mm6.0" />
-  <project path="system/keymaster" name="system_keymaster" remote="BR-x86" revision="mm6.0" groups="pdk" />
+  <!-- <project path="system/keymaster" name="system_keymaster" remote="BR-x86" revision="mm6.0" groups="pdk" /> -->
   <project path="system/security" name="system_security" remote="BR-x86" revision="mm6.0" groups="pdk" />
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="mm-x86" />  
 
@@ -425,7 +425,7 @@
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
-  <!-- <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" /> -->
+  <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
