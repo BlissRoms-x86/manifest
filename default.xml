@@ -55,7 +55,7 @@
 
 
 <!-- BEGIN BLISS -->
-  <project path="build" name="platform_build" remote="BlissRoms" revision="n7.0" >
+  <project path="build" name="platform_build" remote="BR-x86" revision="n7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.0" />
