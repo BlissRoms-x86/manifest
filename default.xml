@@ -74,7 +74,7 @@
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" revision="n7.0" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" revision="n7.0" />
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="n7.0" />
-  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="n7.0-x86" />
+  <project path="manifest" name="manifest" remote="BR-x86" revision="n7.0-x86" />
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="n7.0" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BR-x86" revision="n7.0" />
