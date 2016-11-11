@@ -10,7 +10,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b mm6.0-x86
+    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b n7.0-x86
 
 
 sync repo :
