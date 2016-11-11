@@ -81,7 +81,7 @@
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.0-x86" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.0" />
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="n7.0" />
-  
+  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="BR-x86" revision="n7.0-x86" />
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.0" />
   <project path="device/generic/x86_64" name="device_generic_x86_64" remote="BR-x86" revision="n7.0" />
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="n7.0" />
@@ -141,7 +141,6 @@
   <project path="system/bt" name="platform/system/bt" groups="pdk" remote="x86" revision="nougat-x86" />
   <!-- <project path="system/core" name="platform/system/core" groups="pdk" remote="x86" revision="nougat-x86" /> -->
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="nougat-x86" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="x86" revision="nougat-x86" />
 
   <!-- from original Android repositories -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
