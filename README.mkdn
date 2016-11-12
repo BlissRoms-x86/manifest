@@ -5,6 +5,11 @@ Download the Bliss-x86 source code, based on Android-x86
 
 Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
+Grabbing Dependencies
+-----------------------
+
+    $ sudo apt-get install libssl-dev ninja-build
+
 Initializing Repository
 -----------------------
 
