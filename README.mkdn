@@ -28,7 +28,7 @@ For 32 bit userspace:
 
     $ . build/envsetup.sh
    
-    $ lunch bliss_android_x86-userdebug
+    $ lunch android_x86-userdebug
    
     $ mka iso_img
 
@@ -36,7 +36,7 @@ For 64 bit userspace:
 
     $ . build/envsetup.sh
    
-    $ lunch bliss_android_x86_64-userdebug
+    $ lunch android_x86_64-userdebug
    
     $ mka iso_img
 
