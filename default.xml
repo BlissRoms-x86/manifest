@@ -113,7 +113,7 @@
   <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="nougat-x86" />
   <project path="external/libdrm" name="drm" groups="pdk" remote="maurossi" revision="2.4.71_android-x86" />
   <project path="external/libtruezip" name="platform/external/libtruezip" remote="x86" revision="nougat-x86" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="external/llvm" name="platform_external_llvm" groups="pdk" remote="BR-x86" revision="n7.0-x86" />
   <project path="external/mesa" name="mesa" remote="maurossi" revision="12.1.0devel_nougat-x86_06-oct-2016" />
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="nougat-x86" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="nougat-x86" />
