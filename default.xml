@@ -9,7 +9,7 @@
           review="review.blissroms.com" />
 
   <remote name="BlissRoms-Devices"
-          fetch="https://github.com/BlissRoms-x86" />
+          fetch="https://github.com/BlissRoms-Devices" />
 
   <remote name="BlissRoms-Kernels"
           fetch="https://github.com/BlissRoms-Kernels" />
@@ -82,8 +82,8 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.0" />
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="n7.0" />
   <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="n7.0-x86" />
-  <project path="device/generic/android_x86" name="device_generic_x86" remote="BR-x86" revision="n7.0" />
-  <project path="device/generic/android_x86_64" name="device_generic_x86_64" remote="BR-x86" revision="n7.0" />
+  <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.0" />
+  <project path="device/generic/x86_64" name="device_generic_x86_64" remote="BR-x86" revision="n7.0" />
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="n7.0" />
   <project path="device/generic/firmware" name="device_generic_firmware" remote="BR-x86" revision="n7.0" />
   
