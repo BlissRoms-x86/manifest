@@ -106,7 +106,7 @@
   <project path="device/generic/android_x86_64" name="device_generic_x86_64" remote="BR-x86" revision="mm6.0" /> -->
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="mm6.0" /> -->
   <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="mm6.0" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="cng" revision="bliss-mm6.0-x86" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="bliss-mm6.0" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="mm6.0" />
   <!--<project path="hardware/libhardware" name="hardware_libhardware" remote="BR-x86" revision="mm6.0" groups="pdk" /> -->
   <!--<project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="BR-x86" revision="mm6.0" /> -->
