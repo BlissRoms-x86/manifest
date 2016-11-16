@@ -89,12 +89,19 @@
   
 <!-- END BLISS -->
 
+<!-- BEGIN OPENGAPPS-X86 -->
+
+  <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps" />
+
+<!-- END OPENGAPPS-X86 -->
 
   <!-- from x86 port repositories -->
   <!-- <project path="build" name="platform/build" groups="pdk,tradefed" remote="x86" revision="nougat-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project> -->
-  <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.4" />
+  <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.9rc5" />
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="nougat-x86" />
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="nougat-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="nougat-x86" />
