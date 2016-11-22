@@ -79,7 +79,7 @@
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="n7.0" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BR-x86" revision="n7.0" />
-  <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.0-x86" />
+  <!-- <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.0-x86" /> -->
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.0" />
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="n7.0" />
   <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="n7.0-x86" />
@@ -147,6 +147,7 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="nougat-x86" />
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="nougat-x86" />
+  <project path="system/core" name="platform/system/core" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="nougat-x86" />
 
