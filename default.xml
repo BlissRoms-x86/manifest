@@ -101,9 +101,12 @@
 
 <!-- BEGIN MAUROSSI -->
 
-  <project path="external/mesa" name="mesa" remote="maurossi" revision="12.1.0devel_nougat-x86_06-oct-2016" />
-  <project path="external/drm_gralloc" name="hardware_drm_gralloc" groups="drm_gralloc" remote="maurossi" revision="nougat-x86_mesa_12.1" />
-  <project path="external/libdrm" name="drm" groups="pdk" remote="maurossi" revision="2.4.71_android-x86" />
+  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="nougat-x86" />
+  <!-- <project path="external/mesa" name="mesa" remote="maurossi" revision="12.1.0devel_nougat-x86_06-oct-2016" /> -->
+  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="x86" revision="nougat-x86" />
+  <!-- <project path="external/drm_gralloc" name="hardware_drm_gralloc" groups="drm_gralloc" remote="maurossi" revision="nougat-x86_mesa_12.1" /> -->
+  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="x86" revision="nougat-x86" />
+  <!-- <project path="external/libdrm" name="drm" groups="pdk" remote="maurossi" revision="2.4.71_android-x86" /> -->
     
 <!-- BEGIN MAUROSSI -->
 
