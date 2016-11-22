@@ -58,7 +58,7 @@
   <project path="build" name="platform_build" remote="BR-x86" revision="n7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.9rc5" />
+  <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.9" />
   <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.0" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="BlissRoms" revision="n7.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.0-x86" />
