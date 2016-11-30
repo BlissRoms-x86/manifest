@@ -81,6 +81,7 @@
 
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="n7.1" />
   <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="nougat-x86" />
+  <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="n7.1" />
 
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.1" />
@@ -131,7 +132,6 @@
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="nougat-x86" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="nougat-x86" />
   <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="nougat-x86" />
-  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="nougat-x86" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x86" revision="nougat-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="nougat-x86" />
