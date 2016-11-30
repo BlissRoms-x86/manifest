@@ -80,7 +80,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.1" />  
 
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="n7.1" />
-  <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="n7.1-cm" />
+  <project path="system/vold" name="platform_system_vold" remote="BlissRoms" revision="n7.0-caf" />
 
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.1" />
