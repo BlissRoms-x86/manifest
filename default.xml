@@ -57,8 +57,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" />
-  <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.1" />
-  
+  <!-- <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="n7.1" /> -->
+  <project path="bionic" name="platform/bionic" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.0" />
   <project path="device/generic/x86_64" name="device_generic_x86_64" remote="BR-x86" revision="n7.0" />
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="n7.0" />
