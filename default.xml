@@ -53,7 +53,7 @@
            sync-j="1" />
 
 <!-- BEGIN BLISS -->
-  <project path="build" name="platform_build" remote="BR-x86" revision="n7.1-x86_t2" >
+  <project path="build" name="platform_build" remote="BR-x86" revision="n7.1-x86_t3" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" />
