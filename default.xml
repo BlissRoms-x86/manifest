@@ -77,7 +77,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BR-x86" revision="n7.1-x86" />
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.1-x86" />
   
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
   <!-- <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.1" /> -->
   <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
