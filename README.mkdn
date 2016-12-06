@@ -1,6 +1,6 @@
 <img src="https://raw.github.com/BlissRoms/platform_manifest/new-mm6.0/bliss-logo.png">
 
-Download the Bliss-x86 source code, based on Android-x86
+Download the Bliss-x86 source code, based on [Android-x86](http://www.android-x86.org)
 ---------------------------------------------------
 
 Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
