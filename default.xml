@@ -77,6 +77,7 @@
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.1-x86" />
   
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="BR-x86" revision="nougat-x86" />
 
   <!-- <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.1" /> -->
   <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
@@ -122,7 +123,6 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="external/eject" name="platform/external/eject" remote="x86" revision="nougat-x86" />
   <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="nougat-x86" />
-  <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="nougat-x86" />
   <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="nougat-x86" />
   <project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="nougat-x86" />
   <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="nougat-x86" />
