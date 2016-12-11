@@ -130,8 +130,8 @@
   <project path="external/libtruezip" name="platform/external/libtruezip" remote="x86" revision="nougat-x86" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="nougat-x86" />
 	
-  <!-- <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="nougat-x86" /> -->	
-  <project path="external/mesa" name="mesa" remote="maurossi" revision="13.0.2_nougat-x86" />
+  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="nougat-x86" />
+  <!-- <project path="external/mesa" name="mesa" remote="maurossi" revision="13.0.2_nougat-x86" /> -->	
 	
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="nougat-x86" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="nougat-x86" />
