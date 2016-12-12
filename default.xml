@@ -79,8 +79,8 @@
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
   <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="BR-x86" revision="nougat-x86" />
 
-  <!-- <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.1" /> -->
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.1" />
+  <!-- <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" /> -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="n7.1" />
   <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="nougat-x86" />
   <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="n7.1-x86" />
