@@ -47,7 +47,7 @@
   <remote name="opengapps"
 	   fetch="https://github.com/opengapps/" />
           
-  <default revision="refs/tags/android-7.1.0_r7"
+  <default revision="refs/tags/android-7.1.1_r4"
            remote="aosp"
            sync-c="true"
            sync-j="1" />
@@ -180,6 +180,7 @@
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="notdefault,pdk" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/generic/mips64" name="device/generic/mips64" groups="pdk" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
@@ -205,7 +206,7 @@
   <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" />
   <project path="device/linaro/hikey" name="device/linaro/hikey" groups="" />
-  <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" clone-depth="1" groups="" />
+  <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="notdefault" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -560,6 +561,7 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" />
   <project path="packages/experimental" name="platform/packages/experimental" groups="" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
