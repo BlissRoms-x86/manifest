@@ -74,7 +74,7 @@
   <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1-x86" />
 
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BR-x86" revision="n7.1-x86" />
-  <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.1-x86-t2" />
+  <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.1-x86-t3" />
   
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
   <!-- <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="BR-x86" revision="nougat-x86" /> -->
