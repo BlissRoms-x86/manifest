@@ -81,7 +81,7 @@
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-14.1-x86" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-14.1-x86" />
   
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="n7.1-x86" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BR-x86" revision="n7.1-x86" />
   <!-- <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" /> -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="n7.1" />
   <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="nougat-x86" />
