@@ -56,37 +56,26 @@
   <project path="build" name="platform_build" remote="BR-x86" revision="n7.1-x86_n1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1.1-x86" />
+
   <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="n7.1-x86-n1" />
-  <!-- <project path="bionic" name="platform/bionic" groups="pdk" remote="x86" revision="nougat-x86" /> -->
+  
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
   <project path="device/generic/x86_64" name="device_generic_x86_64" remote="BR-x86" revision="n7.1" />
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="n7.1-x86" />
   <project path="device/generic/firmware" name="device_generic_firmware" remote="BR-x86" revision="n7.0" />
   
-  <!-- <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="BlissRoms" revision="n7.1" /> -->
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-14.1-x86" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-14.1-x86" />
+  <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="n7.1-x86" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
+
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-n1" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-t2" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.1" />
-  <!-- <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="n7.1" /> -->
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
-  <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1.1-x86" />
-
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="n7.1-x86-n1" />
-  <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.1-x86-n1" />
   
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
-  <!-- <project path="external/ffmpeg" name="platform_external_ffmpeg" remote="BR-x86" revision="nougat-x86" /> -->
-  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-14.1-x86" />
-  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-14.1-x86" />
-  
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BR-x86" revision="n7.1-x86" />
-  <!-- <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" /> -->
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="n7.1-su" />
-  <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="nougat-x86" />
-  <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="n7.1-x86" />
-
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="n7.1" />
@@ -95,10 +84,17 @@
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="n7.1" />
-  
-
   <project path="hardware/nvidia/power" name="platform_hardware_nvidia_power" remote="BlissRoms" revision="n7.1" />
-  
+
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="n7.1-x86-n1" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+ 
+  <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.1-x86-n1" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="BR-x86" revision="n7.1.1-x86" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BR-x86" revision="n7.1-x86" />
+  <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="nougat-x86" />
+    
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="n7.1-su" />
 <!-- END BLISS -->
 
 <!-- BEGIN OPENGAPPS-X86 -->
@@ -159,7 +155,7 @@
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="nougat-x86" />
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="nougat-x86" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" remote="x86" revision="nougat-x86" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="nougat-x86" />
+  <!--<project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="nougat-x86" />-->
 
   <!-- from original Android repositories -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
