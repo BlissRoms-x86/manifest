@@ -97,6 +97,12 @@
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="n7.1-su" />
 <!-- END BLISS -->
 
+<!-- BEGIN SUPERSU -->
+
+  <project path="vendor/supersu" name="vendor-supersu" remote="BR-x86" revision="nougat" />
+
+<!-- END SUPERSU -->
+
 <!-- BEGIN OPENGAPPS-X86 -->
 
   <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
