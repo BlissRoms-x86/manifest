@@ -74,7 +74,8 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-n2" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-t2" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.1" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
+  <!--<project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" /> -->
+  <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="n7.1" />
   
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.1" />
