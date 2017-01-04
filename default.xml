@@ -58,7 +58,8 @@
   </project>
   <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1.1-x86" />
 
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" />
+  <!-- <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" /> -->
+  <project path="kernel" name="linux" remote="maurossi" revision="kernel-4.10rc2" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="n7.1-x86-n1" />
   
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
@@ -130,7 +131,8 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="x86" revision="nougat-x86" />
   <project path="external/bluetooth/sbc" name="platform/external/bluetooth/sbc" remote="x86" revision="nougat-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="nougat-x86" />
-  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="x86" revision="nougat-x86" />
+  <!-- <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="x86" revision="nougat-x86" /> -->
+  <project path="external/drm_gralloc" name="hardware_drm_gralloc" groups="drm_gralloc" remote="maurossi" revision="nougat-x86_mesa_12.1" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="nougat-x86" /> 
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="external/eject" name="platform/external/eject" remote="x86" revision="nougat-x86" />
@@ -139,11 +141,15 @@
   <!--<project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="nougat-x86" />-->
   <!--<project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="nougat-x86" />-->
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="x86" revision="nougat-x86" />
+  <!-- <project path="external/libdrm" name="drm" groups="pdk" remote="maurossi" revision="2.4.74_android-x86" /> -->
+  
   <project path="external/libtruezip" name="platform/external/libtruezip" remote="x86" revision="nougat-x86" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="nougat-x86" />
+  <!--<project path="external/llvm" name="llvm" groups="pdk" remote="maurossi" revision="nougat-x86_llvm381_AMDGPU" /> -->
+
 	
-  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="nougat-x86" />
-  <!-- <project path="external/mesa" name="mesa" remote="maurossi" revision="13.0.2_nougat-x86" /> -->	
+  <!-- <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="nougat-x86" /> -->	
+  <project path="external/mesa" name="mesa" remote="maurossi" revision="13.1.0devel_nougat-x86_04-dec-2016" />
 	
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="nougat-x86" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="nougat-x86" />
