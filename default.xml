@@ -58,7 +58,8 @@
   </project>
   <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1.1-x86" />
 
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" />
+  <!-- <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" /> -->
+  <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.10rc3" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="n7.1-x86-n1" />
   
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
@@ -70,7 +71,10 @@
   <!--<project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-14.1-x86" /> -->
   <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="n7.1-x86" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
-
+  
+  <!-- <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="nougat-x86" /> -->	
+  <project path="external/mesa" name="mesa" remote="BR-x86" revision="13.1.0_nougat-x86-dev" />
+  
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-n2" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-t2" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.1" />
@@ -131,6 +135,7 @@
   <project path="external/bluetooth/sbc" name="platform/external/bluetooth/sbc" remote="x86" revision="nougat-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="nougat-x86" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="x86" revision="nougat-x86" />
+  <!-- <project path="external/drm_gralloc" name="hardware_drm_gralloc" groups="drm_gralloc" remote="maurossi" revision="nougat-x86_mesa_12.1" /> -->
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="nougat-x86" /> 
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="external/eject" name="platform/external/eject" remote="x86" revision="nougat-x86" />
@@ -139,11 +144,11 @@
   <!--<project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="nougat-x86" />-->
   <!--<project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="nougat-x86" />-->
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="x86" revision="nougat-x86" />
+  <!-- <project path="external/libdrm" name="drm" groups="pdk" remote="maurossi" revision="2.4.74_android-x86" /> -->
+  
   <project path="external/libtruezip" name="platform/external/libtruezip" remote="x86" revision="nougat-x86" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="nougat-x86" />
-	
-  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="nougat-x86" />
-  <!-- <project path="external/mesa" name="mesa" remote="maurossi" revision="13.0.2_nougat-x86" /> -->	
+  <!--<project path="external/llvm" name="llvm" groups="pdk" remote="maurossi" revision="nougat-x86_llvm381_AMDGPU" /> -->
 	
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="nougat-x86" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="nougat-x86" />
