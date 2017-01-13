@@ -59,7 +59,7 @@
   <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1.1-x86" />
 
   <!-- <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" /> -->
-  <project path="kernel" name="linux" remote="BR-x86" revision="kernel-4.10rc3" />
+  <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.10rc3" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="n7.1-x86-n1" />
   
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
