@@ -114,7 +114,13 @@
   <project path="vendor/supersu" name="vendor-supersu" remote="BR-x86" revision="nougat" />
 
 <!-- END SUPERSU -->
-
+	
+<!-- BEGIN INTEL-HOUDINI -->
+	
+  <project path="vendor/intel/houdini" name="vendor-intel-houdini" remote="BR-x86" revision="nougat" />
+	
+<!-- END INTEL-HOUDINI -->	
+	
 <!-- BEGIN OPENGAPPS-X86 -->
 
   <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
