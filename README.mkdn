@@ -10,13 +10,12 @@ Grabbing Dependencies
 
     $ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils
 
-Initializing Repository
------------------------
+Initializing The Unstable Branch
+---------------------------------
 
 Repo initialization:
 
-    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b n7.1.1-x86
-
+    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b n7.11-x86-unstable
 
 sync repo :
 
@@ -27,13 +26,13 @@ sync repo :
 Building
 --------
 
-After the sync is finished, please read the [Building the image instructions from the Android-x86 site](http://www.android-x86.org/getsourcecode) on how to build.
+After the sync is finished, please read the [Building the image instructions from the Android-x86 site](http://www.android-x86.org/getsourcecode) on how to build. Expect bugs with this branch. If you are skilled enough to fix what bugs you find, please consider contributing to the project with a pull request. Thank You.
 
 For 32 bit userspace:
 
     $ . build/envsetup.sh
    
-    $ lunch bliss_android_x86-userdebug
+    $ lunch bliss_android_x86-eng
    
     $ mka iso_img
 
@@ -41,7 +40,7 @@ For 64 bit userspace:
 
     $ . build/envsetup.sh
    
-    $ lunch bliss_android_x86_64-userdebug
+    $ lunch bliss_android_x86_64-eng
    
     $ mka iso_img
 
