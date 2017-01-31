@@ -47,7 +47,7 @@
   <remote name="opengapps"
 	   fetch="https://github.com/opengapps/" />
           
-  <default revision="refs/tags/android-7.1.1_r12"
+  <default revision="refs/tags/android-7.1.1_r13"
            remote="aosp"
            sync-c="true"
            sync-j="1" />
