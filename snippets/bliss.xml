@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<remote name="BR-x86"
+		fetch="https://github.com/BlissRoms-x86" />
+
+  <!-- DU additions -->
+  <project path="external/DUtils" name="external_DUtils" remote="BR-x86" revision="n7.1" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="BR-x86" revision="n7.1" />
+  
+</manifest>
