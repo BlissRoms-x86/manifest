@@ -60,7 +60,7 @@
 
   <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="n7.1-x86-n1" />
-  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="nougat-x86-dev2" />
+  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="nougat-x86" />
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
   <project path="device/generic/x86_64" name="device_generic_x86_64" remote="BR-x86" revision="n7.1" />
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="n7.1-x86" />
