@@ -47,7 +47,7 @@
   <remote name="opengapps"
 	   fetch="https://github.com/opengapps/" />
           
-  <default revision="refs/tags/android-7.1.1_r13"
+  <default revision="refs/tags/android-7.1.1_r22"
            remote="aosp"
            sync-c="true"
            sync-j="1" />
@@ -108,7 +108,7 @@
 
 <!-- BEGIN SUPERSU -->
 
-  <project path="vendor/supersu" name="vendor-supersu" remote="BR-x86" revision="nougat" />
+  <!-- <project path="vendor/supersu" name="vendor-supersu" remote="BR-x86" revision="nougat" /> -->
 
 <!-- END SUPERSU -->
 
