@@ -15,7 +15,7 @@ Initializing The Bleeding Edge (Unstable) Branch
 
 Repo initialization:
 
-    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b n7.1-x86-unstable
+    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b n7.11-x86-unstable
 
 sync repo :
 
