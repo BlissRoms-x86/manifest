@@ -123,6 +123,7 @@
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" />
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" />
   
   <!-- <project name="platform_system_bt" path="system/bt" remote="BlissRoms" /> -->
   <project name="platform_system_core" path="system/core" remote="BR-x86" revision="n7.1-x86-n2" />
@@ -613,7 +614,6 @@
   <project groups="pdk-fs" name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="adp8064,pdk-cw-fs,pdk-fs" name="platform/packages/services/Car" path="packages/services/Car" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Mms" path="packages/services/Mms" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="atel.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/pdk" path="pdk" revision="android-framework.lnx.2.0.r5-rel" clone-depth="1" />
   <project groups="pdk-fs,pdk-cw-fs,cts" name="platform/platform_testing" path="platform_testing" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
