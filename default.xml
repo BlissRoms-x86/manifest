@@ -56,12 +56,12 @@
 	   fetch="https://github.com/opengapps/" />
 
 <!-- BEGIN BLISSROMS -->
-  <project name="build" path="build" remote="BR-x86" revision="n7.1-x86-caf" >
+  <project name="build" path="build" remote="BR-x86" revision="n7.1-x86_n1" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="platform_build_kati" path="build/kati" remote="BlissRoms" groups="pdk,tradefed" />
   <project name="platform_device_qcom_common" path="device/qcom/common" remote="BlissRoms" />
-  <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="BlissRoms" />
+  <!--<project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="BlissRoms" /> -->
   <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.10rc8-blissified" />
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="nougat-x86" />
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
@@ -72,7 +72,7 @@
   <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="nougat-x86" />
   
   <project name="platform_art" path="art" remote="BlissRoms" />
-  <project name="platform_bionic" path="bionic" remote="BR-x86" revision="n7.1-x86-caf" />
+  <project name="platform_bionic" path="bionic" remote="BR-x86" revision="n7.1-x86-n1" />
   
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="BlissRoms" />
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="BlissRoms" />
@@ -125,14 +125,14 @@
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" />
   
   <!-- <project name="platform_system_bt" path="system/bt" remote="BlissRoms" /> -->
-  <project name="platform_system_core" path="system/core" remote="BR-x86" revision="n7.1-x86-caf" />
-  <project name="system_extras" path="system/extras" remote="BR-x86" revision="n7.1-x86-caf" />
+  <project name="platform_system_core" path="system/core" remote="BR-x86" revision="n7.1-x86-n2" />
+  <project name="system_extras" path="system/extras" remote="BR-x86" revision="n7.1.1-x86" />
   <project name="platform_system_media" path="system/media" remote="BlissRoms" />
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="BR-x86" revision="n7.1-x86" />
-  <project name="platform_system_vold" path="system/vold" remote="BR-x86" revision="n7.1-x86-caf" />
+  <project name="platform_system_vold" path="system/vold" remote="BR-x86" revision="nougat-x86" />
   <project name="platform_system_qcom" path="system/qcom" remote="BlissRoms" />
   
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="n7.1-x86-caf" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="n7.1-su" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="BlissRoms" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="BlissRoms" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="BlissRoms" />
@@ -234,9 +234,10 @@
   <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="nougat-x86" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="nougat-x86" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" />
+  <!-- <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" /> -->
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="BR-x86" revision="nougat-x86" />
   <!-- <project path="packages/apps/CMFileManager" name="platform/packages/apps/CMFileManager" remote="x86" revision="nougat-x86" /> -->
-  <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="nougat-x86" />
+  <!--<project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="nougat-x86" /> -->
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="nougat-x86" />
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="nougat-x86" />
@@ -346,7 +347,8 @@
   <project groups="pdk" name="platform/external/icu" path="external/icu"/>
   <project groups="pdk" name="platform/external/ims" path="external/ims"/>
   <project groups="pdk" name="platform/external/iproute2" path="external/iproute2"/>
-  <project groups="pdk" name="platform/external/ipsec-tools" path="external/ipsec-tools"/>
+  <!-- <project groups="pdk" name="platform/external/ipsec-tools" path="external/ipsec-tools"/> -->
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project groups="pdk" name="platform/external/iptables" path="external/iptables" revision="data-external.lnx.2.1.r5-rel"/>
   <project groups="pdk" name="platform/external/iputils" path="external/iputils"/>
   <project groups="pdk" name="platform/external/iw" path="external/iw"/>
