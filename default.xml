@@ -101,6 +101,8 @@
   <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="n7.1-x86" />
   <project path="external/mesa" name="mesa" remote="BR-x86" revision="nougat-x86" />
   
+  
+  
   <!-- <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" /> -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-caf" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-caf" />
@@ -560,7 +562,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/webview" path="frameworks/webview" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/hardware/akm" path="hardware/akm" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="android-framework.lnx.2.0.r5-rel"/>
+  
   <!-- <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="android-framework.lnx.2.0.r5-rel"/> -->
   <project groups="pdk" name="platform/hardware/google/apf" path="hardware/google/apf" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="nvensense,pdk" name="platform/hardware/invensense" path="hardware/invensense" revision="android-framework.lnx.2.0.r5-rel"/>
@@ -697,7 +699,7 @@
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" remote="aosp" />
-   
+  
   <project groups="linux,pdk,tradefed" name="platform/prebuilts/ninja/linux-x86" path="prebuilts/ninja/linux-x86" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="linux,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" clone-depth="1" revision="android-framework.lnx.2.0.r5-rel"/>
