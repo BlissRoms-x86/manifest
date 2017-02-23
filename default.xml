@@ -133,7 +133,7 @@
   <project name="platform_system_vold" path="system/vold" remote="BR-x86" revision="nougat-x86" />
   <project name="platform_system_qcom" path="system/qcom" remote="BlissRoms" />
   
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="n7.1-su" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="n7.1-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="BlissRoms" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="BlissRoms" />
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="BlissRoms" />
