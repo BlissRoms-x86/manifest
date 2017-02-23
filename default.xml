@@ -61,7 +61,7 @@
   </project>
   <project name="platform_build_kati" path="build/kati" remote="BlissRoms" groups="pdk,tradefed" />
   <project name="platform_device_qcom_common" path="device/qcom/common" remote="BlissRoms" />
-  <!--<project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="BlissRoms" /> -->
+  <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="BlissRoms" />
   <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.10rc8-blissified" />
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="nougat-x86" />
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
@@ -82,8 +82,8 @@
   <!-- <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="BlissRoms" /> -->
   <!-- <project name="platform_external_exfat" path="external/exfat" remote="BlissRoms" /> -->
   <!--<project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="BlissRoms" /> -->
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" />
-  <!-- <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="BR-x86" revision="n7.1-caf" /> -->
+  <!-- <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" /> -->
+  <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="BR-x86" revision="n7.1-caf" />
   <project name="platform_external_fsck_msdos" path="external/fsck_msdos" remote="BlissRoms" />
   <project name="platform_external_fuse" path="external/fuse" remote="BlissRoms" />
   <project name="platform_external_mksh" path="external/mksh" remote="BlissRoms" />
