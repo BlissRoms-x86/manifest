@@ -96,7 +96,7 @@
   <!-- <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="BlissRoms" /> -->
   <project name="platform_external_okhttp" path="external/okhttp" remote="BlissRoms" />
   <project name="platform_external_skia" path="external/skia" remote="BlissRoms" />
-  <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="BlissRoms" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="BlissRoms" />
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="BlissRoms" />
   <project name="platform_external_zlib" path="external/zlib" remote="BlissRoms" />
@@ -118,8 +118,8 @@
   <!--<project name="platform_hardware_ril" path="hardware/ril" remote="BlissRoms" /> -->
   <project name="platform_hardware_ril-caf" path="hardware/ril-caf" remote="BlissRoms" />
 
-  <!-- <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="BR-x86" revision="nougat-x86" /> -->
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="BlissRoms" />
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="BR-x86" revision="nougat-x86" />
+  <!-- <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="BlissRoms" /> -->
   
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="n7.1-x86-caf" />
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" />
@@ -132,7 +132,8 @@
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" />
   <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" />
   
-  <project name="platform_system_bt" path="system/bt" remote="BlissRoms" revision="n7.1-caf" />
+  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="x86" revision="nougat-x86" />
+  <!-- <project name="platform_system_bt" path="system/bt" remote="x86" revision="nougat-x86" /> -->
   <project name="platform_system_core" path="system/core" remote="BR-x86" revision="n7.1-x86-n2" />
   <project name="system_extras" path="system/extras" remote="BR-x86" revision="n7.1.1-x86" />
   <project name="platform_system_media" path="system/media" remote="BlissRoms" />
@@ -636,7 +637,9 @@
 <!-- START HARDWARE -->
 
   <project path="hardware/akm" name="platform/hardware/akm" groups="notdefault" remote="aosp" />
-  <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="android-framework.lnx.2.0.r5-rel"/>
+  
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.1" />
+  <!--<project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="android-framework.lnx.2.0.r5-rel"/>-->
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
