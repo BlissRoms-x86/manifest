@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+           
+  <!-- CyanogenMod additions -->
+  <project path="external/ahbottomnavigation" name="lineageos/android_external_ahbottomnavigation" remote="cm" />
+  <project path="external/android-visualizer" name="lineageos/android_external_android-visualizer" remote="cm" />
+  <project path="external/cmsdk-api-coverage" name="lineageos/android_external_cmsdk-api-coverage" remote="cm" />
+  <project path="external/htop" name="lineageos/android_external_htop" remote="cm" />
+  <project path="external/libphonenumbergoogle" name="lineageos/android_external_libphonenumbergoogle" remote="cm" />
+  <project path="external/libtar" name="lineageos/android_external_libtar" remote="cm" />
+  <project path="external/lzo" name="lineageos/android_external_lzo" remote="cm" />
+  <project path="external/nano" name="lineageos/android_external_nano" remote="cm" />
+  <project path="external/openssh" name="lineageos/android_external_openssh" remote="cm" />
+  <project path="external/p7zip" name="lineageos/android_external_p7zip" remote="cm" />
+  <project path="external/pigz" name="lineageos/android_external_pigz" remote="cm" />
+  <project path="external/rsync" name="lineageos/android_external_rsync" remote="cm" />
+  <project path="external/uicommon" name="lineageos/android_external_cyanogen_UICommon" remote="cm" />
+  <project path="external/unrar" name="lineageos/android_external_unrar" remote="cm" />
+  <project path="external/unzip" name="lineageos/android_external_unzip" remote="cm" />
+  <project path="external/vim" name="lineageos/android_external_vim" remote="cm" />
+  <project path="external/yaffs2" name="lineageos/android_external_yaffs2" remote="cm" />
+  <project path="external/zip" name="lineageos/android_external_zip" remote="cm" />
+  <project path="hardware/cyanogen" name="lineageos/android_hardware_cyanogen" remote="cm" />
+  <project path="frameworks/opt/hardware" name="lineageos/android_frameworks_opt_hardware" remote="cm" />
+  <project path="hardware/ti/omap4" name="lineageos/android_hardware_ti_omap4" remote="cm" />
+  <project path="hardware/ti/wlan" name="lineageos/android_hardware_ti_wlan" remote="cm" />
+  <project path="hardware/ti/wpan" name="lineageos/android_hardware_ti_wpan" remote="cm" />
+
+  <project path="prebuilts/cmsdk" name="lineageos/android_prebuilts_cmsdk" clone-depth="1" remote="cm" />
+  <project path="vendor/cmsdk" name="lineageos/cm_platform_sdk" remote="cm" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="lineageos/android_packages_apps_OpenWeatherMapProvider" remote="cm" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="lineageos/android_packages_apps_WundergroundWeatherProvider" remote="cm" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="lineageos/android_packages_apps_YahooWeatherProvider" remote="cm" />
+
+  <!-- CodeAurora additions -->
+  <project path="external/gson" name="lineageos/android_external_gson" remote="cm" />
+  <project path="external/protobuf-c" name="lineageos/android_external_protobuf-c" remote="cm" />
+
+</manifest>

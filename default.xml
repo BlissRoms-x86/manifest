@@ -50,10 +50,14 @@
            fetch="https://github.com/gpandcb" />
 		
   <remote name="danielhk"
-	   fetch="https://github.com/danielhk" />
+		fetch="https://github.com/danielhk" />
 	   
   <remote name="opengapps"
-	   fetch="https://github.com/opengapps/" />
+	    fetch="https://github.com/opengapps/" />
+	   
+  <remote name="cm"
+        fetch="https://github.com"
+        revision="refs/heads/cm-14.1" />
 
 <!-- BEGIN BLISSROMS -->
   <project name="build" path="build" remote="BR-x86" revision="n7.1-x86_n1" >
@@ -81,7 +85,7 @@
   <project name="platform_external_connectivity" path="external/connectivity" remote="BlissRoms" />
   <!-- <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="BlissRoms" /> -->
   <!-- <project name="platform_external_exfat" path="external/exfat" remote="BlissRoms" /> -->
-  <!--<project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="BlissRoms" /> -->
+  <!-- <project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="BlissRoms" /> -->
   <!-- <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" remote="aosp" /> -->
   <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="BR-x86" revision="n7.1-caf" />
   <project name="platform_external_fsck_msdos" path="external/fsck_msdos" remote="BlissRoms" />
@@ -100,7 +104,7 @@
   <!-- <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" /> -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-caf" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-caf" />
-  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="BlissRoms" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.1" />
   <project name="platform_frameworks_support" path="frameworks/support" remote="BlissRoms" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="nougat-x86" />
   
@@ -113,18 +117,23 @@
   <!--<project name="platform_hardware_ril" path="hardware/ril" remote="BlissRoms" /> -->
   <project name="platform_hardware_ril-caf" path="hardware/ril-caf" remote="BlissRoms" />
   
+  <!-- <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" /> -->
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="BR-x86" revision="nougat-x86" />
   <!-- <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="BlissRoms" /> -->
-  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="BlissRoms" />
+  
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="n7.1-x86-caf" />
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" />
-  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="BlissRoms" />
-  <project name="platform_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="BlissRoms" />
-  <project name="platform_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="BlissRoms" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" revision="n7.1" />
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="BlissRoms" revision="n7.1" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="n7.1" />
+  <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="BlissRoms" revision="n7.1" />
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="BlissRoms" revision="n7.1" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" />
   <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" />
   
+  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="x86" revision="nougat-x86" />
   <!-- <project name="platform_system_bt" path="system/bt" remote="BlissRoms" /> -->
   <project name="platform_system_core" path="system/core" remote="BR-x86" revision="n7.1-x86-n2" />
   <project name="system_extras" path="system/extras" remote="BR-x86" revision="n7.1.1-x86" />
@@ -235,14 +244,12 @@
   <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="nougat-x86" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="nougat-x86" />
-  <!-- <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" /> -->
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="BR-x86" revision="nougat-x86" />
+  
   <!-- <project path="packages/apps/CMFileManager" name="platform/packages/apps/CMFileManager" remote="x86" revision="nougat-x86" /> -->
   <!--<project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="nougat-x86" /> -->
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="nougat-x86" />
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="nougat-x86" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="x86" revision="nougat-x86" />
   <!--<project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="nougat-x86" />-->
 <!-- from x86 port repositories -->
 
@@ -512,22 +519,24 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/ml" path="frameworks/ml" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="bt.lnx.2.1.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/chips" path="frameworks/opt/chips" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/colorpicker" path="frameworks/opt/colorpicker" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/datetimepicker" path="frameworks/opt/datetimepicker" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="atel.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" revision="wlan-aosp.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" revision="android-framework.lnx.2.0.r5-rel"/>
+
+  <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="aosp" />
+  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/volley" path="frameworks/volley" revision="android-framework.lnx.2.0.r5-rel"/>
@@ -557,7 +566,7 @@
   <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" revision="android_ui.lnx.2.1.r5-rel"/>
+  <!-- <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" revision="android_ui.lnx.2.1.r5-rel"/> -->
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/FMRadio" path="packages/apps/FMRadio" revision="fm.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="android_ui.lnx.2.1.r5-rel"/>
@@ -677,5 +686,7 @@
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="core-technologies.lnx.1.0.r5-rel"/>
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" revision="opensource-tools.lnx.1.0.r5-rel"/>
 <!-- END CODEAURORA -->
+
+  <include name="snippets/cmsdk.xml" />
 
 </manifest>
