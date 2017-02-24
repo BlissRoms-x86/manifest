@@ -63,6 +63,9 @@
   <project name="build" path="build" remote="BR-x86" revision="n7.1-x86_n1" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+	
+  <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1-x86-caf" />
+	
   <project name="platform_build_kati" path="build/kati" remote="BlissRoms" groups="pdk,tradefed" />
   <project name="platform_device_qcom_common" path="device/qcom/common" remote="BlissRoms" />
   <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="BlissRoms" />
