@@ -117,6 +117,8 @@
   <!--<project name="platform_hardware_ril" path="hardware/ril" remote="BlissRoms" /> -->
   <project name="platform_hardware_ril-caf" path="hardware/ril-caf" remote="BlissRoms" />
   
+  <!-- <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="android-framework.lnx.2.0.r5-rel"/> -->
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.1" /> 
   <!-- <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" /> -->
   <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="BR-x86" revision="nougat-x86" />
   <!-- <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="BlissRoms" /> -->
@@ -543,7 +545,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/webview" path="frameworks/webview" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/hardware/akm" path="hardware/akm" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="android-framework.lnx.2.0.r5-rel"/>
+  
   <!-- <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="android-framework.lnx.2.0.r5-rel"/> -->
   <project groups="pdk" name="platform/hardware/google/apf" path="hardware/google/apf" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="nvensense,pdk" name="platform/hardware/invensense" path="hardware/invensense" revision="android-framework.lnx.2.0.r5-rel"/>
