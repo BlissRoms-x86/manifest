@@ -77,14 +77,15 @@
   <project path="device/generic/firmware" name="device_generic_firmware" remote="BR-x86" revision="n7.0" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="nougat-x86" />
   
-  <project name="platform_art" path="art" remote="BlissRoms" />
+  <project path="art" name="platform/art" groups="pdk" remote="aosp"/>
+  <!-- <project name="platform_art" path="art" remote="BlissRoms" /> -->
   <project name="platform_bionic" path="bionic" remote="BR-x86" revision="n7.1-x86-n1" />
   
   <project name="platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="BlissRoms" />
   <project name="platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="BlissRoms" />
   <project name="platform_external_bash" path="external/bash" remote="BlissRoms" />
   <!--<project name="platform_external_busybox" path="external/busybox" remote="BlissRoms" /> -->
-  <project name="platform_external_connectivity" path="external/connectivity" remote="BlissRoms" />
+  <project name="platform_external_connectivity" path="external/connectivity" remote="BlissRoms" revision="n7.1-caf" />
   <!-- <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="BlissRoms" /> -->
   <!-- <project name="platform_external_exfat" path="external/exfat" remote="BlissRoms" /> -->
   <!-- <project name="platform_external_f2fs-tools" path="external/f2fs-tools" remote="BlissRoms" /> -->
@@ -99,7 +100,7 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="BlissRoms" />
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="BlissRoms" />
-  <project name="platform_external_zlib" path="external/zlib" remote="BlissRoms" />
+  <project name="platform_external_zlib" path="external/zlib" remote="BlissRoms" revision="n7.1-caf" />
   <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="n7.1-x86" />
   <project path="external/mesa" name="mesa" remote="BR-x86" revision="nougat-x86" />
   
@@ -111,16 +112,17 @@
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="nougat-x86" />
   
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="BlissRoms"  revision="n7.1"  />
-  <project name="platform_hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" remote="BlissRoms" />
-  <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="BlissRoms" />
-  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="BlissRoms" />
-  <project name="platform_hardware_qcom_wlan-caf" path="hardware/qcom/wlan-caf" remote="BlissRoms" />
+  <project name="platform_hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" remote="BlissRoms" revision="n7.1" />
+  <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="BlissRoms" revision="n7.1" />
+  <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="BlissRoms" revision="n7.1-caf" />
+  <project name="platform_hardware_qcom_wlan-caf" path="hardware/qcom/wlan-caf" remote="BlissRoms" revision="n7.1-caf" />
   <!--<project name="platform_hardware_ril" path="hardware/ril" remote="BlissRoms" /> -->
-  <project name="platform_hardware_ril-caf" path="hardware/ril-caf" remote="BlissRoms" />
+  <project name="platform_hardware_ril-caf" path="hardware/ril-caf" remote="BlissRoms" revision="n7.1-caf" />
 
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" />
+  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="BR-x86" revision="nougat-x86" />
   <!-- <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="BlissRoms" /> -->
-  
+  <!-- <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="BlissRoms" /> -->
+ 
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="n7.1-x86-caf" />
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" revision="n7.1" />
