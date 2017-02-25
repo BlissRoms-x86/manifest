@@ -110,7 +110,7 @@
   <project name="platform_frameworks_support" path="frameworks/support" remote="BlissRoms" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="nougat-x86" />
   
-  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="BlissRoms" />
+  <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="BlissRoms"  revision="n7.1"  />
   <project name="platform_hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" remote="BlissRoms" />
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="BlissRoms" />
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="BlissRoms" />
@@ -118,7 +118,7 @@
   <!--<project name="platform_hardware_ril" path="hardware/ril" remote="BlissRoms" /> -->
   <project name="platform_hardware_ril-caf" path="hardware/ril-caf" remote="BlissRoms" />
 
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="BR-x86" revision="nougat-x86" />
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" />
   <!-- <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="BlissRoms" /> -->
   
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="n7.1-x86-caf" />
