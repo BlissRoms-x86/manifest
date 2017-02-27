@@ -69,7 +69,7 @@
   <project name="platform_build_kati" path="build/kati" remote="BlissRoms" groups="pdk,tradefed" />
   <project name="platform_device_qcom_common" path="device/qcom/common" remote="BlissRoms" />
   <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="BlissRoms" />
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.10rc8-blissified" />
+  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.10-blissified" />
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="nougat-x86" />
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
   <project path="device/generic/x86_64" name="device_generic_x86_64" remote="BR-x86" revision="n7.1" />
