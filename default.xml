@@ -130,7 +130,8 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="BlissRoms" revision="n7.1" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
-  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />
+  <!-- <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />-->
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" />
   <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" />
   
@@ -138,7 +139,8 @@
   <!-- <project name="platform_system_bt" path="system/bt" remote="x86" revision="nougat-x86" /> -->
   <project name="platform_system_core" path="system/core" remote="BR-x86" revision="n7.1-x86-n2" />
   <project name="system_extras" path="system/extras" remote="BR-x86" revision="n7.1.1-x86" />
-  <project name="platform_system_media" path="system/media" remote="BlissRoms" />
+  <!-- <project name="platform_system_media" path="system/media" remote="BlissRoms" revision="n7.1" /> -->
+  <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="BR-x86" revision="n7.1-x86" />
   <project name="platform_system_vold" path="system/vold" remote="BR-x86" revision="nougat-x86" />
   <project name="platform_system_qcom" path="system/qcom" remote="BlissRoms" />
