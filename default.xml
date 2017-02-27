@@ -208,7 +208,7 @@
 <!-- END LINEAGE-OS -->
 
 <!-- BEGIN SUBSTRATUM -->
-  <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
+  <project name="substratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
 <!-- ENG SUBSTRATUM -->
 
 <!-- from x86 port repositories -->
