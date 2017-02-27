@@ -105,8 +105,8 @@
   <project path="external/mesa" name="mesa" remote="BR-x86" revision="nougat-x86" />
   
   <!-- <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" /> -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-caf3" />
-  <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-caf2" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-caf" />
+  <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-caf" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.1-caf" />
   <project name="platform_frameworks_support" path="frameworks/support" remote="BlissRoms" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="nougat-x86" />
@@ -129,8 +129,8 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="BlissRoms" revision="n7.1" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
-  <!-- <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />-->
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />
+  <!-- <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" />
   <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" />
   
