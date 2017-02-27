@@ -109,7 +109,10 @@
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-caf" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.1-caf" />
   <project name="platform_frameworks_support" path="frameworks/support" remote="BlissRoms" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="BR-x86" revision="n7.1-x86-caf" />
+  <project name="platform_system_core" path="system/core" remote="BR-x86" revision="n7.1-x86-caf3" />
+  <project name="system_extras" path="system/extras" remote="BR-x86" revision="n7.1-x86-caf2" />
+  <project path="system/bt" name="platform_system_bt" groups="pdk" remote="BR-x86" revision="nougat-x86" />
   
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="BlissRoms"  revision="n7.1"  />
   <project name="platform_hardware_qcom_bt-caf" path="hardware/qcom/bt-caf" remote="BlissRoms" revision="n7.1" />
@@ -120,24 +123,21 @@
   <project name="platform_hardware_ril-caf" path="hardware/ril-caf" remote="BlissRoms" revision="n7.1-caf" />
 
   <!-- <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="BR-x86" revision="nougat-x86" /> -->
-  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth"  remote="BR-x86" revision="nougat-x86" />
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth"  remote="BR-x86" revision="n7.1-caf" />
  
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="n7.1-x86-caf" />
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" revision="n7.1" />
-  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="BlissRoms" revision="n7.1" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="n7.1" />
-  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="BlissRoms" revision="n7.1" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" revision="n7.1-caf" />
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="BlissRoms" revision="n7.1-caf" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="n7.1-caf" />
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="BlissRoms" revision="n7.1-caf" />
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="BlissRoms" />
   <!-- <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" />
   <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" />
   
-  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="x86" revision="nougat-x86" />
   <!-- <project name="platform_system_bt" path="system/bt" remote="x86" revision="nougat-x86" /> -->
-  <project name="platform_system_core" path="system/core" remote="BR-x86" revision="n7.1-x86-n2" />
-  <project name="system_extras" path="system/extras" remote="BR-x86" revision="n7.1.1-x86" />
   <!-- <project name="platform_system_media" path="system/media" remote="BlissRoms" revision="n7.1" /> -->
   <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="BR-x86" revision="n7.1-x86" />
