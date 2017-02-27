@@ -105,8 +105,8 @@
   <project path="external/mesa" name="mesa" remote="BR-x86" revision="nougat-x86" />
   
   <!-- <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" /> -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-caf" />
-  <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-caf" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-caf3" />
+  <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-caf2" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.1-caf" />
   <project name="platform_frameworks_support" path="frameworks/support" remote="BlissRoms" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="nougat-x86" />
