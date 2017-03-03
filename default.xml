@@ -121,9 +121,9 @@
 <!-- BEGIN OPENGAPPS-X86 -->
 
   <project path="vendor/google/build" name="aosp_build" revision="master" remote="BR-x86" />
-  <project path="vendor/opengapps/sources/all" name="all" revision="master" remote="BR-x86" />
-  <project path="vendor/opengapps/sources/x86" name="x86" revision="master" remote="BR-x86" />
-  <project path="vendor/opengapps/sources/x86_64" name="x86_64" revision="master" remote="BR-x86" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="100" revision="master" remote="BR-x86" />
+  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="100" revision="master" remote="BR-x86" />
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="100" revision="master" remote="BR-x86" />
   
 <!-- END OPENGAPPS-X86 -->
 
