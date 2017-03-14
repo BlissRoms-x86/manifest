@@ -46,6 +46,10 @@
 	   
   <remote name="opengapps"
 	   fetch="https://github.com/opengapps/" />
+	   
+  <remote  name="cm"
+        fetch="https://github.com"
+        revision="refs/heads/cm-14.1" />
           
   <default revision="refs/tags/android-7.1.1_r22"
            remote="aosp"
@@ -64,7 +68,7 @@
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
   <project path="device/generic/x86_64" name="device_generic_x86_64" remote="BR-x86" revision="n7.1" />
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="n7.1-x86" />
-  <project path="device/generic/firmware" name="device_generic_firmware" remote="BR-x86" revision="n7.0" />
+  <project path="device/generic/firmware" name="device_generic_firmware" remote="BR-x86" revision="n7.1-x86" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="nougat-x86" />
   <!--<project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-14.1-x86" /> -->
   <!--<project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-14.1-x86" /> -->
@@ -671,5 +675,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="tradefed" />
 
   <include name="snippets/bliss.xml" />
+  <include name="snippets/cmsdk.xml" />
   
 </manifest>

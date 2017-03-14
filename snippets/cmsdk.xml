@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- LineageOS additions -->
+  <project path="external/ahbottomnavigation" remote="cm" name="LineageOS/android_external_ahbottomnavigation" />
+  <project path="external/android-visualizer" remote="cm" name="LineageOS/android_external_android-visualizer" />
+  <project path="external/cmsdk-api-coverage" remote="cm" name="LineageOS/android_external_cmsdk-api-coverage" />
+  <project path="external/htop" remote="cm" name="LineageOS/android_external_htop" />
+  <project path="external/libncurses" remote="cm" name="LineageOS/android_external_libncurses" />
+  <project path="external/libphonenumbergoogle" remote="cm" name="LineageOS/android_external_libphonenumbergoogle" />
+  <project path="external/libtar" remote="cm" name="LineageOS/android_external_libtar" />
+  <project path="external/lzo" remote="cm" name="LineageOS/android_external_lzo" />
+  <project path="external/nano" remote="cm" name="LineageOS/android_external_nano" />
+  <project path="external/openssh" remote="cm" name="LineageOS/android_external_openssh" />
+  <project path="external/p7zip" remote="cm" name="LineageOS/android_external_p7zip" />
+  <project path="external/pigz" remote="cm" name="LineageOS/android_external_pigz" />
+  <project path="external/rsync" remote="cm" name="LineageOS/android_external_rsync" />
+  <project path="external/uicommon" remote="cm" name="LineageOS/android_external_cyanogen_UICommon" />
+  <project path="external/unrar" remote="cm" name="LineageOS/android_external_unrar" />
+  <project path="external/unzip" remote="cm" name="LineageOS/android_external_unzip" />
+  <project path="external/vim" remote="cm" name="LineageOS/android_external_vim" />
+  <project path="external/yaffs2" remote="cm" name="LineageOS/android_external_yaffs2" />
+  <project path="external/zip" remote="cm" name="LineageOS/android_external_zip" />
+  <project path="hardware/cyanogen" remote="cm" name="LineageOS/android_hardware_cyanogen" />
+  <project path="frameworks/opt/hardware" remote="cm" name="LineageOS/android_frameworks_opt_hardware" />
+  <project path="hardware/ti/omap4" remote="cm" name="LineageOS/android_hardware_ti_omap4" />
+  <project path="hardware/ti/wlan" remote="cm" name="LineageOS/android_hardware_ti_wlan" />
+  <project path="hardware/ti/wpan" remote="cm" name="LineageOS/android_hardware_ti_wpan" />
+
+  <project path="prebuilts/cmsdk" remote="cm" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
+  <project path="vendor/cmsdk" remote="cm" name="LineageOS/cm_platform_sdk" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="cm" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="cm" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" remote="cm" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
+
+</manifest>
