@@ -1,6 +1,7 @@
 <img src="https://raw.github.com/BlissRoms/platform_manifest/new-mm6.0/bliss-logo.png">
 
 Download the Bliss-x86 source code, based on [Android-x86](http://www.android-x86.org)
+
 Usage and Installation instructions can be found on our [XDA thread](https://forum.xda-developers.com/android/software/x86-bliss-x86-pc-s-t3534657)
 ---------------------------------------------------
 
