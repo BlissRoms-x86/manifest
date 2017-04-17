@@ -60,9 +60,9 @@
   <project path="build" name="platform_build" remote="BR-x86" revision="n7.1-x86_n1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="manifest" remote="BR-x86" revision="n7.11-x86-unstable" />
+  <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1.1-x86" />
 
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.10-blissified" />
+  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.4-b" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="n7.1-x86-n1" />
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="nougat-x86" />
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
@@ -102,7 +102,17 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="BlissRoms" revision="n7.1" />
-
+  <project path="packages/apps/AboutBliss" name="platform_packages_apps_AboutBliss" remote="BlissRoms" revision="n7.1-caf"/>
+  <!--<project name="platform_packages_apps_DUI" path="packages/apps/DUI" remote="BlissRoms" revision="n7.1-caf" /> -->
+  <project name="platform_packages_apps_BlissOTA" path="packages/apps/BlissOTA" remote="BlissRoms" revision="n7.1-caf" />
+  <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="BlissRoms" revision="n7.1-caf" />
+  <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="BlissRoms" revision="n7.1-caf" />
+  <project path="packages/apps/OtoFileManager" name="openthos/oto_packages_apps_OtoFileManager" remote="github" revision="multiwindow" />
+  
+<!-- DU additions -->
+  <project path="external/DUtils" name="external_DUtils" remote="BR-x86" revision="n7.1" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="BR-x86" revision="n7.1" />
+  
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.1-x86-n2" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="BR-x86" revision="n7.1.1-x86" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BR-x86" revision="n7.1-x86" />
@@ -129,6 +139,11 @@
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="100" revision="n7.1" remote="BR-x86" />
   <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="100" revision="n7.1" remote="BR-x86" />
   <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="100" revision="n7.1" remote="BR-x86" />
+  
+  <!-- <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="100" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="100" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="100" revision="master" remote="opengapps" /> -->
   
 <!-- END OPENGAPPS-X86 -->
 
@@ -674,7 +689,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="tradefed" />
 
-  <include name="snippets/bliss.xml" />
   <include name="snippets/cmsdk.xml" />
   
 </manifest>
