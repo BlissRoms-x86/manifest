@@ -127,6 +127,12 @@
 
 <!-- END SUPERSU -->
 
+<!-- BEGIN ViPER4Arise -->
+
+  <project path="vendor/arise" name="vendor-arise" remote="BR-x86" revision="numbers" />
+
+<!-- END ViPER4Arise -->
+
 <!-- BEGIN INTEL-HOUDINI -->
 	
   <project path="vendor/intel/houdini" name="vendor-intel-houdini" remote="BR-x86" revision="nougat" />
