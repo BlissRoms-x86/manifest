@@ -18,7 +18,8 @@
           
   <remote name="BR-x86"
 	      fetch="https://github.com/BlissRoms-x86" 
-	      review="review-x86.blissroms.com" />
+	      review="review-x86.blissroms.com" 
+	      revision="refs/heads/n7.1-x86" />
 
   <remote name="github"
           fetch="https://github.com" />
