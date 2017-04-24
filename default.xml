@@ -5,8 +5,7 @@
            fetch="https://android.googlesource.com/" />
            
   <remote name="BlissRoms"
-          fetch="https://github.com/BlissRoms"
-          review="review.blissroms.com" />
+          fetch="https://github.com/BlissRoms" />
 
   <remote name="BlissRoms-Devices"
           fetch="https://github.com/BlissRoms-Devices" />
@@ -18,7 +17,8 @@
           fetch="https://github.com/BlissRoms-Vendor" />
           
   <remote name="BR-x86"
-	      fetch="https://github.com/BlissRoms-x86" />
+	      fetch="https://github.com/BlissRoms-x86" 
+	      review="review-x86.blissroms.com" />
 
   <remote name="github"
           fetch="https://github.com" />
