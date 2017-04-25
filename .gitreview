@@ -1,5 +1,0 @@
-[gerrit]
-host=review-x86.blissroms.com
-port=29420
-project=manifest.git
-defaultbranch=n7.1.1-x86
