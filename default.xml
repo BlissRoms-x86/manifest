@@ -60,7 +60,7 @@
   <project path="build" name="platform_build" remote="BR-x86" revision="n7.1-x86_n1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1.1-x86" />
+  <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1-bleeding_edge" />
 
   <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.4-b" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="n7.1-x86-n1" />
