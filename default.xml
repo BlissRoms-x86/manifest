@@ -108,7 +108,6 @@
   <project name="platform_packages_apps_BlissOTA" path="packages/apps/BlissOTA" remote="BlissRoms" revision="n7.1-caf" />
   <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="BlissRoms" revision="n7.1-caf" />
   <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="BlissRoms" revision="n7.1-caf" />
-  <project path="packages/apps/OtoFileManager" name="openthos/oto_packages_apps_OtoFileManager" remote="github" revision="multiwindow" />
   
 <!-- DU additions -->
   <project path="external/DUtils" name="external_DUtils" remote="BR-x86" revision="n7.1" />
