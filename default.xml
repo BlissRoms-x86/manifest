@@ -103,7 +103,7 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="BlissRoms" revision="n7.1" />
-  <project path="packages/apps/AboutBliss" name="platform_packages_apps_AboutBliss" remote="BlissRoms" revision="n7.1-caf"/>
+  <project path="packages/apps/AboutBliss" name="platform_packages_apps_AboutBliss" remote="BR-x86" revision="n7.1-x86"/>
   <!--<project name="platform_packages_apps_DUI" path="packages/apps/DUI" remote="BlissRoms" revision="n7.1-caf" /> -->
   <project name="platform_packages_apps_BlissOTA" path="packages/apps/BlissOTA" remote="BlissRoms" revision="n7.1-caf" />
   <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="BlissRoms" revision="n7.1-caf" />
