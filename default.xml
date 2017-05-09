@@ -60,9 +60,9 @@
   <project path="build" name="platform_build" remote="BR-x86" revision="n7.1-x86_n1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="manifest" remote="BR-x86" revision="n7.11-x86-edu" />
+  <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1-x86-edu" />
 
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.4" />
+  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.4-b" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="n7.1-x86-n1" />
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="nougat-x86" />
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
