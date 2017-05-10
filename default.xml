@@ -80,12 +80,14 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-n2" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-t2" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.1" />
-  <!--<project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" /> -->
-  <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="n7.1" />
+  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" /> 
+  <!--<project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="n7.1" />-->
   
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.1" />
-  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.1" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="n7.1" />
+  <!-- <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.1" /> -->
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
+  <!-- <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="n7.1" /> -->
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" revision="n7.1" />
@@ -115,6 +117,7 @@
   
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.1-x86-n2" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="BR-x86" revision="n7.1.1-x86" />
+  <project path="system/media" name="platform/system/media" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BR-x86" revision="n7.1-x86" />
   <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="nougat-x86" />
     
@@ -224,7 +227,7 @@
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="notdefault,pdk" />
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
   <project path="device/generic/mips64" name="device/generic/mips64" groups="pdk" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" />
@@ -528,18 +531,18 @@
   <project path="hardware/akm" name="platform/hardware/akm" groups="" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
-  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
-  <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
+  <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel,pdk" />
+  <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel,pdk" />
+  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel,pdk" />
+  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel,pdk" />
   <!--<project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" /> -->
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
-  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
-  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" />
-  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
+  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel,pdk" />
+  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel,pdk" />
+  <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel,pdk" />
+  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel,pdk" />
+  <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel,pdk" />
+  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" />
+  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
@@ -672,7 +675,7 @@
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <!-- <project path="system/media" name="platform/system/media" groups="pdk" /> --> 
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
