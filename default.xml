@@ -181,7 +181,9 @@
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x86" revision="nougat-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="nougat-x86" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="x86" revision="nougat-x86" />
+  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel,pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/intel/common/vaapi" name="platform/hardware/intel/common/vaapi" remote="x86" revision="nougat-x86" />
   <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="nougat-x86" />
   <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="nougat-x86" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="x86" revision="nougat-x86" />
@@ -190,7 +192,8 @@
   <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="nougat-x86" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="nougat-x86" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" />
+  <!-- <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" /> -->
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CMFileManager" name="platform/packages/apps/CMFileManager" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="x86" revision="nougat-x86" />
@@ -529,7 +532,7 @@
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
   <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" />
+  <!--<project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" /> -->
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
   <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" />
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" />
@@ -569,7 +572,6 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
