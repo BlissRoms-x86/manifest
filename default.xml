@@ -96,7 +96,7 @@
   <project path="hardware/nvidia/power" name="platform_hardware_nvidia_power" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/libaudio" name="hardware-libaudio" remote="BR-x86" revision="nougat-x86" />
 
-  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="n7.1" />
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="n7.1-x86" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="n7.1-x86-n1" />
   <!-- <project path="packages/apps/masquerade" name="Substratum/masquerade" remote="github" revision="n" /> -->
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
