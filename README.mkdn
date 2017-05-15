@@ -17,7 +17,7 @@ Initializing The Bleeding Edge (Unstable) Branch
 
 Repo initialization:
 
-    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b n7.1-bleeding_edge
+    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b n7.1.2-x86-edu
 
 sync repo :
 
@@ -34,7 +34,7 @@ For 32 bit userspace:
 
     $ . build/envsetup.sh
    
-    $ lunch bliss_android_x86-eng
+    $ lunch bliss_android_x86-user
    
     $ mka iso_img
 
@@ -42,7 +42,7 @@ For 64 bit userspace:
 
     $ . build/envsetup.sh
    
-    $ lunch bliss_android_x86_64-eng
+    $ lunch bliss_android_x86_64-user
    
     $ mka iso_img
 
