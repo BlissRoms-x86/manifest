@@ -96,7 +96,7 @@
   <project path="hardware/nvidia/power" name="platform_hardware_nvidia_power" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/libaudio" name="hardware-libaudio" remote="BR-x86" revision="nougat-x86" />
 
-  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="n7.1" />
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="n7.1-x86" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="n7.1-x86-n1" />
   <!-- <project path="packages/apps/masquerade" name="Substratum/masquerade" remote="github" revision="n" /> -->
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
@@ -147,7 +147,7 @@
   <project path="vendor/google/build" name="electrikjesus/aosp_build" revision="master" remote="github" />
   <project path="vendor/opengapps/sources/all" name="electrikjesus/all" clone-depth="1" revision="n7.1" remote="github" />
   <project path="vendor/opengapps/sources/x86" name="electrikjesus/x86" clone-depth="1" revision="n7.1" remote="github" />
-  <project path="vendor/opengapps/sources/x86_64" name="electrikjesus/x86_64" clone-depth="1" revision="n7.1" remote="github" /> 
+  <project path="vendor/opengapps/sources/x86_64" name="electrikjesus/x86_64" clone-depth="1" revision="n7.1" remote="github" />
   
   <!-- <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="2" revision="master" remote="opengapps" />
