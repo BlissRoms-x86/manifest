@@ -49,3 +49,8 @@ For 64 bit userspace:
 If you would like to make a UEFI .img file:
    
     $ mka efi_img
+
+If you get errors while building the kernel (like `recipe for target 'silentoldconfig' failed`), try cleaning the output directory, then building the kernel with a single thread:
+
+    $ make clean
+    $ make kernel -j1 && make iso_img
