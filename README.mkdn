@@ -55,5 +55,3 @@ If you get errors while building the kernel (like `recipe for target 'silentoldc
 
     $ make clean
     $ make kernel -j1 && make iso_img
-
-Test
