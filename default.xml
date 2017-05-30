@@ -124,6 +124,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BR-x86" revision="n7.1-x86" />
   <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="nougat-x86" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="BR-x86" revision="n7.1.2-x86"/>
     
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="n7.1-su" />
 <!-- END BLISS -->
@@ -680,7 +681,7 @@
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <!-- <project path="system/media" name="platform/system/media" groups="pdk" /> --> 
   <project path="system/nativepower" name="platform/system/nativepower" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <!-- <project path="system/netd" name="platform/system/netd" groups="pdk" /> -->
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
