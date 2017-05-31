@@ -77,6 +77,7 @@
   <!-- <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" /> -->
   <project path="external/mesa" name="mesa" remote="BR-x86" revision="nougat-x86" />
   <!-- <project path="external/mesa" name="mesa" remote="maurossi" revision="13.0.2_nougat-x86" /> -->	
+  <project path="external/libdrm" name="external_libdrm" groups="pdk" remote="BR-x86" revision="n7.1.2" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="BR-x86" revision="n7.1.2-x86" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-n2" />
@@ -180,7 +181,6 @@
   <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="nougat-x86" />
   <!--<project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="nougat-x86" />-->
   <!--<project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="nougat-x86" />-->
-  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="external/libtruezip" name="platform/external/libtruezip" remote="x86" revision="nougat-x86" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="nougat-x86" />	
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="nougat-x86" />
