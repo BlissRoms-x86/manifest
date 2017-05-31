@@ -65,33 +65,26 @@
   <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.11" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="n7.1-x86-n1" />
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="nougat-x86" />
+  
   <project path="device/generic/x86" name="device_generic_x86" remote="BR-x86" revision="n7.1" />
   <project path="device/generic/x86_64" name="device_generic_x86_64" remote="BR-x86" revision="n7.1" />
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="n7.1-x86" />
   <project path="device/generic/firmware" name="device_generic_firmware" remote="BR-x86" revision="n7.1-x86-torvalds" />
+  
   <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="nougat-x86" />
-  <!--<project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-14.1-x86" /> -->
-  <!--<project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-14.1-x86" /> -->
   <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="n7.1-x86" /> 
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="BR-x86" revision="n7.1.2-x86"/>
-  <!-- <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" /> -->
   <project path="external/mesa" name="mesa" remote="BR-x86" revision="nougat-x86" />
-  <!-- <project path="external/mesa" name="mesa" remote="maurossi" revision="13.0.2_nougat-x86" /> -->	
   <project path="external/libdrm" name="external_libdrm" groups="pdk" remote="BR-x86" revision="n7.1.2" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="BR-x86" revision="n7.1.2-x86" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-n2" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="n7.1-x86-t2" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="n7.1" />
-  <!--<project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" /> -->
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="n7.1.2-x86" />
   
-  
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <!-- <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" remote="BlissRoms" revision="n7.1" /> -->
-  <!-- <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="n7.1" /> -->
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
-  <!-- <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="n7.1" /> -->
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" revision="n7.1" />
@@ -103,7 +96,6 @@
 
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="n7.1-x86" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="n7.1-x86-n1" />
-  <!-- <project path="packages/apps/masquerade" name="Substratum/masquerade" remote="github" revision="n" /> -->
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="BlissRoms" revision="n7.1" />
@@ -111,11 +103,12 @@
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" remote="BlissRoms" revision="n7.1" />
   <project path="packages/apps/AboutBliss" name="platform_packages_apps_AboutBliss" remote="BR-x86" revision="n7.1-x86"/>
-  <!--<project name="platform_packages_apps_DUI" path="packages/apps/DUI" remote="BlissRoms" revision="n7.1-caf" /> -->
+  
   <project name="platform_packages_apps_BlissOTA" path="packages/apps/BlissOTA" remote="BlissRoms" revision="n7.1-caf" />
   <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="BlissRoms" revision="n7.1-caf" />
   <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="BlissRoms" revision="n7.1-caf" />
   <project name="platform_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="BlissRoms" revision="n7.1-caf" /> 
+
 <!-- DU additions -->
   <project path="external/DUtils" name="external_DUtils" remote="BR-x86" revision="n7.1" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="BR-x86" revision="n7.1" />
@@ -135,12 +128,6 @@
   <project path="vendor/supersu" name="vendor-supersu" remote="BR-x86" revision="nougat" />
 
 <!-- END SUPERSU -->
-
-<!-- BEGIN ViPER4Arise -->
-
-  <!--<project path="vendor/arise" name="vendor-arise" remote="BR-x86" revision="numbers" /> -->
-
-<!-- END ViPER4Arise -->
 
 <!-- BEGIN INTEL-HOUDINI -->
 	
@@ -163,10 +150,6 @@
 <!-- END OPENGAPPS-X86 -->
 
 <!-- from x86 port repositories -->
-  <!--<project path="device/generic/common" name="device/generic/common" groups="pdk" remote="x86" revision="nougat-x86" />
-  <project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="nougat-x86" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="x86" revision="nougat-x86" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="x86" revision="nougat-x86" /> -->
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="nougat-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="nougat-x86" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="nougat-x86" />
@@ -179,8 +162,6 @@
   <project path="external/eject" name="platform/external/eject" remote="x86" revision="nougat-x86" />
   <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="nougat-x86" />
   <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="nougat-x86" />
-  <!--<project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="nougat-x86" />-->
-  <!--<project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="nougat-x86" />-->
   <project path="external/libtruezip" name="platform/external/libtruezip" remote="x86" revision="nougat-x86" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="nougat-x86" />	
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="nougat-x86" />
@@ -199,7 +180,6 @@
   <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="nougat-x86" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="nougat-x86" />
-  <!-- <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" /> -->
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CMFileManager" name="platform/packages/apps/CMFileManager" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="nougat-x86" />
@@ -207,8 +187,7 @@
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="nougat-x86" />
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="nougat-x86" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" remote="x86" revision="nougat-x86" />
-  <!--<project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="nougat-x86" />-->
-
+  
   <!-- from original Android repositories -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
@@ -539,7 +518,6 @@
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel,pdk" />
   <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel,pdk" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel,pdk" />
-  <!--<project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" /> -->
   <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel,pdk" />
   <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel,pdk" />
   <project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel,pdk" />
@@ -606,7 +584,6 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
-  <!--<project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" /> -->
   <project path="packages/experimental" name="platform/packages/experimental" groups="" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
@@ -679,9 +656,7 @@
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <!-- <project path="system/media" name="platform/system/media" groups="pdk" /> --> 
   <project path="system/nativepower" name="platform/system/nativepower" />
-  <!-- <project path="system/netd" name="platform/system/netd" groups="pdk" /> -->
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
