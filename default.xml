@@ -89,7 +89,8 @@
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" revision="n7.1" />
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" revision="n7.1" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
+  <!-- <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" revision="n7.1" /> -->
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/nvidia/power" name="platform_hardware_nvidia_power" remote="BlissRoms" revision="n7.1" />
   <project path="hardware/libaudio" name="hardware-libaudio" remote="BR-x86" revision="nougat-x86" />
@@ -105,13 +106,6 @@
   <project path="packages/apps/AboutBliss" name="platform_packages_apps_AboutBliss" remote="BR-x86" revision="n7.1-x86"/>
   
   <project name="platform_packages_apps_BlissOTA" path="packages/apps/BlissOTA" remote="BlissRoms" revision="n7.1-caf" />
-  <project name="platform_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="BlissRoms" revision="n7.1-caf" />
-  <project name="platform_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="BlissRoms" revision="n7.1-caf" />
-  <project name="platform_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="BlissRoms" revision="n7.1-caf" /> 
-
-<!-- DU additions -->
-  <project path="external/DUtils" name="external_DUtils" remote="BR-x86" revision="n7.1" />
-  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="BR-x86" revision="n7.1" />
   
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.1-x86-n2" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="BR-x86" revision="n7.1.1-x86" />
@@ -179,7 +173,6 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="nougat-x86" />
   <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/CMFileManager" name="platform/packages/apps/CMFileManager" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="x86" revision="nougat-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="nougat-x86" />
