@@ -51,7 +51,7 @@
         fetch="https://github.com"
         revision="refs/heads/cm-14.1" />
           
-  <default revision="refs/tags/android-7.1.2_r11"
+  <default revision="refs/tags/android-7.1.2_r17"
            remote="aosp"
            sync-c="true"
            sync-j="1" />
@@ -62,7 +62,7 @@
   </project>
   <project path="manifest" name="manifest" remote="BR-x86" revision="n7.1-bleeding_edge" />
 
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.11" />
+  <project path="kernel" name="kernel_common" remote="BR-x86" revision="kernel-4.9-ax86" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="n7.1-x86-n1" />
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="nougat-x86" />
   
