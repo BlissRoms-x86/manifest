@@ -11,7 +11,6 @@
   <project path="external/libtar" remote="cm" name="LineageOS/android_external_libtar" />
   <project path="external/lzo" remote="cm" name="LineageOS/android_external_lzo" />
   <project path="external/nano" remote="cm" name="LineageOS/android_external_nano" />
-  <project path="external/openssh" remote="cm" name="LineageOS/android_external_openssh" revision="cm-14.1_old" />
   <project path="external/p7zip" remote="cm" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" remote="cm" name="LineageOS/android_external_pigz" />
   <project path="external/rsync" remote="cm" name="LineageOS/android_external_rsync" />
