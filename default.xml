@@ -51,7 +51,7 @@
         fetch="https://github.com"
         revision="refs/heads/cm-14.1" />
           
-  <default revision="refs/tags/android-7.1.2_r17"
+  <default revision="refs/tags/android-7.1.2_r27"
            remote="aosp"
            sync-c="true"
            sync-j="1" />
@@ -106,6 +106,10 @@
   <project path="packages/apps/AboutBliss" name="platform_packages_apps_AboutBliss" remote="BR-x86" revision="n7.1-x86"/>
   
   <project name="platform_packages_apps_BlissOTA" path="packages/apps/BlissOTA" remote="BlissRoms" revision="n7.1-caf" />
+  <!--<project name="packages_apps_ExternalApp" path="packages/apps/ExternalApp" remote="BR-x86" revision="multiwindow" />
+  <project name="packages_apps_OtoCompress" path="packages/apps/OtoCompress" remote="BR-x86" revision="multiwindow" />
+  <project name="packages_apps_OtoWinRec" path="packages/apps/OtoWinRec" remote="BR-x86" revision="multiwindow" />
+  <project name="packages_apps_OtoOta" path="packages/apps/OtoOta" remote="BR-x86" revision="multiwindow" /> -->
   
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="n7.1-x86-n2" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="BR-x86" revision="n7.1.1-x86" />
@@ -131,15 +135,15 @@
 
 <!-- BEGIN OPENGAPPS-X86 -->
 
-  <project path="vendor/google/build" name="electrikjesus/aosp_build" revision="master" remote="github" />
+  <!-- <project path="vendor/google/build" name="electrikjesus/aosp_build" revision="master" remote="github" />
   <project path="vendor/opengapps/sources/all" name="electrikjesus/all" clone-depth="1" revision="n7.1" remote="github" />
   <project path="vendor/opengapps/sources/x86" name="electrikjesus/x86" clone-depth="1" revision="n7.1" remote="github" />
-  <project path="vendor/opengapps/sources/x86_64" name="electrikjesus/x86_64" clone-depth="1" revision="n7.1" remote="github" />
+  <project path="vendor/opengapps/sources/x86_64" name="electrikjesus/x86_64" clone-depth="1" revision="n7.1" remote="github" /> -->
   
-  <!-- <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="2" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="2" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="2" revision="master" remote="opengapps" /> -->
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="2" revision="master" remote="opengapps" />
     
 <!-- END OPENGAPPS-X86 -->
 
@@ -419,7 +423,6 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/opencv3" name="platform/external/opencv3" groups="pdk" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
