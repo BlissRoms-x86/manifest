@@ -1,0 +1,72 @@
+![bliss_logo](https://user-images.githubusercontent.com/6454841/29614099-316afd46-8809-11e7-9776-9bbca181b21d.png)
+
+Getting Started
+---------------
+
+To get started with Android/Bliss, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the Bliss trees, use this command:
+
+
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b o8.0
+
+Then to sync up:
+
+    repo sync -j#
+
+This(j#) depends on number of cpu cores - use just "repo sync" if you are 
+unsure.
+
+To build for your device.
+
+. build/envsetup.sh
+
+breakfast `device name here`
+
+brunch `device name here`
+
+or make it all in one line.
+
+. build/envsetup.sh && breakfast `device name here` && brunch `device name here`
+
+For more information on this Github Organization and how it is structured,
+please [read the wiki 
+article](http://wiki.cyanogenmod.org/w/Github_Organization)
+
+***
+
+Using Build Script
+------------------
+
+run command  ". build.sh" and follow the command prompts.
+
+
+Bliss Gerrit
+------------
+Gerrit Link : review.blissroms.com
+
+If you would like to contribute to the BlissRoms project submit patches to:
+`review.blissroms.com`. Then head into the project and clone it locally, make 
+changes and push back to Bliss review.
+
+How To Submit To Gerrit:
+-----------------------
+
+First and foremost, setup your github with out Gerrit.
+
+Clone the repo you would like to commit to from the [Gerrit Project 
+List](http://review.blissroms.com:8081/#/admin/projects/)
+   -Select from the list and copy clone command line.
+
+Make sure you have git review installed
+   ' sudo apt-get install git-review '
+   
+Make sure you are on the correct branch : o8.0
+
+Make your change and commit it
+' git add -A && git commit '
+
+Now just type git review, if it does not have the remote yet it will 
+automatically add it and just answer yes to its questions. It will push to the 
+gerrit for you.
