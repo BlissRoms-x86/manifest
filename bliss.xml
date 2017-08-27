@@ -12,6 +12,7 @@
 
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
+  <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
@@ -22,7 +23,7 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/packages/providers/MediaProvider" />
-
+  <remove-project name="platform/external/elfutils" />
 
   <!--                              -->
 
@@ -39,6 +40,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+    <project path="build/soong" name="platform_build_soong" remote="BlissRoms" revision="o8.0" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="o8.0" />
@@ -49,6 +54,7 @@
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="BlissRoms" revision="o8.0" />
 
   <!--                       -->
 
