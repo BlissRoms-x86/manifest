@@ -24,6 +24,7 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/external/elfutils" />
+  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/gps" />
@@ -61,6 +62,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="BlissRoms" revision="o8.0" />
+  <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" revision="o8.0" />
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" revision="o8.0" />
