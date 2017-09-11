@@ -67,7 +67,7 @@
 
   <!-- Begin BlissRoms repos -->
 
-  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="o8.0" />
+  <project path="manifest" name="BlissRoms-x86/manifest" remote="BlissRoms" revision="o8.0-x86" />
   <project path="build/kati" name="platform_build_kati" remote="BlissRoms" revision="o8.0" />
   <project path="build/make" name="BlissRoms-x86/build" remote="github" revision="o8.0-x86" >
 	<copyfile src="core/root.mk" dest="Makefile" />
