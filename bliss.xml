@@ -7,6 +7,12 @@
 
   <remote name="BlissRoms-Devices"
           fetch="https://github.com/BlissRoms-Devices" />
+  
+  <remote name="github"
+		  fetch="https://github.com" />
+			
+  <remote  name="x86"
+          fetch="git://git.osdn.net/gitroot/android-x86" />
 
   <!-- Remove first some AOSP repos -->
 
@@ -19,18 +25,43 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
+  <remove-project name="platform/hardware/intel/audio_media" />
+  <remove-project name="platform/hardware/intel/common/libva" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="platform/external/drm_hwcomposer" />
+  <remove-project name="platform/external/libdrm" />
+  <remove-project name="platform/external/llvm" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/swiftshader" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/drm_gralloc" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Launcher2" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/LegacyCamera" />
 
   <!--                              -->
 
@@ -38,28 +69,35 @@
 
   <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="o8.0" />
   <project path="build/kati" name="platform_build_kati" remote="BlissRoms" revision="o8.0" />
-  <project path="build/make" name="platform_build" remote="BlissRoms" revision="o8.0" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
+  <project path="build/make" name="BlissRoms-x86/build" remote="github" revision="o8.0-x86" >
+	<copyfile src="core/root.mk" dest="Makefile" />
+	<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+	<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+	<linkfile src="core" dest="build/core" />
+	<linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+	<linkfile src="target" dest="build/target" />
+	<linkfile src="tools" dest="build/tools" />
   </project>
-    <project path="build/soong" name="platform_build_soong" remote="BlissRoms" revision="o8.0" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  <project path="build/soong" name="platform_build_soong" remote="BlissRoms" revision="o8.0" >
+  <linkfile src="root.bp" dest="Android.bp" />
+  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="o8.0" />
+  <project path="kernel" name="BlissRoms-x86/kernel_common" remote="github" revision="kernel-4.9-ax86" />
+  <project path="bionic" name="BlissRoms-x86/platform_bionic" remote="github" revision="o8.0" />
+  <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="n-x86-sg" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="o8.0" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="o8.0" />
-  <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/apps/Settings" name="BlissRoms-x86/packages_apps_Settings" remote="github" revision="o8.0-x86" />
+    
+  <project path="system/core" name="BlissRoms-x86/platform_system_core" remote="github" revision="o8.0-x86" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
+  <project path="system/bt" name="platform/system/bt" remote="x86" revision="oreo-x86" />
+  <project path="system/media" name="platform/system/media" remote="x86" revision="oreo-x86" />
+  <project path="system/vold" name="platform/system/vold" remote="x86" revision="oreo-x86" />
+  
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="BlissRoms" revision="o8.0" />
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" revision="o8.0" />
@@ -71,8 +109,65 @@
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="o8.0" />
+  <project path="hardware/libsensors" name="hardware-libsensors" remote="x86" revision="oreo-x86" />
+  
+  <!-- <project path="device/generic/x86" name="BlissRoms-x86/device_generic_x86" remote="github" revision="o8.0-x86" /> -->
+  <!-- <project path="device/generic/x86_64" name="BlissRoms-x86/device_generic_x86_64" remote="github" revision="o8.0-x86" /> -->
+  <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
+  <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
+  <project path="device/generic/common" name="BlissRoms-x86/device_generic_common" remote="github" revision="n7.1-x86" />
+  <project path="device/generic/firmware" name="BlissRoms-x86/device_generic_firmware" remote="github" revision="n7.1-x86-torvalds" />
+  
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="oreo-x86" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="oreo-x86" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="oreo-x86" />
+  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="oreo-x86" />
+  <project path="external/mesa" name="external-mesa" remote="x86" revision="oreo-x86" />
+  <project path="external/llvm" name="external-llvm" remote="x86" revision="oreo-x86" />
+  <project path="external/drm_gralloc" name="external-drm_gralloc" remote="x86" revision="oreo-x86" />
+  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" revision="oreo-x86" />
+  <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
+  <project path="external/eject" name="platform/external/eject" remote="x86" revision="oreo-x86" />
+  <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="oreo-x86" />
+  <!-- <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="oreo-x86" /> -->
+  <project path="external/libtruezip" name="platform/external/libtruezip" remote="x86" revision="oreo-x86" />
+  <project path="external/libdrm" name="external-libdrm" groups="pdk" remote="x86" revision="oreo-x86" />
+  <project path="external/mksh" name="platform/external/mksh" remote="x86" revision="oreo-x86" />
+  <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="oreo-x86" />
+  <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="oreo-x86" />
+  <!--<project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="oreo-x86"/> -->
+  <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="oreo-x86" />
+  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="oreo-x86" />
+  <project path="external/wpa_supplicant_8" name="BlissRoms-x86/external_wpa_supplicant_8" groups="pdk" remote="github" revision="o8.0-x86"/>
+  
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="x86" revision="oreo-x86" />
+  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="oreo-x86" />
+  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="oreo-x86" />
+  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" remote="x86" revision="oreo-x86" />
+  <project path="hardware/intel/common/vaapi" name="platform/hardware/intel/common/vaapi" remote="x86" revision="oreo-x86" />
+  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="oreo-x86" />
+  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="oreo-x86" />
+  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="oreo-x86" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="x86" revision="oreo-x86" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="oreo-x86" />
+  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="oreo-x86" />
+  <project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="oreo-x86" />
+  <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="oreo-x86" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="oreo-x86" />
+  <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="oreo-x86" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="oreo-x86" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="x86" revision="oreo-x86" />
+  <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="oreo-x86" />
+  <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="oreo-x86" />
+  
+  <!-- BEGIN OPENGAPPS-X86 -->
 
-
+  <project path="vendor/google/build" name="electrikjesus/aosp_build" revision="master" remote="github" />
+  <project path="vendor/opengapps/sources/all" name="electrikjesus/all" clone-depth="1" revision="n7.1" remote="github" />
+  <project path="vendor/opengapps/sources/x86" name="electrikjesus/x86" clone-depth="1" revision="n7.1" remote="github" />
+  <project path="vendor/opengapps/sources/x86_64" name="electrikjesus/x86_64" clone-depth="1" revision="n7.1" remote="github" />
+	
+  <!-- END OPENGAPPS-X86 -->
   <!--                       -->
 
 </manifest>
