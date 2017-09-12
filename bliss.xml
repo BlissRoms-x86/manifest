@@ -23,6 +23,8 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/hardware/qcom/media" />
@@ -31,6 +33,16 @@
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/system/bt" />
 
   <!--                              -->
 
@@ -56,11 +68,18 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="o8.0" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" revision="o8.0" />
   <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="o8.0" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
+  <project path="system/nfc" name="platform_system_nfc" remote="BlissRoms" revision="o8.0" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
+  <project path="system/vold" name="platform_system_vold" remote="BlissRoms" revision="o8.0" />
+  <project path="system/bt" name="platform_system_bt" remote="BlissRoms" revision="o8.0" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="BlissRoms" revision="o8.0" />
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" revision="o8.0" />
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="o8.0" />
@@ -71,7 +90,11 @@
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="o8.0" />
-
+  <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" revision="o8.0" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" revision="o8.0" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" revision="o8.0" />
 
   <!--                       -->
 
