@@ -50,7 +50,7 @@
 
   <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="o8.0" />
   <project path="build/kati" name="platform_build_kati" remote="BlissRoms" revision="o8.0" />
-  <project path="build/make" name="platform_build" remote="BlissRoms" revision="o8.0" >
+  <project path="build/make" name="platform_build_make" remote="BlissRoms" revision="o8.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
