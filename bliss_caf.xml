@@ -21,5 +21,10 @@
 
   <!-- System QCOM-->
  <project path="system/qcom" name="platform_system_qcom" remote="BlissRoms" revision="o8.0" />
-
+ 
+  <!-- Hardware -->
+ <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt-caf" remote="BlissRoms" revision="o8.0" />
+ <project path="hardware/ril-caf" name="platform_hardware_ril-caf" remote="BlissRoms" revision="o8.0" />
+ <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan-caf" remote="BlissRoms" revision="o8.0" />
+ 
 </manifest>
