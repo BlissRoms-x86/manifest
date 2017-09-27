@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- External -->
+  <project path="external/brctl" name="platform_external_brctl" remote="BlissRoms" revision="o8.0" />
+  <project path="external/libnetfilter_conntrack" name="platform_external_libnetfilter_conntrack" remote="BlissRoms" revision="o8.0" />
+  <project path="external/libnfnetlink" name="platform_external_libnfnetlink" remote="BlissRoms" revision="o8.0" />
+  <project path="external/powertop" name="platform_external_powertop" remote="BlissRoms" revision="o8.0" />
+  
+  <!-- Ant Wireless -->
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="BlissRoms" revision="o8.0" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="BlissRoms" revision="o8.0" />
+  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="BlissRoms" revision="o8.0" />
+  
+</manifest>

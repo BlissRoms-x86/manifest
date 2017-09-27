@@ -43,6 +43,12 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/libnetfilter_conntrack" />
+  <remove-project name="platform/external/libnfnetlink" />
 
   <!--                              -->
 
@@ -64,25 +70,38 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="o8.0" />
+  
+  <!-- Apps -->
+  
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" revision="o8.0" />
+
+  <!-- External -->
+  <project path="external/connectivity" name="platform_external_connectivity" remote="BlissRoms" revision="o8.0" />
+  <project path="external/ebtables" name="platform_external_ebtables" remote="BlissRoms" revision="o8.0" />
+  <project path="external/exfat" name="platform_external_exfat" remote="BlissRoms" revision="o8.0" />
+  <project path="external/elfutils" name="platform_external_elfutils" remote="BlissRoms" revision="o8.0" />
+  <project path="external/fuse" name="platform_external_fuse" remote="BlissRoms" revision="o8.0" />
+  <project path="external/htop" name="platform_external_htop" remote="BlissRoms" revision="o8.0" />
+  <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" revision="o8.0" />
+  <project path="external/libncurses" name="platform_external_libncurses" remote="BlissRoms" revision="o8.0" />
+  <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="BlissRoms" revision="o8.0" />
+  <project path="external/mksh" name="platform_external_mksh" remote="BlissRoms" revision="o8.0" />
+  <project path="external/nano" name="platform_external_nano" remote="BlissRoms" revision="o8.0" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" revision="o8.0" />
+  <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" revision="o8.0" />
+  <project path="external/toybox" name="platform_external_toybox" remote="BlissRoms" revision="o8.0" />
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="BlissRoms" revision="o8.0" />
+
+  <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="o8.0" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="o8.0" />
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
-  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="BlissRoms" revision="o8.0" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" revision="o8.0" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" revision="o8.0" />
-  <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="o8.0" />
-  <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
-  <project path="system/nfc" name="platform_system_nfc" remote="BlissRoms" revision="o8.0" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
-  <project path="system/vold" name="platform_system_vold" remote="BlissRoms" revision="o8.0" />
-  <project path="system/bt" name="platform_system_bt" remote="BlissRoms" revision="o8.0" />
-  <project path="external/elfutils" name="platform_external_elfutils" remote="BlissRoms" revision="o8.0" />
-  <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" revision="o8.0" />
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="o8.0" />
+
+  <!-- Hardware -->  
+
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" revision="o8.0" />
@@ -92,10 +111,32 @@
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" revision="o8.0" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" revision="o8.0" />
-  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" revision="o8.0" />
+  
+   <!-- Input -->
+  
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" revision="o8.0" />
 
-  <!--                       -->
+  <!-- Providers -->
+  
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="BlissRoms" revision="o8.0" />
+  
+  <!-- Services -->
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" revision="o8.0" />
+  
+  <!-- System -->
+  
+  <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="o8.0" />
+  <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
+  <project path="system/nfc" name="platform_system_nfc" remote="BlissRoms" revision="o8.0" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
+  <project path="system/vold" name="platform_system_vold" remote="BlissRoms" revision="o8.0" />
+  <project path="system/bt" name="platform_system_bt" remote="BlissRoms" revision="o8.0" />
+
+  <!-- Vendor -->  
+  
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="o8.0" />
 
 </manifest>
