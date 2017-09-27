@@ -14,6 +14,7 @@
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -35,6 +36,7 @@
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
@@ -70,6 +72,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="o8.0" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" revision="o8.0" />
   
   <!-- Apps -->
   
@@ -112,6 +115,7 @@
   <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" revision="o8.0" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" revision="o8.0" />
   
    <!-- Input -->
   
