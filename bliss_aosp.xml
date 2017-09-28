@@ -7,6 +7,9 @@
 
   <remote name="BlissRoms-Devices"
           fetch="https://github.com/BlissRoms-Devices" />
+          
+  <remote name="los"
+          fetch="https://github.com/LineageOS" />
 
   <!-- Remove first some AOSP repos -->
 
@@ -110,7 +113,7 @@
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" revision="o8.0" />
-  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="o8.0" />
+  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" revision="o8.0" />
