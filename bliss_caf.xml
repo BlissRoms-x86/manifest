@@ -17,6 +17,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="BlissRoms" revision="o8.0" />
   <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="BlissRoms" revision="o8.0" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="BlissRoms" revision="o8.0" />
 </project>
 
   <!-- System QCOM-->
