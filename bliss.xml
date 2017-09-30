@@ -49,9 +49,6 @@
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/ril" />
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
   <remove-project name="platform/external/drm_hwcomposer" />
   <remove-project name="platform/external/libdrm" />
   <remove-project name="platform/external/llvm" />
@@ -85,7 +82,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="kernel" name="BlissRoms-x86/kernel_common" remote="github" revision="kernel-4.9-ax86" />
+  <project path="kernel/pc_common" name="BlissRoms-x86/kernel_common" remote="github" revision="kernel-4.9-ax86" />
   <project path="art" name="platform/art" remote="x86" revision="oreo-x86" />
   <project path="bionic" name="BlissRoms-x86/platform_bionic" remote="github" revision="o8.0" />
   <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="n-x86-sg" />
@@ -115,11 +112,9 @@
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/libsensors" name="hardware-libsensors" remote="x86" revision="oreo-x86" />
   
-  <!-- <project path="device/generic/x86" name="BlissRoms-x86/device_generic_x86" remote="github" revision="o8.0-x86" /> -->
-  <!-- <project path="device/generic/x86_64" name="BlissRoms-x86/device_generic_x86_64" remote="github" revision="o8.0-x86" /> -->
-  <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
-  <project path="device/generic/common" name="BlissRoms-x86/device_generic_common" remote="github" revision="oreo-x86" />
+  <project path="device/generic/pc_common" name="BlissRoms-x86/device_generic_pc_common" remote="github" revision="oreo-x86" />
+  <project path="device/generic/pc_x86" name="BlissRoms-x86/device_generic_pc_x86" remote="github" revision="oreo-x86" />
+  <project path="device/generic/pc_x86_64" name="BlissRoms-x86/device_generic_pc_x86_64" remote="github" revision="oreo-x86" />
   <project path="device/generic/firmware" name="BlissRoms-x86/device_generic_firmware" remote="github" revision="n7.1-x86-torvalds" />
   
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="oreo-x86" />
