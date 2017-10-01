@@ -7,7 +7,7 @@
 
   <remote name="BlissRoms-Devices"
           fetch="https://github.com/BlissRoms-Devices" />
-          
+
   <remote name="los"
           fetch="https://github.com/LineageOS" />
 
@@ -43,6 +43,7 @@
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
@@ -79,9 +80,9 @@
   </project>
   <project path="bionic" name="platform_bionic" remote="BlissRoms" revision="o8.0" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" revision="o8.0" />
-  
+
   <!-- Apps -->
-  
+
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" revision="o8.0" />
 
@@ -109,7 +110,7 @@
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="o8.0" />
 
-  <!-- Hardware -->  
+  <!-- Hardware -->
 
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="BlissRoms" revision="o8.0" />
@@ -125,22 +126,23 @@
   </project>
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" revision="o8.0" />
-  
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" revision="o8.0" />
+
    <!-- Input -->
-  
+
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" revision="o8.0" />
 
   <!-- Providers -->
-  
+
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="BlissRoms" revision="o8.0" />
-  
+
   <!-- Services -->
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" revision="o8.0" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" revision="o8.0" />
-  
+
   <!-- System -->
-  
+
   <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="o8.0" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
   <project path="system/nfc" name="platform_system_nfc" remote="BlissRoms" revision="o8.0" />
@@ -148,8 +150,8 @@
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" revision="o8.0" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" revision="o8.0" />
 
-  <!-- Vendor -->  
-  
+  <!-- Vendor -->
+
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="o8.0" />
 
 </manifest>
