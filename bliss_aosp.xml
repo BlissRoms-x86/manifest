@@ -58,6 +58,7 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
   <remove-project name="platform/external/libnfnetlink" />
+  <remove-project name="platform/system/media" />
 
   <!--                              -->
 
@@ -149,6 +150,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" revision="o8.0" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" revision="o8.0" />
+  <project path="system/media" name="platform_system_media" remote="BlissRoms" revision="o8.0" />
 
   <!-- Vendor -->
 
