@@ -35,6 +35,7 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/hardware/broadcom/wlan" />
@@ -52,6 +53,7 @@
   <remove-project name="platform/external/drm_hwcomposer" />
   <remove-project name="platform/external/libdrm" />
   <remove-project name="platform/external/llvm" />
+  <remove-project name="platform/external/mesa3d" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/swiftshader" />
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -69,7 +71,7 @@
 
   <project path="manifest" name="BlissRoms-x86/manifest" remote="github" revision="o8.0-x86" />
   <project path="build/kati" name="platform_build_kati" remote="BlissRoms" revision="o8.0" />
-  <project path="build/make" name="platform_build" remote="BlissRoms" revision="o8.0" >
+  <project path="build/make" name="BlissRoms-x86/platform_build" remote="github" revision="o8.0" >
 	<copyfile src="core/root.mk" dest="Makefile" />
 	<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
 	<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -121,20 +123,23 @@
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="oreo-x86" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="oreo-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="oreo-x86" />
-  <project path="external/mesa" name="external-mesa" remote="x86" revision="oreo-x86" />
+  <!-- <project path="external/mesa" name="external-mesa" remote="x86" revision="oreo-x86" /> -->
+  <project path="external/mesa" name="intel/external-mesa" remote="github" revision="master" />
   <project path="external/llvm" name="external-llvm" remote="x86" revision="oreo-x86" />
   <project path="external/drm_gralloc" name="external-drm_gralloc" remote="x86" revision="oreo-x86" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" revision="oreo-x86" />
   <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
+  <project path="external/minigbm" name="intel/minigbm" remote="github" revision="master" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="x86" revision="oreo-x86" />
   <project path="external/eject" name="platform/external/eject" remote="x86" revision="oreo-x86" />
   <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="oreo-x86" />
-  <!-- <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="oreo-x86" /> -->s
+  <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="oreo-x86" />
   <project path="external/libtruezip" name="platform/external/libtruezip" remote="x86" revision="oreo-x86" />
   <project path="external/libdrm" name="external-libdrm" groups="pdk" remote="x86" revision="oreo-x86" />
   <project path="external/mksh" name="platform/external/mksh" remote="x86" revision="oreo-x86" />
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="oreo-x86" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="oreo-x86" />
-  <!-- <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="oreo-x86"/> -->
+  <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="oreo-x86"/>
   <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="oreo-x86" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="oreo-x86" />
   <project path="external/wpa_supplicant_8" name="BlissRoms-x86/external_wpa_supplicant_8" groups="pdk" remote="github" revision="o8.0-x86"/>

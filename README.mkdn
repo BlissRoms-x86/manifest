@@ -1,72 +1,57 @@
-![bliss_logo](https://user-images.githubusercontent.com/6454841/29614099-316afd46-8809-11e7-9776-9bbca181b21d.png)
+<img src="https://raw.github.com/BlissRoms/platform_manifest/new-mm6.0/bliss-logo.png">
 
-Getting Started
----------------
+Download the Bliss-x86 source code, based on [Android-x86](http://www.android-x86.org)
 
-To get started with Android/Bliss, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+Usage and Installation instructions can be found on our [XDA thread](https://forum.xda-developers.com/android/software/x86-bliss-x86-pc-s-t3534657)
+---------------------------------------------------
 
-To initialize your local repository using the Bliss trees, use this command:
+Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
+
+Grabbing Dependencies
+-----------------------
+
+    $ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext
+
+Initializing Repository
+-----------------------
+
+Repo initialization:
+
+    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b o8.0-x86
 
 
-    repo init -u https://github.com/BlissRoms-x86/manifest.git -b o8.0-x86
+sync repo :
 
-Then to sync up:
-
-    repo sync -j#
-
-This(j#) depends on number of cpu cores - use just "repo sync" if you are 
-unsure.
-
-To build for your device.
-
-. build/envsetup.sh
-
-breakfast `device name here`
-
-brunch `device name here`
-
-or make it all in one line.
-
-. build/envsetup.sh && breakfast `device name here` && brunch `device name here`
-
-For more information on this Github Organization and how it is structured,
-please [read the wiki 
-article](http://wiki.cyanogenmod.org/w/Github_Organization)
+    $ repo sync --no-tags --no-clone-bundle
 
 ***
 
-Using Build Script
-------------------
+Building
+--------
 
-run command  ". build.sh" and follow the command prompts.
+After the sync is finished, please read the [Building the image instructions from the Android-x86 site](http://www.android-x86.org/getsourcecode) on how to build.
 
+For 32 bit userspace:
 
-Bliss Gerrit
-------------
-Gerrit Link : review.blissroms.com
-
-If you would like to contribute to the BlissRoms project submit patches to:
-`review.blissroms.com`. Then head into the project and clone it locally, make 
-changes and push back to Bliss review.
-
-How To Submit To Gerrit:
------------------------
-
-First and foremost, setup your github with out Gerrit.
-
-Clone the repo you would like to commit to from the [Gerrit Project 
-List](http://review.blissroms.com:8081/#/admin/projects/)
-   -Select from the list and copy clone command line.
-
-Make sure you have git review installed
-   ' sudo apt-get install git-review '
+    $ . build/envsetup.sh
    
-Make sure you are on the correct branch : o8.0
+    $ lunch bliss_android_x86-userdebug
+   
+    $ mka iso_img
 
-Make your change and commit it
-' git add -A && git commit '
+For 64 bit userspace:
 
-Now just type git review, if it does not have the remote yet it will 
-automatically add it and just answer yes to its questions. It will push to the 
-gerrit for you.
+    $ . build/envsetup.sh
+   
+    $ lunch bliss_android_x86_64-userdebug
+   
+    $ mka iso_img
+
+If you would like to make a UEFI .img file:
+   
+    $ mka efi_img
+
+If you get errors while building the kernel (like `recipe for target 'silentoldconfig' failed`), try cleaning the output directory, then building the kernel with a single thread:
+
+    $ make clean
+    $ make kernel -j1 && make iso_img
