@@ -124,7 +124,7 @@
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="oreo-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="oreo-x86" />
   <!-- <project path="external/mesa" name="external-mesa" remote="x86" revision="oreo-x86" /> -->
-  <project path="external/mesa" name="intel/external-mesa" remote="github" revision="master" />
+  <project path="external/mesa" name="intel/external-mesa" remote="github" revision="previous" />
   <project path="external/llvm" name="external-llvm" remote="x86" revision="oreo-x86" />
   <project path="external/drm_gralloc" name="external-drm_gralloc" remote="x86" revision="oreo-x86" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" revision="oreo-x86" />
