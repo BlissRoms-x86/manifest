@@ -76,6 +76,7 @@
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="BR-x86" revision="n7.1.2-x86"/>
   <project path="external/mesa" name="mesa" remote="BR-x86" revision="nougat-x86" />
   <project path="external/libdrm" name="external_libdrm" groups="pdk" remote="BR-x86" revision="nougat-x86" />
+  <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="nougat-x86" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="BR-x86" revision="n7.1.2-x86" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="n7.1-x86-n2" />
