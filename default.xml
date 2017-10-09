@@ -142,6 +142,8 @@
   <project path="vendor/opengapps/sources/x86_64" name="electrikjesus/x86_64" clone-depth="1" revision="n7.1" remote="github" /> -->
   
   <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="2" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="2" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="2" revision="master" remote="opengapps" />
