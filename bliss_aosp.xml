@@ -49,6 +49,8 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/system/bt" />
@@ -84,6 +86,8 @@
 
   <!-- Apps -->
 
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" revision="o8.0" />
 
