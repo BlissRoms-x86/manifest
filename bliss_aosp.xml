@@ -47,6 +47,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -151,6 +152,7 @@
 
   <project path="system/core" name="platform_system_core" remote="BlissRoms" revision="o8.0" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
+  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" revision="o8.0" />
   <project path="system/nfc" name="platform_system_nfc" remote="BlissRoms" revision="o8.0" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" revision="o8.0" />
