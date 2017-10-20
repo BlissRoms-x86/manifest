@@ -93,6 +93,7 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/apps/SnapdragonGallery" name="platform_packages_apps_SnapdragonGallery" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" revision="o8.0" />
 
   <!-- External -->
