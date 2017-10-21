@@ -54,6 +54,7 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/external/mksh" />
@@ -92,8 +93,10 @@
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/SnapdragonGallery" name="platform_packages_apps_SnapdragonGallery" remote="BlissRoms" revision="o8.0" />
+  <project path="packages/apps/SnapdragonMusic" name="platform_packages_apps_SnapdragonMusic" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" revision="o8.0" />
 
   <!-- External -->
