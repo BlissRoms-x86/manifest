@@ -6,18 +6,20 @@
 
   <remote name="BlissRoms-Devices"
           fetch="https://github.com/BlissRoms-Devices" />
-  
+
   <remote name="github"
 		  fetch="https://github.com" />
-			
+
   <remote  name="x86"
           fetch="git://git.osdn.net/gitroot/android-x86" />
-          
+
   <remote  name="osdn"
           fetch="git://git.osdn.net/gitroot" />
 
   <!-- Remove first some AOSP repos -->
 
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
@@ -85,22 +87,22 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="kernel/pc_common" name="BlissRoms-x86/kernel_common" remote="github" revision="kernel-4.9-ax86" />
-  <project path="art" name="platform/art" remote="x86" revision="oreo-x86" />
+  <project path="art" name="BlissRoms-x86/platform_art" remote="github" revision="o8.0" />
   <project path="bionic" name="BlissRoms-x86/platform_bionic" remote="github" revision="o8.0" />
-  <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="n-x86-sg" />
+  <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="o8.0-x86" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/native" name="BlissRoms-x86/frameworks_native" remote="github" revision="o8.0-x86" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Settings" name="BlissRoms-x86/packages_apps_Settings" remote="github" revision="o8.0-x86" />
-    
+
   <project path="system/core" name="BlissRoms-x86/platform_system_core" remote="github" revision="o8.0-x86" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
   <project path="system/bt" name="platform/system/bt" remote="x86" revision="oreo-x86" />
   <project path="system/media" name="platform/system/media" remote="x86" revision="oreo-x86" />
   <project path="system/vold" name="platform/system/vold" remote="x86" revision="oreo-x86" />
-  
+
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="BlissRoms" revision="o8.0" />
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" revision="o8.0" />
@@ -113,18 +115,20 @@
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/libsensors" name="hardware-libsensors" remote="x86" revision="oreo-x86" />
-  
+
   <project path="device/generic/pc_common" name="BlissRoms-x86/device_generic_pc_common" remote="github" revision="oreo-x86" />
   <project path="device/generic/pc_x86" name="BlissRoms-x86/device_generic_pc_x86" remote="github" revision="oreo-x86" />
   <project path="device/generic/pc_x86_64" name="BlissRoms-x86/device_generic_pc_x86_64" remote="github" revision="oreo-x86" />
   <project path="device/generic/firmware" name="BlissRoms-x86/device_generic_firmware" remote="github" revision="n7.1-x86-torvalds" />
-  
+  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="x86" revision="multiwindow-oreo" />
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" remote="x86" revision="multiwindow-oreo" />
+  <project path="device/generic/openthos" name="device/generic/openthos" remote="x86" revision="multiwindow-oreo" />
+
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="oreo-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="oreo-x86" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="oreo-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="oreo-x86" />
-  <!-- <project path="external/mesa" name="external-mesa" remote="x86" revision="oreo-x86" /> -->
-  <project path="external/mesa" name="intel/external-mesa" remote="github" revision="previous" />
+  <project path="external/mesa" name="external-mesa" remote="x86" revision="oreo-x86" />
   <project path="external/llvm" name="external-llvm" remote="x86" revision="oreo-x86" />
   <project path="external/drm_gralloc" name="external-drm_gralloc" remote="x86" revision="oreo-x86" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" revision="oreo-x86" />
@@ -143,7 +147,7 @@
   <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="oreo-x86" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="oreo-x86" />
   <project path="external/wpa_supplicant_8" name="BlissRoms-x86/external_wpa_supplicant_8" groups="pdk" remote="github" revision="o8.0-x86"/>
-  
+
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="x86" revision="oreo-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="oreo-x86" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="oreo-x86" />
@@ -163,14 +167,14 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="x86" revision="oreo-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="oreo-x86" />
   <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="oreo-x86" />
-  
+
   <!-- BEGIN OPENGAPPS-X86 -->
 
   <project path="vendor/google/build" name="electrikjesus/aosp_build" revision="master" remote="github" />
   <project path="vendor/opengapps/sources/all" name="electrikjesus/all" clone-depth="1" revision="n7.1" remote="github" />
   <project path="vendor/opengapps/sources/x86" name="electrikjesus/x86" clone-depth="1" revision="n7.1" remote="github" />
   <project path="vendor/opengapps/sources/x86_64" name="electrikjesus/x86_64" clone-depth="1" revision="n7.1" remote="github" />
-	
+
   <!-- END OPENGAPPS-X86 -->
   <!--                       -->
 
