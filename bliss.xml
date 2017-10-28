@@ -125,7 +125,7 @@
   <project path="device/generic/firmware" name="BlissRoms-x86/device_generic_firmware" remote="github" revision="n7.1-x86-torvalds" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="x86" revision="multiwindow-oreo" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" remote="x86" revision="multiwindow-oreo" />
-  <project path="device/generic/openthos" name="device/generic/openthos" remote="x86" revision="multiwindow-oreo" />
+  <project path="device/generic/blissemu" name="BlissRoms-x86/device/generic/blissemu" remote="github" revision="o8.0" />
 
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="oreo-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="oreo-x86" />
