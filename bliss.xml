@@ -13,6 +13,9 @@
   <remote name="opengapps"
           fetch="https://github.com/opengapps/" />
 
+  <remote  name="ia"
+           fetch="https://github.com/android-ia/" />
+
   <remote  name="x86"
           fetch="git://git.osdn.net/gitroot/android-x86" />
 
@@ -125,7 +128,7 @@
   <project path="device/generic/firmware" name="BlissRoms-x86/device_generic_firmware" remote="github" revision="n7.1-x86-torvalds" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="x86" revision="multiwindow-oreo" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" remote="x86" revision="multiwindow-oreo" />
-  <project path="device/generic/blissemu" name="BlissRoms-x86/device/generic/blissemu" remote="github" revision="o8.0" />
+  <project path="device/generic/blissemu" name="BlissRoms-x86/blissemu" remote="github" revision="o8.0" />
 
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="oreo-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="oreo-x86" />
@@ -136,7 +139,7 @@
   <project path="external/drm_gralloc" name="external-drm_gralloc" remote="x86" revision="oreo-x86" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" revision="oreo-x86" />
   <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
-  <project path="external/minigbm" name="intel/minigbm" remote="github" revision="master" />
+  <!-- <project path="external/minigbm" name="intel/minigbm" remote="github" revision="master" /> -->
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="x86" revision="oreo-x86" />
   <project path="external/eject" name="platform/external/eject" remote="x86" revision="oreo-x86" />
   <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="oreo-x86" />
@@ -181,6 +184,27 @@
   <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="2" revision="master" remote="opengapps" />
 
   <!-- END OPENGAPPS-X86 -->
+
+  <!-- Android-IA -->
+
+  <!--<project name="platform_external_efitools" path="external/efitools" remote="ia" revision="master"/>
+  <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="ia" revision="master" />
+  <project name="external-gnu-efi" path="external/gnu-efi" groups="pdk" remote="ia" revision="master" />
+  <project name="userfastboot" path="bootable/userfastboot" remote="ia" revision="master" />
+  <project name="efivar" path="external/efivar" groups="pdk" remote="ia" revision="master"/> -->
+
+
+  <!-- BEGIN SUPERSU -->
+
+    <project path="vendor/supersu" name="BlissRoms-x86/vendor-supersu" remote="github" revision="nougat" />
+
+  <!-- END SUPERSU -->
+
+  <!-- BEGIN INTEL-HOUDINI -->
+
+    <project path="vendor/intel/houdini" name="BlissRoms-x86/vendor-intel-houdini" remote="github" revision="nougat" />
+
+  <!-- END INTEL-HOUDINI -->
   <!--                       -->
 
 </manifest>
