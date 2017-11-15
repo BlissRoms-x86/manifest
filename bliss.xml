@@ -64,6 +64,7 @@
   <remove-project name="platform/external/mesa3d" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/swiftshader" />
+  <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/drm_gralloc" />
   <remove-project name="platform/packages/apps/Camera2" />
@@ -98,11 +99,11 @@
   <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="o8.0-x86" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="o8.0" />
-  <project path="frameworks/native" name="BlissRoms-x86/frameworks_native" remote="github" revision="o8.0-x86" />
+  <project path="frameworks/native" name="BlissRoms-x86/frameworks_native" remote="github" revision="oreo-x86" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Settings" name="BlissRoms-x86/packages_apps_Settings" remote="github" revision="o8.0-x86" />
 
-  <project path="system/core" name="BlissRoms-x86/platform_system_core" remote="github" revision="o8.0-x86" />
+  <project path="system/core" name="BlissRoms-x86/platform_system_core" remote="github" revision="oreo-x86" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
   <project path="system/bt" name="platform/system/bt" remote="x86" revision="oreo-x86" />
@@ -151,6 +152,7 @@
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="oreo-x86" />
   <!--<project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="oreo-x86"/> -->
   <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="oreo-x86" />
+  <project path="external/toybox" name="platform/external/toybox" remote="x86" revision="oreo-x86" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="oreo-x86" />
   <project path="external/wpa_supplicant_8" name="BlissRoms-x86/external_wpa_supplicant_8" groups="pdk" remote="github" revision="o8.0-x86"/>
 
