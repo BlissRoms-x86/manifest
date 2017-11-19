@@ -103,7 +103,7 @@
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Settings" name="BlissRoms-x86/packages_apps_Settings" remote="github" revision="o8.0-x86" />
 
-  <project path="system/core" name="BlissRoms-x86/platform_system_core" remote="github" revision="oreo-x86" />
+  <project path="system/core" name="BlissRoms-x86/platform_system_core" remote="github" revision="o-dev" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
   <project path="system/bt" name="BlissRoms-x86/platform_system_bt" remote="github" revision="o8.0-x86" />
