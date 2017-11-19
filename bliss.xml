@@ -106,7 +106,7 @@
   <project path="system/core" name="BlissRoms-x86/platform_system_core" remote="github" revision="oreo-x86" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
-  <project path="system/bt" name="platform/system/bt" remote="x86" revision="oreo-x86" />
+  <project path="system/bt" name="BlissRoms-x86/platform_system_bt" remote="github" revision="o8.0-x86" />
   <project path="system/media" name="platform/system/media" remote="x86" revision="oreo-x86" />
   <project path="system/vold" name="platform/system/vold" remote="x86" revision="oreo-x86" />
 
@@ -175,15 +175,17 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="x86" revision="oreo-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="oreo-x86" />
   <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="oreo-x86" />
+  <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="oreo-x86" groups="notdefault"/>
+  <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="oreo-x86" groups="notdefault"/>
 
   <!-- BEGIN OPENGAPPS-X86 -->
 
-  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="2" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="2" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="2" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" groups="notdefault"/>
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" groups="notdefault"/>
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" groups="notdefault"/>
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="2" revision="master" remote="opengapps" groups="notdefault"/>
+  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="2" revision="master" remote="opengapps" groups="notdefault"/>
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="2" revision="master" remote="opengapps" groups="notdefault"/>
 
   <!-- END OPENGAPPS-X86 -->
 
@@ -198,15 +200,22 @@
 
   <!-- BEGIN SUPERSU -->
 
-    <project path="vendor/supersu" name="BlissRoms-x86/vendor-supersu" remote="github" revision="nougat" />
+    <project path="vendor/supersu" name="BlissRoms-x86/vendor-supersu" remote="github" revision="nougat" groups="notdefault"/>
 
   <!-- END SUPERSU -->
 
   <!-- BEGIN INTEL-HOUDINI -->
 
-    <project path="vendor/intel/houdini" name="BlissRoms-x86/vendor-intel-houdini" remote="github" revision="nougat" />
+    <project path="vendor/intel/houdini" name="BlissRoms-x86/vendor-intel-houdini" remote="github" revision="nougat" groups="notdefault"/>
 
   <!-- END INTEL-HOUDINI -->
+  
+  <!-- BEGIN TWRP -->
+
+	<!-- <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-8.0" groups="notdefault"/>-->
+  
+  <!-- END TWRP -->
+
   <!--                       -->
 
 </manifest>
