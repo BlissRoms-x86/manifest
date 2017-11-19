@@ -96,7 +96,7 @@
   <project path="kernel/pc_common" name="BlissRoms-x86/kernel_common" remote="github" revision="kernel-4.9-ax86" />
   <project path="art" name="BlissRoms-x86/platform_art" remote="github" revision="o8.0" />
   <project path="bionic" name="BlissRoms-x86/platform_bionic" remote="github" revision="o8.0" />
-  <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="o8.0-x86" />
+  <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="oreo-x86" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="o8.0" />
   <project path="frameworks/native" name="BlissRoms-x86/frameworks_native" remote="github" revision="oreo-x86" />
