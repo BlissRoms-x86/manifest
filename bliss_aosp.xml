@@ -65,6 +65,7 @@
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
 
   <!--                              -->
 
@@ -98,6 +99,7 @@
   <project path="packages/apps/SnapdragonGallery" name="platform_packages_apps_SnapdragonGallery" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/SnapdragonMusic" name="platform_packages_apps_SnapdragonMusic" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" revision="o8.0-rebase" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" revision="o8.0-rebase" />
 
   <!-- External -->
   <project path="external/connectivity" name="platform_external_connectivity" remote="BlissRoms" revision="o8.0" />
