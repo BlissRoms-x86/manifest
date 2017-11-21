@@ -98,7 +98,7 @@
   <project path="bionic" name="BlissRoms-x86/platform_bionic" remote="github" revision="o8.0" />
   <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="oreo-x86" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="o8.0" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="o8.0" />
+  <project path="frameworks/base" name="BlissRoms-x86/platform_frameworks_base" remote="github" revision="o8.0-x86" />
   <project path="frameworks/native" name="BlissRoms-x86/frameworks_native" remote="github" revision="oreo-x86" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Settings" name="BlissRoms-x86/packages_apps_Settings" remote="github" revision="o8.0-x86" />
