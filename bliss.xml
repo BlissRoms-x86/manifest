@@ -26,6 +26,9 @@
 
   <remove-project name="device/generic/goldfish" />
   <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
@@ -130,6 +133,9 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="x86" revision="multiwindow-oreo" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" remote="x86" revision="multiwindow-oreo" />
   <project path="device/generic/blissemu" name="BlissRoms-x86/blissemu" remote="github" revision="o8.0" />
+  <project path="device/generic/common" name="device/generic/common" remote="x86" revision="oreo-x86" />
+  <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
+  <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
 
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="oreo-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="oreo-x86" />
