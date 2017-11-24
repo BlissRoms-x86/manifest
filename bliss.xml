@@ -96,8 +96,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="kernel/pc_common" name="BlissRoms-x86/kernel_common" remote="github" revision="kernel-4.9-ax86" />
-  <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.9" />
+  <project path="kernel" name="BlissRoms-x86/kernel_common" remote="github" revision="kernel-4.9-ax86" />
+  <!--<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.9" /> -->
   <project path="art" name="BlissRoms-x86/platform_art" remote="github" revision="o8.0" />
   <project path="bionic" name="BlissRoms-x86/platform_bionic" remote="github" revision="o8.0" />
   <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="oreo-x86" />
@@ -127,14 +127,14 @@
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/libsensors" name="hardware-libsensors" remote="x86" revision="oreo-x86" />
 
-  <project path="device/generic/pc_common" name="BlissRoms-x86/device_generic_pc_common" remote="github" revision="oreo-x86" />
-  <project path="device/generic/pc_x86" name="BlissRoms-x86/device_generic_pc_x86" remote="github" revision="oreo-x86" />
-  <project path="device/generic/pc_x86_64" name="BlissRoms-x86/device_generic_pc_x86_64" remote="github" revision="oreo-x86" />
+  <project path="device/generic/common" name="BlissRoms-x86/device_generic_common" remote="github" revision="oreo-x86" />
+  <!--<project path="device/generic/pc_x86" name="BlissRoms-x86/device_generic_pc_x86" remote="github" revision="oreo-x86" />
+  <project path="device/generic/pc_x86_64" name="BlissRoms-x86/device_generic_pc_x86_64" remote="github" revision="oreo-x86" /> -->
   <project path="device/generic/firmware" name="BlissRoms-x86/device_generic_firmware" remote="github" revision="n7.1-x86-torvalds" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="x86" revision="multiwindow-oreo" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" remote="x86" revision="multiwindow-oreo" />
   <project path="device/generic/blissemu" name="BlissRoms-x86/blissemu" remote="github" revision="o8.0" />
-  <project path="device/generic/common" name="device/generic/common" remote="x86" revision="oreo-x86" />
+  <!-- <project path="device/generic/common" name="device/generic/common" remote="x86" revision="oreo-x86" />  -->
   <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
 
@@ -181,18 +181,18 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="oreo-x86" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="x86" revision="oreo-x86" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="oreo-x86" />
-  <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="oreo-x86" />
+  <!-- <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="oreo-x86" /> -->
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="oreo-x86" groups="notdefault"/>
   <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="oreo-x86" groups="notdefault"/>
 
   <!-- BEGIN OPENGAPPS-X86 -->
 
-  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" groups="notdefault"/>
-  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" groups="notdefault"/>
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" groups="notdefault"/>
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="2" revision="master" remote="opengapps" groups="notdefault"/>
-  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="2" revision="master" remote="opengapps" groups="notdefault"/>
-  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="2" revision="master" remote="opengapps" groups="notdefault"/>
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" groups=""/>
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" groups=""/>
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" groups=""/>
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="2" revision="master" remote="opengapps" groups=""/>
+  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="2" revision="master" remote="opengapps" groups=""/>
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="2" revision="master" remote="opengapps" groups=""/>
 
   <!-- END OPENGAPPS-X86 -->
 
@@ -216,11 +216,11 @@
     <project path="vendor/intel/houdini" name="BlissRoms-x86/vendor-intel-houdini" remote="github" revision="nougat" groups="notdefault"/>
 
   <!-- END INTEL-HOUDINI -->
-  
+
   <!-- BEGIN TWRP -->
 
 	<!-- <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-8.0" groups="notdefault"/>-->
-  
+
   <!-- END TWRP -->
 
   <!--                       -->
