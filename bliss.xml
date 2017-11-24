@@ -99,8 +99,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <!-- <project path="kernel" name="BlissRoms-x86/kernel_common" remote="github" revision="k4.9.54-ax86-b" /> -->
-  <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.9" />
+  <project path="kernel" name="BlissRoms-x86/kernel_common" remote="github" revision="k4.9.54-ax86-b" />
+  <!--<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.9" /> -->
   <project path="art" name="BlissRoms-x86/platform_art" remote="github" revision="o8.0" />
   <project path="bionic" name="BlissRoms-x86/platform_bionic" remote="github" revision="o8.0" />
   <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="oreo-x86" />
