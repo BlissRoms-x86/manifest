@@ -217,7 +217,7 @@
 
   <!-- BEGIN SUPERSU -->
 
-    <project path="vendor/supersu" name="BlissRoms-x86/vendor-supersu" remote="github" revision="nougat" groups="notdefault"/>
+    <project path="vendor/supersu" name="BlissRoms-x86/vendor-supersu" remote="github" revision="v2.82-SR5" groups=""/>
 
   <!-- END SUPERSU -->
 
