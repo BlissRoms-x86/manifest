@@ -55,7 +55,7 @@
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/common/libva" />
   <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/interfaces" />
+  <!-- <remove-project name="platform/hardware/interfaces" /> -->
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/keymaster" />
@@ -130,10 +130,10 @@
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/libsensors" name="hardware-libsensors" remote="x86" revision="oreo-x86" />
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" revision="o8.0" />
+  <!-- <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" revision="o8.0" >
       <copyfile dest="hardware/bliss/Android.bp" src="Android.bp"/>
-  </project>
+  </project> -->
 
   <project path="device/generic/common" name="BlissRoms-x86/device_generic_common" remote="github" revision="oreo-x86" />
   <!--<project path="device/generic/pc_x86" name="BlissRoms-x86/device_generic_pc_x86" remote="github" revision="oreo-x86" />
@@ -193,7 +193,7 @@
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="oreo-x86" groups="notdefault"/>
   <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="oreo-x86" groups="notdefault"/>
 	
-  <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="BlissRoms" revision="o8.0" />
+  <!-- <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="BlissRoms" revision="o8.0" /> -->
 
   <!-- BEGIN OPENGAPPS-X86 -->
 
