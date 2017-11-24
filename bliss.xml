@@ -44,7 +44,7 @@
   <remove-project name="platform/system/extras" />
   <!-- <remove-project name="platform/system/hardware/interfaces" /> -->
   <remove-project name="platform/system/media" />
-  <!-- <remove-project name="platform/system/netd" /> -->
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/packages/providers/MediaProvider" />
@@ -118,6 +118,7 @@
   <project path="system/media" name="platform/system/media" remote="x86" revision="oreo-x86" />
   <project path="system/vold" name="platform/system/vold" remote="x86" revision="oreo-x86" />
   <!-- <project path="system/netd" name="platform_system_netd" remote="BlissRoms" revision="o8.0" /> -->
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="BR-x86" revision="O8.0-X86"/>
 
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="BlissRoms" revision="o8.0" />
