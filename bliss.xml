@@ -53,6 +53,7 @@
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/common/libva" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/keymaster" />
@@ -184,6 +185,8 @@
   <!-- <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="oreo-x86" /> -->
   <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="oreo-x86" groups="notdefault"/>
   <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="oreo-x86" groups="notdefault"/>
+	
+  <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="BlissRoms" revision="o8.0" />
 
   <!-- BEGIN OPENGAPPS-X86 -->
 
