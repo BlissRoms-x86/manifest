@@ -79,6 +79,7 @@
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/Bluetooth" /> 
 
   <!--                              -->
 
@@ -110,6 +111,7 @@
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" revision="o8.0" />
   <project path="packages/apps/Settings" name="BlissRoms-x86/packages_apps_Settings" remote="github" revision="o8.0-x86" />
   <project path="packages/apps/Blissify" name="BlissRoms-x86/platform_packages_apps_Blissify" remote="github" revision="o8.0" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="x86" revision="oreo-x86" /> 
 
   <project path="system/core" name="platform/system/core" remote="x86" revision="oreo-x86" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
