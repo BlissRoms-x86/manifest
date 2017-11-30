@@ -241,7 +241,6 @@
   <!-- START OPENTHOS -->
   
   <project path="packages/apps/OtoKeyboardMap" name="openthos/oto_packages_apps_OtoKeyboardMap" remote="github" revision="multiwindow" />
-  <project path="packages/apps/OtoVirtualGUI" name="openthos/oto_packages_apps_OtoVirtualGUI" remote="github" revision="multiwindow" />
   
   <!-- END OPENTHOS -->
 
