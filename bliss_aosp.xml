@@ -170,6 +170,6 @@
 
   <!-- Vendor -->
 
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="o8.0" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="o8.0-rebase" />
 
 </manifest>
