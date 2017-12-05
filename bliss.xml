@@ -135,7 +135,9 @@
   <project path="system/vold" name="platform/system/vold" remote="x86" revision="oreo-x86" />
   <!-- <project path="system/netd" name="platform_system_netd" remote="BlissRoms" revision="o8.0" /> -->
   <project path="system/netd" name="BlissRoms-x86/platform_system_netd" groups="pdk" remote="github" revision="o8.0-x86"/>
-
+  
+  <project path="external/toybox" name="BlissRoms-x86/platform_external_toybox" remote="github" revision="o8.0-x86" />
+  
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="o8.0" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="BlissRoms" revision="o8.0" />
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" revision="o8.0" />
@@ -185,7 +187,6 @@
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="oreo-x86" />
   <!--<project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="oreo-x86"/> -->
   <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="oreo-x86" />
-  <project path="external/toybox" name="platform/external/toybox" remote="x86" revision="oreo-x86" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="oreo-x86" />
   <project path="external/wpa_supplicant_8" name="BlissRoms-x86/external_wpa_supplicant_8" groups="pdk" remote="github" revision="o8.0-x86"/>
 
