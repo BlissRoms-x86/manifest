@@ -35,15 +35,15 @@
   <!-- Hardware QCOM HAL -->
   <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="BlissRoms" revision="o8.0-msm8952" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="BlissRoms" revision="o8.0-msm8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="BlissRoms" revision="o8.0-msm8998" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="o8.0-caf-msm8952" />
+  <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="o8.0-msm8952" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8994" />
@@ -51,7 +51,7 @@
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8998" />
   <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="BlissRoms" revision="o8.0-msm8952" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8994" />
