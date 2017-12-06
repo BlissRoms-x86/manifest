@@ -158,7 +158,7 @@
   <project path="device/generic/common" name="BlissRoms-x86/device_generic_common" remote="github" revision="oreo-x86" />
   <!--<project path="device/generic/pc_x86" name="BlissRoms-x86/device_generic_pc_x86" remote="github" revision="oreo-x86" />
   <project path="device/generic/pc_x86_64" name="BlissRoms-x86/device_generic_pc_x86_64" remote="github" revision="oreo-x86" /> -->
-  <project path="device/generic/firmware" name="BlissRoms-x86/device_generic_firmware" remote="github" revision="n7.1-x86-torvalds" />
+  <project path="device/generic/firmware" name="BlissRoms-x86/device_generic_firmware" remote="github" revision="dev-kernel.org" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="x86" revision="multiwindow-oreo" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" remote="x86" revision="multiwindow-oreo" />
   <project path="device/generic/blissemu" name="BlissRoms-x86/blissemu" remote="github" revision="o8.0" />
