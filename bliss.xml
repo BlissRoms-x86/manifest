@@ -130,7 +130,7 @@
   <project path="system/core" name="platform/system/core" remote="x86" revision="oreo-x86" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" revision="o8.0" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="o8.0" />
-  <project path="system/bt" name="BlissRoms-x86/platform_system_bt" remote="github" revision="o8.0-x86" />
+  <project path="system/bt" name="BlissRoms-x86/platform_system_bt" remote="github" revision="oreo-x86" />
   <project path="system/media" name="platform/system/media" remote="x86" revision="oreo-x86" />
   <project path="system/vold" name="BlissRoms-x86/platform_system_vold" remote="github" revision="oreo-x86-dev" />
   <!-- <project path="system/netd" name="platform_system_netd" remote="BlissRoms" revision="o8.0" /> -->
