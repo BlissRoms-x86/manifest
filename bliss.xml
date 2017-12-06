@@ -68,7 +68,7 @@
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/common/libva" />
   <remove-project name="platform/hardware/libhardware" />
-  <!-- <remove-project name="platform/hardware/interfaces" /> -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/keymaster" />
@@ -154,6 +154,7 @@
   <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" revision="o8.0" >
       <copyfile dest="hardware/bliss/Android.bp" src="Android.bp"/>
   </project> -->
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" remote="x86" revision="oreo-x86" />
 
   <project path="device/generic/common" name="BlissRoms-x86/device_generic_common" remote="github" revision="oreo-x86" />
   <!--<project path="device/generic/pc_x86" name="BlissRoms-x86/device_generic_pc_x86" remote="github" revision="oreo-x86" />
