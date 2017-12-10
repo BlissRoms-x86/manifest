@@ -93,7 +93,6 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Bluetooth" /> 
-  <remove-project name="platform/packages/services/Telecomm" />
   
   <!--                              -->
 
