@@ -233,18 +233,17 @@
   <project name="userfastboot" path="bootable/userfastboot" remote="ia" revision="master" />
   <project name="efivar" path="external/efivar" groups="pdk" remote="ia" revision="master"/> -->
 
+  <!-- BEGIN INTEL-HOUDINI -->
+
+  <project path="vendor/intel/houdini" name="BlissRoms-x86/vendor_intel_houdini" remote="github" revision="oreo-x86" />
+
+  <!-- END INTEL-HOUDINI -->
 
   <!-- BEGIN SUPERSU -->
 
     <project path="vendor/supersu" name="BlissRoms-x86/vendor-supersu" remote="github" revision="v2.82-SR5" groups=""/>
 
   <!-- END SUPERSU -->
-
-  <!-- BEGIN INTEL-HOUDINI -->
-
-    <project path="vendor/intel/houdini" name="BlissRoms-x86/vendor-intel-houdini" remote="github" revision="nougat" groups="notdefault"/>
-
-  <!-- END INTEL-HOUDINI -->
 
   <!-- BEGIN TWRP -->
 
