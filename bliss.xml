@@ -168,7 +168,7 @@
 
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="oreo-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="oreo-x86" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="oreo-x86" />
+  <project path="external/bluetooth/bluez" name="BlissRoms-x86/platform_external_bluetooth_bluez" remote="github" revision="oreo-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="oreo-x86" />
   <project path="external/mesa" name="BlissRoms-x86/mesa" remote="github" revision="oreo-x86-dev" />
   <project path="external/llvm" name="external-llvm" remote="x86" revision="oreo-x86" />
