@@ -235,7 +235,7 @@
 
   <!-- BEGIN INTEL-HOUDINI -->
 
-  <project path="vendor/intel/houdini" name="BlissRoms-x86/vendor_intel_houdini" remote="github" revision="oreo-x86" />
+  <project path="vendor/intel/houdini" name="BlissRoms-x86/vendor-intel-houdini" remote="github" revision="oreo-x86" />
 
   <!-- END INTEL-HOUDINI -->
 
