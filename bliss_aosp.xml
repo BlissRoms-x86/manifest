@@ -448,11 +448,8 @@
   <!-- BEGIN OPENGAPPS-X86 -->
 
   <project path="vendor/opengapps/build" name="aosp_build" revision="master" upstream="ed929448770141e50bbbdc0d8d95f778cbe107e0" remote="opengapps" groups=""/>
-  <project path="vendor/opengapps/sources/arm" name="arm" revision="e1cf4a3e930c2afe80e67d3fb255e9e766434813" upstream="master" remote="opengapps" groups=""/>
-  <project path="vendor/opengapps/sources/arm64" name="arm64" revision="007a4038f0a2de23153e63e820a7ab4fdfef2011" upstream="master" remote="opengapps" groups=""/>
   <project path="vendor/opengapps/sources/all" name="all" revision="2809e82b8855a67c6f42d8285e7666c6a4dbddd7" upstream="master" remote="opengapps" groups=""/>
   <project path="vendor/opengapps/sources/x86" name="x86" revision="a0d6d82d20236cc0b312da503488e48d737192c7" upstream="master" remote="opengapps" groups=""/>
-  <project path="vendor/opengapps/sources/x86_64" name="x86_64" revision="7a2ccc3e1ddae40e2bde2d166ff587a79b0b8474" upstream="master" remote="opengapps" groups=""/>
 
   <!-- END OPENGAPPS-X86 -->
   
