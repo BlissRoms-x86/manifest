@@ -70,6 +70,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="kernel/tests" />
   
+  <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <!-- <remove-project name="platform/build/kati" /> -->
   <remove-project name="platform/build/soong" />
@@ -84,6 +85,7 @@
   <remove-project name="platform/external/arm-neon-tests" />
   <remove-project name="platform/external/drm_hwcomposer" />
   
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/elfutils" />
   
   <remove-project name="platform/external/jline" />
@@ -101,8 +103,6 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
    
   <remove-project name="platform/external/selinux" />
-  
-  <remove-project name="platform/external/toybox" />
   
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
@@ -165,13 +165,12 @@
   
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/services/Telecomm" />
   
-  <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Car/Dialer" />
   <remove-project name="platform/packages/apps/Car/Hvac" />
@@ -194,7 +193,6 @@
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/apps/Nfc" />
   
   <remove-project name="platform/packages/apps/Tag" />
@@ -205,6 +203,8 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/MusicFX" />
+  
+  <remove-project name="platform/packages/apps/Settings" />
   
   <remove-project name="platform/packages/experimental" />
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
@@ -272,7 +272,7 @@
 
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
+  <!-- <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" /> -->
   <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" remote="BlissRoms" revision="o8.0" />
   <!-- <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" /> -->
   <project path="packages/apps/SnapdragonGallery" name="platform_packages_apps_SnapdragonGallery" remote="BlissRoms" />
@@ -283,18 +283,18 @@
   <!-- External -->
   <project path="external/connectivity" name="platform_external_connectivity" remote="BlissRoms" revision="o8.0" />
   <project path="external/ebtables" name="platform_external_ebtables" remote="BlissRoms" revision="o8.0" />
-  <project path="external/exfat" name="platform_external_exfat" remote="BlissRoms" revision="o8.0" />
+  <!-- <project path="external/exfat" name="platform_external_exfat" remote="BlissRoms" revision="o8.0" /> -->
   <project path="external/elfutils" name="platform_external_elfutils" remote="BlissRoms" revision="o8.0" />
   <project path="external/fuse" name="platform_external_fuse" remote="BlissRoms" revision="o8.0" />
   <project path="external/htop" name="platform_external_htop" remote="BlissRoms" revision="o8.0" />
   <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" revision="o8.0" />
   <project path="external/libncurses" name="platform_external_libncurses" remote="BlissRoms" revision="o8.0" />
   <project path="external/libnfc-nxp" name="platform_external_libnfc-nxp" remote="BlissRoms" />
-  <project path="external/mksh" name="platform_external_mksh" remote="BlissRoms" />
+  
   <project path="external/nano" name="platform_external_nano" remote="BlissRoms" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" />
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
-  <project path="external/toybox" name="platform_external_toybox" remote="BlissRoms" />
+  <!-- <project path="external/toybox" name="platform_external_toybox" remote="BlissRoms" /> -->
   <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="BlissRoms" />
 
   <!-- Frameworks -->
@@ -313,13 +313,13 @@
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" />
   <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="o8.0" />
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
+  <!-- <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" /> -->
   <!-- <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" /> -->
   <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" >
       <copyfile dest="hardware/bliss/Android.bp" src="Android.bp"/>
   </project>
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
+  <!-- <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" /> -->
+  <!-- <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" /> -->
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" />
 
    <!-- Input -->
@@ -342,9 +342,9 @@
   <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
   <project path="system/nfc" name="platform_system_nfc" remote="BlissRoms" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
-  <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
+  <!-- <project path="system/vold" name="platform_system_vold" remote="BlissRoms" /> -->
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
-  <project path="system/media" name="platform_system_media" remote="BlissRoms" />
+  <!-- <project path="system/media" name="platform_system_media" remote="BlissRoms" /> -->
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="BlissRoms" />
 
   <!-- Vendor -->
@@ -368,7 +368,7 @@
   
   <project path="external/toybox" name="BlissRoms-x86/platform_external_toybox" remote="github" revision="o8.1-x86" />
   <project path="external/mesa" name="BlissRoms-x86/mesa" remote="github" revision="oreo-x86-dev" />
-  
+  <project path="external/mksh" name="BlissRoms-x86/platform_external_mksh" remote="github" revision="o8.1-x86" />
   <project path="frameworks/av" name="BlissRoms-x86/frameworks_av" remote="github" revision="o8.1-x86" />
   <project path="frameworks/base" name="BlissRoms-x86/platform_frameworks_base" remote="github" revision="o8.1-x86" />
   <project path="frameworks/native" name="BlissRoms-x86/frameworks_native" remote="github" revision="o8.1-x86" />
@@ -410,7 +410,6 @@
   <project path="external/libtruezip" name="platform/external/libtruezip" remote="x86" revision="oreo-x86" />
   <project path="external/libdrm" name="external-libdrm" groups="pdk" remote="x86" revision="oreo-x86" />
   <project path="external/llvm" name="external-llvm" remote="x86" revision="oreo-x86" />
-  <project path="external/mksh" name="platform/external/mksh" remote="x86" revision="oreo-x86" />
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="oreo-x86" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="oreo-x86" />
   <!--<project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="oreo-x86"/> -->
