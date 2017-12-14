@@ -7,6 +7,28 @@ Usage and Installation instructions can be found on our [XDA thread](https://for
 
 Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
+-----------------------
+What you need to build [Bliss-x86](https://github.com/BlissRoms-x86/manifest)
+-----------------------
+
+    Latest Ubuntu LTS Releases https://www.ubuntu.com/download/server
+    Decent CPU (Dual Core or better for a faster performance)
+    8GB RAM (16GB for Virtual Machine)
+    250GB Hard Drive (about 170GB for the Repo and then building space needed)
+  
+-----------------------
+
+Installing Java 7
+
+    sudo add-apt-repository ppa:openjdk/ppa
+    sudo apt-get update && upgrade    
+    sudo apt-get install openjdk-7-jdk
+    update-alternatives --config java  (make sure Java 7 is selected)
+    update-alternatives --config javac (make sure Java 7 is selected)
+    reboot
+    
+-----------------------
+
 Grabbing Dependencies (for [Debian](https://www.debian.org) / [Ubuntu](https://www.ubuntu.com/download/server)
 -----------------------
 
