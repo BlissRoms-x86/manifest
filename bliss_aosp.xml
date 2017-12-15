@@ -319,7 +319,7 @@
       <copyfile dest="hardware/bliss/Android.bp" src="Android.bp"/>
   </project> -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
-  <!-- <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" /> -->
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" />
 
    <!-- Input -->
@@ -426,7 +426,7 @@
   <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="oreo-x86" />
   <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="oreo-x86" />
   <!-- <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="x86" revision="oreo-x86" /> -->
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="oreo-x86" />
+  <!-- <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="oreo-x86" /> -->
   <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="oreo-x86" />
   <project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="oreo-x86" />
   <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="oreo-x86" />
