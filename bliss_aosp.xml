@@ -381,7 +381,7 @@
   <!-- <project path="system/bt" name="BlissRoms-x86/platform_system_bt" remote="github" revision="oreo-x86" /> -->
   <project path="system/media" name="BlissRoms-x86/platform_system_media" remote="github" revision="o8.1-x86" />
   <!-- <project path="system/netd" name="BlissRoms-x86/platform_system_netd" groups="pdk" remote="github" revision="o8.0-x86"/> -->
-  <project path="system/vold" name="BlissRoms-x86/platform_system_vold" remote="github" revision="o8.1-x86" />
+  <project path="system/vold" name="BlissRoms-x86/platform_system_vold" remote="github" revision="o8.1-dev" />
   
   
   <project path="vendor/bliss" name="BlissRoms-x86/platform_vendor_bliss" remote="github" revision="o8.1-x86" />
