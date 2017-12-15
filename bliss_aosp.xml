@@ -251,8 +251,8 @@
   <!-- Begin BlissRoms repos -->
 
   <project path="manifest" name="platform_manifest" remote="BlissRoms" />
-  <!--<project path="build/kati" name="platform_build_kati" remote="BlissRoms" /> -->
-  <!-- <project path="build/make" name="platform_build_make" remote="BlissRoms" >
+  <project path="build/kati" name="platform_build_kati" remote="BlissRoms" /> 
+  <project path="build/make" name="platform_build_make" remote="BlissRoms" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -264,7 +264,7 @@
     <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project> -->
+  </project>
   <!--<project path="bionic" name="platform_bionic" remote="BlissRoms" /> -->
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
 
