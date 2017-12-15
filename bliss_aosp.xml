@@ -358,7 +358,7 @@
   <project path="bionic" name="BlissRoms-x86/platform_bionic" remote="github" revision="o8.1-x86" />
   <project path="bootable/newinstaller" name="BlissRoms-x86/bootable_newinstaller" remote="github" revision="oreo-x86" />
   
-  <project path="device/generic/common" name="BlissRoms-x86/device_generic_common" remote="github" revision="oreo-x86" />
+  <project path="device/generic/common" name="BlissRoms-x86/device_generic_common" remote="github" revision="o8.1-x86" />
   <project path="device/generic/firmware" name="BlissRoms-x86/device_generic_firmware" remote="github" revision="dev-kernel.org" />
   <project path="device/generic/blissemu" name="BlissRoms-x86/blissemu" remote="github" revision="o8.0" />
   
