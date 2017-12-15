@@ -447,12 +447,12 @@
 
   <!-- BEGIN OPENGAPPS-X86 -->
 
-  <project path="vendor/opengapps/build" name="aosp_build" revision="master" upstream="" remote="opengapps" groups=""/>
-  <!--<project path="vendor/opengapps/sources/arm" name="arm" revision="" upstream="master" remote="opengapps" groups="" clone-depth="2"/>
-  <project path="vendor/opengapps/sources/arm64" name="arm64" revision="" upstream="master" remote="opengapps" groups="" clone-depth="2"/> -->
-  <project path="vendor/opengapps/sources/all" name="all" revision="" upstream="master" remote="opengapps" groups="" clone-depth="2"/>
-  <project path="vendor/opengapps/sources/x86" name="x86" revision="" upstream="master" remote="opengapps" groups="" clone-depth="2"/>
-  <project path="vendor/opengapps/sources/x86_64" name="x86_64" revision="" upstream="master" remote="opengapps" groups="" clone-depth="2"/>
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" upstream="master" remote="opengapps" groups=""/>
+  <!--<project path="vendor/opengapps/sources/arm" name="arm" revision="master" upstream="master" remote="opengapps" groups="" clone-depth="2"/>
+  <project path="vendor/opengapps/sources/arm64" name="arm64" revision="master" upstream="master" remote="opengapps" groups="" clone-depth="2"/> -->
+  <project path="vendor/opengapps/sources/all" name="all" revision="master" upstream="master" remote="opengapps" groups="" clone-depth="2"/>
+  <project path="vendor/opengapps/sources/x86" name="x86" revision="master" upstream="master" remote="opengapps" groups="" clone-depth="2"/>
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" revision="master" upstream="master" remote="opengapps" groups="" clone-depth="2"/>
 
   <!-- END OPENGAPPS-X86 -->
   
