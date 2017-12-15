@@ -367,7 +367,7 @@
   <project path="external/drm_hwcomposer" name="BlissRoms-x86/drm_hwcomposer" remote="github" revision="oreo-x86-dev" />
   
   <project path="external/toybox" name="BlissRoms-x86/platform_external_toybox" remote="github" revision="o8.1-x86" />
-  <project path="external/mesa" name="BlissRoms-x86/mesa" remote="github" revision="oreo-x86-dev" />
+  <project path="external/mesa" name="BlissRoms-x86/mesa" remote="github" revision="o8.1-x86" />
   <project path="external/mksh" name="BlissRoms-x86/platform_external_mksh" remote="github" revision="o8.1-x86" />
   <project path="frameworks/av" name="BlissRoms-x86/frameworks_av" remote="github" revision="o8.1-x86" />
   <project path="frameworks/base" name="BlissRoms-x86/platform_frameworks_base" remote="github" revision="o8.1-x86" />
