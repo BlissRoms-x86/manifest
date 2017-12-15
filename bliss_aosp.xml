@@ -388,7 +388,7 @@
   
   <!-- Android-x86 Project -->
   
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="x86" revision="oreo-x86" /> 
+  <!-- <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" remote="x86" revision="oreo-x86" /> -->
   <project path="hardware/interfaces" name="platform/hardware/interfaces" remote="x86" revision="oreo-x86" />
   <project path="hardware/libsensors" name="hardware-libsensors" remote="x86" revision="oreo-x86" />
   
