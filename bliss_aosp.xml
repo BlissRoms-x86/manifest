@@ -315,9 +315,9 @@
   <project path="hardware/qcom/msm8x74" name="platform_hardware_qcom_msm8x74" remote="BlissRoms" />
   <!-- <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" /> -->
   <!-- <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" /> -->
-  <!-- <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" >
+  <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" >
       <copyfile dest="hardware/bliss/Android.bp" src="Android.bp"/>
-  </project> -->
+  </project>
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" />
