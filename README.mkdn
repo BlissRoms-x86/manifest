@@ -76,8 +76,19 @@ For 64 bit userspace:
 If you would like to make a UEFI .img file:
    
     $ mka efi_img
+    
+Bugs / Errors
+-----------------------    
 
 If you get errors while building the kernel (like `recipe for target 'silentoldconfig' failed`), try cleaning the output directory, then building the kernel with a single thread:
 
     $ make clean
     $ make kernel -j1 && make iso_img
+    
+-----------------------        
+    
+If you get a Java error while building (like `UTF-8 Encoding etc`), try cleaning the output directory, then building the ISO replacing en_GB with your server country code, So en_GB.UTF-8 for UK, en_US.UTF-8 USA etc
+
+     export LANG=en_GB.UTF-8
+     rm -rf out/target/common/obj/JAVA_LIBRARIES/android_system_stubs_current_intermediates
+     make clobber
