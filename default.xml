@@ -135,11 +135,11 @@
 
 <!-- BEGIN OPENGAPPS-X86 -->
 
-  <project path="vendor/google/build" name="aosp_build" revision="master" remote="BR-x86" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="100" revision="n7.1" remote="BR-x86" />
-  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="100" revision="n7.1" remote="BR-x86" />
-  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="100" revision="n7.1" remote="BR-x86" />
-  
+  <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps" />
+
   <!-- <project path="vendor/google/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="100" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="100" revision="master" remote="opengapps" />
