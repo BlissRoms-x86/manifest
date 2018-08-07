@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="BlissRoms"
+          fetch="https://github.com/BlissRoms"
+          revision="p9.0"
+          review="review.blissroms.com" />
+
+  <remote name="BlissRoms-Devices"
+          fetch="https://github.com/BlissRoms-Devices" />
+
+  <remote name="los"
+          fetch="https://github.com/LineageOS" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <!-- Remove first some AOSP repos -->
+
+
+  <!-- Begin BlissRoms repos -->
+
+  <!-- Begin CAF repos -->
+
+</manifest>
