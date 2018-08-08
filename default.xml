@@ -698,4 +698,5 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+ <include name="bliss.xml" />
 </manifest>

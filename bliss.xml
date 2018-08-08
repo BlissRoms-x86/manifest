@@ -16,9 +16,54 @@
           fetch="https://github.com/" />
 
   <!-- Remove first some AOSP repos -->
-
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/kati" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/support" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
 
   <!-- Begin BlissRoms repos -->
+  <project path="manifest" name="platform_manifest" remote="BlissRoms" />
+  <project path="build/make" name="platform_build_make" remote="BlissRoms" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/kati" name="platform_build_kati" remote="BlissRoms" />
+  <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bionic" name="platform_bionic" remote="BlissRoms" />
+
+  <!-- Apps -->
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" />
+  
+  <!-- Providers -->
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
+  
+  <!-- System -->
+  <project path="system/core" name="platform_system_core" remote="BlissRoms" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
+  <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
 
   <!-- Begin CAF repos -->
 
