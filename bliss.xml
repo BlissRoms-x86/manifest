@@ -38,6 +38,7 @@
   <project path="art" name="platform_art" remote="BlissRoms" />
   <project path="build/make" name="platform_build_make" remote="BlissRoms" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="core/treble/build-treble.sh" dest="build-treble.sh" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
