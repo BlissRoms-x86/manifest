@@ -10,7 +10,8 @@
           fetch="https://github.com/BlissRoms-Devices" />
 
   <remote name="los"
-          fetch="https://github.com/LineageOS" />
+          fetch="https://github.com/LineageOS"
+          revision="lineage-16.0" />
 
   <remote name="github"
           fetch="https://github.com/" />
@@ -25,6 +26,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/system/vold" />
@@ -58,15 +60,18 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" />
-  
+
   <!-- Providers -->
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
-  
+
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
 
   <!-- Begin CAF repos -->
+
+  <!-- Begin LOS repos -->
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="los" />
 
 </manifest>
