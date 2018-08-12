@@ -22,12 +22,16 @@
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
-  <remove-project name="platform/external/syslinux" />
+  <remove-project name="platform/dalvik" />
+  <remove-project name="platform/development" />
+
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/system/vold" />
@@ -52,9 +56,20 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
+  <project path="dalvik" name="platform_dalvik" remote="BlissRoms" />
+  <project path="development" name="platform_development" remote="BlissRoms" />
 
   <!-- Apps -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
+
+  <!-- External -->
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
+  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="BlissRoms" />
+  <project path="external/mksh" name="platform_external_mksh" remote="BlissRoms" />
+  <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" />
+  <project path="external/toybox" name="platform_external_toybox" remote="BlissRoms" />
+  <project path="external/zlib" name="platform_external_zlib" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
@@ -69,13 +84,11 @@
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
-  
-  <!-- Begin external repos -->  
-  <project path="external/syslinux" name="platform_external_selinux" groups="pdk" remote="BlissRoms" />
 
   <!-- Begin CAF repos -->
 
   <!-- Begin LOS repos -->
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="los" />
-
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" />
 </manifest>
