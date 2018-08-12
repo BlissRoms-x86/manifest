@@ -24,7 +24,13 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/dalvik" />
   <remove-project name="platform/development" />
-
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
