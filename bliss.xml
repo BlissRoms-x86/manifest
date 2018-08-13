@@ -98,6 +98,9 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
 
+  <!-- Vendor -->
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
+
   <!-- Begin CAF repos -->
 
   <!-- Begin LOS repos -->
