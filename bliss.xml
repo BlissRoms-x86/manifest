@@ -27,6 +27,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
@@ -76,6 +77,7 @@
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="BlissRoms" />
   <project path="external/mksh" name="platform_external_mksh" remote="BlissRoms" />
+  <project path="external/perfetto" name="platform_external_perfetto" remote="BlissRoms" />
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" />
   <project path="external/toybox" name="platform_external_toybox" remote="BlissRoms" />
