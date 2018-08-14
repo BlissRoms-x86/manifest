@@ -38,6 +38,7 @@
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/providers/MediaProvider" />
@@ -88,6 +89,9 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" />
+
+  <!-- Hardware -->
+  <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="BlissRoms" />
