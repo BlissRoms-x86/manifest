@@ -34,6 +34,7 @@
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
@@ -126,6 +127,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
+  <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" />
 
