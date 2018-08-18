@@ -65,29 +65,41 @@ treble build options explained:
                       arm64_a_foss | arm64_ab_foss : Stock Rom with Foss
                       arm64_a_go | arm64_ab_go : Stock Rom with Go-Gapps
       
-      blissBranch: select which bliss branch to sync, default is o8.1-los
+      blissBranch: select which bliss branch to sync, default is p9.0
+      
+Celadon EFI (Android-IA) build options explained:
 
-	After the sync is finished
+      Usage: $ bash build-efi.sh options buildVariants blissBranch
+      options: -c | --clean : Does make clean && make clobber and resets the efi device tree
+               -s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
+      
+      buildVariants: user : Make user build
+                      userdebug |: Make userdebug build
+                      eng : Make eng build
+      
+      blissBranch: select which bliss branch to sync, default is p9.0
 
-      $ bash build-treble.sh -s arm64_a_gapps (to build armA 64bit with gapps built in)
+      After the sync is finished
+
+        $ bash build-treble.sh -s arm64_a_gapps (to build armA 64bit with gapps built in)
 
 emulator builds explained:
-	  
-	Precondition: android SDK must be installed in ~/Android/SDK
+  
+      Precondition: android SDK must be installed in ~/Android/SDK
 
-	  $ lunch bliss_emulator-userdebug
-	  $ make
+        $ lunch bliss_emulator-userdebug
+        $ make
 
-	if you want to run on the same host:
-	
-	  $ bash vendor/bliss/utils/emulator/start_emulator_local.sh
+      if you want to run on the same host:
 
-	if you need to copy on a different host:
-	
-	  $ vendor/bliss/utils/emulator/create_emulator_image.sh
-	  $ cp /tmp/bliss_emulator.zip to the device where you have installed android SDK
-	  
-	  (unzip into /tmp)
-	
-	  $ bash /tmp/generic_x86/start_emulator_image.sh
+        $ bash vendor/bliss/utils/emulator/start_emulator_local.sh
+
+      if you need to copy on a different host:
+
+        $ vendor/bliss/utils/emulator/create_emulator_image.sh
+        $ cp /tmp/bliss_emulator.zip to the device where you have installed android SDK
+  
+      (unzip into /tmp)
+
+        $ bash /tmp/generic_x86/start_emulator_image.sh
 
