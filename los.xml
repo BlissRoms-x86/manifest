@@ -7,6 +7,10 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
 
+  <!-- External -->
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
+  <project path="external/elfutils" name="android_external_elfutils" remote="los" />
+
   <!-- Hardware Repos -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="los" />
@@ -25,4 +29,25 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" />
   <project path="hardware/ril" name="android_hardware_ril" remote="los" />
 
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8998" />
 </manifest>
