@@ -38,6 +38,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
@@ -132,6 +133,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="BlissRoms" />
 
@@ -139,6 +141,7 @@
   <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="BlissRoms" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" />
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="BlissRoms" />
