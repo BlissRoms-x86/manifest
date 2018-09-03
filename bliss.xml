@@ -59,6 +59,8 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/core" />
@@ -148,6 +150,10 @@
 
   <!-- Providers -->
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
+
+  <!-- System -->
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
 
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
