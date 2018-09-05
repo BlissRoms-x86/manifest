@@ -124,6 +124,10 @@
 
   <!-- Apps -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
+  <project path="packages/apps/OmniGears" name="platform_packages_apps_OmniGears" remote="BlissRoms" />
+  <project path="packages/apps/OmniSwitch" name="platform_packages_apps_OmniSwitch" remote="BlissRoms" />
+  <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
+  <project path="packages/apps/OmniLib" name="platform_packages_apps_OmniLib" remote="BlissRoms" />
 
   <!-- External -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
@@ -157,6 +161,9 @@
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
 
+  <!-- Services -->
+  <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="BlissRoms" />
+
   <!-- System -->
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
@@ -170,12 +177,5 @@
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
-  
-  <!-- OmniROM repos -->
-  <project name="platform_packages_apps_OmniGears" path="packages/apps/OmniGears" remote="BlissRoms" />
-  <project name="android_packages_apps_OmniLib" path="packages/apps/OmniLib" remote="omnirom" />
-  <project name="android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="omnirom" />
-  <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="omnirom" />
-  <project name="android_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="omnirom" />
 
 </manifest>
