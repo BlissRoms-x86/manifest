@@ -67,6 +67,27 @@ treble build options explained:
       
       blissBranch: select which bliss branch to sync, default is o8.1-los
 
-After the sync is finished
+	After the sync is finished
 
-    $ bash build-treble.sh -s arm64_a_gapps (to build armA 64bit with gapps built in)
+      $ bash build-treble.sh -s arm64_a_gapps (to build armA 64bit with gapps built in)
+
+emulator builds explained:
+	  
+	Precondition: android SDK must be installed in ~/Android/SDK
+
+	  $ lunch bliss_emulator-userdebug
+	  $ make
+
+	if you want to run on the same host:
+	
+	  $ bash vendor/bliss/utils/emulator/start_emulator_local.sh
+
+	if you need to copy on a different host:
+	
+	  $ vendor/bliss/utils/emulator/create_emulator_image.sh
+	  $ cp /tmp/bliss_emulator.zip to the device where you have installed android SDK
+	  
+	  (unzip into /tmp)
+	
+	  $ bash /tmp/generic_x86/start_emulator_image.sh
+
