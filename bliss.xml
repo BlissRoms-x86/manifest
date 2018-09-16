@@ -63,6 +63,18 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Email" />
+  <remove-project name="platform/packages/apps/Terminal" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/ExactCalculator" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -117,6 +129,18 @@
   <project path="packages/apps/OmniSwitch" name="platform_packages_apps_OmniSwitch" remote="BlissRoms" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
   <project path="packages/apps/OmniLib" name="platform_packages_apps_OmniLib" remote="BlissRoms" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
+  <project path="packages/apps/Email" name="platform_packages_apps_Email" remote="BlissRoms" />
+  <project path="packages/apps/Terminal" name="platform_packages_apps_Terminal" remote="BlissRoms" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" />
+  <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" remote="BlissRoms" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BlissRoms" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
+  <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="BlissRoms" />
 
   <!-- External -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
