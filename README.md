@@ -67,6 +67,10 @@ treble build options explained:
       
       blissBranch: select which bliss branch to sync, default is p9.0
       
+      After the sync is finished
+      
+        $ bash build-treble.sh -s arm64_a_gapps (to build armA 64bit with gapps built in)
+      
 Celadon EFI (Android-IA) build options explained:
 
       Usage: $ bash build-efi.sh options buildVariants blissBranch
@@ -81,7 +85,7 @@ Celadon EFI (Android-IA) build options explained:
 
       After the sync is finished
 
-        $ bash build-treble.sh -s arm64_a_gapps (to build armA 64bit with gapps built in)
+        $ bash build-efi.sh -s userdebug (to build the userdebug version)
 
 emulator builds explained:
   
