@@ -10,6 +10,17 @@
   <!-- External -->
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" remote="los" />
+  <project path="external/bash" name="android_external_bash" remote="los" />
+  <project path="external/htop" name="android_external_htop" remote="los" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="los" />
+  <project path="external/nano" name="android_external_nano" remote="los" />
+  <project path="external/openssh" name="android_external_openssh" remote="los" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="los" />
+  <project path="external/pigz" name="android_external_pigz" remote="los" />
+  <project path="external/rsync" name="android_external_rsync" remote="los" />
+  <project path="external/unrar" name="android_external_unrar" remote="los" />
+  <project path="external/vim" name="android_external_vim" remote="los" />
+  <project path="external/zip" name="android_external_zip" remote="los" />
 
   <!-- Hardware Repos -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
