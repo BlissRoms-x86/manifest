@@ -108,6 +108,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="core/treble/build-treble.sh" dest="build-treble.sh" />
     <copyfile src="core/efi/build-efi.sh" dest="build-efi.sh" />
+    <copyfile src="core/x86/build-x86.sh" dest="build-x86.sh" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />

@@ -107,3 +107,27 @@ emulator builds explained:
 
         $ bash /tmp/generic_x86/start_emulator_image.sh
 
+PC builds (x86) explained:
+	  
+	  (WIP) Add x86 PC builds
+
+	  This will add build support for x86 PC builds (WHEN FINISHED)
+
+	  Usage: $ bash build-x86.sh options buildVariants blissBranch
+	  Options: -c | --clean : Does make clean && make clobber and resets the efi device tree
+	    	   -s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
+			   -p | --patch: Just applies patches to needed repos
+
+	  BuildVariants: android_x86-user : Make user build
+				     android_x86-userdebug |: Make userdebug build
+				     android_x86-eng : Make eng build
+				     android_x86_64-user : Make user build
+				     android_x86_64-userdebug |: Make userdebug build
+				     android_x86_64-eng : Make eng build
+
+	  BlissBranch: select which bliss branch to sync, default is p9.0
+
+	  To start, you must first use the -s (--sync) flag, then on following builds, it is not needed.
+
+	    $ bash build-x86.sh -s android_x86_64-userdebug (to build the userdebug version)
+
