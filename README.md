@@ -111,7 +111,7 @@ PC builds (x86) explained:
 	  
 	  (WIP) Add x86 PC builds
 
-	  This will add build support for x86 PC builds (WHEN FINISHED)
+	  This will build an x86 based .ISO for PCs
 
 	  Usage: $ bash build-x86.sh options buildVariants blissBranch
 	  Options: -c | --clean : Does make clean && make clobber and resets the efi device tree
