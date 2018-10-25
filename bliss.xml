@@ -175,6 +175,9 @@
   <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="BlissRoms" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio-caf" remote="BlissRoms" revision="p9.0-msm8952" />
+  <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display-caf" remote="BlissRoms" revision="p9.0-msm8952" />
+  <project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="p9.0-msm8952" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="BlissRoms" />
