@@ -199,14 +199,18 @@
 
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
+
+  <!-- Sepolicy -->
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
+  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" revision="p9.0" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="p9.0" />
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="BlissRoms" />
-  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" revision="p9.0" />
+  
 </manifest>
