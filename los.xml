@@ -37,7 +37,6 @@
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="los" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="los" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="los" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="los" />
