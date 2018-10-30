@@ -49,6 +49,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="los" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="los" revision="lineage-16.0-caf" />
   <project path="hardware/ril-caf" name="android_hardware_ril" remote="los" revision="lineage-16.0-caf" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="los" />
 
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8960" />
@@ -68,4 +69,8 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8998" />
+  
+  <!-- Packages -->
+  <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
+  
 </manifest>

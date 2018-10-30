@@ -62,6 +62,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Camera2" />
@@ -78,6 +79,7 @@
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -180,7 +182,10 @@
   <project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio-caf" remote="BlissRoms" revision="p9.0-msm8952" />
   <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display-caf" remote="BlissRoms" revision="p9.0-msm8952" />
   <project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="p9.0-msm8952" />
-  <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" revision="p9.0" />
+  <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" />
+
+  <!-- InputMethods -->
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="BlissRoms" />
@@ -205,8 +210,9 @@
 
   <!-- Sepolicy -->
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
-  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" revision="p9.0" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="p9.0" />
+  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="BlissRoms" />
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
