@@ -117,6 +117,7 @@ PC builds (x86) explained:
 	  Options: -c | --clean : Does make clean && make clobber and resets the efi device tree
 	    	   -s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
 			   -p | --patch: Just applies patches to needed repos
+			   -r | --proprietary: build needed items from proprietary vendor (non-public)
 
 	  BuildVariants: android_x86-user : Make user build
 				     android_x86-userdebug |: Make userdebug build
@@ -127,7 +128,12 @@ PC builds (x86) explained:
 
 	  BlissBranch: select which bliss branch to sync, default is p9.0
 
-	  To start, you must first use the -s (--sync) flag, then on following builds, it is not needed.
+	  To start, you must first use the -s (--sync) flag, then on following builds, it is not needed. 
+	  Initial generation of the proprietary files from ChromeOS are also needed on the first build. 
+	  We are able to use the -p (--proprietary) flag for that. This step needs to be on its own because
+	  the mounting process requires root permissions, so keep a look out for it asking for your root password. 
 
-	    $ bash build-x86.sh -s android_x86_64-userdebug (to build the userdebug version)
+	    $ bash build-x86.sh -s 
+	    $ bash build-x86.sh -p android_x86_64-userdebug 
+	    $ bash build-x86.sh android_x86_64-userdebug (to build the userdebug version for x86_64 CPUs)
 
