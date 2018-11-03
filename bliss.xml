@@ -199,6 +199,7 @@
   <!-- Providers -->
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
+  <project path="packages/providers/AmbientPlayHistoryProvider" name="platform_packages_providers_AmbientPlayHistoryProvider" remote="BlissRoms" />
 
   <!-- Services -->
   <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="BlissRoms" />
