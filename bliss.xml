@@ -148,6 +148,7 @@
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
   <project path="packages/apps/SmartNavSettings" name="platform_packages_apps_SmartNavSettings" remote="BlissRoms" />
   <project path="packages/apps/SmartNav" name="platform_packages_apps_SmartNav" remote="BlissRoms" />
+  <project path="packages/apps/Pulse" name="platform_packages_apps_Pulse" remote="BlissRoms" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
