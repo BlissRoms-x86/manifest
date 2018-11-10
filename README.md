@@ -130,10 +130,10 @@ PC builds (x86) explained:
 
 	  To start, you must first use the -s (--sync) flag, then on following builds, it is not needed. 
 	  Initial generation of the proprietary files from ChromeOS are also needed on the first build. 
-	  We are able to use the -p (--proprietary) flag for that. This step needs to be on its own because
+	  We are able to use the -r (--proprietary) flag for that. This step needs to be on its own because
 	  the mounting process requires root permissions, so keep a look out for it asking for your root password. 
 
-	    $ bash build-x86.sh -s 
-	    $ bash build-x86.sh -p android_x86_64-userdebug 
+	    $ bash build-x86.sh -s (will also do initial patching)
+	    $ bash build-x86.sh -r android_x86_64-userdebug 
 	    $ bash build-x86.sh android_x86_64-userdebug (to build the userdebug version for x86_64 CPUs)
 
