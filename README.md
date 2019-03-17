@@ -58,6 +58,7 @@ treble build options explained:
       Usage: $ bash build-treble.sh options buildVariants blissBranch
       options: -c | --clean : Does make clean && make clobber and resets the treble device tree
                -r | --release : Builds a twrp zip of the rom (only for A partition) default creates system.img
+               -p | --patch: Just applies patches to needed repos
                -s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
       
       buildVariants: arm64_a_stock | arm64_ab_stock : Vanilla Rom
@@ -67,9 +68,13 @@ treble build options explained:
       
       blissBranch: select which bliss branch to sync, default is p9.0
       
-      After the sync is finished
+      First you must sync with the new manifest changes:
       
-        $ bash build-treble.sh -s arm64_a_gapps (to build armA 64bit with gapps built in)
+		$ bash build-treble.sh -s
+      
+      After the sync is finished, you can build your release:
+      
+        $ bash build-treble.sh -r arm64_a_gapps (to build armA 64bit with gapps built in)
       
 Celadon EFI (Android-IA) build options explained:
 
@@ -132,8 +137,16 @@ PC builds (x86) explained:
 	  Initial generation of the proprietary files from ChromeOS are also needed on the first build. 
 	  We are able to use the -r (--proprietary) flag for that. This step needs to be on its own because
 	  the mounting process requires root permissions, so keep a look out for it asking for your root password. 
+	  
+	  First you must sync with the new manifest changes:
 
 	    $ bash build-x86.sh -s (will also do initial patching)
+	  
+	  Next step is to download the proprietary files from ChromeOS:
+	  
 	    $ bash build-x86.sh -r android_x86_64-userdebug 
+	    
+	  After that, you can build your release file:
+	  
 	    $ bash build-x86.sh android_x86_64-userdebug (to build the userdebug version for x86_64 CPUs)
 
