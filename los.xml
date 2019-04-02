@@ -13,6 +13,7 @@
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" />
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="los" />
 
   <!-- External -->
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
