@@ -38,6 +38,11 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/fsck_msdos" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/one-true-awk" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/mclinker" />
@@ -166,15 +171,9 @@
 
   <!-- External -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
-  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" remote="BlissRoms" />
-  <project path="external/google" name="platform_external_google" remote="BlissRoms" />
   <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" />
-  <project path="external/mksh" name="platform_external_mksh" remote="BlissRoms" />
+  <project path="external/google" name="platform_external_google" remote="BlissRoms" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="BlissRoms" />
-  <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" />
-  <project path="external/toybox" name="platform_external_toybox" remote="BlissRoms" />
-  <project path="external/zlib" name="platform_external_zlib" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
