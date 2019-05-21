@@ -116,7 +116,9 @@
 	<remove-project name="platform/external/libusb-compat" />
 	<remove-project name="platform/external/mesa3d" />
 	<remove-project name="platform/external/swiftshader" />
+<!--
 	<remove-project name="platform_vendor_qcom_opensource_cryptfs_hw" />
+-->
 	<remove-project name="platform/packages/inputmethods/OpenWnn" />
 
 	<remove-project name="platform/packages/apps/Car/Dialer" />
