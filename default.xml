@@ -712,5 +712,11 @@
 
  <include name="bliss.xml" />
  <include name="los.xml" />
+ <include name="android-x86.xml" />
+ <include name="phh.xml" />
+ <include name="spurv.xml" />
+ <include name="foss.xml" />
+ <include name="opengapps.xml" />
+ <include name="gitlab_opengapps.xml" />
 
 </manifest>

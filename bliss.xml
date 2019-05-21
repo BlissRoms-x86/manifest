@@ -112,6 +112,7 @@
   <!-- Begin BlissRoms repos -->
   <project path="manifest" name="platform_manifest" remote="BlissRoms" />
   <project path="art" name="platform_art" remote="BlissRoms" />
+<!--
   <project path="build/make" name="platform_build_make" remote="BlissRoms" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="core/treble/build-treble.sh" dest="build-treble.sh" />
@@ -124,6 +125,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+-->
   <project path="build/kati" name="platform_build_kati" remote="BlissRoms" />
   <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -232,7 +234,9 @@
   <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="BlissRoms" />
 
   <!-- Vendor -->
+<!--
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
+-->
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="collabora" fetch="https://gitlab.collabora.com/spurv/" />
+
+	<!-- Audio -->
+	<project path="external/alsa-plugins" name="alsa-plugins.git" groups="pdk" revision="master" remote="collabora"/>
+	<project path="external/libsndfile" name="libsndfile.git" groups="pdk" revision="master" remote="collabora"/>
+	<project path="external/pulseaudio" name="pulseaudio.git" groups="pdk" revision="master" remote="collabora"/>
+	
+	<!-- Extra features -->
+	<project path="external/libpciaccess" name="libpciaccess" remote="collabora" revision="master" />
+	
+</manifest>
