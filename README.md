@@ -41,7 +41,7 @@ Initializing Repository
 Repo initialization :
     
     ## Releases Repo ##
-    $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b p9.0
+    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b p9.0-x86
 
 sync repo :
 
