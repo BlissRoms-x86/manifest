@@ -15,6 +15,7 @@
   
   <!-- Modified or unnecessary AOSP projects -->
   
+<!--
   <remove-project name="device/generic/common" />
   <remove-project name="device/generic/qemu" />
   <remove-project name="device/generic/x86" />
@@ -68,6 +69,7 @@
 
   <remove-project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" />
   <remove-project name="platform/prebuilts/libs/libedit" />
+-->
   
   <!--
   <remove-project name="platform/packages/services/Telecomm" />

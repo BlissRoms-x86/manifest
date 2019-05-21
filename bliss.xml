@@ -21,6 +21,7 @@
           fetch="https://github.com/" />
 
   <!-- Remove first some AOSP repos -->
+<!--
   <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
@@ -108,6 +109,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
   <remove-project name="kernel/tests" />
+-->
 
   <!-- Begin BlissRoms repos -->
   <project path="manifest" name="platform_manifest" remote="BlissRoms" />
