@@ -90,6 +90,7 @@
   
   <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.9" />
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-x86" />
+  <project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" />
 <!--
   <project path="kernel" name="linux" remote="maurossi" revision="kernel-4.15" />
   <project path="kernel" name="linux" remote="maurossi" revision="kernel-4.16" />
