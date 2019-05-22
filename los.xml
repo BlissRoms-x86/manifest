@@ -95,5 +95,6 @@
 
   <!-- Packages -->
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   
 </manifest>
