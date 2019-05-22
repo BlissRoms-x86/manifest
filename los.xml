@@ -33,7 +33,9 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
+<!--
   <project path="external/exfat" name="android_external_exfat" remote="los" />
+-->
 
   <!-- Hardware Repos -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />

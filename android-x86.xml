@@ -156,6 +156,7 @@
   <!-- <project name="android_external_minigbm" path="external/minigbm" remote="me176c" groups="lineage-16.0" />-->
   <project path="external/drmfb-composer" name="drmfb-composer" remote="me176c" revision="master" />
   <project path="external/drm_hwcomposer" name="drm_hwcomposer" remote="BR-x86" revision="pie-x86" />
+  <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="maurossi" revision="pie-x86" />
   <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.97_android-x86" />
   <project path="external/swiftshader" name="platform_external_swiftshader" remote="BR-x86" revision="pie-x86-ax86" />
