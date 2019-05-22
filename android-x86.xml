@@ -88,7 +88,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   
-  <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.8" />
+  <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.9" />
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-x86" />
 <!--
   <project path="kernel" name="linux" remote="maurossi" revision="kernel-4.15" />
@@ -122,7 +122,7 @@
   <!-- From Android-x86 repositories -->
 
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0" />
-  <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.8" />
+  <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.9" />
   <!--
   <project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="oreo-x86" />
   -->
