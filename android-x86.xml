@@ -149,7 +149,7 @@
   <!-- <project path="vendor/supersu" name="vendor-supersu" remote="BR-x86" revision="v2.82-SR5" /> -->
 
   <!-- END SUPERSU -->
-
+  <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="oreo-x86" />
   <project path="external/drm_gralloc" name="platform_external_drm_gralloc" remote="BR-x86" revision="pie-x86" />
   <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
   <project path="external/drm_framebuffer" name="drm_framebuffer" revision="p9.0-x86" remote="BR-x86" />
@@ -159,7 +159,7 @@
   <project path="external/drm_hwcomposer" name="drm_hwcomposer" remote="BR-x86" revision="pie-x86" />
   <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="maurossi" revision="pie-x86" />
-  <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.97_android-x86" />
+  <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.99-ma-p" />
   <project path="external/swiftshader" name="platform_external_swiftshader" remote="BR-x86" revision="pie-x86-ax86" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="BR-x86" revision="pie-x86" />
   <project path="external/s2tc" name="platform_external_s2tc" remote="BR-x86" revision="p9.0" />
