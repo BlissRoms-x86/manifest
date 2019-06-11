@@ -99,6 +99,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/timezone" />
 
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
@@ -232,8 +233,6 @@
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" />
   
 </manifest>
