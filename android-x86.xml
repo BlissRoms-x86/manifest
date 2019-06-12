@@ -87,50 +87,24 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  
-  <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.9" />
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-x86" />
-  <project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" />
-<!--
-  <project path="kernel" name="linux" remote="maurossi" revision="kernel-4.15" />
-  <project path="kernel" name="linux" remote="maurossi" revision="kernel-4.16" />
-  <project path="kernel" name="linux" remote="maurossi" revision="kernel-4.18" />
-  <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.14" />
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.16.14-bliss-ipts-ga" />
--->
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.9.153" />
-  <!-- 
-  <project path="external/kernel-drivers" name="platform/external/kernel-drivers" remote="x86" revision="oreo-x86" />
-  -->
-  <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86" />
-  <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org" />
-  
-  <!--
-  <project path="external/mesa" name="mesa" remote="maurossi" revision="18.1.6_oreo-x86" />
-  <project path="external/mesa" name="mesa" remote="maurossi" revision="18.2.0-devel_w30" />
-  <project path="external/mesa" name="mesa" remote="maurossi" revision="18.3.0-devel_w34" />
-  <project path="external/mesa" name="mesa" remote="maurossi" revision="18.2.1-oreo-x86" />
-  <project path="external/llvm70" name="platform/external/llvm" remote="x86" revision="oreo-x86" />
-  -->
-  
-  <project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="18.3.5-pie-x86-llvm80" />
-  <project path="external/llvm70" name="platform_external_llvm70" remote="BR-x86" revision="pie-x86_llvm70-r341512" groups="pdk" />
-  <!--
-  <project path="external/llvm80" name="llvm" remote="maurossi" revision="pie-x86_llvm80_soong" groups="pdk" />
-  -->
-  <project path="external/llvm80" name="platform/external/llvm" remote="x86" revision="pie-x86" />
     
   <!-- From Android-x86 repositories -->
 
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0" />
+  
+  <!-- device/ -->
+  
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.8" />
-  <!--
-  <project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="oreo-x86" />
-  -->
+  <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org" />
   <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
+  <project path="device/sample" name="device/sample" remote="aosp" groups="pdk" /> 
+  
+  <!-- external/ -->
+  
   <project path="external/alsa-lib" name="platform_external_alsa-lib" remote="BR-x86" revision="pie-x86" />
   <project path="external/alsa-utils" name="platform_external_alsa-utils" remote="BR-x86" revision="p9.0" />
+  <project path="external/bison" name="platform/external/bison" remote="aosp" groups="pdk" revision="master" />
   <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="BR-x86" revision="p9.0" />
   <project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="p9.0-r2" />
   <project path="external/efibootmgr" name="platform_external_efibootmgr" remote="BR-x86" revision="p9.0-ax86" />
@@ -138,18 +112,21 @@
   <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
   <!--
   <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="p9.0" />
-  <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="oreo-x86" />
-  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="nougat-x86" />
   -->
+  <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86" />
+  <project path="external/llvm70" name="platform_external_llvm70" remote="BR-x86" revision="pie-x86_llvm70-r341512" groups="pdk" />
+  <project path="external/llvm80" name="platform/external/llvm" remote="x86" revision="pie-x86" />
+  <project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="18.3.5-pie-x86-llvm80" />
+   <!--
   <project path="external/koush/Superuser" name="platform_external_koush_Superuser" remote="BR-x86" revision="p9.0" />
   <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="oreo-x86" />
+  -->
   
   <!-- BEGIN SUPERSU -->
 
-  <!-- <project path="vendor/supersu" name="vendor-supersu" remote="BR-x86" revision="v2.82-SR5" /> -->
+  <project path="vendor/supersu" name="vendor-supersu" remote="BR-x86" revision="v2.82-SR5" />
 
   <!-- END SUPERSU -->
-  <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="oreo-x86" />
   <project path="external/drm_gralloc" name="platform_external_drm_gralloc" remote="BR-x86" revision="pie-x86" />
   <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
   <project path="external/drm_framebuffer" name="drm_framebuffer" revision="p9.0-x86" remote="BR-x86" />
@@ -164,7 +141,16 @@
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="BR-x86" revision="pie-x86" />
   <project path="external/s2tc" name="platform_external_s2tc" remote="BR-x86" revision="p9.0" />
   <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="pie-x86" />
+  <project path="external/wireless-tools" name="platform/external/wireless-tools" remote="x86" revision="oreo-x86" />
   <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
+  
+  <!-- frameworks/ -->
+  
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-x86"/>
+  
+  <!-- hardware/ -->
+  
+  <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" remote="aosp" revision="refs/tags/android-7.1.1_r6" />
   <project path="hardware/gps" name="platform_hardware_gps" remote="BR-x86" revision="p9.0" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="oreo-x86" />
   <project path="hardware/intel/common/libva" name="platform_hardware_intel_common_libva" remote="BR-x86" revision="libva_2.3.0" />
@@ -174,30 +160,33 @@
   <project path="hardware/libcamera" name="platform_hardware_libcamera" remote="BR-x86" revision="p9.0" />
   <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="oreo-x86" />
   <project path="hardware/libsensors" name="platform_hardware_libsensors" remote="BR-x86" revision="p9.0" />
+  <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="oreo-x86" />  
   <project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="p9.0" />
+  
+  <!-- kernel -->
+  
+  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.9.153" />
+  
+  <!-- packages/ -->
+  
   <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="p9.0" />
-  <!--
-  <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="oreo-x86" />
-  -->
+  
+  <!-- prebuilts/ -->
+  
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,darwin,arm" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" remote="aosp" groups="pdk,linux" revision="master"  clone-depth="1" />
-
-  <project path="external/bison" name="platform/external/bison" remote="aosp" groups="pdk" revision="master" />
   
+  <!-- vendor/ -->
   
-  <project path="device/sample" name="device/sample" remote="aosp" groups="pdk" /> 
-  <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" remote="aosp" revision="refs/tags/android-7.1.1_r6" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-x86" />
+  <project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
+  <project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" />
+  <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.9" />
   
   <!-- START X86 INSTALLER -->
   <project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="master" remote="github" /> 
   <!-- END X86 INSTALLER -->
-  
-  <!-- PROPRIETARY METHODS -->
-  <project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
-  <!--
-  <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="pie-x86" />
-  -->
   
 </manifest>
