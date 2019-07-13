@@ -61,42 +61,41 @@ PC builds (x86) explained:
 	  Usage: $ bash build-x86.sh options buildVariants blissBranch extraOptions
 	  Options: -c | --clean : Does make clean && make clobber and resets the efi device tree
 	    	   -s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
-			   -p | --patch: Just applies patches to needed repos
-			   -r | --proprietary: build needed items from proprietary vendor (non-public)
+		   -p | --patch: Just applies patches to needed repos
+		   -r | --proprietary: build needed items from proprietary vendor (non-public)
 
 	  BuildVariants:
             android_x86-user : Make user build
             android_x86-userdebug |: Make userdebug build
-			android_x86-eng : Make eng build
-			android_x86_64-user : Make user build
-			android_x86_64-userdebug |: Make userdebug build
-		    android_x86_64-eng : Make eng build
+	    android_x86-eng : Make eng build
+	    android_x86_64-user : Make user build
+	    android_x86_64-userdebug |: Make userdebug build
+	    android_x86_64-eng : Make eng build
 
-	  BlissBranch: select which bliss branch to sync, default is p9.0
+          BlissBranch: select which bliss branch to sync, default is p9.0
 
-      ExtraOptions:
+          ExtraOptions:
             foss : packages microG & FDroid with the build
             go : packages Gapps Go with the build
             gapps : packages OpenGapps with the build
             gms : packages GMS with the build (requires private repo access)
             none : force all extraOption flags to false. 
 
-	  To start, you must first use the -s (--sync) flag, then on following builds, it is not needed. 
-	  Initial generation of the proprietary files from ChromeOS are also needed on the first build. 
-	  We are able to use the -r (--proprietary) flag for that. This step needs to be on its own
-      because
-	  the mounting process requires root permissions, so keep a look out for it asking for your root password. 
+	 To start, you must first use the -s (--sync) flag, then on following builds, it is not needed. 
+	 Initial generation of the proprietary files from ChromeOS are also needed on the first build. 
+	 We are able to use the -r (--proprietary) flag for that. This step needs to be on its own because
+	 the mounting process requires root permissions, so keep a look out for it asking for your root password. 
 	  
-	  First you must sync with the new manifest changes:
+	 First you must sync with the new manifest changes:
 
-        $ bash build-x86.sh -p (will do initial patching)
+        	$ bash build-x86.sh -p (will do initial patching)
 	  
-	  Next step is to download the proprietary files from ChromeOS:
+	 Next step is to download the proprietary files from ChromeOS:
 	  
-        $ mkdir vendor/bliss_priv/proprietary && mkdir vendor/bliss_priv/source	    
-        $ bash build-x86.sh -r android_x86_64-userdebug 
+        	$ mkdir vendor/bliss_priv/proprietary && mkdir vendor/bliss_priv/source	    
+        	$ bash build-x86.sh -r android_x86_64-userdebug 
 	    
-	  After that, you can build your release file:
+	 After that, you can build your release file:
 	  
-        $ bash build-x86.sh android_x86_64-userdebug (to build the userdebug version for x86_64 CPUs)
+        	$ bash build-x86.sh android_x86_64-userdebug (to build the userdebug version for x86_64 CPUs)
 
