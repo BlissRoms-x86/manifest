@@ -65,21 +65,21 @@ PC builds (x86) explained:
 		   -r | --proprietary: build needed items from proprietary vendor (non-public)
 
 	  BuildVariants:
-            android_x86-user : Make user build
-            android_x86-userdebug |: Make userdebug build
-	    android_x86-eng : Make eng build
-	    android_x86_64-user : Make user build
-	    android_x86_64-userdebug |: Make userdebug build
-	    android_x86_64-eng : Make eng build
+		android_x86-user : Make user build
+		android_x86-userdebug |: Make userdebug build
+		android_x86-eng : Make eng build
+		android_x86_64-user : Make user build
+		android_x86_64-userdebug |: Make userdebug build
+		android_x86_64-eng : Make eng build
 
           BlissBranch: select which bliss branch to sync, default is p9.0
 
           ExtraOptions:
-            foss : packages microG & FDroid with the build
-            go : packages Gapps Go with the build
-            gapps : packages OpenGapps with the build
-            gms : packages GMS with the build (requires private repo access)
-            none : force all extraOption flags to false. 
+            	foss : packages microG & FDroid with the build
+            	go : packages Gapps Go with the build
+            	gapps : packages OpenGapps with the build
+            	gms : packages GMS with the build (requires private repo access)
+            	none : force all extraOption flags to false. 
 
 	 To start, you must first use the -s (--sync) flag, then on following builds, it is not needed. 
 	 Initial generation of the proprietary files from ChromeOS are also needed on the first build. 
