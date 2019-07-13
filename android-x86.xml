@@ -165,7 +165,7 @@
   
   <!-- kernel -->
   
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.9.153" />
+  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.50-ax86-ga" />
   
   <!-- packages/ -->
   
