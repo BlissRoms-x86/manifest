@@ -179,13 +179,13 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" remote="aosp" groups="pdk,linux" revision="master"  clone-depth="1" />
   <!-- system/ -->
   
-  <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="p9.0-x86" />
+  <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="pie-x86" />
   
   <!-- vendor/ -->
   
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-x86" />
   <project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
-  <project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" />
+  <!--<project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" /> -->
   <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.9" />
   
   <!-- START X86 INSTALLER -->
