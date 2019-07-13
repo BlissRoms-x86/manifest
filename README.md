@@ -53,64 +53,6 @@ problems syncing? :
 
 Building
 --------
-treble build options explained:
-
-      Usage: $ bash build-treble.sh options buildVariants blissBranch
-      options: -c | --clean : Does make clean && make clobber and resets the treble device tree
-               -r | --release : Builds a twrp zip of the rom (only for A partition) default creates system.img
-               -p | --patch: Just applies patches to needed repos
-               -s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
-      
-      buildVariants: arm64_a_stock | arm64_ab_stock : Vanilla Rom
-                      arm64_a_gapps | arm64_ab_gapps : Stock Rom with Gapps Built-in
-                      arm64_a_foss | arm64_ab_foss : Stock Rom with Foss
-                      arm64_a_go | arm64_ab_go : Stock Rom with Go-Gapps
-      
-      blissBranch: select which bliss branch to sync, default is p9.0
-      
-      First you must sync with the new manifest changes:
-      
-		$ bash build-treble.sh -s
-      
-      After the sync is finished, you can build your release:
-      
-        $ bash build-treble.sh -r arm64_a_gapps (to build armA 64bit with gapps built in)
-      
-Celadon EFI (Android-IA) build options explained:
-
-      Usage: $ bash build-efi.sh options buildVariants blissBranch
-      options: -c | --clean : Does make clean && make clobber and resets the efi device tree
-               -s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
-      
-      buildVariants: user : Make user build
-                      userdebug |: Make userdebug build
-                      eng : Make eng build
-      
-      blissBranch: select which bliss branch to sync, default is p9.0
-
-      After the sync is finished
-
-        $ bash build-efi.sh -s userdebug (to build the userdebug version)
-
-emulator builds explained:
-  
-      Precondition: android SDK must be installed in ~/Android/SDK
-
-        $ lunch bliss_emulator-userdebug
-        $ make
-
-      if you want to run on the same host:
-
-        $ bash vendor/bliss/utils/emulator/start_emulator_local.sh
-
-      if you need to copy on a different host:
-
-        $ vendor/bliss/utils/emulator/create_emulator_image.sh
-        $ cp /tmp/bliss_emulator.zip to the device where you have installed android SDK
-  
-      (unzip into /tmp)
-
-        $ bash /tmp/generic_x86/start_emulator_image.sh
 
 PC builds (x86) explained:
 	  
@@ -140,7 +82,7 @@ PC builds (x86) explained:
 	  
 	  First you must sync with the new manifest changes:
 
-	    $ bash build-x86.sh -s (will also do initial patching)
+	    $ bash build-x86.sh -p (will do initial patching)
 	  
 	  Next step is to download the proprietary files from ChromeOS:
 	  
