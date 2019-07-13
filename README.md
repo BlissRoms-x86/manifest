@@ -56,8 +56,6 @@ Building
 
 PC builds (x86) explained:
 	  
-	  (WIP) Add x86 PC builds
-
 	  This will build an x86 based .ISO for PCs
 
 	  Usage: $ bash build-x86.sh options buildVariants blissBranch
