@@ -177,6 +177,9 @@
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,darwin,arm" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" remote="aosp" groups="pdk,linux" revision="master"  clone-depth="1" />
+  <!-- system/ -->
+  
+  <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="p9.0-x86" />
   
   <!-- vendor/ -->
   
