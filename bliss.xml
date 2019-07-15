@@ -224,7 +224,6 @@
 
 	<!-- System -->
 	
-	<project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
 	<project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
 
 	<!-- Sepolicy -->
