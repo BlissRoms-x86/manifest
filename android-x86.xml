@@ -182,6 +182,7 @@
   <!-- system/ -->
   
   <project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="p9.0-x86" />
+  <project path="system/core" name="platform_system_core" remote="BR-x86" revision="p9.0-x86" />
   <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="pie-x86" />
   
   <!-- vendor/ -->

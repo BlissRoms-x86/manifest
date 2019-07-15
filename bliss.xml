@@ -223,7 +223,7 @@
 	<project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
 
 	<!-- System -->
-	<project path="system/core" name="platform_system_core" remote="BlissRoms" />
+	
 	<project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
 	<project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
 
