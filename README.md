@@ -1,15 +1,15 @@
 <img src="https://i.imgur.com/0GnrwaU.png">
 
-Bliss-ROM
+BlissRoms
 -----------------------
-Download the Bliss-ROM source code, based on [AOSP](https://android.googlesource.com), [phhusson](https://github.com/phhusson/treble_manifest), [skunkworx](https://github.com/skunkworkx/platform_manifest), & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
+Download the BlissRoms source code, based on [AOSP](https://android.googlesource.com), [phhusson](https://github.com/phhusson/treble_manifest), [skunkworx](https://github.com/skunkworkx/platform_manifest), & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
 
 ---------------------------------------------------
 
 Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
 -----------------------
-What you need to build [Bliss-ROM](https://github.com/BlissROMs/platform_manifest)
+What you need to build [BlissRoms](https://github.com/BlissROMs/platform_manifest)
 -----------------------
 
     Latest Ubuntu LTS Releases https://www.ubuntu.com/download/server
