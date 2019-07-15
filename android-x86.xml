@@ -74,7 +74,7 @@
   <!--
   <remove-project name="platform/packages/services/Telecomm" />
   -->
-  
+  <project path="manifest" name="manifest" remote="BR-x86" revision="p9.0-x86" />
   <project path="build/make" name="build" remote="BR-x86" revision="p9.0-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="core/treble/build-treble.sh" dest="build-treble.sh" />
@@ -145,8 +145,10 @@
   <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
   
   <!-- frameworks/ -->
-  
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-x86"/>
+
+  <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="p9.0-x86" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-x86" />
+  <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="p9.0-x86" />
   
   <!-- hardware/ -->
   
