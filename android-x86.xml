@@ -74,6 +74,7 @@
   <!--
   <remove-project name="platform/packages/services/Telecomm" />
   -->
+  <project path="bionic" name="platform_bionic" remote="BR-x86" revision="p9.0-x86" />
   <project path="manifest" name="manifest" remote="BR-x86" revision="p9.0-x86" />
   <project path="build/make" name="build" remote="BR-x86" revision="p9.0-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -87,6 +88,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="platform_build_soong" remote="BR-x86" revision="p9.0-x86" >
     
   <!-- From Android-x86 repositories -->
 
