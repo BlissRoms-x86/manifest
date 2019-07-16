@@ -94,7 +94,7 @@
   
   <!-- device/ -->
   
-  <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.8" />
+  <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.9" />
   <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org" />
   <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
