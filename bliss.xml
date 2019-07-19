@@ -113,10 +113,9 @@
 
 	<!-- Begin BlissRoms repos -->
 	<project path="art" name="platform_art" remote="BlissRoms" />
-
 	<project path="build/kati" name="platform_build_kati" remote="BlissRoms" />
-	<linkfile src="root.bp" dest="Android.bp" />
-	<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+		<linkfile src="root.bp" dest="Android.bp" />
+		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 	</project>
 	<project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
 	<project path="dalvik" name="platform_dalvik" remote="BlissRoms" />
