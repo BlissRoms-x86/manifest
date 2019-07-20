@@ -90,8 +90,8 @@
   </project>
   <project path="build/soong" name="platform_build_soong" remote="BR-x86" />
   <project path="build/kati" name="platform_build_kati" remote="BR-x86"  >
-	  <linkfile src="root.bp" dest="Android.bp" />
-	  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
   <!-- From Android-x86 repositories -->
