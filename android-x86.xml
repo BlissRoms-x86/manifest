@@ -2,7 +2,7 @@
 <manifest>
   <remote name="maurossi" fetch="https://github.com/maurossi" />
   <remote name="x86" fetch="http://scm.osdn.net/gitroot/android-x86" />
-  <remote name="BR-x86" fetch="https://github.com/BlissRoms-x86" />
+  <remote name="BR-x86" fetch="https://github.com/BlissRoms-x86" revision="p9.0-x86" />
   
   <remote name="celadon" fetch="https://github.com/projectceladon/" />
   <remote name="kernelorg" fetch="https://git.kernel.org/" />
@@ -76,7 +76,7 @@
   -->
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="p9.0-x86" />
   <project path="manifest" name="manifest" remote="BR-x86" revision="p9.0-x86" />
-  <project path="build/make" name="build" remote="BR-x86" revision="p9.0-x86" >
+  <project path="build/make" name="build" remote="BR-x86"  >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="core/treble/build-treble.sh" dest="build-treble.sh" />
     <copyfile src="core/efi/build-efi.sh" dest="build-efi.sh" />
@@ -88,8 +88,12 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="BR-x86" revision="p9.0-x86" >
-    
+  <project path="build/soong" name="platform_build_soong" remote="BR-x86" />
+  <project path="build/kati" name="platform_build_kati" remote="BR-x86"  >
+	  <linkfile src="root.bp" dest="Android.bp" />
+	  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  
   <!-- From Android-x86 repositories -->
 
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0" />
