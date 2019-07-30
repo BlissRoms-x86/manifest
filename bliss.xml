@@ -228,7 +228,6 @@
   <project path="packages/apps/SmartNavSettings" name="platform_packages_apps_SmartNavSettings" remote="BlissRoms" />
   <project path="packages/apps/SmartNav" name="platform_packages_apps_SmartNav" remote="BlissRoms" />
   <project path="packages/apps/Pulse" name="platform_packages_apps_Pulse" remote="BlissRoms" />
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="BlissRoms" />
@@ -238,7 +237,7 @@
   
   <!-- Bliss Apps -->
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
- <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
+  <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
 
   <!-- External -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
@@ -257,11 +256,7 @@
   <project path="frameworks/bliss" name="platform_frameworks_bliss" remote="BlissRoms" />
 
   <!-- Hardware -->
-  <project path="hardware/qcom/audio/default" name="platform_hardware_qcom_audio" remote="BlissRoms" />
-  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" />
-  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="BlissRoms" />
   <project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio-caf" remote="BlissRoms" revision="p9.0-msm8952" />
   <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display-caf" remote="BlissRoms" revision="p9.0-msm8952" />
   <project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media-caf" remote="BlissRoms" revision="p9.0-msm8952" />
@@ -278,6 +273,7 @@
 
   <!-- Providers -->
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
   <project path="packages/providers/AmbientPlayHistoryProvider" name="platform_packages_providers_AmbientPlayHistoryProvider" remote="BlissRoms" />
 

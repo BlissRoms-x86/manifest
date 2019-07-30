@@ -42,6 +42,7 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="los" revision="lineage-16.0-caf" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="los" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="los" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="los" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="los" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" />
@@ -54,6 +55,7 @@
 
   <!-- Qualcomm Hals -->
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="los" />
   <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8960" />
@@ -63,6 +65,7 @@
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-8998" />
   <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-845" />
   <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8150" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8960" />
@@ -72,6 +75,7 @@
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8998" />
   <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-845" />
   <project path="hardware/qcom/display-caf/sm8150" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8150" /> 
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="los" />
   <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-8960" />
