@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+  <!-- General -->
+  <project path="art" name="android_art" remote="los" />
+  <project path="development" name="android_development" remote="los" />
 
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="los" />
@@ -23,6 +27,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="los" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk" remote="los" />
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
+  <project path="external/json-c" name="android_external_json-c" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/libtar" name="android_external_libtar" remote="los" />
@@ -32,6 +37,11 @@
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="los" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="los" />
+  <project path="external/libpng" name="android_external_libpng" remote="los" />
+  <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
+  <project path="external/proguard" name="android_external_proguard" remote="los" />
+  <project path="external/skia" name="android_external_skia" remote="los" />
 
   <!-- Hardware Repos -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
@@ -89,9 +99,17 @@
   <!-- Packages -->
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" />
 
-  <!-- System -->
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="los" clone-depth="1" />
+
+  <!-- System Repos -->
+  <project path="system/security" name="android_system_security" remote="los" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="los" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="los" />
+  <project path="system/qcom" name="android_system_qcom" remote="los" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />

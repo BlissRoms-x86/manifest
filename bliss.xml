@@ -43,6 +43,10 @@
   <remove-project name="platform/external/fsck_msdos" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/one-true-awk" />
+  <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libtextclassifier" />
+  <remove-project name="platform/external/proguard" />
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/mclinker" />
@@ -100,6 +104,8 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/timezone" />
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/tools/hidl" />  
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
@@ -187,7 +193,6 @@
 
   <!-- Begin BlissRoms repos -->
   <project path="manifest" name="platform_manifest" remote="BlissRoms" />
-  <project path="art" name="platform_art" remote="BlissRoms" />
   <project path="build/make" name="platform_build_make" remote="BlissRoms" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="core/treble/build-treble.sh" dest="build-treble.sh" />
@@ -208,7 +213,6 @@
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
   <project path="dalvik" name="platform_dalvik" remote="BlissRoms" />
-  <project path="development" name="platform_development" remote="BlissRoms" />
 
   <!-- Apps -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
@@ -231,7 +235,6 @@
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="BlissRoms" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
   <project path="packages/apps/WallpaperPicker" name="platform_packages_apps_WallpaperPicker" remote="BlissRoms" />
   
@@ -241,7 +244,6 @@
 
   <!-- External -->
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
-  <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" />
   <project path="external/google" name="platform_external_google" remote="BlissRoms" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="BlissRoms" />
 
@@ -268,7 +270,6 @@
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="BlissRoms" />
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86"  remote="BlissRoms" />
 
   <!-- Providers -->
@@ -289,7 +290,6 @@
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
-  <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
 
   <!-- Sepolicy -->
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
