@@ -40,7 +40,6 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="los" />
-  <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="los" />

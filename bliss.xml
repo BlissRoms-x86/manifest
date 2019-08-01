@@ -180,6 +180,7 @@
   
   <!-- External -->
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
+  <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
