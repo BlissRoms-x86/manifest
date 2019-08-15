@@ -118,7 +118,6 @@
 	<project path="development" name="platform_development" remote="BlissRoms" />
 
 	<!-- Apps -->
-	<project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
 	<project path="packages/apps/OmniGears" name="platform_packages_apps_OmniGears" remote="BlissRoms" />
 	<project path="packages/apps/OmniSwitch" name="platform_packages_apps_OmniSwitch" remote="BlissRoms" />
 	<project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
