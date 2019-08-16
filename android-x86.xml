@@ -174,6 +174,9 @@
   <!-- kernel -->
   
   <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.50-ax86-ga" />
+
+  <!-- Bliss Apps -->
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="p9.0-x86" />
   
   <!-- packages/ -->
   
