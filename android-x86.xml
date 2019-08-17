@@ -1,211 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="maurossi" fetch="https://github.com/maurossi" />
-  <remote name="x86" fetch="http://scm.osdn.net/gitroot/android-x86" />
-  <remote name="BR-x86" fetch="https://github.com/BlissRoms-x86" revision="p9.0-x86" />
-  
-  <remote name="celadon" fetch="https://github.com/projectceladon/" />
-  <remote name="kernelorg" fetch="https://git.kernel.org/" />
-  <remote name="graphics" fetch="https://github.com/01org/" />
-  <remote name="intel" fetch="https://github.com/intel" />
-  <remote name="trusty-ia" fetch="https://github.com/trusty-ia" />
-  <remote name="aquynh" fetch="https://github.com/aquynh" />
-  <remote name="chromiumos" fetch="https://chromium.googlesource.com/chromiumos" />
-  <remote name="me176c" fetch="https://github.com/me176c-dev/" />
-  
-  <!-- Modified or unnecessary AOSP projects -->
-  
-<!--
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/qemu" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
-  <remove-project name="platform/hardware/intel/audio_media" />
-  <remove-project name="platform/hardware/intel/bootstub" />
-  <remove-project name="platform/hardware/intel/common/bd_prov" />
-  <remove-project name="platform/hardware/intel/common/libmix" />
-  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
-  <remove-project name="platform/hardware/intel/common/libva" />
-  <remove-project name="platform/hardware/intel/common/libwsbm" />
-  <remove-project name="platform/hardware/intel/common/omx-components" />
-  <remove-project name="platform/hardware/intel/common/utils" />
-  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
-  <remove-project name="platform/hardware/intel/img/hwcomposer" />
-  <remove-project name="platform/hardware/intel/img/psb_headers" />
-  <remove-project name="platform/hardware/intel/img/psb_video" />
-  <remove-project name="platform/hardware/intel/sensors" />
-  <remove-project name="platform/external/drm_gralloc" />
-  <remove-project name="platform/external/drm_hwcomposer" />
-  <remove-project name="platform/external/libdrm" />
-  <remove-project name="platform/external/libusb-compat" />
-  <remove-project name="platform/external/mesa3d" />
-  <remove-project name="platform/external/swiftshader" />
-  <remove-project name="platform_vendor_qcom_opensource_cryptfs_hw" />
-  <remove-project name="platform/packages/inputmethods/OpenWnn" />
-  
-  <remove-project name="platform/packages/apps/Car/Dialer" />
-  <remove-project name="platform/packages/apps/Car/Hvac" />
-  <remove-project name="platform/packages/apps/Car/LatinIME" />
-  <remove-project name="platform/packages/apps/Car/Launcher" />
-  <remove-project name="platform/packages/apps/Car/LensPicker" />
-  <remove-project name="platform/packages/apps/Car/LocalMediaPlayer" />
-  <remove-project name="platform/packages/apps/Car/Media" />
-  <remove-project name="platform/packages/apps/Car/Messenger" />
-  <remove-project name="platform/packages/apps/Car/Overview" />
-  <remove-project name="platform/packages/apps/Car/Radio" />
-  <remove-project name="platform/packages/apps/Car/Settings" />
-  <remove-project name="platform/packages/apps/Car/Stream" />
-  <remove-project name="platform/packages/apps/Car/SystemUpdater" />
-  <remove-project name="platform/packages/apps/Gallery" />
-  <remove-project name="platform/packages/apps/Launcher2" />
-  <remove-project name="platform/packages/apps/LegacyCamera" />
-  <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/MusicFX" />
-  <remove-project name="platform/packages/apps/SecureElement" />
-  <remove-project name="platform/packages/apps/Tag" />
-  <remove-project name="platform/packages/apps/Test/connectivity" />
-  <remove-project name="platform/packages/apps/TvSettings" />
-  <remove-project name="platform/packages/apps/TV" />
+    <remote name="maurossi" fetch="https://github.com/maurossi" />
+    <remote name="x86" fetch="http://scm.osdn.net/gitroot/android-x86" />
+    <remote name="BR-x86" fetch="https://github.com/BlissRoms-x86" revision="p9.0-x86" />
 
-  <remove-project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" />
-  <remove-project name="platform/prebuilts/libs/libedit" />
--->
-  
-  <!--
-  <remove-project name="platform/packages/services/Telecomm" />
-  -->
-  <project path="bionic" name="platform_bionic" remote="BR-x86" revision="p9.0-x86" />
-  <project path="manifest" name="manifest" remote="BR-x86" revision="p9.0-x86" />
-  <project path="build/make" name="build" remote="BR-x86"  >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="core/treble/build-treble.sh" dest="build-treble.sh" />
-    <copyfile src="core/efi/build-efi.sh" dest="build-efi.sh" />
-    <copyfile src="core/x86/build-x86.sh" dest="build-x86.sh" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="build/kati" name="platform_build_kati" remote="BR-x86" />
-  <project  path="build/soong" name="platform_build_soong" remote="BR-x86" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  
-  <!-- From Android-x86 repositories -->
+    <remote name="celadon" fetch="https://github.com/projectceladon/" />
+    <remote name="kernelorg" fetch="https://git.kernel.org/" />
+    <remote name="graphics" fetch="https://github.com/01org/" />
+    <remote name="intel" fetch="https://github.com/intel" />
+    <remote name="trusty-ia" fetch="https://github.com/trusty-ia" />
+    <remote name="aquynh" fetch="https://github.com/aquynh" />
+    <remote name="chromiumos" fetch="https://chromium.googlesource.com/chromiumos" />
+    <remote name="me176c" fetch="https://github.com/me176c-dev/" />
 
-  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0" />
-  
-  <!-- device/ -->
-  
-  <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.9" />
-  <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org" />
-  <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
-  <project path="device/sample" name="device/sample" remote="aosp" groups="pdk" /> 
-  
-  <!-- external/ -->
-  
-  <project path="external/alsa-lib" name="platform_external_alsa-lib" remote="BR-x86" revision="pie-x86" />
-  <project path="external/alsa-utils" name="platform_external_alsa-utils" remote="BR-x86" revision="p9.0" />
-  <project path="external/bison" name="platform/external/bison" remote="aosp" groups="pdk" revision="master" />
-  <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="BR-x86" revision="p9.0" />
-  <project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="p9.0-r2" />
-  <project path="external/efibootmgr" name="platform_external_efibootmgr" remote="BR-x86" revision="p9.0-ax86" />
-  <project path="external/efivar" name="platform_external_efivar" remote="BR-x86" revision="p9.0-ax86" />
-  <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
-  <!--
-  <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="p9.0" />
-  -->
-  <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86" />
-  <project path="external/llvm70" name="platform_external_llvm70" remote="BR-x86" revision="pie-x86_llvm70-r341512" groups="pdk" />
-  <project path="external/llvm80" name="platform/external/llvm" remote="x86" revision="pie-x86" />
-  <project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="18.3.5-pie-x86-llvm80" />
-   <!--
-  <project path="external/koush/Superuser" name="platform_external_koush_Superuser" remote="BR-x86" revision="p9.0" />
-  <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="oreo-x86" />
-  -->
-  
-  <!-- BEGIN SUPERSU -->
+    <!-- Modified or unnecessary AOSP projects -->
 
-  <project path="vendor/supersu" name="vendor-supersu" remote="BR-x86" revision="v2.82-SR5" />
+    <!--
+    <remove-project name="device/generic/common" />
+    <remove-project name="device/generic/qemu" />
+    <remove-project name="device/generic/x86" />
+    <remove-project name="device/generic/x86_64" />
+    <remove-project name="platform/hardware/intel/audio_media" />
+    <remove-project name="platform/hardware/intel/bootstub" />
+    <remove-project name="platform/hardware/intel/common/bd_prov" />
+    <remove-project name="platform/hardware/intel/common/libmix" />
+    <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+    <remove-project name="platform/hardware/intel/common/libva" />
+    <remove-project name="platform/hardware/intel/common/libwsbm" />
+    <remove-project name="platform/hardware/intel/common/omx-components" />
+    <remove-project name="platform/hardware/intel/common/utils" />
+    <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+    <remove-project name="platform/hardware/intel/img/hwcomposer" />
+    <remove-project name="platform/hardware/intel/img/psb_headers" />
+    <remove-project name="platform/hardware/intel/img/psb_video" />
+    <remove-project name="platform/hardware/intel/sensors" />
+    <remove-project name="platform/external/drm_gralloc" />
+    <remove-project name="platform/external/drm_hwcomposer" />
+    <remove-project name="platform/external/libdrm" />
+    <remove-project name="platform/external/libusb-compat" />
+    <remove-project name="platform/external/mesa3d" />
+    <remove-project name="platform/external/swiftshader" />
+    <remove-project name="platform_vendor_qcom_opensource_cryptfs_hw" />
+    <remove-project name="platform/packages/inputmethods/OpenWnn" />
 
-  <!-- END SUPERSU -->
-  <project path="external/drm_gralloc" name="platform_external_drm_gralloc" remote="BR-x86" revision="pie-x86" />
-  <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
-  <project path="external/drm_framebuffer" name="drm_framebuffer" revision="p9.0-x86" remote="BR-x86" />
-  <project path="external/minigbm" name="platform/minigbm" remote="chromiumos" revision="master" /> 
-  <!-- <project name="android_external_minigbm" path="external/minigbm" remote="me176c" groups="lineage-16.0" />-->
-  <project path="external/drmfb-composer" name="drmfb-composer" remote="me176c" revision="master" />
-  <project path="external/drm_hwcomposer" name="drm_hwcomposer" remote="BR-x86" revision="pie-x86" />
-  <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" />
-  <project path="external/ffmpeg" name="external_ffmpeg" remote="maurossi" revision="pie-x86" />
-  <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.99-ma-p" />
-  <project path="external/swiftshader" name="platform_external_swiftshader" remote="BR-x86" revision="pie-x86-ax86" />
-  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="BR-x86" revision="pie-x86" />
-  <project path="external/s2tc" name="platform_external_s2tc" remote="BR-x86" revision="p9.0" />
-  <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="pie-x86" />
-  <project path="external/wireless-tools" name="platform/external/wireless-tools" remote="x86" revision="pie-x86" />
-  <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
-  
-  <!-- frameworks/ -->
+    <remove-project name="platform/packages/apps/Car/Dialer" />
+    <remove-project name="platform/packages/apps/Car/Hvac" />
+    <remove-project name="platform/packages/apps/Car/LatinIME" />
+    <remove-project name="platform/packages/apps/Car/Launcher" />
+    <remove-project name="platform/packages/apps/Car/LensPicker" />
+    <remove-project name="platform/packages/apps/Car/LocalMediaPlayer" />
+    <remove-project name="platform/packages/apps/Car/Media" />
+    <remove-project name="platform/packages/apps/Car/Messenger" />
+    <remove-project name="platform/packages/apps/Car/Overview" />
+    <remove-project name="platform/packages/apps/Car/Radio" />
+    <remove-project name="platform/packages/apps/Car/Settings" />
+    <remove-project name="platform/packages/apps/Car/Stream" />
+    <remove-project name="platform/packages/apps/Car/SystemUpdater" />
+    <remove-project name="platform/packages/apps/Gallery" />
+    <remove-project name="platform/packages/apps/Launcher2" />
+    <remove-project name="platform/packages/apps/LegacyCamera" />
+    <remove-project name="platform/packages/apps/Music" />
+    <remove-project name="platform/packages/apps/MusicFX" />
+    <remove-project name="platform/packages/apps/SecureElement" />
+    <remove-project name="platform/packages/apps/Tag" />
+    <remove-project name="platform/packages/apps/Test/connectivity" />
+    <remove-project name="platform/packages/apps/TvSettings" />
+    <remove-project name="platform/packages/apps/TV" />
 
-  <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="p9.0-x86" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-x86" />
-  <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="p9.0-x86" />
-  
-  <!-- hardware/ -->
-  
-  <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" remote="aosp" revision="refs/tags/android-7.1.1_r6" />
-  <project path="hardware/gps" name="platform_hardware_gps" remote="BR-x86" revision="p9.0" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="oreo-x86" />
-  <project path="hardware/intel/common/libva" name="platform_hardware_intel_common_libva" remote="BR-x86" revision="libva_2.3.0" />
-  <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="BR-x86" revision="vaapi_2.2.0" />
-  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="oreo-x86" />
-  <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="BR-x86" revision="p9.0" />
-  <project path="hardware/libcamera" name="platform_hardware_libcamera" remote="BR-x86" revision="p9.0" />
-  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="oreo-x86" />
-  <project path="hardware/libsensors" name="platform_hardware_libsensors" remote="BR-x86" revision="p9.0" />
-  <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="oreo-x86" />  
-  <project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="p9.0" />
-  
-  <!-- kernel -->
-  
-  <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.50-ax86-ga" />
+    <remove-project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" />
+    <remove-project name="platform/prebuilts/libs/libedit" />
+    -->
 
-  <!-- Bliss Apps -->
-  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="p9.0-x86" />
+    <!--
+    <remove-project name="platform/packages/services/Telecomm" />
+    -->
+    <project path="bionic" name="platform_bionic" remote="BR-x86" revision="p9.0-x86" />
+    <project path="art" name="platform_art" remote="BR-x86" revision="p9.0-x86" />
+    <project path="manifest" name="manifest" remote="BR-x86" revision="p9.0-x86" />
+    <project path="build/make" name="build" remote="BR-x86"  >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <copyfile src="core/treble/build-treble.sh" dest="build-treble.sh" />
+        <copyfile src="core/efi/build-efi.sh" dest="build-efi.sh" />
+        <copyfile src="core/x86/build-x86.sh" dest="build-x86.sh" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/kati" name="platform_build_kati" remote="BR-x86" />
+    <project  path="build/soong" name="platform_build_soong" remote="BR-x86" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
   
-  <!-- packages/ -->
-  
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BR-x86" revision="p9.0-x86" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="p9.0-x86" />
-  <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="p9.0" />
-  
-  <!-- prebuilts/ -->
-  
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,darwin,arm" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" remote="aosp" groups="pdk,linux" revision="master"  clone-depth="1" />
-  <!-- system/ -->
-  
-  <project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="p9.0-x86" />
-  <project path="system/core" name="platform_system_core" remote="BR-x86" revision="p9.0-x86" />
-  <project path="system/extras" name="system_extras" remote="BR-x86" revision="p9.0-x86" />
-  <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="pie-x86" />
-  
-  <!-- vendor/ -->
-  
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-x86" />
-  <project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
-  <!--<project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" /> -->
-  <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.9" />
-  
-  <!-- START X86 INSTALLER -->
-  <project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="master" remote="github" /> 
-  <!-- END X86 INSTALLER -->
+    <!-- From Android-x86 repositories -->
+
+    <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0" />
+
+    <!-- device/ -->
+
+    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.9" />
+    <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org" />
+    <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
+    <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
+    <project path="device/sample" name="device/sample" remote="aosp" groups="pdk" /> 
+
+    <!-- external/ -->
+
+    <project path="external/alsa-lib" name="platform_external_alsa-lib" remote="BR-x86" revision="pie-x86" />
+    <project path="external/alsa-utils" name="platform_external_alsa-utils" remote="BR-x86" revision="p9.0" />
+    <project path="external/bison" name="platform/external/bison" remote="aosp" groups="pdk" revision="master" />
+    <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="BR-x86" revision="p9.0" />
+    <project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="p9.0-r2" />
+    <project path="external/efibootmgr" name="platform_external_efibootmgr" remote="BR-x86" revision="p9.0-ax86" />
+    <project path="external/efivar" name="platform_external_efivar" remote="BR-x86" revision="p9.0-ax86" />
+    <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
+    <!--
+    <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="p9.0" />
+    -->
+    <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86" />
+    <project path="external/llvm70" name="platform_external_llvm70" remote="BR-x86" revision="pie-x86_llvm70-r341512" groups="pdk" />
+    <project path="external/llvm80" name="platform/external/llvm" remote="x86" revision="pie-x86" />
+    <project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="18.3.5-pie-x86-llvm80" />
+    <!--
+    <project path="external/koush/Superuser" name="platform_external_koush_Superuser" remote="BR-x86" revision="p9.0" />
+    <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="oreo-x86" />
+    -->
+
+    <!-- BEGIN SUPERSU -->
+
+    <project path="vendor/supersu" name="vendor-supersu" remote="BR-x86" revision="v2.82-SR5" />
+
+    <!-- END SUPERSU -->
+    <project path="external/drm_gralloc" name="platform_external_drm_gralloc" remote="BR-x86" revision="pie-x86" />
+    <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
+    <project path="external/drm_framebuffer" name="drm_framebuffer" revision="p9.0-x86" remote="BR-x86" />
+    <project path="external/minigbm" name="platform/minigbm" remote="chromiumos" revision="master" /> 
+    <!-- <project name="android_external_minigbm" path="external/minigbm" remote="me176c" groups="lineage-16.0" />-->
+    <project path="external/drmfb-composer" name="drmfb-composer" remote="me176c" revision="master" />
+    <project path="external/drm_hwcomposer" name="drm_hwcomposer" remote="BR-x86" revision="pie-x86" />
+    <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" />
+    <project path="external/ffmpeg" name="external_ffmpeg" remote="maurossi" revision="pie-x86" />
+    <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.99-ma-p" />
+    <project path="external/swiftshader" name="platform_external_swiftshader" remote="BR-x86" revision="pie-x86-ax86" />
+    <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="BR-x86" revision="pie-x86" />
+    <project path="external/s2tc" name="platform_external_s2tc" remote="BR-x86" revision="p9.0" />
+    <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="pie-x86" />
+    <project path="external/wireless-tools" name="platform/external/wireless-tools" remote="x86" revision="pie-x86" />
+    <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
+
+    <!-- frameworks/ -->
+
+    <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="p9.0-x86" />
+    <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-x86" />
+    <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="p9.0-x86" />
+
+    <!-- hardware/ -->
+
+    <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" remote="aosp" revision="refs/tags/android-7.1.1_r6" />
+    <project path="hardware/gps" name="platform_hardware_gps" remote="BR-x86" revision="p9.0" />
+    <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="oreo-x86" />
+    <project path="hardware/intel/common/libva" name="platform_hardware_intel_common_libva" remote="BR-x86" revision="libva_2.3.0" />
+    <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="BR-x86" revision="vaapi_2.2.0" />
+    <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="oreo-x86" />
+    <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="BR-x86" revision="p9.0" />
+    <project path="hardware/libcamera" name="platform_hardware_libcamera" remote="BR-x86" revision="p9.0" />
+    <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="oreo-x86" />
+    <project path="hardware/libsensors" name="platform_hardware_libsensors" remote="BR-x86" revision="p9.0" />
+    <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="oreo-x86" />  
+    <project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="p9.0" />
+
+    <!-- kernel -->
+
+    <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.50-ax86-ga" />
+
+    <!-- Bliss Apps -->
+    <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="p9.0-x86" />
+
+    <!-- packages/ -->
+
+    <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BR-x86" revision="p9.0-x86" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="p9.0-x86" />
+    <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="p9.0" />
+
+    <!-- prebuilts/ -->
+
+    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="master" clone-depth="1" />
+    <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,darwin,arm" revision="master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" groups="pdk,linux,arm" revision="master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" remote="aosp" groups="pdk,linux" revision="master"  clone-depth="1" />
+    <!-- system/ -->
+
+    <project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="p9.0-x86" />
+    <project path="system/core" name="platform_system_core" remote="BR-x86" revision="p9.0-x86" />
+    <project path="system/extras" name="system_extras" remote="BR-x86" revision="p9.0-x86" />
+    <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="pie-x86" />
+
+    <!-- vendor/ -->
+
+    <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-x86" />
+    <project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
+    <!--<project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" /> -->
+    <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.9" />
+
+    <!-- START X86 INSTALLER -->
+    <project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="master" remote="github" /> 
+    <!-- END X86 INSTALLER -->
   
 </manifest>

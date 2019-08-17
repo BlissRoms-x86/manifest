@@ -112,7 +112,6 @@
 	-->
 
 	<!-- Begin BlissRoms repos -->
-	<project path="art" name="platform_art" remote="BlissRoms" />
 	<project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
 	<project path="dalvik" name="platform_dalvik" remote="BlissRoms" />
 	<project path="development" name="platform_development" remote="BlissRoms" />
