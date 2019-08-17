@@ -183,6 +183,7 @@
 
     <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BR-x86" revision="p9.0-x86" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="p9.0-x86" />
+	<project path="packages/apps/SmartNavSettings" name="platform_packages_apps_SmartNavSettings" remote="BR-x86" revision="p9.0-x86" />
     <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="p9.0" />
 
     <!-- prebuilts/ -->

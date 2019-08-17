@@ -129,7 +129,6 @@
 	<project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" remote="BlissRoms" />
 	<project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BlissRoms" />
 	<project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
-	<project path="packages/apps/SmartNavSettings" name="platform_packages_apps_SmartNavSettings" remote="BlissRoms" />
 	<project path="packages/apps/SmartNav" name="platform_packages_apps_SmartNav" remote="BlissRoms" />
 	<project path="packages/apps/Pulse" name="platform_packages_apps_Pulse" remote="BlissRoms" />
 	<project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
