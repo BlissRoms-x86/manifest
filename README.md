@@ -41,7 +41,7 @@ Initializing Repository
 Repo initialization :
     
     ## Releases Repo ##
-    $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b p9.0
+    $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b q
 
 sync repo :
 
@@ -66,7 +66,7 @@ treble build options explained:
                       arm64_a_foss | arm64_ab_foss : Stock Rom with Foss
                       arm64_a_go | arm64_ab_go : Stock Rom with Go-Gapps
       
-      blissBranch: select which bliss branch to sync, default is p9.0
+      blissBranch: select which bliss branch to sync, default is q
       
       First you must sync with the new manifest changes:
       
@@ -86,7 +86,7 @@ Celadon EFI (Android-IA) build options explained:
                       userdebug |: Make userdebug build
                       eng : Make eng build
       
-      blissBranch: select which bliss branch to sync, default is p9.0
+      blissBranch: select which bliss branch to sync, default is q
 
       After the sync is finished
 
@@ -131,7 +131,7 @@ PC builds (x86) explained:
 				     android_x86_64-userdebug |: Make userdebug build
 				     android_x86_64-eng : Make eng build
 
-	  BlissBranch: select which bliss branch to sync, default is p9.0
+	  BlissBranch: select which bliss branch to sync, default is q
 
 	  To start, you must first use the -s (--sync) flag, then on following builds, it is not needed. 
 	  Initial generation of the proprietary files from ChromeOS are also needed on the first build. 
