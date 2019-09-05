@@ -80,6 +80,13 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
 
   <!-- Hardware -->
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" />
+  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="BlissRoms" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
 
