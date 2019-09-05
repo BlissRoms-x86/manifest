@@ -12,6 +12,10 @@
   <remote name="github"
           fetch="https://github.com/" />
 
+  <remote name="los"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-16.0" />
+
   <!-- Remove first some AOSP repos -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
@@ -24,6 +28,15 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -59,18 +72,16 @@
   <!-- Apps -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
 
-  <!-- External 
-  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="BlissRoms" />
-  <project path="external/google" name="platform_external_google" remote="BlissRoms" />
-  <project path="external/perfetto" name="platform_external_perfetto" remote="BlissRoms" />
-  <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" /> -->
-
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
+
+  <!-- Hardware -->
+  <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
 
   <!-- InputMethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />

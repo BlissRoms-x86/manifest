@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
-  <!-- General -->
-  <project path="art" name="android_art" remote="los" />
-  <project path="development" name="android_development" remote="los" />
 
-  <!-- External -->
+  <!-- External 
   <project path="external/bash" name="android_external_bash" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
   <project path="external/nano" name="android_external_nano" remote="los" />
@@ -18,7 +14,6 @@
   <project path="external/zip" name="android_external_zip" remote="los" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
@@ -40,22 +35,19 @@
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
   <project path="external/proguard" name="android_external_proguard" remote="los" />
-  <project path="external/skia" name="android_external_skia" remote="los" />
+  <project path="external/skia" name="android_external_skia" remote="los" /> -->
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+  <project name="android_external_exfat" path="external/exfat" remote="los" />
+  <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="los" />
 
   <!-- Hardware Repos -->
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="los" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="los" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
-  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="los" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="los" revision="lineage-16.0-caf" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="los" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="los" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="los" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="los" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="los" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="los" revision="lineage-16.0-caf" />
   <project path="hardware/ril-caf" name="android_hardware_ril" remote="los" revision="lineage-16.0-caf" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="los" />
@@ -95,21 +87,24 @@
   <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-845" />
   <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8150" />
 
-  <!-- Packages -->
+  <!-- Packages 
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" /> -->
 
-  <!-- Prebuilts -->
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="los" clone-depth="1" />
+  <!-- Prebuilts 
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="los" clone-depth="1" /> -->
 
   <!-- System Repos -->
   <project path="system/security" name="android_system_security" remote="los" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
-  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" remote="los" />
-  <project path="system/qcom" name="android_system_qcom" remote="los" />
-
+  <project path="system/qcom" name="android_system_qcom" remote="los" /> 
+  <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="los" />
+  
+  <!-- Sepolicy -->
+  <project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="los" />
+  
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
