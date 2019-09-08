@@ -98,6 +98,10 @@
 
   <!-- InputMethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
+  
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-bliss" name="platform_prebuilts_tools-bliss" remote="BlissRoms" />
+  <project path="prebuilts/openssl" name="platform_prebuilts_openssl" remote="BlissRoms" />
 
   <!-- Providers -->
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
