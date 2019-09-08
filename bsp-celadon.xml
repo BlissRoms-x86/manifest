@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="celadon" fetch="https://github.com/projectceladon/" />
+
+    <project name="vendor-intel-utils" path="vendor/intel/utils" remote="celadon" revision="master" />
+
+</manifest>

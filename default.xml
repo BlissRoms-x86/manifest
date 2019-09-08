@@ -768,5 +768,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <include name="remove_vanilla.xml" />
   <include name="bliss.xml" />
+  <include name="bsp-celadon.xml" />
+  <include name="android-x86.xml" />
 </manifest>

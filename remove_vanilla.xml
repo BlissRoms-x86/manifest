@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
+  <!--remove-project name="platform/bionic" />
+  <remove-project name="platform/frameworks/compile/libbcc" /-->
+  <remove-project name="platform/external/drm_hwcomposer" />
+  <remove-project name="platform/external/mesa3d" />
+  <!-- add libdrm back
+  <remove-project name="platform/external/libdrm" />
+  -->
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
+
+
+</manifest>
