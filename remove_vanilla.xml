@@ -25,7 +25,7 @@
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
 
-  <remove-project name="platform/external/libdrm" />
+  <!-- <remove-project name="platform/external/libdrm" /> -->
   <remove-project name="platform/external/minigbm" />
   <remove-project name="platform/external/swiftshader" />
 
