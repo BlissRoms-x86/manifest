@@ -87,10 +87,11 @@
   <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-845" />
   <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8150" /> -->
 
-  <!-- Packages 
-  <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
+  <!-- Packages -->
+  <!--<project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" /> -->
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="los" /> 
 
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="los" />
