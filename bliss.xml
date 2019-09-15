@@ -14,43 +14,10 @@
 
   <remote name="los"
           fetch="https://github.com/LineageOS"
-          revision="lineage-16.0" />
+          revision="lineage-17.0" />
 
-  <!-- Remove first some AOSP repos -->
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/kati" />
-  <remove-project name="platform/build/soong" />
-  <remove-project name="platform/bionic" />
-  <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/dalvik" />
-  <remove-project name="platform/external/selinux" />
-  <!--<remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" /> -->
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/hardware/ril" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/system/vold" />
-  <!--<remove-project name="platform/system/core" /> -->
-  <remove-project name="platform/system/sepolicy" />
-  <!--<remove-project name="platform/system/bt" /> -->
-  <remove-project name="platform/system/extras" />
-
+ 
+  
   <!-- Begin BlissRoms repos -->
   <project path="manifest" name="platform_manifest" remote="BlissRoms" />
   <project path="build/make" name="platform_build_make" remote="BlissRoms" >
@@ -116,6 +83,7 @@
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
   <!-- <project path="system/bt" name="platform_system_bt" remote="BlissRoms" /> -->
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
 
   <!-- Sepolicy -->
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />

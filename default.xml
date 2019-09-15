@@ -772,4 +772,5 @@
   <include name="bliss.xml" />
   <include name="bsp-celadon.xml" />
   <include name="android-x86.xml" />
+  <include name="los.xml" />
 </manifest>
