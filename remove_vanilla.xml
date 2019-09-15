@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
-  <!--remove-project name="platform/bionic" /> -->
-  <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/system/bt" />
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/external/drm_hwcomposer" />
-  <remove-project name="platform/external/mesa3d" />
-  <!-- add libdrm back
-  <remove-project name="platform/external/libdrm" />
-  -->
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/qemu" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
+    <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
+    <!--remove-project name="platform/bionic" /> -->
+    <remove-project name="platform/frameworks/av" />
+    <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/native" />
+    <remove-project name="platform/system/bt" />
+    <remove-project name="platform/system/core" />
+    <remove-project name="platform/external/drm_hwcomposer" />
+    <remove-project name="platform/external/mesa3d" />
+    <!-- add libdrm back
+    <remove-project name="platform/external/libdrm" />
+    -->
+    <remove-project name="device/generic/common" />
+    <remove-project name="device/generic/qemu" />
+    <remove-project name="device/generic/x86" />
+    <remove-project name="device/generic/x86_64" />
 
-  <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
-  <remove-project name="device/linaro/bootloader/edk2" />
-  <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
-  <remove-project name="device/linaro/hikey" />
-  <remove-project name="device/linaro/hikey-kernel" />
-  <remove-project name="device/linaro/poplar" />
-  <remove-project name="device/linaro/poplar-kernel" />
+    <remove-project name="device/google/marlin" />
+	<remove-project name="device/google/marlin-kernel" />
+	<remove-project name="device/google/muskie" />
+	<remove-project name="device/google/taimen" />
+	<remove-project name="device/google/wahoo" />
+	<remove-project name="device/google/wahoo-kernel" />
+    <remove-project name="kernel/tests" />
+    <remove-project name="kernel/build" />
 
-  <!-- <remove-project name="platform/external/libdrm" /> -->
-  <remove-project name="platform/external/minigbm" />
-  <remove-project name="platform/external/swiftshader" />
+    <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
+    <remove-project name="device/linaro/bootloader/edk2" />
+    <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
+    <remove-project name="device/linaro/hikey" />
+    <remove-project name="device/linaro/hikey-kernel" />
+    <remove-project name="device/linaro/poplar" />
+    <remove-project name="device/linaro/poplar-kernel" />
+
+    <!-- <remove-project name="platform/external/libdrm" /> -->
+    <remove-project name="platform/external/minigbm" />
+    <remove-project name="platform/external/swiftshader" />
+    <remove-project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" />
 
 
 </manifest>

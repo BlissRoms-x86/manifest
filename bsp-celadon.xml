@@ -2,6 +2,7 @@
 <manifest>
     <remote name="celadon" fetch="https://github.com/projectceladon/" />
 
+    <!-- <project name="external-mesa" path="external/mesa" remote="celadon" revision="master" /> -->
     <project name="vendor-intel-utils" path="vendor/intel/utils" remote="celadon" revision="master" />
 
 </manifest>
