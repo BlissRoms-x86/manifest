@@ -45,6 +45,7 @@
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/CertInstaller" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -62,7 +63,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/update_engine" />
-  
+
   <!-- Remove Google device repos -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
@@ -113,7 +114,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- End Remove AOSP repos -->
-  
+
   <!-- Begin BlissRoms repos -->
   <project path="manifest" name="platform_manifest" remote="BlissRoms" />
   <project path="build/make" name="platform_build_make" remote="BlissRoms" >
@@ -136,6 +137,7 @@
 
   <!-- Apps -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
 
   <!-- External -->
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
