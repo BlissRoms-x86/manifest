@@ -191,5 +191,6 @@
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="BlissRoms" />
   
 </manifest>
