@@ -17,6 +17,7 @@
           revision="lineage-17.0" />
 
   <!-- Remove first some AOSP repos -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />

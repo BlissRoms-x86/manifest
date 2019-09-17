@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- General -->
+  <project path="art" name="android_art" remote="los" />
+  
   <!-- External 
   <project path="external/bash" name="android_external_bash" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
@@ -89,8 +92,7 @@
 
   <!-- Packages -->
   <!--<project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="los" /> -->
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" /> -->
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="los" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" /> 
 
