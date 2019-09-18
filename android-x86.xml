@@ -49,9 +49,10 @@
     <project path="external/minigbm" name="platform/minigbm" remote="chromiumos" revision="master" />
     <project path="external/minigbm_intel" name="minigbm" remote="maurossi" revision="pie-x86_intel" />    
     <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="BR-x86" revision="pie-x86" />
-    <project path="external/s2tc" name="platform_external_s2tc" remote="BR-x86" revision="p9.0" />
+    <project path="external/s2tc" name="platform_external_s2tc" remote="BR-x86" revision="q10.0" />
     <project path="external/stagefright-plugins" name="stagefright-plugins" remote="BR-x86" revision="q10.0" />
     <project path="external/swiftshader" name="platform_external_swiftshader" remote="BR-x86" revision="pie-x86-ax86" />
+    <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" groups="pdk" revision="master" />
     <project path="external/wireless-tools" name="platform/external/wireless-tools" remote="x86" revision="pie-x86" />
     <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
 
@@ -69,12 +70,13 @@
     <project path="hardware/intel/common/libva" name="platform_hardware_intel_common_libva" remote="BR-x86" revision="libva_2.3.0" />
     <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="BR-x86" revision="vaapi_2.2.0" />
     <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="oreo-x86" />
+    <project path="hardware/intel/power" name="powerhal" remote="celadon" revision="master" />
     <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="BR-x86" revision="p9.0" />
     <project path="hardware/libcamera" name="platform_hardware_libcamera" remote="BR-x86" revision="p9.0" />
     <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="oreo-x86" />
     <project path="hardware/libsensors" name="platform_hardware_libsensors" remote="BR-x86" revision="p9.0" />
     <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="oreo-x86" />  
-    <project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="p9.0" />
+    <!-- <project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="p9.0" /> -->
 
     <!-- kernel -->
 
