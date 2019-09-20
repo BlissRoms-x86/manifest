@@ -108,8 +108,8 @@
   <project path="system/security" name="android_system_security" remote="los" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" remote="los" />
-  <project path="system/qcom" name="android_system_qcom" remote="los" /> 
-  <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="los" /> -->
+  <project path="system/qcom" name="android_system_qcom" remote="los" /> -->
+  <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="los" />
   
   <!-- Sepolicy 
   <project name="android_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="los" /> -->
