@@ -19,7 +19,6 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
-  <project path="external/exfat" name="android_external_exfat" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="los" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="los" />
@@ -36,13 +35,14 @@
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="los" />
   <project path="external/libpng" name="android_external_libpng" remote="los" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
   <project path="external/proguard" name="android_external_proguard" remote="los" />
   <project path="external/skia" name="android_external_skia" remote="los" /> 
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project name="android_external_exfat" path="external/exfat" remote="los" />
   <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="los" /> -->
-
+  <project path="external/exfat" name="android_external_exfat" remote="los" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
+  
   <!-- Hardware Repos 
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="los" revision="lineage-16.0-caf" />
