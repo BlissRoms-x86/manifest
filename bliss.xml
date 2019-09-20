@@ -40,6 +40,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Browser2" />

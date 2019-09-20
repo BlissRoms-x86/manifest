@@ -44,7 +44,6 @@
   <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="los" /> -->
 
   <!-- Hardware Repos 
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="los" revision="lineage-16.0-caf" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="los" />
@@ -56,6 +55,7 @@
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="los" />
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" /> -->
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
 
   <!-- Qualcomm Hals 
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
