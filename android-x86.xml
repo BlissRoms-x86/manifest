@@ -13,12 +13,13 @@
     <remote name="me176c" fetch="https://github.com/me176c-dev/" />
 
     <!-- From Android-x86 repositories -->
-
+    
+    <project path="bionic" name="platform/bionic" remote="x86" revision="q-x86" />
     <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q10.0" />
 
     <!-- device/ -->
 
-    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-x86-IA-HWC" />
+    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="q10.0-x86" />
     <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org" />
     <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
     <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
@@ -93,11 +94,18 @@
     <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q10.0" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q10.0" />
     <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10.0" />
+    
+    <!-- packages/apps -->
+    
+    <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="q-x86" />
+    <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
+    <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BR-x86" revision="q10.0-x86" />
+	<project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BR-x86" revision="q10.0" />
 
     <!-- system/ -->
 
     <project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="q10.0" />
-    <project path="system/core" name="platform_system_core" remote="BR-x86" revision="q10.0" />
+    <project path="system/core" name="platform_system_core" remote="BR-x86" revision="q10.0-x86" />
     <!-- <project path="system/extras" name="system_extras" remote="BR-x86" revision="p9.0-x86" />
     <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="pie-x86" /> -->
 
