@@ -46,6 +46,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -53,6 +54,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -141,9 +143,11 @@
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
   <project path="dalvik" name="platform_dalvik" remote="BlissRoms" />
+  <project path="lineage-sdk" name="platform_lineage-sdk" remote="BlissRoms" />  
 
   <!-- Apps -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
@@ -151,7 +155,9 @@
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
   <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
-
+  <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" />
+  <project path="packages/apps/LineageParts" name="platform_packages_apps_LineageParts" remote="BlissRoms" />
+  
   <!-- External -->
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
 
@@ -175,7 +181,8 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
 
   <!-- Interfaces -->
-  <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
+  <project path="hardware/lineage/interfaces" name="platform_hardware_lineage_interfaces" remote="BlissRoms" />
 
   <!-- InputMethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
@@ -202,7 +209,8 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
 
   <!-- Vendor -->
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="q10" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="BlissRoms" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="platform_vendor_nxp_opensource_packages_apps_Nfc" remote="BlissRoms" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" />
