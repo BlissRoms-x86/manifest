@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Temporary till necessary patches from AOSP master land in Android N branch. We use frameworks-av as a temporary repository for libbcc -->
-    <!--remove-project name="platform/bionic" /> -->
-    <remove-project name="platform/frameworks/av" />
-    <remove-project name="platform/frameworks/base" />
-    <remove-project name="platform/frameworks/native" />
-    <remove-project name="platform/system/bt" />
-    <remove-project name="platform/system/core" />
-    <remove-project name="platform/external/drm_hwcomposer" />
-    <remove-project name="platform/external/mesa3d" />
-    <!-- add libdrm back
-    <remove-project name="platform/external/libdrm" />
-    -->
-    <remove-project name="device/generic/common" />
-    <remove-project name="device/generic/qemu" />
-    <remove-project name="device/generic/x86" />
-    <remove-project name="device/generic/x86_64" />
-
-    <remove-project name="device/google/marlin" />
-	<remove-project name="device/google/marlin-kernel" />
-	<remove-project name="device/google/muskie" />
-	<remove-project name="device/google/taimen" />
-	<remove-project name="device/google/wahoo" />
-	<remove-project name="device/google/wahoo-kernel" />
-    <remove-project name="kernel/tests" />
-    <remove-project name="kernel/build" />
-
-    <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
-    <remove-project name="device/linaro/bootloader/edk2" />
-    <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
-    <remove-project name="device/linaro/hikey" />
-    <remove-project name="device/linaro/hikey-kernel" />
-    <remove-project name="device/linaro/poplar" />
-    <remove-project name="device/linaro/poplar-kernel" />
-
-    <!-- <remove-project name="platform/external/libdrm" /> -->
+	
+	<remove-project name="platform/external/drm_hwcomposer" /> 
+    <remove-project name="platform/external/mesa3d" /> 
     <remove-project name="platform/external/minigbm" />
-    <remove-project name="platform/external/swiftshader" />
-    <remove-project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" />
+    <remove-project name="platform/external/swiftshader" /> 
     
-     <!-- Remove first some AOSP repos -->
+    <!-- add libdrm back 
+    <remove-project name="platform/external/libdrm" /> 
+    -->
+	
+    <!-- Remove first some AOSP repos -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
@@ -47,12 +19,13 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/dalvik" />
   <remove-project name="platform/external/selinux" />
-  <!--<remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" /> -->
+  <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/audio" />
@@ -62,12 +35,22 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/CertInstaller" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -80,12 +63,12 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/system/vold" />
-  <!--<remove-project name="platform/system/core" /> -->
+  <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
-  <!--<remove-project name="platform/system/bt" /> -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/extras" />
-  <!-- <remove-project name="platform/system/update_engine" /> -->
-  
+  <remove-project name="platform/system/update_engine" />
+
   <!-- Remove Google device repos -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
@@ -93,6 +76,7 @@
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/common" />
   <remove-project name="device/generic/goldfish" />
   <remove-project name="device/generic/goldfish-opengl" />
   <remove-project name="device/generic/mini-emulator-arm64" />
@@ -100,8 +84,12 @@
   <remove-project name="device/generic/mini-emulator-x86" />
   <remove-project name="device/generic/mini-emulator-x86_64" />
   <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="device/generic/qemu" />
   <remove-project name="device/generic/trusty" />
   <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/atv" />
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
@@ -113,7 +101,20 @@
   <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/fuchsia" />
+  <remove-project name="device/google/marlin" />
+  <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
   <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
+  <remove-project name="device/linaro/bootloader/edk2" />
+  <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 

@@ -13,7 +13,16 @@
     <remote name="me176c" fetch="https://github.com/me176c-dev/" />
 
     <!-- From Android-x86 repositories -->
-    
+    <project path="manifest" name="manifest" remote="BR-x86" revision="q10.0" />
+	<project path="build/make" name="build" remote="BR-x86" revision="q10.0-x86" >
+		<copyfile src="core/root.mk" dest="Makefile" />
+		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+		<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+		<linkfile src="core" dest="build/core" />
+		<linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+		<linkfile src="target" dest="build/target" />
+		<linkfile src="tools" dest="build/tools" />
+	</project>
     <project path="bionic" name="platform/bionic" remote="x86" revision="q-x86" />
     <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q10.0" />
 
@@ -38,7 +47,9 @@
     <project path="external/efibootmgr" name="platform_external_efibootmgr" remote="BR-x86" revision="p9.0-ax86" />
     <project path="external/efivar" name="platform_external_efivar" remote="BR-x86" revision="p9.0-ax86" />
     <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
-    <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" />
+    <!--
+    <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" /> 
+    -->
     <project path="external/ffmpeg" name="external_ffmpeg" remote="maurossi" revision="pie-x86" />
     <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
     <project path="external/IA-Hardware-Composer" name="IA-Hardware-Composer" remote="BR-x86" revision="q10.0" />
@@ -49,7 +60,9 @@
     <project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="19.3.0-devel_w36_llvm80" /> 
     <project path="external/minigbm" name="platform/minigbm" remote="chromiumos" revision="master" />
     <project path="external/minigbm_intel" name="minigbm" remote="maurossi" revision="pie-x86_intel" />    
+    <!-- 
     <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="BR-x86" revision="pie-x86" />
+    -->
     <project path="external/s2tc" name="platform_external_s2tc" remote="BR-x86" revision="q10.0" />
     <project path="external/stagefright-plugins" name="stagefright-plugins" remote="BR-x86" revision="q10.0" />
     <project path="external/swiftshader" name="platform_external_swiftshader" remote="BR-x86" revision="pie-x86-ax86" />
