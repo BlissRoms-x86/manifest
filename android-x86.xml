@@ -51,7 +51,10 @@
     <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" /> 
     -->
     <project path="external/ffmpeg" name="external_ffmpeg" remote="maurossi" revision="pie-x86" />
+    <!--
     <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
+    -->
+    <project path="external/gbm_gralloc" name="gbm_gralloc" remote="maurossi" revision="fb0" />
     <project path="external/IA-Hardware-Composer" name="IA-Hardware-Composer" remote="BR-x86" revision="q10.0" />
     <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86" />
     <!-- <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.99-ma-p" /> -->
