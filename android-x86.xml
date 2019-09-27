@@ -56,7 +56,7 @@
     -->
     <project path="external/gbm_gralloc" name="gbm_gralloc" remote="maurossi" revision="fb0" />
     <project path="external/IA-Hardware-Composer" name="IA-Hardware-Composer" remote="BR-x86" revision="q10.0" />
-    <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86" />
+    <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q10.0-x86" />
     <!-- <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.99-ma-p" /> -->
     <project path="external/llvm80" name="platform/external/llvm" remote="x86" revision="pie-x86" />
     <project path="external/llvm90" name="llvm" remote="maurossi" revision="pie-x86_llvm90_stable" />
