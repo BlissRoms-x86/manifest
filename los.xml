@@ -15,10 +15,7 @@
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="los" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="los" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="los" />
@@ -37,7 +34,6 @@
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
   <project path="external/proguard" name="android_external_proguard" remote="los" />
   <project path="external/skia" name="android_external_skia" remote="los" /> 
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project name="android_external_exfat" path="external/exfat" remote="los" />
   <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="los" /> -->
   <project path="external/exfat" name="android_external_exfat" remote="los" />
@@ -45,6 +41,8 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+  <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="los" />
+  <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="los" />
   
   <!-- Hardware Repos 
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" />
@@ -91,8 +89,8 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-  <!--<project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-17.0-caf" />-->
-  <!--<project path="hardware/qcom-caf/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />-->
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-17.0-caf" remote="los" />
+  <project path="hardware/qcom-caf/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="los" />
   <!--<project path="hardware/qcom-caf/msm8916/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8916" />-->
   <!--<project path="hardware/qcom-caf/msm8916/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8916" />-->
   <!--<project path="hardware/qcom-caf/msm8916/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8916" />-->
@@ -121,9 +119,9 @@
   <!--<project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-sm8150" />-->
   <!--<project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-sm8150" />-->
   <!--<project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-sm8150" />-->
-  <!--<project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" />-->
-  <!--<project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" />-->
-  <!--<project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-17.0-caf" />-->
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="los" />
+  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="los" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-17.0-caf" remote="los" />
 
   <!-- Packages -->
   <!--<project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
@@ -163,7 +161,8 @@
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.0-pn5xx" remote="los" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-17.0-sn100x" remote="los" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.0-sn100x" remote="los" />
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="los" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" />
