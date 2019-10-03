@@ -75,7 +75,6 @@
     <remove-project name="platform/packages/services/Telecomm" />
     -->
     <project path="bionic" name="platform_bionic" remote="BR-x86" revision="p9.0-x86" />
-    <project path="art" name="platform_art" remote="BR-x86" revision="p9.0-x86" />
     <project path="manifest" name="manifest" remote="BR-x86" revision="p9.0-x86" />
     <project path="build/make" name="build" remote="BR-x86"  >
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -117,9 +116,6 @@
     <project path="external/efibootmgr" name="platform_external_efibootmgr" remote="BR-x86" revision="p9.0-ax86" />
     <project path="external/efivar" name="platform_external_efivar" remote="BR-x86" revision="p9.0-ax86" />
     <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
-    <!--
-    <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="p9.0" />
-    -->
     <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86" />
     <project path="external/llvm70" name="platform_external_llvm70" remote="BR-x86" revision="pie-x86_llvm70-r341512" groups="pdk" />
     <project path="external/llvm80" name="platform/external/llvm" remote="x86" revision="pie-x86" />
@@ -141,11 +137,9 @@
     <!-- <project name="android_external_minigbm" path="external/minigbm" remote="me176c" groups="lineage-16.0" />-->
     <project path="external/drmfb-composer" name="drmfb-composer" remote="me176c" revision="master" />
     <project path="external/drm_hwcomposer" name="drm_hwcomposer" remote="BR-x86" revision="pie-x86" />
-    <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" />
     <project path="external/ffmpeg" name="external_ffmpeg" remote="maurossi" revision="pie-x86" />
     <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.99-ma-p" />
     <project path="external/swiftshader" name="platform_external_swiftshader" remote="BR-x86" revision="pie-x86-ax86" />
-    <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="BR-x86" revision="pie-x86" />
     <project path="external/s2tc" name="platform_external_s2tc" remote="BR-x86" revision="p9.0" />
     <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="pie-x86" />
     <project path="external/wireless-tools" name="platform/external/wireless-tools" remote="x86" revision="pie-x86" />
@@ -160,6 +154,7 @@
     <!-- hardware/ -->
 
     <project groups="aosp,pdk" name="platform/hardware/bsp/intel" path="hardware/bsp/intel" remote="aosp" revision="refs/tags/android-7.1.1_r6" />
+    <project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="pie-x86" />
     <project path="hardware/gps" name="platform_hardware_gps" remote="BR-x86" revision="p9.0" />
     <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="oreo-x86" />
     <project path="hardware/intel/common/libva" name="platform_hardware_intel_common_libva" remote="BR-x86" revision="libva_2.3.0" />
@@ -176,15 +171,12 @@
 
     <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.50-ax86-ga" />
 
-    <!-- Bliss Apps -->
-    <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="p9.0-x86" />
-
-    <!-- packages/ -->
-
+        <!-- packages/ -->
+	<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="pie-x86" />
+	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="pie-x86" />
     <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BR-x86" revision="p9.0-x86" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="p9.0-x86" />
-	<project path="packages/apps/SmartNavSettings" name="platform_packages_apps_SmartNavSettings" remote="BR-x86" revision="p9.0-x86" />
-    <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="p9.0" />
+	<project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="p9.0" />
 
     <!-- prebuilts/ -->
 
@@ -201,7 +193,6 @@
 
     <!-- vendor/ -->
 
-    <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-x86" />
     <project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
     <!--<project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" /> -->
     <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.9" />

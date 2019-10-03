@@ -19,6 +19,10 @@
 	<remove-project name="platform/external/tinycompress" />
 	<remove-project name="platform/external/toybox" />
 	<remove-project name="platform/external/zlib" />
+	<remove-project name="platform/external/libpng" />
+	<remove-project name="platform/external/libtextclassifier" />
+	<remove-project name="platform/external/proguard" />
+	<remove-project name="platform/external/skia" />
 	<remove-project name="platform/frameworks/av" />
 	<remove-project name="platform/frameworks/base" />
 	<remove-project name="platform/frameworks/compile/mclinker" />
@@ -73,7 +77,10 @@
 	<remove-project name="platform/prebuilts/clang/host/linux-x86" />
 	<remove-project name="platform/system/vold" />
 	<remove-project name="platform/system/core" />
+	<remove-project name="platform/system/security" />
 	<remove-project name="platform/system/sepolicy" />
+	<remove-project name="platform/system/timezone" />
+	<remove-project name="platform/system/tools/hidl" /> 
 	<remove-project name="platform/system/bt" />
 	<remove-project name="platform/system/extras" />
 	<remove-project name="platform/system/update_engine" />
@@ -98,6 +105,11 @@
 	<remove-project name="device/generic/qemu" />
 	<remove-project name="device/generic/x86" />
 	<remove-project name="device/generic/x86_64" />
+	<remove-project name="platform/external/chromium-webview" />
+	<remove-project name="platform/external/gptfdisk" />
+	<remove-project name="platform/external/fsck_msdos" />
+	<remove-project name="platform/external/icu" />
+	<remove-project name="platform/external/one-true-awk" />
 	<remove-project name="platform/hardware/intel/audio_media" />
 	<remove-project name="platform/hardware/intel/bootstub" />
 	<remove-project name="platform/hardware/intel/common/bd_prov" />
