@@ -3,6 +3,9 @@
 
   <!-- General -->
   <project path="art" name="android_art" remote="los" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="los" />
   
   <!-- External 
   <project path="external/bash" name="android_external_bash" remote="los" />
