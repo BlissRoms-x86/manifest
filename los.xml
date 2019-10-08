@@ -61,6 +61,7 @@
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" /> -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="los" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk-qcom" remote="los" />
 
   <!-- Qualcomm Hals 
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" /> -->
