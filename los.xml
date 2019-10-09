@@ -131,6 +131,7 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="los" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="los" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="los" />
     <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="los" />
 
@@ -166,6 +167,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" />
   <!-- <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="los" /> -->
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
 
