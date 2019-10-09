@@ -96,11 +96,11 @@
   
     <!-- From Android-x86 repositories -->
 
-    <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0" />
+    <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0-11.11" />
 
     <!-- device/ -->
 
-    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.9" />
+    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.11" />
     <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org" />
     <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
     <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
@@ -118,7 +118,8 @@
     <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
     <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86" />
     <project path="external/llvm70" name="platform_external_llvm70" remote="BR-x86" revision="pie-x86_llvm70-r341512" groups="pdk" />
-    <project path="external/llvm80" name="platform/external/llvm" remote="x86" revision="pie-x86" />
+    <project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
+    <project path="external/llvm90" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm90" />
     <project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="18.3.5-pie-x86-llvm80" />
     <!--
     <project path="external/koush/Superuser" name="platform_external_koush_Superuser" remote="BR-x86" revision="p9.0" />
@@ -147,9 +148,9 @@
 
     <!-- frameworks/ -->
 
-    <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="p9.0-x86" />
-    <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-x86" />
-    <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="p9.0-x86" />
+    <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="p9.0-11.11" />
+    <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-11.11" />
+    <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="p9.0-11.11" />
 
     <!-- hardware/ -->
 
@@ -175,7 +176,7 @@
 	<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="pie-x86" />
 	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="pie-x86" />
     <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BR-x86" revision="p9.0-x86" />
-    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="p9.0-x86" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="p9.0-11.11" />
 	<project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="p9.0" />
 
     <!-- prebuilts/ -->
