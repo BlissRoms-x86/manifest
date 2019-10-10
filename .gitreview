@@ -2,4 +2,4 @@
 host=review.blissroms.com
 port=29418
 project=platform_manifest.git
-defaultbranch=p9.0
+defaultbranch=p9.0-x86
