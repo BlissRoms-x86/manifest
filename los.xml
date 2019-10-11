@@ -3,6 +3,7 @@
 
   <!-- General -->
   <project path="art" name="android_art" remote="los" />
+  <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="los" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="los" />
