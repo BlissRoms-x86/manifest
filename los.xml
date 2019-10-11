@@ -26,7 +26,6 @@
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk" remote="los" />
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/libtar" name="android_external_libtar" remote="los" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="los" />
@@ -38,8 +37,7 @@
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
   <project path="external/proguard" name="android_external_proguard" remote="los" />
   <project path="external/skia" name="android_external_skia" remote="los" /> 
-  <project name="android_external_exfat" path="external/exfat" remote="los" />
-  <project name="android_external_libnfc-nxp" path="external/libnfc-nxp" remote="los" /> -->
+  <project name="android_external_exfat" path="external/exfat" remote="los" />-->
   <project path="external/exfat" name="android_external_exfat" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
@@ -47,6 +45,7 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="los" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="los" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   
   <!-- Hardware Repos 
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" />
