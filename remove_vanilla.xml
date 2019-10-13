@@ -6,9 +6,7 @@
     <remove-project name="platform/external/minigbm" />
     <remove-project name="platform/external/swiftshader" /> 
     
-    <!-- add libdrm back 
-    <remove-project name="platform/external/libdrm" /> 
-    -->
+    <remove-project name="platform/external/libdrm" />    
 	
     <!-- Remove first some AOSP repos -->
   <remove-project name="platform/art" />
