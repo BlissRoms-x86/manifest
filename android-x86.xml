@@ -40,10 +40,13 @@
     <project path="external/bison" name="platform/external/bison" remote="aosp" groups="pdk" revision="master" />
     <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="BR-x86" revision="q10.0" />
     <project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="q10.0" />
-    <project path="external/drm_hwcomposer" name="drm_hwcomposer" remote="BR-x86" revision="q10.0-x86" />
-    <project path="external/drm_framebuffer" name="drm_framebuffer" revision="p9.0-x86" remote="BR-x86" />
+    <!--<project path="external/drm_hwcomposer" name="drm_hwcomposer" remote="BR-x86" revision="q10.0-x86" /> -->
+    <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="q-x86" />
+	<project path="external/drm_gralloc" name="platform/external/drm_gralloc" remote="x86" revision="q-x86" />
+	<project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" revision="q-x86" />
+    <!-- <project path="external/drm_framebuffer" name="drm_framebuffer" revision="p9.0-x86" remote="BR-x86" /> -->
     <project path="external/drmfb-composer" name="drmfb-composer" remote="maurossi" revision="master" />
-    <project path="external/drm_gralloc" name="platform_external_drm_gralloc" remote="BR-x86" revision="pie-x86" />
+    <!-- <project path="external/drm_gralloc" name="platform_external_drm_gralloc" remote="BR-x86" revision="pie-x86" /> -->
     <project path="external/efibootmgr" name="platform_external_efibootmgr" remote="BR-x86" revision="p9.0-ax86" />
     <project path="external/efivar" name="platform_external_efivar" remote="BR-x86" revision="p9.0-ax86" />
     <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
