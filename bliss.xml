@@ -53,7 +53,7 @@
   <!-- <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" /> -->
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" />
+  <!-- <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" /> -->
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
 
   <!-- Hardware -->

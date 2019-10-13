@@ -2,7 +2,7 @@
 <manifest>
     <remote name="maurossi" fetch="https://github.com/maurossi" />
     <remote name="x86" fetch="http://scm.osdn.net/gitroot/android-x86" />
-    <remote name="BR-x86" fetch="https://github.com/BlissRoms-x86" revision="p9.0-x86" />
+    <remote name="BR-x86" fetch="https://github.com/BlissRoms-x86" revision="q10.0" />
 
     <remote name="kernelorg" fetch="https://git.kernel.org/" />
     <remote name="graphics" fetch="https://github.com/01org/" />
@@ -70,7 +70,7 @@
     <!-- <project path="external/stagefright-plugins" name="stagefright-plugins" remote="BR-x86" revision="q10.0" /> -->
     <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="q-x86" />
     <project path="external/swiftshader" name="platform_external_swiftshader" remote="BR-x86" revision="pie-x86-ax86" />
-    <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" groups="pdk" revision="master" />
+    <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" groups="pdk" revision="refs/tags/android-9.0.0_r48" />
     <project path="external/wireless-tools" name="platform/external/wireless-tools" remote="x86" revision="pie-x86" />
     <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
 
@@ -88,7 +88,7 @@
     <project path="hardware/intel/common/libva" name="platform_hardware_intel_common_libva" remote="BR-x86" revision="libva_2.3.0" />
     <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="BR-x86" revision="vaapi_2.2.0" />
     <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="oreo-x86" />
-    <project path="hardware/intel/power" name="powerhal" remote="celadon" revision="master" />
+    <!-- <project path="hardware/intel/power" name="powerhal" remote="celadon" revision="master" /> -->
     <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="BR-x86" revision="p9.0" />
     <project path="hardware/libcamera" name="platform_hardware_libcamera" remote="BR-x86" revision="p9.0" />
     <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="oreo-x86" />
