@@ -67,15 +67,17 @@
   <!--<project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-apq8084" remote="los" />-->
   <!--<project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-apq8084" remote="los" />-->
   <!--<project path="hardware/qcom-caf/apq8084/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-apq8084" remote="los" />-->
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="los" >
+  <!--
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="los" > -->
     <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" /> -->
     <!-- for AOSP sdm845, we override os_pickup.mk -->
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" /> -->
     <!-- add guards for CAF repositories -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" /> -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
+    <!-- 
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
@@ -96,9 +98,11 @@
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8916" remote="los" />
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8916" remote="los" />
   <project path="hardware/qcom-caf/msm8916/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8916" remote="los" />
+  -->
   <!--<project path="hardware/qcom-caf/msm8952/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8952" remote="los" />-->
   <!--<project path="hardware/qcom-caf/msm8952/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8952" remote="los" />-->
   <!--<project path="hardware/qcom-caf/msm8952/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8952" remote="los" />-->
+  <!--
   <project path="hardware/qcom-caf/msm8960/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.0-caf-msm8960" remote="los" />
   <project path="hardware/qcom-caf/msm8960/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.0-caf-msm8960" remote="los" />
   <project path="hardware/qcom-caf/msm8960/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.0-caf-msm8960" remote="los" />
@@ -123,7 +127,7 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="los" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="los" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-17.0-caf" remote="los" />
-
+  -->
   <!-- Packages -->
   <!--<project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" /> -->
@@ -150,12 +154,12 @@
   <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="los" />
   
   <!-- Sepolicy --> 
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="los" />
-  <!--<project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" />-->
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-17.0-legacy-um" remote="los" />
+  <!-- <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="los" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="lineage-17.0-legacy-um" remote="los" /> -->
   
   <!-- Vendor -->
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
+  <!--<project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="los" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="los" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="los" />
@@ -165,10 +169,10 @@
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.0-sn100x" remote="los" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" /> -->
   <!-- <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="los" /> -->
-  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="los" />
+  <!-- <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" /> -->
 
 </manifest>
