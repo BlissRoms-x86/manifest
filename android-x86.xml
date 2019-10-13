@@ -66,7 +66,7 @@
     <project path="external/llvm90" name="llvm" remote="maurossi" revision="pie-x86_llvm90_stable" />
     <!--<project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="19.0.8-pie-x86" /> -->
     <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="q-x86" />
-    <project path="external/minigbm" name="platform/minigbm" remote="chromiumos" revision="master" />
+    <!-- <project path="external/minigbm" name="platform/minigbm" remote="chromiumos" revision="master" /> -->
     <project path="external/minigbm_intel" name="minigbm" remote="maurossi" revision="pie-x86_intel" />    
     <!-- 
     <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="BR-x86" revision="pie-x86" />
@@ -131,6 +131,7 @@
     <project path="system/core" name="platform_system_core" remote="BR-x86" revision="q10.0-testing" />
     <!-- <project path="system/extras" name="system_extras" remote="BR-x86" revision="p9.0-x86" />
     <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="pie-x86" /> -->
+    <!-- <project path="system/vold" name="platform/system/vold" remote="x86" revision="q-x86" /> -->
 
     <!-- vendor/ -->
 
