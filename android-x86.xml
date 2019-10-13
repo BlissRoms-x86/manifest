@@ -139,6 +139,7 @@
     <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="q10.0-testing" >
 		<copyfile src="build-x86.sh" dest="build-x86.sh" />
 	</project>
+	<project name="vendor_fdroid" path="vendor/fdroid" remote="BR-x86" revision="pie" />
     
     <!-- START X86 INSTALLER -->
     <project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="master" remote="github" /> 
