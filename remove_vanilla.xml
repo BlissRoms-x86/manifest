@@ -113,16 +113,19 @@
   <remove-project name="platform/hardware/invensense" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/nxp/secure_element" />
-  <!-- 
+  
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <!--
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" /> -->
+  
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
+  <!--
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
@@ -139,9 +142,10 @@
   <remove-project name="platform/hardware/qcom/sdm845/gps" />
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
-  <remove-project name="platform/hardware/qcom/sdm845/vr" />
-  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/qcom/sdm845/vr" /> 
   -->
+  <remove-project name="platform/hardware/qcom/wlan" />
+  
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/ti/am57x" />
   <remove-project name="platform/packages/apps/Camera2" />
