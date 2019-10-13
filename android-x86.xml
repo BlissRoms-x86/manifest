@@ -28,7 +28,7 @@
 
     <!-- device/ -->
 
-    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="q10.0-x86" />
+    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="q10.0-x86-testing" />
     <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="q10.0-ax86" />
     <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
     <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
@@ -58,7 +58,7 @@
     <project path="external/IA-Hardware-Composer" name="IA-Hardware-Composer" remote="BR-x86" revision="q10.0" />
     <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q10.0-x86" />
     <!-- <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.99-ma-p" /> -->
-    <project path="external/llvm80" name="platform/external/llvm" remote="x86" revision="pie-x86" />
+    <project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
     <project path="external/llvm90" name="llvm" remote="maurossi" revision="pie-x86_llvm90_stable" />
     <project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="19.0.8-pie-x86" /> 
     <project path="external/minigbm" name="platform/minigbm" remote="chromiumos" revision="master" />
@@ -131,7 +131,9 @@
 
     <project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
     <!--<project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" /> -->
-    <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="q10.0-testing" />
+    <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="q10.0-testing" >
+		<copyfile src="build-x86.sh" dest="build-x86.sh" />
+	</project>
     
     <!-- START X86 INSTALLER -->
     <project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="master" remote="github" /> 
