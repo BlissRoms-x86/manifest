@@ -24,6 +24,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/dalvik" />
@@ -142,6 +143,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/blueprint" name="platform_build_blueprint" remote="BlissRoms" />
   <project path="build/kati" name="platform_build_kati" remote="BlissRoms" />
   <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
     <linkfile src="root.bp" dest="Android.bp" />
