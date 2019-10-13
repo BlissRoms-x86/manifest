@@ -29,7 +29,7 @@
     <!-- device/ -->
 
     <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="q10.0-x86" />
-    <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="q10.0-x86" />
+    <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="q10.0-ax86" />
     <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
     <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
 
@@ -123,7 +123,7 @@
     <!-- system/ -->
 
     <project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="q10.0" />
-    <project path="system/core" name="platform_system_core" remote="BR-x86" revision="q10.0-x86" />
+    <project path="system/core" name="platform_system_core" remote="BR-x86" revision="q10.0-testing" />
     <!-- <project path="system/extras" name="system_extras" remote="BR-x86" revision="p9.0-x86" />
     <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="pie-x86" /> -->
 
