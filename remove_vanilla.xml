@@ -113,6 +113,7 @@
   <remove-project name="platform/hardware/invensense" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/nxp/secure_element" />
+  <!-- 
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
@@ -140,6 +141,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
   <remove-project name="platform/hardware/qcom/wlan" />
+  -->
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/ti/am57x" />
   <remove-project name="platform/packages/apps/Camera2" />
