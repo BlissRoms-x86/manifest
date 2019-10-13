@@ -53,7 +53,10 @@
     <!--
     <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" /> 
     -->
+    <!--
     <project path="external/ffmpeg" name="external_ffmpeg" remote="maurossi" revision="pie-x86" />
+    -->
+    <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="q-x86" />
     <!--
     <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
     -->
