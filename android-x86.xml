@@ -47,8 +47,8 @@
     <!-- <project path="external/drm_framebuffer" name="drm_framebuffer" revision="p9.0-x86" remote="BR-x86" /> -->
     <project path="external/drmfb-composer" name="drmfb-composer" remote="maurossi" revision="master" />
     <!-- <project path="external/drm_gralloc" name="platform_external_drm_gralloc" remote="BR-x86" revision="pie-x86" /> -->
-    <project path="external/efibootmgr" name="platform_external_efibootmgr" remote="BR-x86" revision="p9.0-ax86" />
-    <project path="external/efivar" name="platform_external_efivar" remote="BR-x86" revision="p9.0-ax86" />
+    <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="q-x86" />
+    <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="q-x86" />
     <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
     <!--
     <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" /> 
@@ -60,13 +60,15 @@
     <!--
     <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="oreo-x86" />
     -->
-    <project path="external/gbm_gralloc" name="gbm_gralloc" remote="maurossi" revision="fb0" />
+    <!-- <project path="external/gbm_gralloc" name="gbm_gralloc" remote="maurossi" revision="fb0" /> -->
+    <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="q-x86" />
     <project path="external/IA-Hardware-Composer" name="IA-Hardware-Composer" remote="BR-x86" revision="q10.0" />
     <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q10.0-x86" />
     <!-- <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.99-ma-p" /> -->
     <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="q-x86" />
     <project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
-    <project path="external/llvm90" name="llvm" remote="maurossi" revision="pie-x86_llvm90_stable" />
+    <!-- <project path="external/llvm90" name="llvm" remote="maurossi" revision="pie-x86_llvm90_stable" /> -->
+    <project path="external/llvm90" name="platform/external/llvm" remote="x86" revision="q-x86" />
     <!--<project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="19.0.8-pie-x86" /> -->
     <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="q-x86" />
     <!-- <project path="external/minigbm" name="platform/minigbm" remote="chromiumos" revision="master" /> -->
@@ -74,13 +76,13 @@
     <!-- 
     <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="BR-x86" revision="pie-x86" />
     -->
-    <project path="external/s2tc" name="platform_external_s2tc" remote="BR-x86" revision="q10.0" />
+    <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="q-x86" />
     <!-- <project path="external/stagefright-plugins" name="stagefright-plugins" remote="BR-x86" revision="q10.0" /> -->
     <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="q-x86" />
     <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="q-x86" />
     <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" groups="pdk" revision="refs/tags/android-9.0.0_r48" />
     <project path="external/wireless-tools" name="platform/external/wireless-tools" remote="x86" revision="pie-x86" />
-    <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
+    <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="q-x86" />
 
     <!-- BEGIN SUPERSU -->
 
