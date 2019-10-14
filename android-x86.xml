@@ -101,7 +101,7 @@
     <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="q-x86" />
     <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="q-x86" />
     <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="q-x86" />
-    <project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="q-x86" />
+    <!-- <project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="q-x86" /> -->
     <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="pie-x86" />
     
     <!-- kernel -->
