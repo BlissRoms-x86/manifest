@@ -236,7 +236,7 @@
 
 	<!-- vendor/ -->
 
-	<project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="q10.0-testing" >
+	<project path="vendor/x86" name="vendor_x86" remote="apc" revision="q-x86" >
 		<copyfile src="build-x86.sh" dest="build-x86.sh" />
 	</project>
 	<project name="vendor_fdroid" path="vendor/fdroid" remote="BR-x86" revision="pie" />
