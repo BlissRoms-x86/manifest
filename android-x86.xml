@@ -170,11 +170,13 @@
 	<!-- <remote name="x86" fetch="." /> -->
 	<remote name="x86" fetch="https://scm.osdn.net/gitroot/android-x86" />
     <remote name="BR-x86" fetch="https://github.com/BlissRoms-x86" />
+    <remote name="apc" fetch="https://github.com/Android-PC" />
     <remote name="me176c" fetch="https://github.com/me176c-dev/" />
     <remote name="maurossi" fetch="https://github.com/maurossi" />
     <remote name="github" fetch="https://github.com/" />
     <remote name="gitlab" fetch="https://gitlab.com" />
 
+	<project path="manifest" name="manifest" remote="apc" revision="q-x86" />
 	<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" />
 	<project path="bionic" name="platform/bionic" remote="x86" revision="q-x86" />
 	<project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="q-x86" />
