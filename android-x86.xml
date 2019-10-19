@@ -176,7 +176,7 @@
     <remote name="github" fetch="https://github.com/" />
     <remote name="gitlab" fetch="https://gitlab.com" />
 
-	<project path="manifest" name="manifest" remote="apc" revision="q-x86" />
+	<project path="manifest" name="platform_manifest" remote="apc" revision="q-x86" />
 	<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" />
 	<project path="bionic" name="platform/bionic" remote="x86" revision="q-x86" />
 	<project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="q-x86" />
