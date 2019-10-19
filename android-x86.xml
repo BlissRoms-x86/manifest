@@ -173,6 +173,7 @@
     <remote name="apc" fetch="https://github.com/Android-PC" />
     <remote name="me176c" fetch="https://github.com/me176c-dev/" />
     <remote name="maurossi" fetch="https://github.com/maurossi" />
+    <remote name="goffioul" fetch="https://github.com/goffioul" />
     <remote name="github" fetch="https://github.com/" />
     <remote name="gitlab" fetch="https://gitlab.com" />
 
@@ -192,6 +193,7 @@
 	<project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="q-x86" />
 	<project path="external/drm_gralloc" name="platform/external/drm_gralloc" remote="x86" revision="q-x86" />
 	<project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" revision="q-x86" />
+	<project path="external/drmfb-composer" name="drmfb-composer" remote="goffioul" revision="master" />
 	<project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="q-x86" />
 	<project path="external/efivar" name="platform/external/efivar" remote="x86" revision="q-x86" />
 	<project path="external/exfat" name="platform/external/exfat" remote="x86" revision="q-x86" />
