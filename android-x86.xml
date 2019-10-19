@@ -118,7 +118,7 @@
     
     <!-- frameworks/ -->
 
-    <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q10.0" />
+    <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q10.0-x86" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q10.0" />
     <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10.0" />
     
