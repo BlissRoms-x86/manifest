@@ -226,7 +226,7 @@
 	<project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="q-x86" />
 	<project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="q-x86" />
 	<project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="q-x86" />
-	<project path="hardware/x86power" name="hardware_x86power" remote="BR-x86" revision="p9.0-11.7" />
+	<project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="p9.0-11.7" />
 	<!-- <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="pie-x86" /> -->
 	<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="q-x86" />
 	<project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="q-x86" />
