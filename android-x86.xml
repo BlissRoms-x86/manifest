@@ -181,7 +181,7 @@
 	<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" />
 	<project path="bionic" name="platform/bionic" remote="x86" revision="q-x86" />
 	<project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="q-x86" />
-	<project path="device/generic/common" name="device/generic/common" remote="x86" revision="q-x86" />
+	<project path="device/generic/common" name="device_generic_common" remote="apc" revision="q-x86" />
 	<project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="q-x86" />
 	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
 	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
