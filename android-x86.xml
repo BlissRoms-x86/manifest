@@ -201,9 +201,9 @@
 	<project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="q-x86" />
 	<project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="q-x86" />
 	<project path="external/kernel-drivers" name="platform/external/kernel-drivers" remote="x86" revision="q-x86" />
-	<!-- <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="q-x86" /> -->
+	<project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="q-x86" /> 
 	<!-- <project path="external/libdrm" name="platform/external/libdrm" remote="aosp" revision="android-10.0.0_r4" groups="pdk" /> -->
-	<project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="q-x86" />
+	<!-- <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="q-x86" /> -->
 	<project path="external/llvm90" name="platform/external/llvm" remote="x86" revision="q-x86" />
 	<project path="external/mesa" name="platform/external/mesa" remote="x86" revision="q-x86" />
 	<project path="external/mksh" name="platform/external/mksh" remote="x86" revision="q-x86" />
@@ -226,7 +226,8 @@
 	<project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="q-x86" />
 	<project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="q-x86" />
 	<project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="q-x86" />
-	<project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="pie-x86" />
+	<project path="hardware/x86power" name="hardware_x86power" remote="BR-x86" revision="p9.0-11.7" />
+	<!-- <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="pie-x86" /> -->
 	<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="q-x86" />
 	<project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="q-x86" />
 	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="q-x86" />
