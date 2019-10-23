@@ -213,7 +213,7 @@
 	<project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="q-x86" />
 	<project path="external/v86d" name="platform/external/v86d" remote="x86" revision="q-x86" />
 	<project path="frameworks/av" name="platform/frameworks/av" remote="x86" revision="q-x86" />
-	<project path="frameworks/base" name="platform/frameworks/base" remote="x86" revision="q-x86" />
+	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q" />
 	<project path="frameworks/native" name="platform/frameworks/native" remote="x86" revision="q-x86" />
 	<project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="q-x86" />
 	<project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="q-x86" />
