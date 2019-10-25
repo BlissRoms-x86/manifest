@@ -181,7 +181,7 @@
 	<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" />
 	<project path="bionic" name="platform/bionic" remote="x86" revision="q-x86" />
 	<project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="q-x86" />
-	<project path="device/generic/common" name="device_generic_common" remote="apc" revision="q-x86" />
+	<project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="q-x86-ext" />
 	<project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="q-x86" />
 	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
 	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
@@ -242,7 +242,7 @@
 
 	<!-- vendor/ -->
 
-	<project path="vendor/x86" name="vendor_x86" remote="apc" revision="q-x86" >
+	<project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="q" >
 		<copyfile src="build-x86.sh" dest="build-x86.sh" />
 	</project>
 	<project name="vendor_fdroid" path="vendor/fdroid" remote="BR-x86" revision="pie" />
