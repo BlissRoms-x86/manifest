@@ -47,6 +47,9 @@
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   
   <!-- Hardware Repos -->
+  <project path="hardware/ril" name="android_hardware_ril" remote="los" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="los" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="los" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="los" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="los" />

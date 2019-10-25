@@ -179,11 +179,6 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
 
-  <!-- Hardware -->
-  <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
-
   <!-- Interfaces -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
   <project path="hardware/lineage/interfaces" name="platform_hardware_lineage_interfaces" remote="BlissRoms" />
