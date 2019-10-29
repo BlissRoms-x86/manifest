@@ -16,7 +16,6 @@
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk" remote="los" />
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
   <project path="external/libtar" name="android_external_libtar" remote="los" />
-  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="los" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
@@ -45,7 +44,8 @@
   <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="los" />
   <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
-  
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
+
   <!-- Hardware Repos -->
   <project path="hardware/ril" name="android_hardware_ril" remote="los" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
