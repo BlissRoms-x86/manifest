@@ -39,6 +39,9 @@
 	<remove-project name="device/google/vrservices" />
 	<remove-project name="device/google/wahoo" />
 	<remove-project name="device/google/wahoo-kernel" />
+    <remove-project name="device/google/coral" />
+    <remove-project name="device/google/coral-kernel" />
+    <remove-project name="device/google/coral-sepolicy" />
 	<remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
 	<remove-project name="device/linaro/bootloader/edk2" />
 	<remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
