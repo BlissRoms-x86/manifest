@@ -19,7 +19,6 @@
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="los" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
-  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="los" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="los" />
   <project path="external/libpng" name="android_external_libpng" remote="los" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="los" />
@@ -46,6 +45,7 @@
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="los" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="los" />
 
   <!-- Hardware Repos -->
   <project path="hardware/ril" name="android_hardware_ril" remote="los" />
