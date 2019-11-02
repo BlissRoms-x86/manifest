@@ -179,7 +179,7 @@
 
 	<project path="manifest" name="manifest" remote="BR-x86" revision="q" />
 	<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" />
-	<project path="bionic" name="platform/bionic" remote="x86" revision="q-x86" />
+	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="q" />
 	<project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="q-x86" />
 	<project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="q-x86-ext" />
 	<project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="q-x86" />
@@ -212,9 +212,9 @@
 	<project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="q-x86" />
 	<project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="q-x86" />
 	<project path="external/v86d" name="platform/external/v86d" remote="x86" revision="q-x86" />
-	<project path="frameworks/av" name="platform/frameworks/av" remote="x86" revision="q-x86" />
+	<project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q" />
 	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q" />
-	<project path="frameworks/native" name="platform/frameworks/native" remote="x86" revision="q-x86" />
+	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q" />
 	<project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="q-x86" />
 	<project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="q-x86" />
 	<project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" remote="x86" revision="pie-x86" />
@@ -228,17 +228,17 @@
 	<project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="q-x86" />
 	<project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="p9.0-testing" />
 	<!-- <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="pie-x86" /> -->
-	<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="q-x86" />
+	<project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BR-x86" revision="q" />
 	<project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="q-x86" />
-	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="q-x86" />
+	<project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BR-x86" revision="q" />
 	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q" />
 	<!-- <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="q-x86" /> -->
 	<project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
 	<project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="q-x86" />
 	<project path="system/core" name="platform/system/core" remote="x86" revision="q-x86" />
 	<project path="system/extras" name="platform/system/extras" remote="x86" revision="q-x86" />
-	<project path="system/media" name="platform/system/media" remote="x86" revision="q-x86" />
-	<project path="system/vold" name="platform/system/vold" remote="x86" revision="q-x86" />
+	<project path="system/media" name="platform_system_media" remote="BR-x86" revision="q" />
+	<project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="q" />
 
 	<!-- vendor/ -->
 
