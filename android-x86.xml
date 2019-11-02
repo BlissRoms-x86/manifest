@@ -234,6 +234,7 @@
 	<project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BR-x86" revision="q" />
 	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q" />
 	<!-- <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="q-x86" /> -->
+    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="master" clone-depth="1" />
 	<project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
 	<project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="q-x86" />
 	<project path="system/core" name="platform/system/core" remote="x86" revision="q-x86" />
