@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- General -->
-  <project path="art" name="android_art" remote="los" />
   <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="los" />
 
   <!-- Frameworks -->
