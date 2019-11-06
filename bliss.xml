@@ -188,6 +188,7 @@
 
   <!-- Hardware -->
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" />
 
   <!-- Interfaces -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
