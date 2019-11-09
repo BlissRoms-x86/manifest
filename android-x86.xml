@@ -178,6 +178,7 @@
 	<!-- From Android-x86 repositories -->
 	<!-- <remote name="x86" fetch="." /> -->
 	<remote name="x86" fetch="https://scm.osdn.net/gitroot/android-x86" />
+	<remote name="BlissRoms" fetch="https://github.com/BlissRoms" />
     <remote name="BR-x86" fetch="https://github.com/BlissRoms-x86" />
     <remote name="apc" fetch="https://github.com/Android-PC" />
     <remote name="me176c" fetch="https://github.com/me176c-dev/" />
@@ -187,11 +188,11 @@
     <remote name="gitlab" fetch="https://gitlab.com" />
 
 	<project path="manifest" name="manifest" remote="BR-x86" revision="q" />
-	<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" />
+	<project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.80-ax86-ga" />
 	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="q" />
 	<project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="q-x86" />
 	<project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="q-x86-ext" />
-	<project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="q-x86" />
+	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org" />
 	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
 	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
 	<project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="q-x86" />
@@ -210,8 +211,8 @@
 	<project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="q-x86" />
 	<project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="q-x86" />
 	<project path="external/kernel-drivers" name="platform/external/kernel-drivers" remote="x86" revision="q-x86" />
-	<project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="q-x86" />
-	<project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="q-x86" />
+	<!-- <project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="q-x86" />
+	<project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="q-x86" /> -->
 	<project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="q-x86" /> 
 	<!-- <project path="external/libdrm" name="platform/external/libdrm" remote="aosp" revision="android-10.0.0_r4" groups="pdk" /> -->
 	<!-- <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="q-x86" /> -->
@@ -258,6 +259,8 @@
 	<project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="q" >
 		<copyfile src="build-x86.sh" dest="build-x86.sh" />
 	</project>
+	<project name="platform_vendor_bliss" path="vendor/bliss" remote="BR-x86" revision="q10-testing" />
+	<project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" revision="q" />
 	<project name="vendor_fdroid" path="vendor/fdroid" remote="BR-x86" revision="pie" />
 	<project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="me176c" revision="pie-x86" />
 
