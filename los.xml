@@ -10,6 +10,7 @@
   <!-- External -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" revision="master" clone-depth="1" remote="los" />
   <project path="external/cldr" name="android_external_cldr" groups="pdk" remote="los" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="los" />
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
   <project path="external/libcxx" name="android_external_libcxx" remote="los" />
