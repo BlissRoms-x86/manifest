@@ -39,7 +39,6 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/hardware/broadcom/libbt" />  
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/interfaces" />
