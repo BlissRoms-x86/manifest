@@ -57,6 +57,7 @@
 	<remove-project name="platform/developers/demos" />
 	<remove-project name="platform/developers/samples/android" />
 	<remove-project name="platform/external/arm-neon-tests" />
+	<remove-project name="platform/external/chromium-webview" />
 	<remove-project name="platform/external/drm_hwcomposer" />
 	<remove-project name="platform/external/libdrm" />
 	<remove-project name="platform/external/libusb-compat" />
@@ -66,6 +67,7 @@
 	<remove-project name="platform/external/nos/host/generic" />
 	<remove-project name="platform/external/nos/test/system-test-harness" />
 	<remove-project name="platform/external/swiftshader" />
+	<remove-project name="platform/external/tinyalsa" />
 	<remove-project name="platform/frameworks/av" />
 	<remove-project name="platform/frameworks/base" />
 	<remove-project name="platform/frameworks/native" />
@@ -140,6 +142,8 @@
 	<remove-project name="platform/packages/apps/Test/connectivity" />
 	<remove-project name="platform/packages/apps/TvSettings" />
 	<remove-project name="platform/packages/apps/TV" />
+	<remove-project name="platform/packages/apps/SettingsIntelligence" />
+	<remove-project name="platform/packages/apps/ThemePicker" />
 	<remove-project name="platform/packages/services/Telecomm" />
 	<remove-project name="platform/prebuilts/android-emulator" />
 	<remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -186,6 +190,7 @@
     <remote name="goffioul" fetch="https://github.com/goffioul" />
     <remote name="github" fetch="https://github.com/" />
     <remote name="gitlab" fetch="https://gitlab.com" />
+    <remote name="los" fetch="https://github.com/LineageOS" revision="lineage-17.0" />
 
 	<project path="manifest" name="manifest" remote="BR-x86" revision="q" />
 	<project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.80-ax86-ga" />
@@ -253,6 +258,18 @@
 	<project path="system/extras" name="platform/system/extras" remote="x86" revision="q-x86" />
 	<project path="system/media" name="platform_system_media" remote="BR-x86" revision="q" />
 	<project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="q" />
+	
+	<!-- Bliss Items -->
+	<project path="external/bash" name="android_external_bash" remote="los" revision="lineage-17.0" />
+	<project path="external/htop" name="android_external_htop" remote="los" revision="lineage-17.0" />
+	<project path="external/libncurses" name="android_external_libncurses" remote="los" revision="lineage-17.0" />
+	<project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="los" revision="lineage-16.0" />
+	<project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="los" revision="lineage-17.0" />
+	<project path="external/nano" name="android_external_nano" remote="los" revision="lineage-17.0" />
+	<project path="prebuilts/tools-bliss" name="platform_prebuilts_tools-bliss" remote="BlissRoms" revision="q"/>
+	<project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="los" revision="lineage-17.0" />
+	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" revision="q" /> 
+	<project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" revision="q" />
 
 	<!-- vendor/ -->
 
@@ -261,7 +278,6 @@
 	</project>
 	<project name="platform_vendor_bliss" path="vendor/bliss" remote="BR-x86" revision="q10-testing" />
 	<project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" revision="q" />
-	<project name="vendor_fdroid" path="vendor/fdroid" remote="BR-x86" revision="pie" />
 	<project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="me176c" revision="pie-x86" />
 
 	<!-- START X86 INSTALLER -->
