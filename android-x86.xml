@@ -196,7 +196,7 @@
 	<project path="manifest" name="manifest" remote="BR-x86" revision="q" />
 	<project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.80-ax86-ga" />
 	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="q" />
-	<project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="q-x86" />
+	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q-x86" />
 	<project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="q-x86-ext" />
 	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org" />
 	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
