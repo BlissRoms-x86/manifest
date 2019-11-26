@@ -123,9 +123,7 @@
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
-  <remove-project name="device/google/taimen" />
   <remove-project name="device/google/vrservices" />
-  <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
