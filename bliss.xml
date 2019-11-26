@@ -179,6 +179,7 @@
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
   
   <!-- External -->
+  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
   <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" />
 
