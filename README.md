@@ -42,7 +42,7 @@ Initializing Repository
 Repo initialization :
     
     ## Releases Repo ##
-    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b q
+    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b q-x86-12.1
 
 sync repo :
 
