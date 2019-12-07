@@ -35,7 +35,7 @@
 	<remove-project name="device/google/cuttlefish_common" />
 	<remove-project name="device/google/cuttlefish_kernel" />
 	<remove-project name="device/google/cuttlefish_vmm" />
-	<remove-project name="device/google/fuchsia" />
+	<!-- <remove-project name="device/google/fuchsia" /> -->
 	<remove-project name="device/google/marlin" />
 	<remove-project name="device/google/marlin-kernel" />
 	<remove-project name="device/google/muskie" />
@@ -200,7 +200,7 @@
 	<remote name="los" fetch="https://github.com/LineageOS" revision="lineage-17.0" />
 	
 	<!-- Bliss additions -->
-	<project name="platform_vendor_blissos" path="vendor/blissos" remote="BR-x86" revision="q" />
+	<project name="platform_vendor_blissos" path="vendor/blissos" remote="BR-x86" revision="q-x86-12.1" />
 	<project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" revision="q" />
 	<project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="me176c" revision="pie-x86" />
 	
@@ -232,7 +232,7 @@
 	<project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="q-x86" />
 	<project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="q-x86" />
 	<project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="q-x86" />
-	<project path="external/kernel-drivers" name="platform/external/kernel-drivers" remote="x86" revision="q-x86" />
+	<project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q-x86" />
 	<project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="q-x86" />
 	<project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="q-x86" />
 	<project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="q-x86" />
