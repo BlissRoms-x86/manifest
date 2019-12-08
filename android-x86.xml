@@ -209,7 +209,7 @@
 	<project path="prebuilts/tools-bliss" name="platform_prebuilts_tools-bliss" remote="BlissRoms" revision="q"/>
 	<project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="los" revision="lineage-17.0" />
 	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" revision="q" /> 
-	<project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" revision="q" />
+	<project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" revision="p9.0" />
 	
 	<!-- Extra features from Spurv-->
 	<project path="external/libpciaccess" name="libpciaccess" remote="collabora" revision="master" />
