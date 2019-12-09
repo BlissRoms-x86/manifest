@@ -62,6 +62,7 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/CertInstaller" />
+  <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -161,6 +162,7 @@
   <project path="lineage-sdk" name="platform_lineage-sdk" remote="BlissRoms" />  
 
   <!-- Apps -->
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="BlissRoms" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
