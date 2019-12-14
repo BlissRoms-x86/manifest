@@ -21,7 +21,7 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
-  <project path="external/exfat" name="android_external_exfat" remote="los" />
+  
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="los" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="los" />
