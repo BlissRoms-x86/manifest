@@ -146,6 +146,7 @@
     <project path="external/wireless-tools" name="platform/external/wireless-tools" remote="x86" revision="pie-x86" />
     <project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
     <project path="external/exfat" name="platform_external_exfat" remote="BR-x86" revision="pie-x86" />
+    <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="BR-x86" revision="p9.0" />
 
     <!-- frameworks/ -->
 
@@ -189,7 +190,7 @@
     <!-- system/ -->
 
     <project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="p9.0-x86" />
-    <project path="system/core" name="platform_system_core" remote="BR-x86" revision="p9.0-x86" />
+    <project path="system/core" name="platform_system_core" remote="BR-x86" revision="p9.0-x86-11.12" />
     <project path="system/extras" name="system_extras" remote="BR-x86" revision="p9.0-x86" />
     <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="pie-x86" />
 
