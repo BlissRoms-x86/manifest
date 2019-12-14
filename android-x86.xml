@@ -96,11 +96,11 @@
   
     <!-- From Android-x86 repositories -->
 
-    <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0-11.11" />
+    <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0-11.12" />
 
     <!-- device/ -->
 
-    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.11" />
+    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.12" />
     <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org" />
     <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="oreo-x86" />
     <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="oreo-x86" />
@@ -148,9 +148,9 @@
 
     <!-- frameworks/ -->
 
-    <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="p9.0-11.11" />
-    <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-11.11" />
-    <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="p9.0-11.11" />
+    <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="p9.0-11.12" />
+    <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-11.12" />
+    <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="p9.0-11.12" />
 
     <!-- hardware/ -->
 
