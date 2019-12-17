@@ -87,6 +87,7 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/update_engine" />
 
   <!-- Remove Google device repos -->
@@ -219,6 +220,7 @@
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
+  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
 
   <!-- Sepolicy -->
