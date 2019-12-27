@@ -71,6 +71,7 @@
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -180,7 +181,8 @@
   <project path="packages/apps/LineageParts" name="platform_packages_apps_LineageParts" remote="BlissRoms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
-  
+  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="BlissRoms" />
+
   <!-- External -->
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
