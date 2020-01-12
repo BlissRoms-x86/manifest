@@ -17,7 +17,7 @@
 
   <remote name="los"
           fetch="https://github.com/LineageOS"
-          revision="lineage-17.0" />
+          revision="lineage-17.1" />
 
   <!-- Remove first some AOSP repos -->
   <remove-project name="platform/art" />
