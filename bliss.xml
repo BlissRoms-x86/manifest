@@ -229,7 +229,7 @@
 
   <!-- Sepolicy -->
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
-  <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
+  <project path="device/lineage/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="BlissRoms" />
   <!--<project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="BlissRoms" />-->
