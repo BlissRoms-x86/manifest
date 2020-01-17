@@ -37,6 +37,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/hardware/broadcom/libbt" />  
@@ -186,6 +187,7 @@
   <!-- External -->
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="BlissRoms" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms"  />
   <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" />
 
