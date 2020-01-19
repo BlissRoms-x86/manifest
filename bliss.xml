@@ -197,6 +197,10 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
 
+  <!-- GCC -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="BlissRoms" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="platform_android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="BlissRoms" />
+
   <!-- Hardware -->
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" />
