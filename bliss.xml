@@ -83,6 +83,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
