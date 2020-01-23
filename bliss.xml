@@ -143,7 +143,9 @@
   <!-- End Remove AOSP repos -->
 
   <!-- Begin BlissRoms repos -->
+  <!--
   <project path="manifest" name="platform_manifest" remote="BlissRoms" />
+  -->
   <project path="art" name="platform_art" remote="BlissRoms" />
   <project path="build/make" name="platform_build_make" remote="BlissRoms" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -241,7 +243,9 @@
   <!--<project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="BlissRoms" />-->
 
   <!-- Vendor -->
+  <!--
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="q10" />
+  -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="BlissRoms" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" />
