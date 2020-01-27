@@ -36,6 +36,23 @@ Grabbing Dependencies
 
     $ sudo apt-get install git-core gnupg flex bison maven gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso libncurses5
 
+-----------------------
+
+Setting Up Environment Variables
+-----------------------
+
+Start off by adding these lines to your .bashrc file:
+
+    ccache -F 0 && ccache -M 0 
+	export PATH=~/bin:$PATH
+	export CCACHE_DIR=/home/electrikjesus/.ccache
+	export USE_CCACHE=1 
+	export CCACHE_TEMPDIR=/tmp 
+	export EXPERIMENTAL_USE_JAVA8=true 
+
+
+
+
 Initializing Repository
 -----------------------
 
@@ -102,13 +119,13 @@ To start, you must first use the -s (--sync) flag, then on following builds, it 
 
 You can do this two ways. Traditionally or using the build script. Point is, you must sync with the new manifest changes. 
 
-Traditional way :
+First Step is to Sync :
 
-	$ repo sync --no-tags --no-clone-bundle --force-sync
+	$ repo sync --no-tags --no-clone-bundle --force-sync -c
 
-Or using the build script :
+Then use the build scripts Patching method (-p) :
 
-	$ build-x86 -s
+	$ build-x86 -p
 
 Initial extraction of the proprietary files from Google are also needed on the first build. 
 Please note that this process will need to be run for x86 & x86_64 builds seperately (some cleanup may be needed). 
