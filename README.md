@@ -1,15 +1,16 @@
-<img src="https://i.imgur.com/0GnrwaU.png">
+<img src="https://i.imgur.com/pOad4eK.png">
 
-BlissRoms
+Bliss-OS (x86) 12.x - BlissROM for PCs
 -----------------------
-Download the BlissRoms source code, based on [AOSP](https://android.googlesource.com), [phhusson](https://github.com/phhusson/treble_manifest) & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
+
+Download the Bliss-OS source code, based on Andoid 10 using commits from [AOSP](https://android.googlesource.com), [Android-x86](https://android-x86.org), [Project Celadon](https://github.com/projectceladon), [phhusson](https://github.com/phhusson/treble_manifest), [skunkworx](https://github.com/skunkworkx/platform_manifest), & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
 
 ---------------------------------------------------
 
 Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
 -----------------------
-What you need to build [BlissRoms](https://github.com/BlissROMs/platform_manifest)
+What you need to build [Bliss-OS](https://github.com/BlissROMs-x86/manifest)
 -----------------------
 
     Latest Ubuntu LTS Releases https://www.ubuntu.com/download/server
@@ -33,7 +34,7 @@ Installing Java 8
 Grabbing Dependencies
 -----------------------
 
-    $ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso
+    $ sudo apt-get install git-core gnupg flex bison maven gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso libncurses5
 
 Initializing Repository
 -----------------------
@@ -41,112 +42,85 @@ Initializing Repository
 Repo initialization :
     
     ## Releases Repo ##
-    $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b q
+    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b q-x86-12.1
 
 sync repo :
 
-    $ repo sync --no-tags --no-clone-bundle
+    $ repo sync --no-tags --no-clone-bundle -c
     
 problems syncing? :
 
-    $ repo sync --no-tags --no-clone-bundle --force-sync
+    $ repo sync --no-tags --no-clone-bundle --force-sync -c
 
 Building
 --------
-treble build options explained:
-
-      Usage: $ bash build-treble.sh options buildVariants blissBranch
-      options: -c | --clean : Does make clean && make clobber and resets the treble device tree
-               -r | --release : Builds a twrp zip of the rom (only for A partition) default creates system.img
-               -p | --patch: Just applies patches to needed repos
-               -s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
-      
-      buildVariants: arm64_a_stock | arm64_ab_stock : Vanilla Rom
-                      arm64_a_gapps | arm64_ab_gapps : Stock Rom with Gapps Built-in
-                      arm64_a_foss | arm64_ab_foss : Stock Rom with Foss
-                      arm64_a_go | arm64_ab_go : Stock Rom with Go-Gapps
-      
-      blissBranch: select which bliss branch to sync, default is q
-      
-      First you must sync with the new manifest changes:
-      
-		$ bash build-treble.sh -s
-      
-      After the sync is finished, you can build your release:
-      
-        $ bash build-treble.sh -r arm64_a_gapps (to build armA 64bit with gapps built in)
-      
-Celadon EFI (Android-IA) build options explained:
-
-      Usage: $ bash build-efi.sh options buildVariants blissBranch
-      options: -c | --clean : Does make clean && make clobber and resets the efi device tree
-               -s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
-      
-      buildVariants: user : Make user build
-                      userdebug |: Make userdebug build
-                      eng : Make eng build
-      
-      blissBranch: select which bliss branch to sync, default is q
-
-      After the sync is finished
-
-        $ bash build-efi.sh -s userdebug (to build the userdebug version)
-
-emulator builds explained:
-  
-      Precondition: android SDK must be installed in ~/Android/SDK
-
-        $ lunch bliss_emulator-userdebug
-        $ make
-
-      if you want to run on the same host:
-
-        $ bash vendor/bliss/utils/emulator/start_emulator_local.sh
-
-      if you need to copy on a different host:
-
-        $ vendor/bliss/utils/emulator/create_emulator_image.sh
-        $ cp /tmp/bliss_emulator.zip to the device where you have installed android SDK
-  
-      (unzip into /tmp)
-
-        $ bash /tmp/generic_x86/start_emulator_image.sh
 
 PC builds (x86) explained:
 	  
-	  (WIP) Add x86 PC builds
+This script will allow you to build an x86 based .ISO for PCs as well as help you with a few other things. Please see details below
 
-	  This will build an x86 based .ISO for PCs
+Usage :  
 
-	  Usage: $ bash build-x86.sh options buildVariants blissBranch
-	  Options: -c | --clean : Does make clean && make clobber and resets the efi device tree
-	    	   -s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
-			   -p | --patch: Just applies patches to needed repos
-			   -r | --proprietary: build needed items from proprietary vendor (non-public)
+	$ build-x86 options buildVariants extraOptions addons
 
-	  BuildVariants: android_x86-user : Make user build
-				     android_x86-userdebug |: Make userdebug build
-				     android_x86-eng : Make eng build
-				     android_x86_64-user : Make user build
-				     android_x86_64-userdebug |: Make userdebug build
-				     android_x86_64-eng : Make eng build
+Options : 
 
-	  BlissBranch: select which bliss branch to sync, default is q
+	-c | --clean : Does make clean && make clobber and resets the device tree
+	-s | --sync: Repo syncs the rom (clears out patches), then reapplies patches to needed repos
+	-p | --patch: Just applies patches to needed repos
+	-r | --proprietary: build needed items from proprietary vendor (non-public)
 
-	  To start, you must first use the -s (--sync) flag, then on following builds, it is not needed. 
-	  Initial generation of the proprietary files from ChromeOS are also needed on the first build. 
-	  We are able to use the -r (--proprietary) flag for that. This step needs to be on its own because
-	  the mounting process requires root permissions, so keep a look out for it asking for your root password. 
-	  
-	  First you must sync with the new manifest changes:
+BuildVariants :
 
-	    $ bash build-x86.sh -s (will also do initial patching)
-	  
-	  Next step is to download the proprietary files from ChromeOS:
-	  
-	    $ bash build-x86.sh -r android_x86_64-userdebug 
-	    
-	  After that, you can build your release file:
-	  
-	    $ bash build-x86.sh android_x86_64-userdebug (to build the userdebug version for x86_64 CPUs)
+	android_x86-user : Make user build
+	android_x86-userdebug |: Make userdebug build
+	android_x86-eng : Make eng build
+	android_x86_64-user : Make user build
+	android_x86_64-userdebug |: Make userdebug build
+	android_x86_64-eng : Make eng build
+
+ExtraOptions : Defaults to None
+
+	foss : packages microG & FDroid with the build
+	fdroid : packages custom FDroid with the build (requires private sources)
+	go : packages Gapps Go with the build (when go vendor is synced)
+	gapps : packages OpenGapps with the build (when OpenGapps vendor sources are synced)
+	gms : packages GMS with the build (requires private repo access)
+	none : force all extraOption flags to false. (Drfault Option)
+
+Addons : Requires "--proprietary" build to have run at least once. Defaults to None
+
+	croshoudini : Include libhoudini from Chrome OS 
+	croswidevine : Include widevine from Chrome OS
+	crosboth : Include both libhoudini and widevine from Chrome OS
+	crosnone : Do not include any of them. (Default Option)
+
+Now For The Fun Stuff
+-----------------------
+
+To start, you must first use the -s (--sync) flag, then on following builds, it is not needed. 
+
+You can do this two ways. Traditionally or using the build script. Point is, you must sync with the new manifest changes. 
+
+Traditional way :
+
+	$ repo sync --no-tags --no-clone-bundle --force-sync
+
+Or using the build script :
+
+	$ build-x86 -s
+
+Initial extraction of the proprietary files from Google are also needed on the first build. 
+Please note that this process will need to be run for x86 & x86_64 builds seperately (some cleanup may be needed). 
+
+We are able to use the -r (--proprietary) flag for that. This step needs to be done once per device setup (x86 or x86_64) and we have it working on its own because
+the image mounting process requires root permissions, so keep a look out for it asking for your root password. 
+	  	  
+Next step is to download the proprietary files from Google :
+
+	$ build-x86 -r android_x86_64-userdebug 
+
+After that, you can build your release file :
+
+	$ build-x86 android_x86_64-userdebug foss crosboth (to build the userdebug version for x86_64 CPUs with FDroid & microG included)
 
