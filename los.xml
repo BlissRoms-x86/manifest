@@ -20,7 +20,9 @@
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
+  <!--
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
+  -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
