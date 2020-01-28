@@ -72,7 +72,39 @@ problems syncing? :
 Building
 --------
 
-PC builds (x86) explained:
+To start, you must first sync or use the -s (--sync) flag, then on following builds, it is not needed. 
+
+You can do this two ways. Traditionally or using the build script. Point is, you must sync with the new manifest changes. 
+
+First Step is to Sync :
+
+	$ repo sync --no-tags --no-clone-bundle --force-sync -c
+
+Next step is to setup the build environment:
+
+	$ . build/envsetup.sh
+
+Then use the build scripts Patching method (-p) :
+
+	$ build-x86 -p
+
+Initial extraction of the proprietary files from Google are also needed on the first build. 
+Please note that this process will need to be run for x86 & x86_64 builds seperately (some cleanup may be needed). 
+
+We are able to use the -r (--proprietary) flag for that. This step needs to be done once per device setup (x86 or x86_64) and we have it working on its own because
+the image mounting process requires root permissions, so keep a look out for it asking for your root password. 
+	  	  
+Next step is to download the proprietary files from Google :
+
+	$ build-x86 -r android_x86_64-userdebug 
+
+After that, you can build your release file :
+
+	$ build-x86 android_x86_64-userdebug foss crosboth (to build the userdebug version for x86_64 CPUs with FDroid & microG included)
+
+
+PC (x86) build script explained:
+--------------------------------
 	  
 This script will allow you to build an x86 based .ISO for PCs as well as help you with a few other things. Please see details below
 
@@ -111,33 +143,3 @@ Addons : Requires "--proprietary" build to have run at least once. Defaults to N
 	croswidevine : Include widevine from Chrome OS
 	crosboth : Include both libhoudini and widevine from Chrome OS
 	crosnone : Do not include any of them. (Default Option)
-
-Now For The Fun Stuff
------------------------
-
-To start, you must first use the -s (--sync) flag, then on following builds, it is not needed. 
-
-You can do this two ways. Traditionally or using the build script. Point is, you must sync with the new manifest changes. 
-
-First Step is to Sync :
-
-	$ repo sync --no-tags --no-clone-bundle --force-sync -c
-
-Then use the build scripts Patching method (-p) :
-
-	$ build-x86 -p
-
-Initial extraction of the proprietary files from Google are also needed on the first build. 
-Please note that this process will need to be run for x86 & x86_64 builds seperately (some cleanup may be needed). 
-
-We are able to use the -r (--proprietary) flag for that. This step needs to be done once per device setup (x86 or x86_64) and we have it working on its own because
-the image mounting process requires root permissions, so keep a look out for it asking for your root password. 
-	  	  
-Next step is to download the proprietary files from Google :
-
-	$ build-x86 -r android_x86_64-userdebug 
-
-After that, you can build your release file :
-
-	$ build-x86 android_x86_64-userdebug foss crosboth (to build the userdebug version for x86_64 CPUs with FDroid & microG included)
-
