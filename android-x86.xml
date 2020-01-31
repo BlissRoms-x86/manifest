@@ -131,7 +131,7 @@
 	<!--
 	<project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="q-x86-r14" />
 	-->
-	<project path="system/core" name="BlissRoms/platform_system_core" remote="gitlab" revision="q10-x86" />
+	<project path="system/core" name="BlissRoms/platform_system_core" remote="gitlab" revision="q-x86" />
 	<!--
 	<project path="system/extras" name="system_extras" remote="BR-x86" revision="q-x86-r14" />
 	<project path="system/media" name="platform/system/media" remote="x86" revision="q-x86" />
