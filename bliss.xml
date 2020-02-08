@@ -197,12 +197,21 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
 
   <!-- GCC -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="BlissRoms" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="platform_android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="BlissRoms" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="BlissRoms" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="platform_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="BlissRoms" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="BlissRoms" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="BlissRoms" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="BlissRoms" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="BlissRoms" />
+  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="BlissRoms" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="BlissRoms" />
+  <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" groups="pdk-qcom" remote="BlissRoms" />
 
   <!-- Interfaces -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
