@@ -26,7 +26,7 @@
 	<project path="manifest" name="manifest" remote="BR-x86" revision="q10-x86" />
 	
 	<!-- Bliss additions -->
-	<project path="vendor/bliss" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-x86-b" />
+	<project path="vendor/bliss" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-x86-c" />
 	<project path="vendor/gms" name="Bliss-Bass/vendor-fdroid" remote="gitlab" revision="q10-x86" />
 	<project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="me176c" revision="pie-x86" />
 	<!--
@@ -50,7 +50,7 @@
 	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="q10-x86" />
 
 	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q10-x86" />
-	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-x86-b" />
+	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-x86-c" />
 	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org-testing" />
 	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
 	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
@@ -132,7 +132,7 @@
 	<!--
 	<project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="q-x86-r14" />
 	-->
-	<project path="system/core" name="BlissRoms/platform_system_core" remote="gitlab" revision="q-x86" />
+	<project path="system/core" name="BlissRoms/platform_system_core" remote="gitlab" revision="q-x86-b" />
 	<!--
 	<project path="system/extras" name="system_extras" remote="BR-x86" revision="q-x86-r14" />
 	<project path="system/media" name="platform/system/media" remote="x86" revision="q-x86" />
