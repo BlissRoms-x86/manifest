@@ -45,7 +45,7 @@
 	
 	<!-- Android-x86 Project items -->
 
-	<project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.80-ax86-ga-q" />
+	<project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.95-ax86-ga-rmi" />
 	<!-- <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" /> -->
 	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="q10-x86" />
 
