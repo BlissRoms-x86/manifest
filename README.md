@@ -14,8 +14,11 @@ What you need to build [Bliss-OS](https://github.com/BlissROMs-x86/manifest)
 -----------------------
 
 Latest [Ubuntu LTS Releases](https://www.ubuntu.com/download/server), Debian, Mint, [Bliss-Linux](https://sourceforge.net/projects/blissroms/files/Linux/) or the likes
+
 Decent CPU (Dual Core or better for a faster performance)
+
 8GB RAM (16GB for Virtual Machine)
+
 250GB Hard Drive (about 170GB for the Repo and then building space needed)
   
 -----------------------
