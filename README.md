@@ -138,7 +138,7 @@ ExtraOptions : Defaults to None
 	go : packages Gapps Go with the build (when go vendor is synced)
 	gapps : packages OpenGapps with the build (when OpenGapps vendor sources are synced)
 	gms : packages GMS with the build (requires private repo access)
-	none : force all extraOption flags to false. (Drfault Option)
+	none : force all extraOption flags to false. (Default Option)
 
 Addons : Requires "--proprietary" build to have run at least once. Defaults to None
 
