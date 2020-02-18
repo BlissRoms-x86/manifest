@@ -190,6 +190,7 @@
   <project path="external/sqlite" name="platform_external_sqlite" remote="BlissRoms" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms"  />
   <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" />
+  <project path="external/google" name="platform_external_google" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
