@@ -38,6 +38,7 @@
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/sqlite" />

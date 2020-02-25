@@ -12,6 +12,7 @@
   <project path="external/openssh" name="android_external_openssh" remote="los" />
   <project path="external/bash" name="android_external_bash" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
   <project path="external/nano" name="android_external_nano" remote="los" />
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
