@@ -34,6 +34,7 @@
   <!-- Qualcomm Hals -->
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="los" />
   <project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-apq8084" remote="los" />
   <project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-apq8084" remote="los" />
   <project path="hardware/qcom-caf/apq8084/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-apq8084" remote="los" />
@@ -102,6 +103,7 @@
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="los" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="los" />
+  <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="los" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="los" />
 
   <!-- Prebuilts -->
@@ -113,6 +115,7 @@
   
   <!-- System Repos -->
   <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="los" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="los" />
 
   <!-- Vendor -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
