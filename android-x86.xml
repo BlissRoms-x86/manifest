@@ -26,7 +26,7 @@
 	<project path="manifest" name="manifest" remote="BR-x86" revision="q10-x86" />
 	
 	<!-- Bliss additions -->
-	<project path="vendor/bliss" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-x86-r1" />
+	<project path="vendor/bliss" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-x86-r2" />
 	<project path="vendor/gms" name="Bliss-Bass/vendor-fdroid" remote="gitlab" revision="q10-x86" />
 	<project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="me176c" revision="pie-x86" />
 	<!--
@@ -45,12 +45,12 @@
 	
 	<!-- Android-x86 Project items -->
 
-	<project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.95-ax86-ga-rmi" />
+	<project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.105-ax86-ga-rmi" />
 	<!-- <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" /> -->
 	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="q10-x86" />
 
 	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q10-x86" />
-	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-x86-c" />
+	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-x86-r1" />
 	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org-testing" />
 	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
 	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
@@ -70,7 +70,7 @@
 	<project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="q-x86" />
 	<project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="q-x86" />
 	<project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="q-x86" />
-	<project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q-x86" />
+	<project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q10-x86-r1" />
 	
 	<!-- Superuser -->
 	<!--
@@ -89,7 +89,7 @@
 	<!--
 	<project path="external/mesa" name="platform/external/mesa" remote="x86" revision="q-x86" /> 
 	-->
-	<project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="19.3.3-ax86-q" />
+	<project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="19.3.4-ax86-q" />
 	<!--
 	<project path="external/mksh" name="platform/external/mksh" remote="x86" revision="q-x86" />
 	-->
