@@ -17,6 +17,7 @@
   <project path="external/libhevc" name="android_external_libhevc" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
   <project path="external/nano" name="android_external_nano" remote="los" />
+  <project path="external/ppp" name="android_external_ppp" groups="pdk" remote="los" />
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
