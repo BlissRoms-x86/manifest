@@ -51,7 +51,7 @@
 
 	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q10-x86" />
 	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-03.15.20" />
-	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org-testing" />
+	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev.kernel.org-testing" />
 	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
 	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
 	<project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="q-x86" />
