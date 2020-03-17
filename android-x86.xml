@@ -49,7 +49,7 @@
 	<!-- <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" /> -->
 	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="q10-x86" />
 
-	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q10-x86" />
+	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q10-x86-03" />
 	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-03.15.20" />
 	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev.kernel.org-testing" />
 	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
@@ -102,7 +102,7 @@
 	<project path="external/v86d" name="platform/external/v86d" remote="x86" revision="q-x86" />
 	<project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q-x86-12.1" />
 	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q-x86-12.2" /> -->
-	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10-x86-r1" />
+	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10-02.17.20" />
 	
 	<project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="q-x86" />
 	<project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="q-x86" />
@@ -125,8 +125,8 @@
 	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="q-x86" />
 	-->
 	<project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BR-x86" revision="q-x86" />
-	<!-- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q10-x86-r1" /> -->
-	<project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="q" />
+	<!-- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q10-x86-03.16.20" /> -->
+	<project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="q" /> 
 	<!-- <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="q-x86" /> -->
 	<project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
 	<project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="q-x86" />
