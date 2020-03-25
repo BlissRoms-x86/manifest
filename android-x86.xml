@@ -58,7 +58,7 @@
 	<project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="q-x86" />
 	<project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="q-x86" />
 	<!-- <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="q-x86" groups="notdefault" /> -->
-	<project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="q10.0" />
+	<project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="q10-x86" />
 	<project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="q-x86" />
 	<project path="external/drm_gralloc" name="platform/external/drm_gralloc" remote="x86" revision="q-x86" />
 	<project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" revision="q-x86" />
@@ -99,9 +99,9 @@
 	<project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="q-x86" />
 	<project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
 	<!--
-	<project path="external/v86d" name="platform/external/v86d" remote="x86" revision="q-x86" />
-	<project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q-x86-12.1" />
-	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q-x86-12.2" /> -->
+	<project path="external/v86d" name="platform/external/v86d" remote="x86" revision="q-x86" /> -->
+	<project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q10-x86-03.25.20" />
+	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q10-x86-r5" />
 	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10-02.17.20" />
 	
 	<project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="q-x86" />
@@ -109,7 +109,8 @@
 	<project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" remote="x86" revision="q-x86" />
 	<project path="hardware/intel/common/vaapi" name="platform/hardware/intel/common/vaapi" remote="x86" revision="q-x86" />
 	<project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="q-x86" />
-	<project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="q-x86" />
+	<!-- <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="q-x86" /> -->
+	<project path="hardware/libaudio" name="platform_hardware_libaudio" remote="BR-x86" revision="q10-x86" />
 	<project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="q-x86" />
 	<project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="q-x86" />
 	<project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="q-x86" />
@@ -125,8 +126,8 @@
 	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="q-x86" />
 	-->
 	<project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BR-x86" revision="q-x86" />
-	<!-- <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q10-x86-03.16.20" /> -->
-	<project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="q" /> 
+	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q10-x86-r2 />
+	<!-- <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="q" /> -->
 	<!-- <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="q-x86" /> -->
 	<project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
 	<project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="q-x86" />
