@@ -202,6 +202,8 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="BlissRoms" />
+  <project path="frameworks/opt/slimrecent" name="platform_frameworks_opt_slimrecents" remote="BlissRoms" />
+
   <!-- GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="BlissRoms" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="platform_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="BlissRoms" />
