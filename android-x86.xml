@@ -32,6 +32,7 @@
 	<!--
 	<project name="vendor_bliss_priv" path="vendor/google/chromeos-x86" remote="BR-x86" revision="p9" />
 	-->
+	<project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="q10-03.25.20" /> 
 	
 	<!-- Extra features from Spurv-->
 	<project path="external/libpciaccess" name="libpciaccess" remote="collabora" revision="master" />
