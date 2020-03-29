@@ -71,7 +71,7 @@
 	<project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="q-x86" />
 	<project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="q-x86" />
 	<project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="q-x86" />
-	<project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q10-03.15.20" />
+	<project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q10-03.23.20" />
 	
 	<!-- Superuser -->
 	<!--
