@@ -32,7 +32,7 @@
 	<!--
 	<project name="vendor_bliss_priv" path="vendor/google/chromeos-x86" remote="BR-x86" revision="p9" />
 	-->
-	<project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="q10-03.25.20" /> 
+	<project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="q10-x86-03.25.20" /> 
 	
 	<!-- Extra features from Spurv-->
 	<project path="external/libpciaccess" name="libpciaccess" remote="collabora" revision="master" />
@@ -103,7 +103,7 @@
 	<project path="external/v86d" name="platform/external/v86d" remote="x86" revision="q-x86" /> -->
 	<project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q10-x86-03.25.20" />
 	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q10-x86-r5" />
-	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10-02.17.20" />
+	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10-03.17.20" />
 	
 	<project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="q-x86" />
 	<project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="q-x86" />
