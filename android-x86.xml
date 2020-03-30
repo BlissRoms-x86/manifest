@@ -207,7 +207,7 @@
 	
 	<!-- Bliss Items -->
 	<project path="prebuilts/tools-bliss" name="platform_prebuilts_tools-bliss" remote="BlissRoms" revision="q"/>
-	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" revision="q" /> 
+	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" revision="155d480a2566c3f48a74c735bcb1652b61e92cf0" /> 
 	<project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" revision="p9.0" />
 	
 	<!-- Extra features from Spurv-->
@@ -266,7 +266,7 @@
 	<project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="q-x86-12.1" />
 	<!-- <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="q-x86" groups="notdefault" /> -->
 	<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="q-x86" />
-	<project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="q-x86" />
+	<!-- <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="q-x86" /> -->
 	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="q-x86" />
 	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q" />
 	<!-- <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="q-x86" /> -->
