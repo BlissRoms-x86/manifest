@@ -147,7 +147,7 @@
 	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="master" clone-depth="1" />
 	
 	<!-- START X86 INSTALLER -->
-	<project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="master" remote="github" /> 
+	<project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="q10-2.8" remote="github" /> 
 	
 	<!-- END X86 INSTALLER -->
   
