@@ -88,8 +88,9 @@
 	-->
 	<project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.100-ax86-ma" />
 	<project path="external/libffi" name="platform/external/libffi" remote="x86" revision="q-x86" />
+	<project path="external/llvm90" name="platform_external_llvm" remote="BR-x86" revision="q10-x86-03.31.20" />
+	<!-- 
 	<project path="external/llvm90" name="platform/external/llvm" remote="x86" revision="q-x86" />
-	<!--
 	<project path="external/mesa" name="platform/external/mesa" remote="x86" revision="q-x86" /> 
 	-->
 	<project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="19.3.4-ax86-q" />
