@@ -125,7 +125,7 @@
 	<!-- <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="q-x86" groups="notdefault" /> -->
 	<!--
 	<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="q-x86" />
-	<!-- <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="q-x86" /> -->
+	<project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="q-x86" /> 
 	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="q-x86" />
 	-->
 	<project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BR-x86" revision="q-x86-03.28.20" />
