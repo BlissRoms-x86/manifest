@@ -9,6 +9,7 @@
   
   <!-- External -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" revision="master" clone-depth="1" remote="los" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
   <project path="external/libcxx" name="android_external_libcxx" remote="los" />
   <project path="external/openssh" name="android_external_openssh" remote="los" />
   <project path="external/bash" name="android_external_bash" remote="los" />
