@@ -38,6 +38,7 @@
 	
 	<project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="q10-x86" />
 	<project path="external/llvm90" name="platform_external_llvm" remote="BR-x86" revision="q10-x86-03.31.20" />
+	<project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
 	<project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.100-ax86-ma" />
 	<project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q10-03.23.20" />
 	<project path="external/surface-drivers" name="external_surface-drivers" remote="BR-x86" revision="q10-03.23.20" />
@@ -46,7 +47,7 @@
 	<project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
 
 	<project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q10-x86-03.25.20" />
-	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q10-04.04.20" />
+	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q10-04.10.20" />
 	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10-03.17.20" />	
 	
 	<project path="hardware/libaudio" name="platform_hardware_libaudio" remote="BR-x86" revision="q10-x86" />
@@ -65,6 +66,7 @@
 	-->
 	
 	<project path="system/core" name="BlissRoms/platform_system_core" remote="gitlab" revision="q-x86-b" />
+	<project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="q-x86-04.10.20" />
 	
 	<!-- x86 Installer -->
 	<project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="q10-2.8" remote="github" /> 
@@ -157,7 +159,6 @@
 	<!--
 	<project path="system/extras" name="system_extras" remote="BR-x86" revision="q-x86-r14" />
 	<project path="system/media" name="platform/system/media" remote="x86" revision="q-x86" />
-	<project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="q-x86-r14" /> 
 	-->
 	<project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" clone-depth="1" />
 	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="master" clone-depth="1" />

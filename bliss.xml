@@ -251,7 +251,7 @@
   <!--
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
   -->
-  <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
+  <!-- <project path="system/vold" name="platform_system_vold" remote="BlissRoms" /> -->
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
   <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
