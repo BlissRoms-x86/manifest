@@ -33,7 +33,7 @@
 	
 	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q10-x86-03.30.20" />
 	
-	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-04.04.20" />
+	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-04.16.20" />
 	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev.kernel.org-testing" />
 	
 	<project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="q10-x86" />
@@ -58,7 +58,7 @@
 	<project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BR-x86" revision="q10-04.04.20" />
 	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q10-x86-04.01.20" />
 	
-	<project path="vendor/bliss" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-03.30.20" />
+	<project path="vendor/bliss" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-04.16.20" />
 	<project path="vendor/gms" name="Bliss-Bass/vendor-fdroid" remote="gitlab" revision="q10-x86" />
 	<project path="vendor/google/chromeos-x86" name="android_vendor_google_chromeos-x86" remote="me176c" revision="pie-x86" />
 	<!--
