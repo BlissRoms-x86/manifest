@@ -47,18 +47,18 @@
 	<project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
 
 	<project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q10-x86-03.25.20" />
-	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q10-04.10.20" />
-	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10-03.17.20" />	
+	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q10-04.16.20" />
+	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10-04.16.20" />	
 	
 	<project path="hardware/libaudio" name="platform_hardware_libaudio" remote="BR-x86" revision="q10-x86" />
 	<project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="q-x86-12.1" />
 	
-	<project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="q10-04.01.20" /> 
+	<project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="q10-04.16.20" /> 
 	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BR-x86" revision="q10-x86-03.28.20" />
-	<project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BR-x86" revision="q10-04.04.20" />
-	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q10-x86-04.01.20" />
+	<!-- <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BR-x86" revision="q10-04.04.20" /> -->
+	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q10-x86-04.16.20" />
 	
-	<project path="vendor/bliss" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-04.16.20" />
+	<project path="vendor/bliss_os" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-gsi-x86" />
 	<project path="vendor/gms" name="Bliss-Bass/vendor-fdroid" remote="gitlab" revision="q10-x86" />
 	<project path="vendor/google/chromeos-x86" name="android_vendor_google_chromeos-x86" remote="me176c" revision="pie-x86" />
 	<!--
