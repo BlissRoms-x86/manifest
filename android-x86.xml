@@ -19,7 +19,7 @@
 	<remote name="maurossi" fetch="https://github.com/maurossi" />
 	<remote name="goffioul" fetch="https://github.com/goffioul" />
 	<remote name="github" fetch="https://github.com/" />
-	<remote name="gitlab" fetch="https://gitlab.com" />
+	<!-- <remote name="gitlab" fetch="https://gitlab.com" /> -->
 	<remote name="collabora" fetch="https://gitlab.collabora.com/spurv/" />
 	<remote name="phh" fetch="https://github.com/phhusson/" />
 	
