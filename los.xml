@@ -120,7 +120,6 @@
   
   <!-- System Repos -->
   <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="los" />
-  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="los" />
 
   <!-- Vendor -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
