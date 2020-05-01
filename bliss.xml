@@ -43,6 +43,8 @@
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/openssh" />
@@ -97,6 +99,7 @@
   <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
