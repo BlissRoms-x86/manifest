@@ -29,34 +29,34 @@
 	
 	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="q10-x86" />
 	
-	<project path="kernel" name="kernel_common" remote="BR-x86" revision="k5.6rc6_si_ylng" />
+	<project path="kernel" name="kernel_common" remote="BR-x86" revision="android-mainline-5.7rc2-lx86" />
 	
 	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q10-x86-03.30.20" />
 	
-	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-04.16.20" />
+	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-05.03.20" />
 	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev.kernel.org-testing" />
 	
-	<project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="q10-x86" />
+	<project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="q10-05.05.20" />
 	<project path="external/llvm90" name="platform_external_llvm" remote="BR-x86" revision="q10-x86-03.31.20" />
 	<project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
 	<project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.100-ax86-ma" />
-	<project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q10-03.23.20" />
+	<!-- --> <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q10-03.23.20" />
 	<project path="external/surface-drivers" name="external_surface-drivers" remote="BR-x86" revision="q10-03.23.20" />
 	<project path="external/koush/Superuser" name="platform_external_koush_Superuser" remote="BR-x86" revision="q10-x86" />
-	<project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="19.3.4-ax86-q" />
+	<project path="external/mesa" name="platform_mesa" remote="BR-x86" revision="19.0.8-ax86-llvm90" />
 	<project path="external/v86d" name="platform_external_v86d" remote="BR-x86" revision="p9.0" />
 
 	<project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="q10-x86-03.25.20" />
-	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q10-04.16.20" />
-	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q10-04.16.20" />	
+	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="q-x86-04.28.20" />
+	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="q-x86-04.28.20" />	
 	
 	<project path="hardware/libaudio" name="platform_hardware_libaudio" remote="BR-x86" revision="q10-x86" />
 	<project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="q-x86-12.1" />
 	
-	<project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="q10-04.16.20" /> 
-	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BR-x86" revision="q10-x86-03.28.20" />
+	<!-- <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="q10-04.16.20" />-->
+	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BR-x86" revision="q10-04.04.20" />
 	<!-- <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BR-x86" revision="q10-04.04.20" /> -->
-	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q10-x86-04.16.20" />
+	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q-x86-04.28.20" />
 	
 	<project path="vendor/bliss_os" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-gsi-x86" />
 	<project path="vendor/gms" name="Bliss-Bass/vendor-fdroid" remote="gitlab" revision="q10-x86" />
@@ -65,7 +65,8 @@
 	<project name="vendor_bliss_priv" path="vendor/google/chromeos-x86" remote="BR-x86" revision="p9" />
 	-->
 	
-	<project path="system/core" name="BlissRoms/platform_system_core" remote="gitlab" revision="q-x86-b" />
+	<project path="system/core" name="BlissRoms/platform_system_core" remote="gitlab" revision="q-x86-04.29.20" />
+	<project path="system/netd" name="platform_system_netd" remote="BR-x86" revision="q10-05.02.20" />
 	<project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="q-x86-04.10.20" />
 	
 	<!-- x86 Installer -->

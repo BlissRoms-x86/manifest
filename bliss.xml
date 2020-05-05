@@ -190,8 +190,8 @@
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
-  <!-- <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" /> 
-  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" /> -->
+  <!-- <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />  -->
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
   <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" />
@@ -263,7 +263,7 @@
   <!-- <project path="system/vold" name="platform_system_vold" remote="BlissRoms" /> -->
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
   <project path="system/extras" name="platform_system_extras" remote="BlissRoms" />
-  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
+  <!-- <project path="system/netd" name="platform_system_netd" remote="BlissRoms" /> -->
   <project path="system/keymaster" name="platform_system_keymaster" remote="BlissRoms" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
 
@@ -279,6 +279,6 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="BlissRoms" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" />
-  <project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" />
+  <project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" revision="27bcddbe880e89c756b6e914770291aab727e398" />
 
 </manifest>
