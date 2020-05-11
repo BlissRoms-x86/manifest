@@ -205,6 +205,7 @@
 	<project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="1978fc819dd707e0dcd10801683f76f75856add1" />
 	<project path="vendor/bliss_os" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-gsi-x86" />
 	<project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" revision="790cc6b7d029024942addef4ccd4fd0ee31ecb96" />
+	<project path="vendor/gms" name="Bliss-Bass/vendor-fdroid" remote="gitlab" revision="q10-x86" />
 	<project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="me176c" revision="pie-x86" />
 	
 	<!-- Bliss Items -->
@@ -272,7 +273,7 @@
 	<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="q-x86" />
 	<project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="q-x86" />
 	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="q-x86" />
-	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q" />
+	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="q-x86-12.2" />
 	<!-- <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="q-x86" /> -->
 	<project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
 	<project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="q-x86" />
