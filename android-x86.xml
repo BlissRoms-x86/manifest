@@ -201,7 +201,9 @@
 	<remote name="collabora" fetch="https://gitlab.collabora.com/spurv/" />
 	
 	<!-- Bliss additions -->
-	<project path="vendor/blissos" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q-x86-12.2" />
+	<!-- <project path="vendor/bliss" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="1978fc819dd707e0dcd10801683f76f75856add1" /> -->
+	<project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="1978fc819dd707e0dcd10801683f76f75856add1" />
+	<project path="vendor/bliss_os" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-gsi-x86" />
 	<project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" revision="790cc6b7d029024942addef4ccd4fd0ee31ecb96" />
 	<project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="me176c" revision="pie-x86" />
 	
