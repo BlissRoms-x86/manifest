@@ -202,12 +202,14 @@
 	
 	<!-- Bliss additions -->
 	<project path="vendor/blissos" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q-x86-12.2" />
-	<project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" revision="q" />
+	<project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" revision="790cc6b7d029024942addef4ccd4fd0ee31ecb96" />
 	<project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="me176c" revision="pie-x86" />
 	
 	<!-- Bliss Items -->
 	<project path="prebuilts/tools-bliss" name="platform_prebuilts_tools-bliss" remote="BlissRoms" revision="q"/>
-	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" revision="q" /> 
+	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" revision="01e317b0a7877fcff8ff78c9f53c120606f6a413" /> 
+	<!-- <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BR-x86" revision="q10-04.04.20" /> -->
+	
 	<project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" revision="p9.0" />
 	
 	<!-- Extra features from Spurv-->
