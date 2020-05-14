@@ -101,6 +101,7 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/bpf" />
 
   <!-- Remove Google device repos -->
   <remove-project name="device/amlogic/yukawa" />
@@ -257,6 +258,7 @@
   <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
   <project path="system/keymaster" name="platform_system_keymaster" remote="BlissRoms" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
+  <project path="system/bpf" name="platform_system_bpf" remote="BlissRoms" />
 
   <!-- Sepolicy -->
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
