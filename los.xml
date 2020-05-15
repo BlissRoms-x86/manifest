@@ -9,6 +9,10 @@
   
   <!-- External -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" revision="master" clone-depth="1" remote="los" />
+  <project path="external/cldr" name="android_external_cldr" groups="pdk" remote="los" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="los" />
+  <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
   <project path="external/libcxx" name="android_external_libcxx" remote="los" />
   <project path="external/openssh" name="android_external_openssh" remote="los" />
   <project path="external/bash" name="android_external_bash" remote="los" />
@@ -16,6 +20,7 @@
   <project path="external/libhevc" name="android_external_libhevc" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
   <project path="external/nano" name="android_external_nano" remote="los" />
+  <project path="external/ppp" name="android_external_ppp" groups="pdk" remote="los" />
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
@@ -33,6 +38,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="los" />
 
   <!-- Qualcomm Hals -->
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="android_hardware_knowles_athletico_sound_trigger_hal" groups="coral" remote="los" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="los" />
@@ -110,6 +116,7 @@
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="los" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="los" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="los" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="los" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="los" />
@@ -119,6 +126,7 @@
   <!-- System Repos -->
   <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="los" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="los" />
+  <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="los" />
 
   <!-- Vendor -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
@@ -136,6 +144,7 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="los" />
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="los" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
 
 </manifest>

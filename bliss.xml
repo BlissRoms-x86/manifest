@@ -43,13 +43,19 @@
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/ppp" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/hardware/broadcom/libbt" />  
+  <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
@@ -87,6 +93,7 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
@@ -94,6 +101,7 @@
   <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
