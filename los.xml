@@ -104,6 +104,7 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-17.1-caf" remote="los" />
 
   <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="los" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="los" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
@@ -114,6 +115,12 @@
   <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="los" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="los" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="los" />
+  <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="los" />
+  <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" remote="los" />
+  <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" remote="los"  />
+  <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="los" />
+  <project path="packages/providers/CallLogProvider" name="android_packages_providers_CallLogProvider" remote="los"  />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="los" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="los" />
