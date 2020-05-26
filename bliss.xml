@@ -192,6 +192,7 @@
   <project path="libcore" name="platform_libcore" remote="BlissRoms" />
 
   <!-- Apps -->
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
   <project path="packages/apps/BlurView" name="platform_packages_apps_BlurView" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/CustomDoze" name="platform_packages_apps_CustomDoze" remote="BlissRoms" />
