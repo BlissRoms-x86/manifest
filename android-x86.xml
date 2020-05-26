@@ -164,6 +164,7 @@
 	<remove-project name="platform/system/bt" />
 	<remove-project name="platform/system/core" />
 	<remove-project name="platform/system/extras" />
+	<remove-project name="platform/system/hardware/interfaces" />
 	<remove-project name="platform/system/media" />
 	<remove-project name="platform/system/nfc" />
 	<remove-project name="platform/system/vold" />
@@ -201,34 +202,55 @@
 	<remote name="collabora" fetch="https://gitlab.collabora.com/spurv/" />
 	
 	<!-- Bliss additions -->
-	<!-- <project path="vendor/bliss" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="1978fc819dd707e0dcd10801683f76f75856add1" /> -->
-	<project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="1978fc819dd707e0dcd10801683f76f75856add1" />
+	
+	<project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.80-ax86-ga" />
+	<!-- <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" /> -->
+	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="q-x86-r14" />
+	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q-x86-lite" />
+	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-05.23.20" />
+	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org-testing" />
+	
+	<project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="bliss-os-lite-12.2" />
 	<project path="vendor/bliss_os" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-gsi-x86" />
-	<project path="vendor/themes" name="platform_vendor_themes" remote="BlissRoms" revision="790cc6b7d029024942addef4ccd4fd0ee31ecb96" />
+	<project path="vendor/themes" name="platform_vendor_themes" remote="BR-x86" revision="q10-lite" />
 	<project path="vendor/gms" name="Bliss-Bass/vendor-fdroid" remote="gitlab" revision="q10-x86" />
-	<project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="me176c" revision="pie-x86" />
+	<project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="BR-x86" revision="q-x86" />
 	
 	<!-- Bliss Items -->
 	<project path="prebuilts/tools-bliss" name="platform_prebuilts_tools-bliss" remote="BlissRoms" revision="q"/>
-	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" revision="01e317b0a7877fcff8ff78c9f53c120606f6a413" /> 
-	<!-- <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BR-x86" revision="q10-04.04.20" /> -->
+	<project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BR-x86" revision="q10-lite" /> 
+	
+	<!-- Launcher -->
+	<remove-project name="platform/packages/apps/Launcher3" />
+	<project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BR-x86" revision="q10-04.05.20" />
+	<!--
+	<project path="packages/apps/Trebuchet" name="platform_packages_apps_Trebuchet" remote="BlissRoms" revision="q"/>
+	-->
 	
 	<project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" revision="p9.0" />
 	
 	<!-- Extra features from Spurv-->
 	<project path="external/libpciaccess" name="libpciaccess" remote="collabora" revision="master" />
 	
+	<!-- Extra features from goffioul-->
+	<project path="external/ax86-nb-qemu" sync-s="true" name="ax86-nb-qemu" remote="goffioul" revision="master" />
+	<project path="external/ax86-nb-qemu-guest" sync-s="true" name="ax86-nb-qemu-guest" remote="goffioul" revision="master" />
+	
 	<!-- x86 Installer -->
 	<project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="q10-2.8" remote="github" /> 
 	
+	<!-- PHH Additions -->
+	
+	<remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
+	<remote name="phh" fetch="https://github.com/phhusson/" />
+	<project path="packages/apps/FDroidPrivilegedExtension"
+		name="privileged-extension.git" remote="fdroid"
+		revision="refs/tags/0.2.7" />
+	<project path="vendor/foss" name="vendor_foss"
+		remote="BR-x86" revision="microg" />
+	
 	<!-- Android-x86 Project items -->
 
-	<project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.80-ax86-ga" />
-	<!-- <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" /> -->
-	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="q-x86-r14" />
-	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="q10-x86-03.30.20" />
-	<project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="q10-05.09.20" />
-	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org-testing" />
 	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
 	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
 	<project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="q-x86" />
@@ -288,6 +310,7 @@
 	<project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="q-x86-r14" />
 	<project path="system/core" name="BlissRoms/platform_system_core" remote="gitlab" revision="q-x86-r14" />
 	<project path="system/extras" name="system_extras" remote="BR-x86" revision="q-x86-r14" />
+	<project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" remote="x86" revision="q-x86" />
 	<project path="system/media" name="platform/system/media" remote="x86" revision="q-x86" />
 	<project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="q-x86-r14" />
 	
