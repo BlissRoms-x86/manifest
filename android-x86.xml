@@ -210,7 +210,7 @@
 	<project path="device/generic/common" name="BlissRoms/device_generic_common" remote="gitlab" revision="q10-05.23.20" />
 	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev-kernel.org-testing" />
 	
-	<project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="bliss-os-lite-12.2" />
+	<project path="vendor/bliss" name="platform_vendor_blissos" remote="BR-x86" revision="bliss-os-lite-12.2" />
 	<project path="vendor/bliss_os" name="BlissRoms/platform_vendor_blissos" remote="gitlab" revision="q10-gsi-x86" />
 	<project path="vendor/themes" name="platform_vendor_themes" remote="BR-x86" revision="q10-lite" />
 	<project path="vendor/gms" name="Bliss-Bass/vendor-fdroid" remote="gitlab" revision="q10-x86" />
