@@ -101,7 +101,7 @@
 
     <!-- device/ -->
 
-    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-06.23.20" />
+    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-cros-houdini" />
     <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev.kernel.org-testing" />
     <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="pie-x86" />
     <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="pie-x86" />
@@ -182,10 +182,10 @@
 
     <!-- kernel -->
 
+    <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.122-ax86-ga-rmi" />
 <!--
-    <project path="kernel" name="kernel_common" remote="BR-x86" revision="k4.19.50-ax86-ga" />
--->
 	<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" />
+-->
 
         <!-- packages/ -->
 	<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="pie-x86" />
@@ -211,9 +211,10 @@
 
     <!-- vendor/ -->
 
-    <project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
-    <!--<project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" /> -->
+    <!--<project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
+    <project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" /> -->
     <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.12" />
+    <project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="BR-x86" revision="q-x86" />
 
     <!-- START X86 INSTALLER -->
     <project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="master" remote="github" /> 
