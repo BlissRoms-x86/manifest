@@ -36,6 +36,8 @@
   <remove-project name="platform/libcore" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -106,6 +108,7 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -232,6 +235,8 @@
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms"  />
   <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" />
   <project path="external/google" name="platform_external_google" remote="BlissRoms" />
+  <project path="external/libpng" name="platform_external_libpng" remote="BlissRoms" />
+  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
@@ -267,6 +272,7 @@
   
   <!-- Prebuilts -->
   <project path="prebuilts/tools-bliss" name="platform_prebuilts_tools-bliss" remote="BlissRoms" />
+  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="BlissRoms" />
 
   <!-- Providers -->
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
