@@ -38,6 +38,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -238,6 +239,7 @@
   <project path="external/google" name="platform_external_google" remote="BlissRoms" />
   <project path="external/libpng" name="platform_external_libpng" remote="BlissRoms" />
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="BlissRoms" />
+  <project path="external/zlib" name="platform_external_zlib" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
