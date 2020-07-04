@@ -115,6 +115,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/r8" />
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/timezone" />
@@ -250,6 +251,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="platform_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="BlissRoms" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="platform_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="BlissRoms" />
   <project path="prebuilts/r8" name="platform_prebuilts_r8" groups="pdk" clone-depth="1" remote="BlissRoms" />
+  <project path="prebuilts/abi-dumps/ndk" name="platform_prebuilts_abi-dumps_ndk" clone-depth="1" remote="BlissRoms" />
 
   <!-- Hardware -->
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="BlissRoms" />
