@@ -35,6 +35,7 @@
   <remove-project name="platform/development" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/arm-optimized-routines" />
@@ -236,6 +237,7 @@
   <project path="external/skia" name="platform_external_skia" remote="BlissRoms" />
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms"  />
   <project path="external/json-c" name="platform_external_json-c" remote="BlissRoms" />
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" groups="pdk" remote="BlissRoms" />
   <project path="external/google" name="platform_external_google" remote="BlissRoms" />
   <project path="external/libpng" name="platform_external_libpng" remote="BlissRoms" />
   <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="BlissRoms" />
