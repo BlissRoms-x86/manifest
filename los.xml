@@ -6,7 +6,6 @@
 
   <!-- Frameworks -->
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="los" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="los" />
   
   <!-- External -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" revision="master" clone-depth="1" remote="los" />
