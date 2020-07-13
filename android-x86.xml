@@ -94,6 +94,11 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    
+    <remote name="bd"
+	  fetch="https://github.com/boringdroid" />
+	
+	<project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="bd" revision="boringdroid-9.0.0" />
   
     <!-- From Android-x86 repositories -->
 
