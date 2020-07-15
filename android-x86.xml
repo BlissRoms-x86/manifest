@@ -106,7 +106,7 @@
 
     <!-- device/ -->
 
-    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-cros-houdini" />
+    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-ax86-houdini" />
     <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev.kernel.org-testing" />
     <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="pie-x86" />
     <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="pie-x86" />
@@ -122,7 +122,7 @@
     <project path="external/efibootmgr" name="platform_external_efibootmgr" remote="BR-x86" revision="p9.0-ax86" />
     <project path="external/efivar" name="platform_external_efivar" remote="BR-x86" revision="p9.0-ax86" />
     <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
-    <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="q10-x86-r1" />
+    <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86-test" />
     <project path="external/llvm70" name="platform_external_llvm70" remote="BR-x86" revision="pie-x86_llvm70-r341512" groups="pdk" />
     <project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
 <!--
@@ -166,7 +166,7 @@
     <!-- frameworks/ -->
 
     <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="p9.0-11.12" />
-    <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-06.23.20" />
+    <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-07.15.20" />
     <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="p9.0-06.23.20" />
 
     <!-- hardware/ -->
