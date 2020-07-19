@@ -232,6 +232,7 @@
   <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="BlissRoms" />
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
   <project path="external/motorola/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
+  <project path="external/pulse" name="platform_external_pulse" remote="BlissRoms" />
   <project path="external/selinux" name="platform_external_selinux" remote="BlissRoms" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="BlissRoms" />
   <project path="external/skia" name="platform_external_skia" remote="BlissRoms" />
