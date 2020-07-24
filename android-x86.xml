@@ -99,6 +99,7 @@
 	  fetch="https://github.com/boringdroid" />
 	
 	<project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="bd" revision="boringdroid-9.0.0" />
+	<project path="vendor/packages/apps/BoringdroidSystemUI" name="vendor_packages_apps_BoringdroidSystemUI.git" remote="bd" revision="boringdroid-9.0.0" />
   
     <!-- From Android-x86 repositories -->
 
@@ -193,7 +194,7 @@
 -->
 
         <!-- packages/ -->
-	<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="pie-x86" />
+    <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" remote="x86" revision="pie-x86" />
 	<project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="x86" revision="pie-x86" />
     <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BR-x86" revision="p9.0-x86" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="p9.0-06.23.20" />
