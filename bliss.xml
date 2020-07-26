@@ -118,6 +118,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
+  <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/timezone" />
@@ -292,6 +293,7 @@
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
 
   <!-- System -->
+  <project path="system/apex" name="platform_system_apex" remote="BlissRoms" />
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
@@ -310,6 +312,7 @@
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="q10" />
+  <project path="vendor/google-customization" name="platform_vendor_google-customization" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="BlissRoms" />
