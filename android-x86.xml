@@ -124,7 +124,6 @@
     <project path="external/efivar" name="platform_external_efivar" remote="BR-x86" revision="p9.0-ax86" />
     <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
     <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86-test" />
-    <project path="external/surface-drivers" name="external_surface-drivers" remote="BR-x86" revision="q10-07.24.20" />
     <project path="external/llvm70" name="platform_external_llvm70" remote="BR-x86" revision="pie-x86_llvm70-r341512" groups="pdk" />
     <project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
 <!--
@@ -220,9 +219,11 @@
 
     <!--<project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
     <project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" /> -->
+    <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-11.11" />
     <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.12" />
     <project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="BR-x86" revision="q-x86" />
-
+	<project path="vendor/surface-drivers" name="external_surface-drivers" remote="BR-x86" revision="q10-07.24.20" />
+    
     <!-- START X86 INSTALLER -->
     <project path="x86_installer" name="BlissRoms-x86/Androidx86-Installer-for-Windows" revision="master" remote="github" /> 
     <!-- END X86 INSTALLER -->
