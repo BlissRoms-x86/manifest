@@ -219,6 +219,7 @@
 
     <!--<project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
     <project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" /> -->
+    <project path="vendor/hardware/interfaces" name="vendor-hardware-interfaces" remote="BR-x86" revision="p9.0-x86" />
     <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-11.11" />
     <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.12" />
     <project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="BR-x86" revision="q-x86" />
