@@ -95,13 +95,18 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
     
+    <!-- BoringdroidSystemUI -->
     <remote name="bd"
 	  fetch="https://github.com/boringdroid" />
 	
 	<project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="bd" revision="boringdroid-9.0.0" />
 	<project path="vendor/packages/apps/BoringdroidSystemUI" name="vendor_packages_apps_BoringdroidSystemUI.git" remote="bd" revision="boringdroid-9.0.0" />
   
-    <!-- From Android-x86 repositories -->
+    <!-- Gearlock Recovery -->
+    <remote name="gl" fetch="https://gitlab.com" />    
+    <project name="electrikjesus/bootable-gearlock" path="vendor/gearlock" remote="gl" revision="master" />
+    
+    <!-- Android-x86 base repositories -->
 
     <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0-07.19.20" />
 
