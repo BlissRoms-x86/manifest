@@ -106,6 +106,9 @@
     <remote name="gl" fetch="https://gitlab.com" />    
     <project name="electrikjesus/bootable-gearlock" path="vendor/gearlock" remote="gl" revision="master" />
     
+    <!-- Houdini sfs -->    
+    <project name="android-pc/houdini" path="vendor/apc" remote="gl" revision="master" />
+    
     <!-- Android-x86 base repositories -->
 
     <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0-07.19.20" />
