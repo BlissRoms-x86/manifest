@@ -103,8 +103,8 @@
 	<project path="vendor/packages/apps/BoringdroidSystemUI" name="vendor_packages_apps_BoringdroidSystemUI.git" remote="bd" revision="boringdroid-9.0.0" />
   
     <!-- Gearlock Recovery -->
-    <remote name="gl" fetch="https://gitlab.com" />    
-    <project name="electrikjesus/bootable-gearlock" path="vendor/gearlock" remote="gl" revision="master" />
+    <remote name="gl" fetch="https://gitlab.com" />
+    <project name="AXIM0S/vendor-gearlock" path="vendor/gearlock" remote="gl" revision="master" />
     
     <!-- Houdini sfs -->    
     <project name="android-pc/houdini" path="vendor/apc" remote="gl" revision="master" />
