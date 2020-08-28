@@ -222,6 +222,7 @@
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
   <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
+  <project path="packages/apps/Plugins" name="platform_packages_apps_Plugins" remote="BlissRoms" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" remote="BlissRoms" />
   <project path="packages/apps/LineageParts" name="platform_packages_apps_LineageParts" remote="BlissRoms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
