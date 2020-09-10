@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="refs/tags/android-11.0.0_r3"
+  <default revision="refs/tags/android-11.0.0_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -825,6 +825,9 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <include name="bliss.xml" />
+  <include name="los.xml" />
 
 </manifest>
 
