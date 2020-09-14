@@ -45,11 +45,7 @@ Repo initialization :
 
 sync repo :
 
-    $ repo sync --no-tags --no-clone-bundle
-    
-problems syncing? :
-
-    $ repo sync --no-tags --no-clone-bundle --force-sync
+    $ repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 
 Building
 --------
