@@ -54,7 +54,6 @@
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" revision="lineage-17.1" />
   <project path="external/guice" name="android_external_guice" remote="los" revision="lineage-18.0" />
   <project path="external/libcxx" name="android_external_libcxx" remote="los" revision="lineage-18.0" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="los" revision="lineage-18.0" />
 
   <!-- Hardware -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" revision="lineage-18.0" />
