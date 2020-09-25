@@ -50,13 +50,13 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" revision="lineage-17.1" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" revision="lineage-17.1" />
   <project path="external/exfat" name="android_external_exfat" remote="los" revision="lineage-17.1" />
-  <project path="external/json-c" name="android_external_json-c" remote="los" revision="lineage-17.1" />
+  <project path="external/json-c" name="android_external_json-c" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" revision="lineage-17.1" />
-  <project path="external/guice" name="android_external_guice" remote="los" revision="lineage-18.0" />
-  <project path="external/libcxx" name="android_external_libcxx" remote="los" revision="lineage-18.0" />
+  <project path="external/guice" name="android_external_guice" remote="los" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="los" />
 
   <!-- Hardware -->
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" revision="lineage-18.0" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
 
   <!-- Qualcomm Hals -->
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="BlissRoms" >
