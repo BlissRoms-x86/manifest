@@ -45,9 +45,11 @@
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
 
   <!-- External -->
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" revision="lineage-17.1" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" revision="lineage-17.1" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" revision="lineage-17.1" />
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" revision="lineage-17.1" />
   <project path="external/exfat" name="android_external_exfat" remote="los" revision="lineage-17.1" />
   <project path="external/json-c" name="android_external_json-c" remote="los" />
