@@ -152,6 +152,7 @@
 
   <!-- External -->
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" />
+  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
