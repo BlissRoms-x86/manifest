@@ -52,6 +52,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -168,6 +169,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
