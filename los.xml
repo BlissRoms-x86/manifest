@@ -9,14 +9,15 @@
   <!--<project path="external/libnfc-nxp" name="android_external_libnfc-nxp" />-->
   <!--<project path="external/libtar" name="android_external_libtar" />-->
   <!--<project path="external/lineage-sdk-api-coverage" name="android_external_lineage-sdk-api-coverage" />-->
-  <!--<project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" />
-  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" />-->
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
+  <!--<project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" />-->
   <!--<project path="hardware/lineage/telephony" name="android_hardware_lineage_telephony" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="android_packages_apps_OpenWeatherMapProvider" />-->
   <!--<project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" />-->
   <!--<project path="packages/apps/Email" name="android_packages_apps_Email" />-->
-  <!--<project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" />-->
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="lineage-18.0-legacy-um" remote="los" />
   <!--<project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />-->
   <!--<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" />-->
   <!--<project path="packages/apps/FlipFlap" name="android_packages_apps_FlipFlap" />-->
