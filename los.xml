@@ -9,7 +9,6 @@
   <!--<project path="external/libnfc-nxp" name="android_external_libnfc-nxp" />-->
   <!--<project path="external/libtar" name="android_external_libtar" />-->
   <!--<project path="external/lineage-sdk-api-coverage" name="android_external_lineage-sdk-api-coverage" />-->
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
   <!--<project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" />-->
   <!--<project path="hardware/lineage/telephony" name="android_hardware_lineage_telephony" />-->

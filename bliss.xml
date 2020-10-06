@@ -155,6 +155,7 @@
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
+  <project path="hardware/lineage/interfaces" name="platform_hardware_lineage_interfaces" remote="BlissRoms" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
   <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="BlissRoms" />
@@ -170,6 +171,7 @@
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" revision="r-caf" />
 
   <!-- Packages -->
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
   <project path="packages/apps/LineageParts" name="platform_packages_apps_LineageParts" remote="BlissRoms" />
@@ -193,6 +195,7 @@
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="r" />
+  <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" revision="r" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="BlissRoms" />
 
 </manifest>
