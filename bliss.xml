@@ -120,6 +120,7 @@
   <!-- End Remove AOSP repos -->
 
   <!-- General Repos -->
+  <project path="manifest" name="platform_manifest" remote="BlissRoms" />
   <project path="art" name="platform_art" remote="BlissRoms" />
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
   <project path="build/blueprint" name="platform_build_blueprint" remote="BlissRoms" />
