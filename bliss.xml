@@ -71,6 +71,7 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
@@ -198,6 +199,9 @@
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
   <project path="packages/overlays/Lineage" name="platform_packages_overlays_Lineage" remote="BlissRoms" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="BlissRoms" />
 
   <!-- Providers -->
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="BlissRoms" />
