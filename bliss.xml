@@ -228,7 +228,6 @@
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="r" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" revision="r" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="BlissRoms" />
   <project path="vendor/gapps" name="BlissRoms/android_vendor_gapps" remote="gitlab" revision="r" />
 
 </manifest>
