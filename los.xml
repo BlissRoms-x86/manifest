@@ -37,8 +37,8 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="los" />
   <project path="external/bash" name="android_external_bash" remote="los" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="los" revision="lineage-17.1" />
-  <project path="external/exfat" name="android_external_exfat" remote="los" revision="lineage-17.1" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="los" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" />
   <project path="external/guice" name="android_external_guice" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
   <project path="external/json-c" name="android_external_json-c" remote="los" />
