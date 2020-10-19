@@ -16,7 +16,6 @@
   <!--<project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" />-->
   <!--<project path="packages/apps/Email" name="android_packages_apps_Email" />-->
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="lineage-18.0-legacy-um" remote="los" />
   <!--<project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />-->
   <!--<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" />-->
   <!--<project path="packages/apps/FlipFlap" name="android_packages_apps_FlipFlap" />-->
@@ -120,7 +119,13 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="los" revision="lineage-17.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="los" revision="lineage-17.1" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
-  
+
+  <!-- Sepolicy -->
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="los" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.0-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" />
+
   <!-- System Repos -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" revision="lineage-17.1" />
   <project path="system/qcom" name="android_system_qcom" remote="los" revision="lineage-17.1" />
