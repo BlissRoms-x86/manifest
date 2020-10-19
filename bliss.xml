@@ -172,15 +172,10 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
   <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="BlissRoms" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="r-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="r-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="r-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="r-caf-msm8998" />
   <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="r-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="r-caf-sdm845" />
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="r-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="r-caf-sm8150" />
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="BlissRoms" revision="r-caf" />
 
   <!-- Packages -->
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
