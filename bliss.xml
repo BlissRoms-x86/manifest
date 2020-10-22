@@ -58,6 +58,7 @@
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Stk" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
@@ -176,6 +177,9 @@
   <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="r-caf-sdm845" />
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" remote="BlissRoms" revision="r-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" remote="BlissRoms" revision="r-caf-sm8150" />
+
+  <!-- Inputmethods -->
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
 
   <!-- Packages -->
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
