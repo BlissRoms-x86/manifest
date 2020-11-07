@@ -13,6 +13,7 @@
   <project path="external/bash" name="android_external_bash" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" revision="master" remote="los" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" />
   <project path="external/guice" name="android_external_guice" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" />
