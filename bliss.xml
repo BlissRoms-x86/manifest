@@ -36,6 +36,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
