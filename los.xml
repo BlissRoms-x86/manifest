@@ -136,7 +136,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" />
 
   <!-- System Repos -->
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" revision="lineage-17.1" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
   <project path="system/qcom" name="android_system_qcom" remote="los" revision="lineage-17.1" />
 
   <!-- Vendor -->
