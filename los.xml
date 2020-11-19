@@ -56,6 +56,8 @@
 
   <!-- Hardware -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
+  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
 
   <!-- Qualcomm Hals -->
    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="los" > 
