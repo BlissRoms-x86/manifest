@@ -72,6 +72,7 @@
   <remove-project name="platform/packages/providers/CalendarProvider" />
   <remove-project name="platform/packages/providers/BookmarkProvider" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -211,26 +212,15 @@
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="BlissRoms" />
 
   <!-- Providers -->
-  <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" remote="BlissRoms" />
-  <project path="packages/providers/CallLogProvider" name="platform_packages_providers_CallLogProvider" remote="BlissRoms" />
-  <project path="packages/providers/CalendarProvider" name="platform_packages_providers_CalendarProvider" remote="BlissRoms" />
-  <project path="packages/providers/BookmarkProvider" name="platform_packages_providers_BookmarkProvider" remote="BlissRoms" />
-  <project path="packages/providers/BlockedNumberProvider" name="platform_packages_providers_BlockedNumberProvider" remote="BlissRoms" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
-  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="BlissRoms" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
 
   <!-- System -->
   <project path="system/apex" name="platform_system_apex" remote="BlissRoms" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
-  <project path="system/incremental_delivery" name="platform_system_incremental_delivery" remote="BlissRoms" />
-  <project path="system/libufdt" name="platform_system_libufdt" remote="BlissRoms" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
-  <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
-
-  <!-- Tools -->
-  <project path="tools/metalava" name="platform_tools_metalava" remote="BlissRoms" />
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="r" />

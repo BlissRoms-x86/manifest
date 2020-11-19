@@ -139,6 +139,14 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="los" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="los" />
 
+  <!-- Providers -->
+  <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" remote="los" />
+  <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" remote="los" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="los" />
+  <project path="packages/providers/CallLogProvider" name="android_packages_providers_CallLogProvider" remote="los" />
+  <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="los" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
+
   <!-- Sepolicy -->
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="los" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" />
@@ -148,6 +156,12 @@
   <!-- System Repos -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
   <project path="system/qcom" name="android_system_qcom" remote="los" revision="lineage-17.1" />
+  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="los" />
+  <project path="system/libufdt" name="android_system_libufdt" remote="los" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="los" />
+
+  <!-- Tools -->
+  <project path="tools/metalava" name="android_tools_metalava" remote="los" />
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
