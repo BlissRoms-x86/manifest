@@ -4,30 +4,6 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-18.0" />
 
-  <!-- LineageOS additions -->
-  <!--<project path="device/lineage/atv" name="android_device_lineage_atv" />-->
-  <!--<project path="external/libnfc-nxp" name="android_external_libnfc-nxp" />-->
-  <!--<project path="external/libtar" name="android_external_libtar" />-->
-  <!--<project path="external/lineage-sdk-api-coverage" name="android_external_lineage-sdk-api-coverage" />-->
-  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
-  <!--<project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" />-->
-  <!--<project path="hardware/lineage/telephony" name="android_hardware_lineage_telephony" />-->
-  <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="android_packages_apps_OpenWeatherMapProvider" />-->
-  <!--<project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" />-->
-  <!--<project path="packages/apps/Email" name="android_packages_apps_Email" />-->
-  <!--<project path="packages/apps/Exchange" name="android_packages_apps_Exchange" />-->
-  <!--<project path="packages/apps/FlipFlap" name="android_packages_apps_FlipFlap" />-->
-  <!--<project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />-->
-  <!--<project path="packages/apps/Profiles" name="android_packages_apps_Profiles" />-->
-  <!--<project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" />-->
-  <!--<project path="packages/apps/Snap" name="android_packages_apps_Snap" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" />-->
-  <!--<project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" />-->
-  <!--<project path="packages/apps/Updater" name="android_packages_apps_Updater" />-->
-  <!--<project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" />-->
-  <!--<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" />-->
-  <!--<project path="prebuilts/lineage-sdk" name="android_prebuilts_lineage-sdk" clone-depth="1" />-->
-
   <!-- External -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
@@ -57,6 +33,7 @@
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
 
   <!-- Qualcomm Hals -->
    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="los" > 
