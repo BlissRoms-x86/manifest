@@ -172,7 +172,6 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
 
   <!-- External -->
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" />
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
 
   <!-- Hardware -->
