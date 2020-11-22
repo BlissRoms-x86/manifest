@@ -138,6 +138,7 @@
 
   <!-- System Repos -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="los" />
   <project path="system/qcom" name="android_system_qcom" remote="los" revision="lineage-17.1" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="los" />
   <project path="system/libufdt" name="android_system_libufdt" remote="los" />
