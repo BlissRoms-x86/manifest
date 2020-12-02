@@ -107,7 +107,9 @@
     <project name="AXIM0S/vendor-gearlock" path="vendor/gearlock" remote="gl" revision="master" />
     
     <!-- Houdini sfs -->    
+<!--
     <project name="android-pc/houdini" path="vendor/apc" remote="gl" revision="master" />
+-->
     
     <!-- Android-x86 base repositories -->
 
@@ -115,7 +117,7 @@
 
     <!-- device/ -->
 
-    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-ax86-houdini" />
+    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.13" />
     <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev.kernel.org-testing" />
     <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="pie-x86" />
     <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="pie-x86" />
@@ -132,8 +134,14 @@
     <project path="external/efivar" name="platform_external_efivar" remote="BR-x86" revision="p9.0-ax86" />
     <project path="external/eject" name="platform_external_eject" remote="BR-x86" revision="p9.0" />
     <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="p9.0-x86-test" />
+    
     <project path="external/llvm70" name="platform_external_llvm70" remote="BR-x86" revision="pie-x86_llvm70-r341512" groups="pdk" />
     <project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
+    <project path="external/llvm90" name="platform/external/llvm" remote="x86" revision="pie-x86" />
+<!--
+    <project path="external/llvm10" name="llvm-project" remote="maurossi" revision="release_10.x" />
+    <project path="external/llvm11" name="llvm-project" remote="maurossi" revision="release_11.x" />
+-->
 <!--
     <project path="external/llvm90" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm90" />
 -->
@@ -157,12 +165,17 @@
     <project path="external/minigbm_intel" name="platform/external/minigbm" remote="x86" revision="pie-x86_intel" />
     <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="pie-x86" />
     <project path="external/drm_gralloc" name="platform/external/drm_gralloc" remote="x86" revision="pie-x86" />
+<!--
     <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" revision="pie-x86" />
+-->
+	<project path="external/drm_hwcomposer" name="drm_hwcomposer" remote="maurossi" revision="blueprint_pie-x86_w45_2020" />
     <project path="external/drmfb-composer" name="platform/external/drmfb-composer" remote="x86" revision="pie-x86" />
   
     <project path="external/ffmpeg" name="external_ffmpeg" remote="maurossi" revision="pie-x86" />
+<!--
     <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="pie-x86" />
-    <project path="external/llvm90" name="platform/external/llvm" remote="x86" revision="pie-x86" />
+-->
+	<project path="external/libdrm" name="drm" remote="maurossi" revision="2.4.102_pie-x86_blueprint" />
     <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="pie-x86" />
     <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="pie-x86" />
     <project path="external/s2tc" name="platform_external_s2tc" remote="BR-x86" revision="p9.0" />
@@ -228,9 +241,9 @@
     <!--<project path="vendor/bliss_priv" name="vendor_bliss_priv" remote="BR-x86" revision="p9.0" />
     <project path="vendor/magisk" name="external_magisk" remote="BR-x86" revision="p9.0" /> -->
     <project path="vendor/hardware/interfaces" name="vendor-hardware-interfaces" remote="BR-x86" revision="p9.0-x86" />
-    <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-11.11" />
+    <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="p9.0-11.13" />
     <project path="vendor/x86" name="vendor_x86" remote="BR-x86" revision="p9.0-11.12" />
-    <project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="BR-x86" revision="q-x86" />
+    <project name="android_vendor_google_chromeos-x86" path="vendor/google/chromeos-x86" remote="BR-x86" revision="13421.73.0_nocturne" />
 	<project path="vendor/surface-drivers" name="external_surface-drivers" remote="BR-x86" revision="q10-07.25.20" />
     
     <!-- START X86 INSTALLER -->

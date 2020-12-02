@@ -19,4 +19,10 @@
 	
 	<project name="android_vendor_microg" path="vendor/microg" remote="BR-x86" revision="p9.0" />
 	-->
+	
+	<project path="packages/apps/FDroidPrivilegedExtension"
+		name="privileged-extension.git" remote="fdroid"
+		revision="refs/tags/0.2.7" />
+	<project path="vendor/foss" name="vendor_foss"
+		remote="phh" revision="master" />
 </manifest>
