@@ -21,7 +21,7 @@
 
   <remote name="los"
           fetch="https://github.com/LineageOS"
-          revision="lineage-18.0" />
+          revision="lineage-18.1" />
 
   <!-- Remove first some AOSP repos -->
 
@@ -131,11 +131,7 @@
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
-  <remove-project name="device/google/muskie" />
-  <remove-project name="device/google/taimen" />
   <remove-project name="device/google/trout" />
-  <remove-project name="device/google/wahoo" />
-  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google/fuchsia" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
