@@ -38,6 +38,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/tinyalsa" />
+  <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -176,6 +177,7 @@
 
   <!-- External -->
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
+  <project path="external/perfetto" name="platform_external_perfetto" remote="BlissRoms" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
