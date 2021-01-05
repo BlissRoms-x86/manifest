@@ -99,7 +99,10 @@
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
-  <remove-project name="platform/tools/metalava" /> -->
+  <remove-project name="platform/tools/metalava" />
+  <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/icu" />
+  <remove-project name="platform/system/timezone" />
 
   <!-- Remove Google device repos -->
   <remove-project name="device/amlogic/yukawa" />

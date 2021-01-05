@@ -32,6 +32,8 @@
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
+  <project path="external/cldr" name="android_external_cldr" remote="los" />
+  <project path="external/icu" name="android_external_icu" remote="los" />
 
   <!-- Hardware -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
@@ -154,6 +156,7 @@
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="los" />
   <project path="system/libufdt" name="android_system_libufdt" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" remote="los" />
+  <project path="system/timezone" name="android_system_timezone" remote="los" />
 
   <!-- Tools -->
   <project path="tools/metalava" name="android_tools_metalava" remote="los" />
