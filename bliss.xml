@@ -105,6 +105,7 @@
   <remove-project name="platform/system/timezone" />
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
 
   <!-- Remove Google device repos -->
   <remove-project name="device/amlogic/yukawa" />
@@ -216,6 +217,7 @@
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
   <project path="packages/overlays/Lineage" name="platform_packages_overlays_Lineage" remote="BlissRoms" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="BlissRoms" />
