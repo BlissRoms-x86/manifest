@@ -103,6 +103,8 @@
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/system/timezone" />
+  <remove-project name="platform/external/boringssl" />
+  <remove-project name="platform/external/toybox" />
 
   <!-- Remove Google device repos -->
   <remove-project name="device/amlogic/yukawa" />

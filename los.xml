@@ -20,7 +20,7 @@
   <project path="external/htop" name="android_external_htop" remote="los" />
   <project path="external/json-c" name="android_external_json-c" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" revision="lineage-17.1" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/libcxx" name="android_external_libcxx" remote="los" />
   <project path="external/nano" name="android_external_nano" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
@@ -34,6 +34,8 @@
   <project path="external/zip" name="android_external_zip" remote="los" />
   <project path="external/cldr" name="android_external_cldr" remote="los" />
   <project path="external/icu" name="android_external_icu" remote="los" />
+  <project path="external/boringssl" name="android_external_boringssl" remote="los" />
+  <project path="external/toybox" name="android_external_toybox" remote="los" />
 
   <!-- Hardware -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
