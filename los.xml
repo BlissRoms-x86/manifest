@@ -78,6 +78,7 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="los" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="los" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="los" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="los" revision="lineage-18.1-caf" /> 
   <project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-18.1-caf-apq8084" />
   <project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" remote="los" revision="lineage-18.1-caf-apq8084" />
   <project path="hardware/qcom-caf/apq8084/media" name="android_hardware_qcom_media" remote="los" revision="lineage-18.1-caf-apq8084" />
