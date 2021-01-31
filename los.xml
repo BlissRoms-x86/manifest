@@ -45,6 +45,7 @@
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
 
   <!-- Qualcomm Hals -->
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="android_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="los" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="los" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="los" />
