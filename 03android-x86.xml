@@ -28,8 +28,8 @@
 -->
     
   <!-- BOOTABLE -->
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="q-x86" />  
   <project name="AXIM0S/vendor-gearlock" path="vendor/gearlock" remote="gl" revision="master" />
+  <project path="bootable/newinstaller" name="android-generic/bootable_newinstaller.git" remote="gl" revision="r11-r17" />  
   <project name="AXIM0S/rusty-magisk" path="rusgik" remote="ghub" revision="master" />
   
   <!-- EXTERNAL -->
