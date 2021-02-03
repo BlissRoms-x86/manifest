@@ -830,6 +830,12 @@
 
   <include name="bliss.xml" />
   <include name="los.xml" />
+  <include name="00remotes.xml" />
+  <include name="01remove.xml" />
+  <include name="03android-x86.xml" />
+  <include name="04device-generic-common.xml" />
+  <include name="05other.xml" />
+  <include name="foss.xml" />
 
 </manifest>
 

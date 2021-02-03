@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- From Android-x86 repositories -->
+  <remote name="x86" fetch="https://scm.osdn.net/gitroot/android-x86" />
+  <remote name="BR-x86" fetch="https://github.com/BlissRoms-x86" />
+  <remote name="apc" fetch="https://github.com/Android-PC" />
+  <remote name="me176c" fetch="https://github.com/me176c-dev/" />
+  <remote name="maurossi" fetch="https://github.com/maurossi" />
+  <remote name="goffioul" fetch="https://github.com/goffioul" />
+  <remote name="ghub" fetch="https://github.com/" />
+  <remote name="BR-x86-gl" fetch="https://gitlab.com/BlissRoms" />
+  <remote name="blissbass" fetch="https://gitlab.com/Bliss-Bass" />
+  <remote name="ag" fetch="https://gitlab.com/android-generic" />
+  <remote name="gl" fetch="https://gitlab.com" />
+  <remote name="collabora" fetch="https://gitlab.collabora.com/spurv/" />
+  <remote name="lineageos" fetch="https://github.com/LineageOS"
+          revision="lineage-18.0" />
+
+</manifest>

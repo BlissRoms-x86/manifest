@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- GRAPHICS STACK -->
+<!--
+  <project path="external/IA-Hardware-Composer" name="platform/external/IA-Hardware-Composer" remote="x86" revision="pie-x86" />
+-->
+  <project path="external/IA-Hardware-Composer" name="platform/external/IA-Hardware-Composer" remote="x86" revision="pie-x86" />
+  <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="q-x86" />
+  <project path="external/minigbm_intel" name="platform/external/minigbm" remote="x86" revision="pie-x86_intel" />
+  <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="q-x86" />
+  <project path="external/drmfb-composer" name="drmfb-composer.git" remote="maurossi" revision="q-x86" />
+  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" remote="x86" revision="q-x86" />
+  <project path="external/drm_hwcomposer" name="drm_hwcomposer.git" remote="maurossi" revision="blueprint_q-x86" />
+  <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.103_r-x86" />
+  <project path="external/llvm90" name="platform/external/llvm" remote="x86" revision="q-x86" />
+  <project path="external/mesa" name="mesa" remote="maurossi" revision="20.1.0_pie-x86" />
+  <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="q-x86" />
+    
+  <!-- FILESYSTEM -->
+  <!-- <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="q-x86" /> -->
+<!--
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" revision="lineage-18.0" />
+-->
+  <!-- <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="q-x86" /> -->
+<!--
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" revision="lineage-18.0" />
+-->
+    
+  <!-- BOOTABLE -->
+  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="q-x86" />  
+  <project name="AXIM0S/vendor-gearlock" path="vendor/gearlock" remote="gl" revision="master" />
+  <project name="AXIM0S/rusty-magisk" path="rusgik" remote="ghub" revision="master" />
+  
+  <!-- EXTERNAL -->
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="q-x86" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="q-x86" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="q-x86" />
+  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="q-x86" />
+  <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="q-x86" />
+  <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="q-x86" />
+  <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="q-x86" />
+  <project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="q-x86" />
+  <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="q-x86" />
+  <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="q-x86" />
+  <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="q-x86" />
+  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="q-x86" />
+  
+  <!-- HARDWARE -->
+  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="q-x86" />
+  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="q-x86" />
+  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" remote="x86" revision="q-x86" />
+  <project path="hardware/intel/common/vaapi" name="platform/hardware/intel/common/vaapi" remote="x86" revision="q-x86" />
+  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="q-x86" />
+  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="q-x86" />
+  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="q-x86" />
+  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="q-x86" />
+  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="q-x86" />
+  <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="q-x86" />
+  <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="q-x86" />
+  <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
+  
+  <!-- VENDORS -->
+  <project path="vendor/gms" name="android-generic/vendor_gms" remote="gl" revision="r-x86" />
+  <project path="vendor/google/emu-x86" name="android-generic/android_vendor_google_emu-x86" remote="gl" revision="r11-x86_64" />
+  
+</manifest>
