@@ -116,6 +116,21 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="BR-x86" revision="r11-r17" />
+<!--
+  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="BlissRoms" revision="r" />
+-->
+
+  <!-- System -->
+  <project path="system/apex" name="platform_system_apex" remote="BR-x86" revision="r11-r17" />
+  <project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="r11-r17" />
+  <project path="system/core" name="platform_system_core" remote="BR-x86" revision="r11-x86-ex2" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BR-x86" revision="r11-r17" />
+  <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="r11-x86" />
+
+  <!-- Vendor -->
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="r11-r17" />
+  <project path="vendor/support" name="platform_vendor_support" remote="BR-x86" revision="r11-r17" />
+  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BR-x86" revision="r11-r17" />
   
   
 </manifest>
