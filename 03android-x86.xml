@@ -62,6 +62,7 @@
   <!-- VENDORS -->
   <project path="vendor/gms" name="android-generic/vendor_gms" remote="gl" revision="r-x86" />
   <project path="vendor/google/emu-x86" name="android-generic/android_vendor_google_emu-x86" remote="gl" revision="r11-x86_64" />
+  <project path="vendor/android-generic" name="android-generic/vendor_android-generic.git" remote="gl" revision="r11-r17" /> 
   
   <!-- BLISS OS -->
   <project path="manifest" name="platform_manifest" remote="BR-x86" revision="r11-r17" />
