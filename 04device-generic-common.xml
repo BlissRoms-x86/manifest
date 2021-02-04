@@ -2,14 +2,14 @@
 <manifest>
 	<!-- DEVICE -->  
 	<project path="device/generic/common" name="device_generic_common" remote="ag" revision="r-x86-generic" />
-	<project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="q-x86" />
-	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
+	<project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="r-x86" />
+	<project path="device/generic/x86_64" name="platform_device_generic_x86_64" remote="BR-x86" revision="r-x86" />
 	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="q-x86" />
 	<!-- KERNEL -->
 	<!-- <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" /> -->
 	<project path="kernel" name="android-generic/kernel_common" remote="ghub" revision="kernel-5.8-si-next-fs" />
 	<project path="test/kernel" name="kernel/tests" remote="aosp" />
-	<project path="external/kernel-drivers" name="android-generic/external_kernel-drivers" remote="ghub" revision="r-x86-k5.9" />
+	<project path="external/kernel-drivers" name="android-generic/external_kernel-drivers" remote="ghub" revision="r-x86-k5.x" />
 	<project name="external_surface-drivers" path="vendor/surface-drivers" remote="BR-x86" revision="q10-07.25.20" />
 
 </manifest>
