@@ -65,7 +65,7 @@
   <project path="vendor/android-generic" name="android-generic/vendor_android-generic.git" remote="gl" revision="r11-r17" /> 
   
   <!-- BLISS OS -->
-  <project path="manifest" name="platform_manifest" remote="BR-x86" revision="r11-r17" />
+  <project path="manifest" name="manifest" remote="BR-x86" revision="r11-r17" />
   <project path="art" name="platform_art" remote="BR-x86" revision="r11-r17" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="r11-r17" />
   <project path="build/blueprint" name="platform_build_blueprint" remote="BR-x86" revision="r11-r17" />
