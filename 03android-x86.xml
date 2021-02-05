@@ -56,7 +56,7 @@
   <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="q-x86" />
   <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="q-x86" />
   <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="q-x86" />
-  <project path="hardware/x86power" name="hardware_x86power" remote="BR-x86" revision="r11" />
+  <project path="hardware/x86power" name="hardware-x86power" remote="BR-x86" revision="r11" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
   
   <!-- VENDORS -->
