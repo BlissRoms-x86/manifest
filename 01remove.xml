@@ -239,7 +239,7 @@
   <remove-project name="platform/test/vti/fuzz_test_serving" />
   <remove-project name="platform/test/vti/test_serving" />
   <remove-project name="platform/test/vts-testcase/security" />
-  <remove-project name="platform_testing" />
+  <remove-project name="platform/platform_testing" />
   <remove-project name="platform/tools/acloud" />
   <remove-project name="platform/tools/external/fat32lib" />
   <remove-project name="platform/tools/motodev" />
