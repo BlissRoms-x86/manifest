@@ -27,7 +27,6 @@
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="los" />
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />

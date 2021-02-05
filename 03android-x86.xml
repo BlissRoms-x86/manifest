@@ -133,5 +133,7 @@
   <project path="vendor/support" name="platform_vendor_support" remote="BR-x86" revision="r11-r17" />
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BR-x86" revision="r11-r17" />
   
+  <!-- Lineage -->
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="BR-x86" revision="r11-r17" />
   
 </manifest>
