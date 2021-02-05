@@ -122,6 +122,7 @@
 <!--
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" remote="BlissRoms" revision="r" />
 -->
+  <project path="platform_testing" name="platform_testing" remote="BR-x86" revision="r11-r17" />
 
   <!-- System -->
   <project path="system/apex" name="platform_system_apex" remote="BR-x86" revision="r11-r17" />
