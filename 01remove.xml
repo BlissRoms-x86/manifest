@@ -230,8 +230,8 @@
   <remove-project name="platform/prebuilts/qemu-kernel" />
   <!-- <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" /> 
   <remove-project name="platform/system/hardware/interfaces" /> -->
+  <remove-project name="platform/system/extras" /> 
   <remove-project name="platform/system/nfc" />
   <!-- <remove-project name="platform/system/vold" /> -->
   <remove-project name="platform/test/framework" />

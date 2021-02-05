@@ -125,6 +125,7 @@
   <project path="system/apex" name="platform_system_apex" remote="BR-x86" revision="r11-r17" />
   <project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="r11-r17" />
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="r11-x86-ex2" />
+  <project path="system/extras" name="system_extras" remote="BR-x86" revision="r11-r17" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BR-x86" revision="r11-r17" />
   <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="r11-x86" />
 
