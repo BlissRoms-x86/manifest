@@ -90,7 +90,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="r11-r17" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="r11-r17" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="BR-x86" revision="r11-r17" />
+  <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="r11-r17" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BR-x86" revision="r11-r17" />
   
   <!-- Hardware -->
