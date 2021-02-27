@@ -12,6 +12,7 @@
     <remote name="aquynh" fetch="https://github.com/aquynh" />
     <remote name="chromiumos" fetch="https://chromium.googlesource.com/chromiumos" />
     <remote name="me176c" fetch="https://github.com/me176c-dev/" />
+    <remote fetch="https://github.com/" name="ghub"/>
 
     <!-- Modified or unnecessary AOSP projects -->
 
@@ -101,10 +102,12 @@
 	
 	<project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="bd" revision="boringdroid-9.0.0" />
 	<project path="vendor/packages/apps/BoringdroidSystemUI" name="vendor_packages_apps_BoringdroidSystemUI.git" remote="bd" revision="boringdroid-9.0.0" />
+	<project path="vendor/packages/apps/BoringdroidSettings" name="vendor_packages_apps_BoringdroidSettings.git" remote="bd" revision="boringdroid-9.0.0" />
   
     <!-- Gearlock Recovery -->
     <remote name="gl" fetch="https://gitlab.com" />
     <project name="AXIM0S/vendor-gearlock" path="vendor/gearlock" remote="gl" revision="master" />
+    <project name="AXIM0S/rusty-magisk" path="rusgik" remote="ghub" revision="master" />
     
     <!-- Houdini sfs -->    
 <!--
@@ -113,7 +116,7 @@
     
     <!-- Android-x86 base repositories -->
 
-    <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0-07.19.20" />
+    <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0-10.31.20" />
 
     <!-- device/ -->
 
