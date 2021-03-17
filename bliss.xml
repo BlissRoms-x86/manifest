@@ -156,6 +156,10 @@
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
+  <remove-project name="device/google/bramble" />
+  <remove-project name="device/google/redfin" />
+  <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-kernel" />
 
   <!-- End Remove AOSP repos -->
 
