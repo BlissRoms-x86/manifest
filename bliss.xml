@@ -164,11 +164,11 @@
   <!-- End Remove AOSP repos -->
 
   <!-- General Repos -->
-  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="r-staging" />
+  <project path="manifest" name="platform_manifest" remote="BlissRoms" />
   <project path="art" name="platform_art" remote="BlissRoms" />
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
   <project path="build/blueprint" name="platform_build_blueprint" remote="BlissRoms" />
-  <project path="build/make" name="platform_build" remote="BlissRoms" revision="r-staging" >
+  <project path="build/make" name="platform_build" remote="BlissRoms" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -178,16 +178,17 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="platform_build_soong" remote="BlissRoms" revision="r-staging" >
+  <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
+  <project path="lineage-sdk" name="platform_lineage-sdk" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="r-staging" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" revision="r-staging" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
 
   <!-- External -->
@@ -214,14 +215,15 @@
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BlissRoms" />
+  <project path="packages/apps/LineageParts" name="platform_packages_apps_LineageParts" remote="BlissRoms" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="r-staging" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="BlissRoms" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" revision="r-staging" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
   <project path="packages/overlays/Lineage" name="platform_packages_overlays_Lineage" remote="BlissRoms" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
@@ -242,7 +244,7 @@
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="r" />
-  <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" revision="r-staging" />
+  <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" revision="r" />
   <project path="vendor/gapps" name="BlissRoms/android_vendor_gapps" remote="gitlab" revision="r" />
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms"/>
 
