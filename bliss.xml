@@ -183,7 +183,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
-  <project path="lineage-sdk" name="platform_lineage-sdk" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
