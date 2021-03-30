@@ -3,15 +3,7 @@
 	<remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
 	<remote name="phh" fetch="https://github.com/phhusson/" />
 	<remote name="bbpv" fetch="https://gitlab.com/Bliss-Bass/" />
-	<!-- <project path="packages/apps/FDroidPrivilegedExtension"
-		name="privileged-extension.git" remote="fdroid"
-		revision="refs/tags/0.2.7" /> -->
-	<!--<project path="vendor/foss" name="vendor_foss"
-		remote="phh" revision="master" /> -->
-		
-<!--
-	<project name="vendor_fdroid" path="vendor/fdroid" remote="BR-x86" revision="pie" />
--->
+
 	<project name="vendor-fdroid" path="vendor/fdroid" remote="bbpv" revision="p9.0-gms-testing" />
 		
 	<!--
@@ -23,6 +15,6 @@
 	<project path="packages/apps/FDroidPrivilegedExtension"
 		name="privileged-extension.git" remote="fdroid"
 		revision="refs/tags/0.2.7" />
-	<project path="vendor/foss" name="vendor_foss"
-		remote="phh" revision="master" />
+	<project name="vendor_foss" path="vendor/foss" 
+		remote="BR-x86" revision="x86" />
 </manifest>
