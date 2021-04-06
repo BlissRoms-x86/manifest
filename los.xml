@@ -156,7 +156,6 @@
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
 
   <!-- Sepolicy -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="los" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" />
