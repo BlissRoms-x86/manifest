@@ -16,5 +16,5 @@
 		name="privileged-extension.git" remote="fdroid"
 		revision="refs/tags/0.2.7" />
 	<project name="vendor_foss" path="vendor/foss" 
-		remote="BR-x86" revision="x86" />
+		remote="BR-x86" revision="foss-04.01.21" />
 </manifest>
