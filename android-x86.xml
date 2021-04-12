@@ -97,14 +97,9 @@
     </project>
     
     <!-- BoringdroidSystemUI -->
-    <remote name="bd"
-	  fetch="https://github.com/boringdroid" />
-	
-<!--
-	<project path="vendor/packages/apps/BoringdroidSystemUI" name="vendor_packages_apps_BoringdroidSystemUI.git" remote="bd" revision="boringdroid-9.0.0" />
--->
-	<project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="bd" revision="boringdroid-9.0.0" />	
-	<project path="vendor/prebuilts/bdapps" name="vendor_prebuilts_bdapps.git" remote="bd" revision="boringdroid-9.0.0" />
+    <remote name="bd" fetch="https://github.com/boringdroid" />
+    <project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="bd" revision="boringdroid-9.0.0" />
+    <project path="vendor/prebuilts/bdapps" name="vendor_prebuilts_bdapps.git" remote="bd" revision="boringdroid-9.0.0" />
   
     <!-- Gearlock Recovery -->
     <remote name="gl" fetch="https://gitlab.com" />
