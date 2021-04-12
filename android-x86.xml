@@ -108,7 +108,7 @@
   
     <!-- Gearlock Recovery -->
     <remote name="gl" fetch="https://gitlab.com" />
-    <project name="AXIM0S/gearlock" path="vendor/gearlock" remote="ghub" revision="master" />
+    <project name="AXIM0S/gearlock" path="vendor/gearlock" remote="ghub" revision="main" />
     <project name="AXIM0S/rusty-magisk" path="rusgik" remote="ghub" revision="568ca9e1774846aa4592801054d24989f3f4fd9d" />
     
     <!-- Houdini sfs -->    
