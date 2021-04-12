@@ -100,13 +100,15 @@
     <remote name="bd"
 	  fetch="https://github.com/boringdroid" />
 	
-	<project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="bd" revision="boringdroid-9.0.0" />
+<!--
 	<project path="vendor/packages/apps/BoringdroidSystemUI" name="vendor_packages_apps_BoringdroidSystemUI.git" remote="bd" revision="boringdroid-9.0.0" />
-	<project path="vendor/packages/apps/BoringdroidSettings" name="vendor_packages_apps_BoringdroidSettings.git" remote="bd" revision="boringdroid-9.0.0" />
+-->
+	<project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="bd" revision="boringdroid-9.0.0" />	
+	<project path="vendor/prebuilts/bdapps" name="vendor_prebuilts_bdapps.git" remote="bd" revision="boringdroid-9.0.0" />
   
     <!-- Gearlock Recovery -->
     <remote name="gl" fetch="https://gitlab.com" />
-    <project name="AXIM0S/vendor-gearlock" path="vendor/gearlock" remote="gl" revision="master" />
+    <project name="AXIM0S/gearlock" path="vendor/gearlock" remote="ghub" revision="master" />
     <project name="AXIM0S/rusty-magisk" path="rusgik" remote="ghub" revision="568ca9e1774846aa4592801054d24989f3f4fd9d" />
     
     <!-- Houdini sfs -->    
@@ -116,20 +118,20 @@
     
     <!-- Android-x86 base repositories -->
 
-    <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="p9.0-10.31.20" />
+    <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="px86-04.05.21" />
 
     <!-- device/ -->
 
-    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="p9.0-11.13" />
+    <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="px86-04.05.21" />
     <project path="device/generic/firmware" name="platform_device_generic_firmware" remote="BR-x86" revision="dev.kernel.org-testing" />
     <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="pie-x86" />
     <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="pie-x86" />
     <project path="device/sample" name="device/sample" remote="aosp" groups="pdk" /> 
 
     <!-- external/ -->
-
-    <project path="external/alsa-lib" name="platform_external_alsa-lib" remote="BR-x86" revision="pie-x86" />
-    <project path="external/alsa-utils" name="platform_external_alsa-utils" remote="BR-x86" revision="p9.0" />
+	<project path="external/libncurses" name="android_external_libncurses" remote="BR-x86" revision="6.2_20210102" />
+    <project path="external/alsa-lib" name="platform_external_alsa-lib" remote="BR-x86" revision="px86-04.02.21" />
+    <project path="external/alsa-utils" name="platform_external_alsa-utils" remote="BR-x86" revision="px86-04.02.21" />
     <project path="external/bison" name="platform/external/bison" remote="aosp" groups="pdk" revision="master" />
     <project path="external/bluetooth/bluez" name="platform_external_bluetooth_bluez" remote="BR-x86" revision="p9.0" />
     <project path="external/busybox" name="platform_external_busybox" remote="BR-x86" revision="p9.0-r2" />
@@ -140,7 +142,8 @@
     
     <project path="external/llvm70" name="platform_external_llvm70" remote="BR-x86" revision="pie-x86_llvm70-r341512" groups="pdk" />
     <project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
-    <project path="external/llvm90" name="platform/external/llvm" remote="x86" revision="pie-x86" />
+    <project path="external/llvm-project" name="llvm-project" remote="maurossi" revision="release_11.x" />
+    
 <!--
     <project path="external/llvm10" name="llvm-project" remote="maurossi" revision="release_10.x" />
     <project path="external/llvm11" name="llvm-project" remote="maurossi" revision="release_11.x" />
@@ -191,7 +194,7 @@
     <!-- frameworks/ -->
 
     <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="p9.0-11.12" />
-    <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-07.15.20" />
+    <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="p9.0-11.13" />
     <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="p9.0-06.23.20" />
 
     <!-- hardware/ -->

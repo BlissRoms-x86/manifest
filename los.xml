@@ -27,7 +27,6 @@
   
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk" remote="los" />
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="los" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
   <project path="external/libtar" name="android_external_libtar" remote="los" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
