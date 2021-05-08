@@ -194,6 +194,7 @@
   <!-- External -->
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="BlissRoms" />
+  <project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
@@ -226,6 +227,7 @@
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
   <project path="packages/overlays/Lineage" name="platform_packages_overlays_Lineage" remote="BlissRoms" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="BlissRoms-gitlab" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="BlissRoms" />
