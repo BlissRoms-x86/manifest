@@ -195,6 +195,7 @@
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="BlissRoms" />
   <project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
+  <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="BlissRoms" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
