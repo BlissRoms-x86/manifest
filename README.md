@@ -41,14 +41,14 @@ Initializing Repository
 Repo initialization :
     
     ## Releases Repo ##
-    $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b r
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b r
 
 sync repo :
 
-    $ repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
+    repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 
 Building
 --------
-    $ . build/envsetup.sh
-    $ blissify device-codename
+     . build/envsetup.sh
+     blissify device-codename
     
