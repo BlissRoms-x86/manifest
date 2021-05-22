@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="BlissRoms"
+          fetch="https://git@github.com/BlissRoms"
+          revision="r" />
+  <default remote="BlissRoms"
+           sync-c="true"
+           sync-j="4"  />
+
+  <project path="manifest" name="platform_manifest" remote="BlissRoms" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" groups="pdk-fs" remote="BlissRoms" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="BlissRoms" />
+</manifest>
