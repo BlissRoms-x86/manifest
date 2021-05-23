@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="master" />
+	<remove-project name="platform/external/protobuf" />
+	<project path="external/protobuf" name="platform/external/protobuf" remote="aosp" revision="android11-release" clone-depth="1" />
+	<project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" />
+	<project path="test/kernel" name="kernel/tests" remote="aosp" />
+
+</manifest>

@@ -27,7 +27,6 @@
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="los" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="los" />
   <project path="external/unrar" name="android_external_unrar" remote="los" />
   <project path="external/vim" name="android_external_vim" remote="los" />
@@ -75,10 +74,12 @@
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
 
   <!-- Sepolicy -->
+<!--
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy" />
+-->
 
   <!-- System Repos -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />

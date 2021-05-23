@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    
+    <!-- BoringdroidSystemUI -->
+<!--
+    <project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="bd" revision="boringdroid-11.0.0" />
+-->
+<!--
+    <project path="vendor/prebuilts/bdapps" name="vendor_prebuilts_bdapps.git" remote="bd" revision="boringdroid-11.0.0" />
+-->
+  
+    <!-- Gearlock Recovery -->
+<!--
+	<project name="gearlock" path="vendor/gearlock" remote="ax" revision="main" />
+-->
+	
+	<!-- Magisk -->
+    <project name="rusty-magisk" path="rusgik" remote="ax" revision="568ca9e1774846aa4592801054d24989f3f4fd9d" />
+  
+</manifest>

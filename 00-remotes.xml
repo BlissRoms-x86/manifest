@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="x86" fetch="https://scm.osdn.net/gitroot/android-x86" />
+  <remote name="BR-x86" fetch="https://github.com/BlissRoms-x86" />
+  <remote name="apc" fetch="https://github.com/Android-PC" />
+  <remote name="me176c" fetch="https://github.com/me176c-dev/" />
+  <remote name="maurossi" fetch="https://github.com/maurossi" />
+  <remote name="goffioul" fetch="https://github.com/goffioul" />
+  <remote name="ghub" fetch="https://github.com/" />
+  <remote name="BR-x86-gl" fetch="https://gitlab.com/BlissRoms" />
+  <remote name="blissbass" fetch="https://gitlab.com/Bliss-Bass" />
+  <remote name="ag" fetch="https://gitlab.com/android-generic" />
+  <remote name="gl" fetch="https://gitlab.com" />
+  <remote name="collabora" fetch="https://gitlab.collabora.com/spurv/" />
+  <remote name="lineageos" fetch="https://github.com/LineageOS"/>
+  <remote name="lineagex86" fetch="https://gitlab.com/lineageos-x86" />
+  <remote name="ax" fetch="https://github.com/axonasif" />
+  <remote name="bd" fetch="https://github.com/boringdroid" />
+  <remote name="ghub" fetch="https://github.com/" />
+  <remote name="intel" fetch="https://github.com/intel/" />
+  <remote name="celadon" fetch="https://github.com/projectceladon/" />
+
+</manifest>

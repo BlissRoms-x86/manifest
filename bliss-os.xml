@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- BlissOS Repos -->
+  
+<!--
+  <project path="manifest" name="manifest" remote="BR-x86" revision="r11-r36" />
+-->
+  <project path="manifest" name="electrikjesus/platform_manifest-1" remote="ghub" revision="r11-r36" />
+  
+  <project path="bionic" name="platform_bionic" remote="BR-x86" revision="r11-r36" />
+  <project path="build/make" name="platform_build" remote="BR-x86" revision="r11-r36" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  
+  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="r11-r36" />
+  
+  <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="k5.12-b2" />
+  <project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
+  <project path="external/mksh" name="platform_external_mksh" remote="BR-x86" revision="r11-r36" />
+  <project path="external/stagefright-plugins" name="stagefright-plugins" remote="BR-x86" revision="r11-r36" />
+  <project path="external/swiftshader" name="platform_external_swiftshader" remote="BR-x86" revision="swiftshader-llvm10" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="BR-x86" revision="r11-r36" />
+  
+  <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="r11-r36"  />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="r11-r36"  />
+  <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="r11-r36"  />
+  
+  <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="BR-x86" revision="r11-r36" />
+  <project path="hardware/libcamera" name="platform_hardware_libcamera" remote="BR-x86" revision="r11-r36" />
+  <project path="hardware/lineage/interfaces" name="platform_hardware_lineage_interfaces" remote="BR-x86" revision="r11-r36"/>
+  
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="r11-r36" />
+  <project path="packages/apps/Settings" name="BlissRoms-x86/packages_apps_Settings" remote="ghub" revision="r11-r36" />
+  
+  <project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="r11-r36" />
+  <project path="system/core" name="platform_system_core" remote="BR-x86" revision="r11-r36" />
+  <project path="system/extras" name="BlissRoms-x86/system_extras" remote="ghub" revision="r11-r36" />
+  <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="BR-x86" revision="r11-r36" />
+  <project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="r11-r36" />
+    
+  <!-- Vendors -->
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="r11-r36" />
+  <project name="vendor_foss" path="vendor/foss" remote="BR-x86" revision="foss-minimal" />
+
+</manifest>

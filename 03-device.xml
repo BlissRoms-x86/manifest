@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- DEVICE -->
+	<project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="r-x86-05.22.21" />
+	<project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="r-x86" />
+	<project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="q-x86" />
+	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="r-x86" />
+
+</manifest>
