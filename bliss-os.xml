@@ -20,6 +20,7 @@
   </project>
   
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="r11-r36" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="BR-x86" revision="r11-r36" />
   
   <project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="k5.12-b2" />
   <project path="external/llvm80" name="platform_external_llvm" remote="BR-x86" revision="p9.0-x86-llvm80" />
