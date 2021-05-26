@@ -41,7 +41,7 @@
   
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="r11-r36" />
   <project path="packages/apps/Settings" name="BlissRoms-x86/packages_apps_Settings" remote="ghub" revision="r11-r36" />
-  <project path="platform_testing" name="platform_testing" remote="ghub" revision="r11-r36" />
+  <project path="platform_testing" name="platform_testing" remote="BR-x86" revision="r11-r36" />
   
   <project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="r11-r36" />
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="r11-r36" />
