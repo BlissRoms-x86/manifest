@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/0GnrwaU.png">
 
-BlissRoms
+Bliss OS
 -----------------------
 Download the BlissRoms source code, based on [AOSP](https://android.googlesource.com), [phhusson](https://github.com/phhusson/treble_manifest) & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
 
@@ -41,14 +41,22 @@ Initializing Repository
 Repo initialization :
     
     ## Releases Repo ##
-    $ repo init -u https://github.com/BlissRoms/platform_manifest.git -b r
+    $ repo init -u https://github.com/BlissRoms-x86/manifest.git -b r11-r36
 
 sync repo :
 
     $ repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
-
+    
+Options
+--------
+	NO_KERNEL_CROSS_COMPILE - For some kernels, we use gcc-10 to compile. And some setups will require this flag to be added to compile the kernel properly. 
+	BLISS_BUILD_VARIANT - (vanilla, gapps, foss) - We currently use this to specify what type of extra apps and services to iunclude in the build. 
+	
 Building
 --------
     $ . build/envsetup.sh
-    $ blissify device-codename
+    $ lunch android_x86_64-userdebug
+    $ export NO_KERNEL_CROSS_COMPILE=true
+    $ export BLISS_BUILD_VARIANT=foss
+    $ mka iso_img
     
