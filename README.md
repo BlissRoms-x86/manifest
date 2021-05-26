@@ -60,4 +60,14 @@ Building
     $ export NO_KERNEL_CROSS_COMPILE=true
     $ export BLISS_BUILD_VARIANT=foss
     $ mka iso_img
-    
+
+Extras
+------
+For many cases, we do offer a number of "extras" that can be compiled into the builds :
+
+	*libndk-translation* - This is the ARM/ARM64 native-bridge we use in our builds. It will require some setup to include. See the project readme. - https://gitlab.com/android-generic/android_vendor_google_emu-x86
+	*gapps* - USE_EMU_GAPPS=true (combine with BLISS_BUILD_VARIANT=gapps) - from Googles emulator images - Also included in https://gitlab.com/android-generic/android_vendor_google_emu-x86
+	*houdini* - This is another ARM/ARM64 native-bridge we can use in our builds. It will require some setup to include. See the project readme. - https://github.com/BlissRoms-x86/android_vendor_google_chromeos-x86
+	*Gearlock* - This is the recovery of choice for Android-x86 based builds. To include in builds: git clone https://github.com/axonasif/gearlock vendor/gearlock
+	*Boringdroid* - We include the needed commits for all Boringdroid addons in Bliss. To include those into the builds: git clone https://github.com/boringdroid/vendor_boringdroid vendor/boringdroid && git clone https://github.com/boringdroid/vendor_prebuilts_bdapps vendor/prebuilts/bdapps
+	
