@@ -38,17 +38,54 @@ Grabbing Dependencies
 Initializing Repository
 -----------------------
 
-Repo initialization :
+**Repo initialization**
     
     ## Releases Repo ##
     repo init -u https://github.com/BlissRoms/platform_manifest.git -b r
 
-sync repo :
+**Sync repo**
 
     repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
+
+Options
+--------
+	BLISS_BUILD_VARIANT - (vanilla, gapps, foss) - We currently use this to specify what type of extra apps and services to iunclude in the build. 
+***Note: Default BLISS_BUILD_VARIANT is VANILLA.***
 
 Building
 --------
      . build/envsetup.sh
-     blissify device-codename
-    
+     blissify options deviceCodename
+     
+
+**Options:**
+```
+-h | --help: Shows the help dialog
+-c | --clean: Clean up before running the build
+-d | --devclean: Clean up device only before running the build
+-v | --vanilla: Build with no added app store solution **default option**
+-g | --gapps: Build with Google Play Services added
+-f | --foss: build with FOSS (arm64-v8a) app store solutions added **requires vendor/foss**
+```
+
+**Examples:**
+
+- **To build with gapps**
+```
+     blissify -g deviceCodename
+```
+
+- **To build with FOSS**
+```
+     blissify -f deviceCodename
+```
+
+- **To build with gapps and deviceclean**
+```
+     blissify -g -d deviceCodename
+```
+
+**This method is also backwards compatible with the legacy blissify command also**
+```
+     blissify deviceCodename
+```
