@@ -38,6 +38,12 @@ Grabbing Dependencies
 If you plan on building the kernel with the NO_KERNEL_CROSS_COMPILE flag, you will need to also have gcc-10+ installed:
 
     $ sudo apt-get install gcc-10 g++-10
+    
+    
+You will also need to install Rust for using rusty-magisk:
+
+	$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh 
+	
 
 Initializing Repository
 -----------------------
