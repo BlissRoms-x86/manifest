@@ -106,6 +106,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />
+  <remove-project name="platform/system/iorap" />
   <remove-project name="platform/system/libufdt" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
@@ -251,6 +252,7 @@
   <project path="device/lineage/sepolicy" name="platform_device_aosp_sepolicy" remote="BlissRoms" />
 
   <!-- System -->
+  <project path="system/iorap" name="platform_system_iorap" remote="BlissRoms" />
   <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
