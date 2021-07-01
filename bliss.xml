@@ -24,65 +24,63 @@
           revision="lineage-18.1" />
 
   <!-- General Repos -->
-  <project path="art" name="platform_art" remote="BlissRoms" />
-  <project path="build/blueprint" name="platform_build_blueprint" remote="BlissRoms" />
+  <project path="art" name="platform_art" remote="BlissRoms" revision="1d7e08104d565dde93dc50c9ad79577fa64dcb0e" />
+  <project path="build/blueprint" name="platform_build_blueprint" remote="BlissRoms" revision="4a69316c3a78c3a5312f219d3b30c69064dcba03" />
 
-  <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
+  <project path="build/soong" name="platform_build_soong" remote="BlissRoms" revision="4bc5fa93c3088907cedb93771e4f72e8b4527e43" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- Frameworks -->
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
-  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="BlissRoms" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="ad0a05bf243061ca97dad6dbc5e596f1fc534f48" />
+  <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="BlissRoms" revision="6620c05a7b81301fd13f49ad89ecf1ff242834f4" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="BlissRoms" revision="a447e0f3fe27044c3a6c547bc9f1cefd904a29db" />
 
   <!-- External -->
-  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
-  <project path="external/perfetto" name="platform_external_perfetto" remote="BlissRoms" />
-  <project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
+  <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" revision="ca44e6fd7a171958a10971ce814ecb41b8077182" />
+  <project path="external/perfetto" name="platform_external_perfetto" remote="BlissRoms" revision="16f9420aa4d161193f4a22b831d38bd7fbc03369" />
+  <project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" revision="f4dd7153a0da3d5723690e2fda7ac0e80c98b18b" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" revision="d42d480bb3a54c4b38985d8e3b4f6b11bf0c31b3" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" revision="2a2f8c79e86216bac551cccda8442e9f9e4ea532" />
 
   <!-- Inputmethods -->
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" revision="106b4eee653a5ffd6f0015e46c9eb170d2180442" />
 
   <!-- Packages -->
-  <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
-  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
-  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BlissRoms" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
-  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
-  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
-  <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="BlissRoms" />
-  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
-  <project path="packages/overlays/Lineage" name="platform_packages_overlays_Lineage" remote="BlissRoms" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
+  <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" revision="46c29c369994130425583da2dc06daa4b061cfd3" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" revision="449f21a3666859006d7a10d0f443438d19be9200" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" revision="6ac0456f5486b72d7acb5fe0b6393bdb6e1cd44e" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" revision="154d1cbed5e0b528084d7ef5aca71c45f0de0f41" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="4f5db850a59fde8bcbc4bfef338a4fdc8124a7b0" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" revision="85e9aaba07bf688ec8285bff3990fe7ed8918c96" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BlissRoms" revision="e4fd59c43de6c58d2c8f46b197c5c801c7aa93d9" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" revision="d2192f878fa23021c83cd28d75e5c176e7830a25" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" revision="6de73c4a520b1df6f7ec008d9faccce715f4db46" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" revision="3d9a4ccaa9b999d1dcc5f51668cb7e9557a4a0de" />
+  <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="BlissRoms" revision="00babaad59c614c3c24a95cd89bd8897911c3904" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" revision="c78af005653e9c9b2f1fafdcbec0494ba591e23f" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" revision="b0557ede2dfbf58358f055ee82c36662f1eb1a91" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" revision="063265e372b032fd24f8162b51999a105785d2b7" />
+  <project path="packages/overlays/Lineage" name="platform_packages_overlays_Lineage" remote="BlissRoms" revision="0a9abbda309b4f4ec73cd6bf130fead61cadb8b2" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" revision="1b82298892a2bc33aeaed62726db8022361bdd7d" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="BlissRoms" />
+  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="BlissRoms" revision="543ab1555895f8c8b3d9047c642433af3282e274" />
 
   <!-- Providers -->
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" />
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BlissRoms" revision="58e2b23e0a8561dfae7e7f374e74534c3117e26e" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" revision="b8cb88b3932e2e08e4094c2f91a333f93fee1f6c" />
 
   <!-- System -->
-  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
-  <project path="system/security" name="platform_system_security" remote="BlissRoms" />
+  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" revision="0a2d432f91781e5c0af53302404e8e304d00133a" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="b28d447059f73fc1a5c631a74c04aec79ec0f53d" />
+  <project path="system/security" name="platform_system_security" remote="BlissRoms" revision="3a0b4275b85bbc0cbbc1194e1bb572d37cbd6d4c" />
 
   <!-- Vendor -->
-  <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" revision="r" />
-  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms"/>
+  <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" revision="3f6b8dc86a68271c8a2739ce5d30cb192ac06752" />
+  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" revision="e573fac430e18d87a429315e1fca327e56edec65" />
 
 </manifest>
