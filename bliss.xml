@@ -70,6 +70,7 @@
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
   <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
+  <remove-project name="platform/libcore" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -174,6 +175,7 @@
   <project path="art" name="platform_art" remote="BlissRoms" />
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
   <project path="build/blueprint" name="platform_build_blueprint" remote="BlissRoms" />
+  <project path="libcore" name="platform_libcore" remote="BlissRoms" />
   <project path="build/make" name="platform_build" remote="BlissRoms" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
