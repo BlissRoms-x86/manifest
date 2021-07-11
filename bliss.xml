@@ -55,7 +55,6 @@
   <remove-project name="platform/hardware/google/pixel" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
@@ -211,7 +210,6 @@
   <project path="hardware/lineage/interfaces" name="platform_hardware_lineage_interfaces" remote="BlissRoms" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
-  <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="BlissRoms" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio-sm8150-caf" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display-sm8150-caf" remote="BlissRoms" />
@@ -270,5 +268,8 @@
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms"/>
   <project name="vendor_foss" path="vendor/foss" remote="BR-x86" revision="foss-minimal" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" remote="BlissRoms" />
+
+  <!-- GCC -->
+  <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" groups="pdk,linux,x86" clone-depth="1" remote="aosp" revision="592150fc8ae9f48f2e73f390961f32ca6f5f6a9f" />
 
 </manifest>
