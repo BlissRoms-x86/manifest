@@ -245,6 +245,7 @@
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
   <project path="packages/apps/OmniJaws" name="platform_packages_apps_OmniJaws" remote="BlissRoms" />
   <project path="packages/apps/SoftAPManager" name="platform_packages_apps_SoftAPManager" remote="BlissRoms" />
+  <project path="packages/apps/GamingMode" name="platform_packages_apps_GamingMode" remote="BlissRoms" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="BlissRoms" />
