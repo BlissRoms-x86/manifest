@@ -195,7 +195,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="24aa2d111a0fb660c5629a9ca8c3f77e96a4407b" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="c033212614705ad0585c129944e9efcfa24b1f11" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
@@ -222,7 +222,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
 
   <!-- Packages -->
-  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="52e0dfd219112259efad5d22ef4c9ff4c10d2304" />
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="556131d2d6a3ce7e1e7f084f5e909e148ca3b341" />
   <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
@@ -234,7 +234,7 @@
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
   <project path="packages/apps/Plugins" name="platform_packages_apps_Plugins" remote="BlissRoms" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="1f4636f1f9baf0768dbb5d6793d167b29c6937a4" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="6b65dd0c74b6a7fba47d2f0e2cc6c91ed82ac40b" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="BlissRoms" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
@@ -269,7 +269,7 @@
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
 
   <!-- Vendor -->
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="r" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="14b8481aebf93b75cec906bf527f4e1d1c9520c1" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="BlissRoms" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" revision="r" />
   <project path="vendor/gapps" name="BlissRoms/android_vendor_gapps" remote="gitlab" revision="r" />
