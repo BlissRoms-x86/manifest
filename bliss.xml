@@ -263,7 +263,7 @@
   <project path="system/iorap" name="platform_system_iorap" remote="BlissRoms" />
   <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
-  <project path="system/core" name="platform_system_core" remote="BlissRoms" />
+  <project path="system/core" name="platform_system_core_old" remote="BlissRoms" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/security" name="platform_system_security" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
