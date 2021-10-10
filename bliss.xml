@@ -22,10 +22,6 @@
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
-  <remote name="los"
-          fetch="https://github.com/LineageOS"
-          revision="lineage-19.0" />
-
   <!-- Remove first some AOSP repos -->
 
   <remove-project name="platform/art" />
@@ -49,6 +45,12 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
   <!-- End Remove AOSP repos -->
 

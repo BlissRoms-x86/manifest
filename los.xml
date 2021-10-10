@@ -10,61 +10,17 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="los" />
-  <project path="external/bash" name="android_external_bash" remote="los" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="los" />
-  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" revision="master" remote="los" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
-  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" />
-  <project path="external/guice" name="android_external_guice" remote="los" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" />
-  <project path="external/htop" name="android_external_htop" remote="los" />
   <project path="external/json-c" name="android_external_json-c" remote="los" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="los" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
-  <project path="external/libcxx" name="android_external_libcxx" remote="los" />
-  <project path="external/nano" name="android_external_nano" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
-  <project path="external/p7zip" name="android_external_p7zip" remote="los" />
-  <project path="external/pigz" name="android_external_pigz" remote="los" />
-  <project path="external/rsync" name="android_external_rsync" remote="los" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="los" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="los" />
-  <project path="external/unrar" name="android_external_unrar" remote="los" />
-  <project path="external/vim" name="android_external_vim" remote="los" />
-  <project path="external/zip" name="android_external_zip" remote="los" />
-  <project path="external/cldr" name="android_external_cldr" remote="los" />
-  <project path="external/icu" name="android_external_icu" remote="los" />
-  <project path="external/boringssl" name="android_external_boringssl" remote="los" />
-  <project path="external/toybox" name="android_external_toybox" remote="los" />
 
-  <!-- Hardware -->
+  <!-- Hardware
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
-  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="los" />
-  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />-->
+  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
 
   <!-- Qualcomm Hals -->
-  <project path="hardware/knowles/athletico/sound_trigger_hal" name="android_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="los" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="los" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="los" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="los" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="los" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="los" />
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="los" />
-  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" groups="qcom_sm8150" remote="los" />
-  <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="los" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="los" />
-  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="android_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom_sm8150" remote="los" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
-  </project>
-  <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" groups="qcom_sm7250" remote="los" />
-  <project path="hardware/qcom/sm7250/media" name="android_hardware_qcom_sm7250_media" groups="qcom_sm7250" remote="los" />
-  <project path="hardware/qcom/sm7250/gps" name="android_hardware_qcom_sm7250_gps" groups="qcom_sm7250" remote="los" >
-	  <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
-	  <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
-  </project>
   <project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-apq8084" remote="los" />
   <project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-apq8084" remote="los" />
   <project path="hardware/qcom-caf/apq8084/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-apq8084" remote="los" />
@@ -134,7 +90,7 @@
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="los" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-18.1-caf" remote="los" />
 
-  <!-- Packages -->
+  <!-- Packages
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" />
@@ -142,7 +98,7 @@
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="los" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="los" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="los" />
-  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="los" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="los" /> -->
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
@@ -155,31 +111,31 @@
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="los" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="los" />
 
-  <!-- Providers -->
+  <!-- Providers
   <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" remote="los" />
   <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" remote="los" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="los" />
   <project path="packages/providers/CallLogProvider" name="android_packages_providers_CallLogProvider" remote="los" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="los" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" /> -->
 
-  <!-- Sepolicy -->
+  <!-- Sepolicy 
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" />
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy" />-->
 
-  <!-- System Repos -->
+  <!-- System Repos 
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="los" />
   <project path="system/qcom" name="android_system_qcom" remote="los" revision="lineage-17.1" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="los" />
   <project path="system/libufdt" name="android_system_libufdt" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" remote="los" />
-  <project path="system/timezone" name="android_system_timezone" remote="los" />
+  <project path="system/timezone" name="android_system_timezone" remote="los" />-->
 
-  <!-- Tools -->
-  <project path="tools/metalava" name="android_tools_metalava" remote="los" />
+  <!-- Tools 
+  <project path="tools/metalava" name="android_tools_metalava" remote="los" />-->
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
