@@ -38,6 +38,7 @@
   <remove-project name="platform/libcore" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
