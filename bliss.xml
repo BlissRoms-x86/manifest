@@ -115,6 +115,13 @@
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
 
+  <!-- Sepolicy -->
+  <project path="device/lineage/sepolicy" name="platform_device_aosp_sepolicy" remote="BlissRoms" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="BlissRoms" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="BlissRoms" />
+
   <!-- System -->
   <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
