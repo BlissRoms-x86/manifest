@@ -45,6 +45,12 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <remove-project name="platform/packages/providers/CallLogProvider" />
+  <remove-project name="platform/packages/providers/CalendarProvider" />
+  <remove-project name="platform/packages/providers/BookmarkProvider" />
+  <remove-project name="platform/packages/providers/BlockedNumberProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bt" />
