@@ -39,6 +39,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bt" />
@@ -88,6 +89,9 @@
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
+
+  <!-- Inputmethods -->
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
