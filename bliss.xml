@@ -36,6 +36,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/libcore" />
+  <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DeskClock" />
