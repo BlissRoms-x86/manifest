@@ -76,6 +76,9 @@
   </project>
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
 
+  <!-- External -->
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
+
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
