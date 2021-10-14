@@ -101,6 +101,9 @@
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan-caf" remote="BlissRoms" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" revision="s-sdm845" remote="BlissRoms" />
+  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" revision="s-sdm845" remote="BlissRoms" />
+  <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" revision="s-sdm845" remote="BlissRoms" />
 
   <!-- Inputmethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
