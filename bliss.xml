@@ -109,6 +109,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
 
   <!-- Packages -->
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
