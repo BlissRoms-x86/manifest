@@ -92,6 +92,8 @@
 
   <!-- External -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
+  <project path="external/colorkt" name="platform_external_colorkt" remote="BlissRoms" />
+  <project path="external/themelib" name="platform_external_themelib" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
