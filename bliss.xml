@@ -109,6 +109,11 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" revision="s-sdm845" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" revision="s-sdm845" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" revision="s-sdm845" remote="BlissRoms" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="s-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="s-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" groups="qcom" remote="BlissRoms" revision="s-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="s-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="s-sm8250" />
 
   <!-- Inputmethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
