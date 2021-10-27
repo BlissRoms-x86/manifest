@@ -160,4 +160,5 @@
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms"/>
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="platform_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="BlissRoms" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="platform_vendor_qcom_opensource_fm-commonsys" groups="qcom,pdk-qcom" remote="BlissRoms" />
 </manifest>
