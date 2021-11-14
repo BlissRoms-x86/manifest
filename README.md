@@ -2,7 +2,7 @@
 
 BlissRoms
 -----------------------
-Download the BlissRoms source code, based on [AOSP](https://android.googlesource.com), [phhusson](https://github.com/phhusson/treble_manifest) & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
+Download the BlissRoms source code, based on [AOSP](https://android.googlesource.com) & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
 
 ---------------------------------------------------
 
@@ -39,9 +39,9 @@ Initializing Repository
 -----------------------
 
 **Repo initialization**
-    
+   
     ## Releases Repo ##
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b s
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b arcadia
 
 **Sync repo**
 
