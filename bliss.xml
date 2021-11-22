@@ -59,6 +59,7 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
@@ -150,6 +151,7 @@
   <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
   <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
   <project path="system/core" name="platform_system_core" remote="BlissRoms" />
+  <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="BlissRoms" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
