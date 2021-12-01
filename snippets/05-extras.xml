@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Magisk -->
+<!--
+    <project name="rusty-magisk" path="rusgik" remote="ax" revision="568ca9e1774846aa4592801054d24989f3f4fd9d" />
+-->
+	<!-- Gearlock -->
+	<project path="vendor/gearlock" name="axonasif/gearlock" remote="ghub" revision="94ff6f932d9ca2b3535083a79603ef8d2f443ceb" />
+	
+    <!-- FOSS Apps -->
+    <project path="vendor/foss" name="vendor_foss" remote="BR-x86" revision="foss-minimal" />
+<!--
+	<project path="vendor/google/chromeos-x86" name="android_vendor_google_chromeos-x86.git" remote="blissroms-x86" revision="13816.82.0_hatch" />
+-->
+	<!-- libndk-translation -->
+	<project path="vendor/google/emu-x86" name="android_vendor_google_emu-x86" remote="ag" revision="unified" />
+	<project path="vendor/prebuilts/agp-apps" name="vendor_prebuilts_agp-apps" remote="ag" revision="master" />
+	<project path="vendor/ag" name="android-generic/vendor_ag" remote="ghub" revision="unified" />
+	
+</manifest>

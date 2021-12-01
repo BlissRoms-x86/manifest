@@ -74,17 +74,9 @@
 
   <!-- General Repos -->
   <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="0eb82f236a564be177f3f6b2ab8a69fe3746bb9f"/>
-  <project path="art" name="platform_art" remote="BlissRoms" revision="" 8d44c3d61d4bde412f06190cd4acc4afc2ea469c />
+  <project path="art" name="platform_art" remote="BlissRoms" revision="8d44c3d61d4bde412f06190cd4acc4afc2ea469c" />
   <project path="build/blueprint" name="platform_build_blueprint" remote="BlissRoms" revision="01a189ec9f63e7c91a7ef79e6931587c8ef4063e" />
   <project path="libcore" name="platform_libcore" remote="BlissRoms" revision="92b01786aba29a74fef880ffe23409790ea3d1f5" />
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
 
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
   <project path="external/colorkt" name="platform_external_colorkt" remote="BlissRoms" revision="c1f631fecaa8a36e69237b1913602675aa26c07a"  />
@@ -114,10 +106,10 @@
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" revision="7be6599cbdfecbe0c01438478492deb015846fa8" />
 
   <!-- Providers -->
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" revision="providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" revision="70b31d6ad3a46396a1239a50091745aa36b3c5ba" />
 
   <!-- Sepolicy -->
-  <project path="device/lineage/sepolicy" name="platform_device_aosp_sepolicy" remote="BlissRoms" revision="device/lineage/sepolicy" />
+  <project path="device/lineage/sepolicy" name="platform_device_aosp_sepolicy" remote="BlissRoms" revision="d88cefde3a538f29cbe1e95f133393edb6a0b90d" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="5e6efc9a01dc669341d56d043296b671f42287d0" />
   <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="BlissRoms" revision="ab9f260fd59d57fc7b7caf18c8b762b3b0080a96" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" revision="d42f412f36d5a9119ad6e2a965873b9707c8d6d2" />

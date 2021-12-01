@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<include name="snippets/00-remotes.xml" />
+	<include name="snippets/01-removes.xml" />
+	<include name="snippets/02-android-x86.xml" />
+	<include name="snippets/03-device.xml" />
+	<include name="snippets/04-kernel.xml" />
+	<include name="snippets/05-extras.xml" />
+	<include name="snippets/06-others.xml" />
+	<include name="snippets/07-graphics.xml" />
+	<include name="snippets/09-rom-removes.xml" />
+	<include name="snippets/10-bliss-os.xml" />
+
+</manifest>

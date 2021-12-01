@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--
+	<project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="q-x86" />
+-->
+	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" remote="aosp" revision="master" />
+	<project path="external/llvm_android" name="toolchain/llvm_android"  groups="pdk" remote="aosp" revision="master" />
+
+</manifest>

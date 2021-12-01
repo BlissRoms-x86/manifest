@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- ANDROID-X86 -->
+	<project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="external/kernel-drivers" name="external_kernel-drivers" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="external/drm_hwcomposer" name="drm_hwcomposer" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="external/ffmpeg" name="platform_external_ffmpeg" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="external/gbm_gralloc" name="gbm_gralloc" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="external/stagefright-plugins" name="stagefright-plugins" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="hardware/libaudio" name="platform_hardware_libaudio" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="hardware/libcamera" name="platform_hardware_libcamera" remote="BR-x86" revision="s-x86-r1.1" />
+	<!-- END ANDROID-X86 -->
+	<!-- BLISS-ROM -->
+	<project path="bionic" name="platform_bionic" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="build/make" name="platform_build" remote="BR-x86" revision="s-x86-r1.1" >
+		<copyfile src="core/root.mk" dest="Makefile" />
+		<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+		<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+		<linkfile src="core" dest="build/core" />
+		<linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+		<linkfile src="target" dest="build/target" />
+		<linkfile src="tools" dest="build/tools" />
+	</project>	
+	<project path="build/soong" name="platform_build_soong" remote="BR-x86" revision="s-x86-r1.1" >
+		<linkfile src="root.bp" dest="Android.bp" />
+		<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+	</project>
+	<project path="bootable/recovery" name="platform_bootable_recovery" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="external/tinycompress" name="android_external_tinycompress" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="s-x86-r1.1"  />
+	<project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="s-x86-r1.1" />
+	
+	<project path="system/bt" name="platform_system_bt" remote="BR-x86" revision="s-x86-r1.1" />
+	<project path="system/core" name="platform_system_core" remote="BR-x86-gl" revision="s-x86-r1.1" />
+	<project path="system/vold" name="platform_system_vold" remote="BR-x86" revision="s-x86-r1.1" />
+
+	<project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="s-x86-r1.1" />
+	<!-- END BLISS-ROM -->
+	<!-- AOSP TRACKING -->
+	<remove-project name="platform/development" />
+	<project path="development" name="platform_development" remote="BR-x86" revision="s-x86-r1.1" />
+	<remove-project name="platform/system/extras" />
+	<project path="system/extras" name="system_extras" remote="BR-x86" revision="s-x86-r1.1" />
+	<remove-project name="platform/external/mksh" />
+	<project path="external/mksh" name="platform_external_mksh" remote="BR-x86" revision="s-x86-r1.1" />
+	<!-- END AOSP TRACKING -->
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--
+	<project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="q-x86" />
+-->
+	<project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="r-x86" />
+	<project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="r-x86" />
+	<project path="external/busybox" name="platform/external/busybox" remote="x86" revision="q-x86" groups="notdefault" />
+	<project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="r-x86" />
+	<project path="external/efivar" name="platform/external/efivar" remote="x86" revision="r-x86" />
+<!--
+	<project path="external/exfat" name="platform/external/exfat" remote="x86" revision="r-x86" />
+-->
+<!--
+	<project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="r-x86" />
+-->
+	<project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" />
+	<project path="external/v86d" name="platform/external/v86d" remote="x86" revision="r-x86" />
+	<project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="r-x86" />
+	<project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="r-x86" />
+	<project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" remote="x86" revision="r-x86" />
+	<project path="hardware/intel/common/vaapi" name="platform/hardware/intel/common/vaapi" remote="x86" revision="r-x86" />
+	<project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="r-x86" />
+<!--
+	<project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="q-x86" />
+-->
+<!--
+	<project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="q-x86" />
+-->
+	<project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="r-x86" />
+	<project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="r-x86" />
+	<project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="r-x86" />
+	<project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="r-x86" />
+<!--
+	<project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
+-->
+</manifest>

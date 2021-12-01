@@ -1095,5 +1095,6 @@
 
   <include name="bliss.xml" />
   <include name="los.xml" />
+  <include name="00-includes.xml" />
 
 </manifest>

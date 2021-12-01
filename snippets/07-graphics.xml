@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="r-x86" />
+<!--
+	<project path="external/drm_hwcomposer" name="drm_hwcomposer.git" remote="maurossi" revision="blueprint_pie-x86_y21_w04" />
+-->
+<!--
+	<project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="r-x86" />
+-->
+<!--
+	<project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="r-x86" />
+-->
+	<project path="external/libdrm" name="drm" remote="maurossi" revision="2.4.107_s-x86" />
+	<project path="external/llvm-project" name="llvm-project" remote="maurossi" revision="release_13.x" />
+	<project path="external/mesa" name="mesa" remote="maurossi" revision="22.0.0-devel_w46" />
+<!--
+	<project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="q-x86" />
+-->
+	<project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="q-x86" />
+    
+	<remove-project name="platform/external/minigbm" />
+	<project path="external/minigbm" name="minigbm" remote="maurossi" revision="gbm_mesa_s-x86_v2" />
+
+</manifest>
