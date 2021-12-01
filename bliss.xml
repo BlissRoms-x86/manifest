@@ -73,12 +73,10 @@
   <!-- End Remove AOSP repos -->
 
   <!-- General Repos -->
-  <project path="manifest" name="platform_manifest" remote="BlissRoms" />
-  <project path="art" name="platform_art" remote="BlissRoms" />
-  <project path="bionic" name="platform_bionic" remote="BlissRoms" />
-  <project path="build/blueprint" name="platform_build_blueprint" remote="BlissRoms" />
-  <project path="libcore" name="platform_libcore" remote="BlissRoms" />
-  <project path="build/make" name="platform_build" remote="BlissRoms" >
+  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="0eb82f236a564be177f3f6b2ab8a69fe3746bb9f"/>
+  <project path="art" name="platform_art" remote="BlissRoms" revision="" 8d44c3d61d4bde412f06190cd4acc4afc2ea469c />
+  <project path="build/blueprint" name="platform_build_blueprint" remote="BlissRoms" revision="01a189ec9f63e7c91a7ef79e6931587c8ef4063e" />
+  <project path="libcore" name="platform_libcore" remote="BlissRoms" revision="92b01786aba29a74fef880ffe23409790ea3d1f5" />
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -88,76 +86,49 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
-
-  <!-- External -->
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="BlissRoms" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
-  <project path="external/colorkt" name="platform_external_colorkt" remote="BlissRoms" />
-  <project path="external/themelib" name="platform_external_themelib" remote="BlissRoms" />
+  <project path="external/colorkt" name="platform_external_colorkt" remote="BlissRoms" revision="c1f631fecaa8a36e69237b1913602675aa26c07a"  />
+  <project path="external/themelib" name="platform_external_themelib" remote="BlissRoms" revision="9b8f8b3b1797bd3b8718775df4ef35f9b4cafcb5" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
-  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" revision="51302ef5e1a2f5c13b4db2650a1c52735ccca992" />
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan-caf" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" revision="s-sdm845" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" revision="s-sdm845" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/sdm845/media" name="platform_hardware_qcom_media" revision="s-sdm845" remote="BlissRoms" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="s-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="s-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" groups="qcom" remote="BlissRoms" revision="s-sm8150" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="s-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="s-sm8250" />
-
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" revision="67fd3a19ea17c7833fd97d516d972f34fccf90ba" />
+  
   <!-- Inputmethods -->
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" revision="24dd966ddb208c3c65f34ea43453e3bb7e5b6649" />
 
   <!-- Modules -->
-  <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="BlissRoms" />
+  <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="BlissRoms" revision="f0ced7572f6d9a05f6f4d8e36409d115069f8942" />
 
   <!-- Packages -->
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
-  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
-  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
-  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" revision="e406da864047ee8f7eb0dbea5f15c61a6c159e6c" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" revision="ceea3669e5b09a57ba7a737251c335e6c5c8b9d5" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" revision="49ab6c6f72497cd9c86cb5aba494274a5d2554d6" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" revision="646b9fc0f9a2fcd6a0b0c6077345b1e7bde4a72c" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" revision="d8a3323c4bfcfdfec9ed051b6ac2bbf4eeeb4a1c" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" revision="8c683a627e898329203c8d2a46b81ccf7b5e9ea6" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" revision="92fb37612998e30c8137112a30e8c7c9ea3ad04d" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" revision="459cffbbc54a2fed9897651175ee7f983801bf33" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" revision="7be6599cbdfecbe0c01438478492deb015846fa8" />
 
   <!-- Providers -->
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" revision="providers/DownloadProvider" />
 
   <!-- Sepolicy -->
-  <project path="device/lineage/sepolicy" name="platform_device_aosp_sepolicy" remote="BlissRoms" />
-  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" />
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="BlissRoms" />
-  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" />
-  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="BlissRoms" />
+  <project path="device/lineage/sepolicy" name="platform_device_aosp_sepolicy" remote="BlissRoms" revision="device/lineage/sepolicy" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="BlissRoms" revision="5e6efc9a01dc669341d56d043296b671f42287d0" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="BlissRoms" revision="ab9f260fd59d57fc7b7caf18c8b762b3b0080a96" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" revision="d42f412f36d5a9119ad6e2a965873b9707c8d6d2" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="BlissRoms" revision="a3e5797421fa59c908a87b3b4bf307ab74f6ab38" />
 
   <!-- System -->
-  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
-  <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
-  <project path="system/core" name="platform_system_core" remote="BlissRoms" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
-  <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
-  <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
+  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" revision="04d78f8888c1a1fdf0f40fcaf533fccf23692ac8" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" revision="c4442922039a9b01d6428d95be45a67d321ae4c4" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" revision="07c615141f326f97e4c0e39083b083615ac46bf1" />
 
   <!-- Vendor -->
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
   <!--<project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" /> -->
-  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms"/>
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="platform_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="BlissRoms" />
+  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" revision="6286b2c8cdf65dd897ffc1bd777c0ff57b38a0a6" />
 </manifest>
