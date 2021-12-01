@@ -13,25 +13,30 @@
   <project path="external/json-c" name="android_external_json-c" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
 
-  <!-- Hardware
+  <!-- Hardware -->
+  <!--
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="los" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="los" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="los" />
-  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />-->
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
+  -->
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
 
   <!-- Qualcomm Hals -->
+  <!--
   <project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-apq8084" remote="los" />
   <project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-apq8084" remote="los" />
   <project path="hardware/qcom-caf/apq8084/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-apq8084" remote="los" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" revision="lineage-18.1-caf" remote="los" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="los" >
+  -->
     <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" remote="los" />
+    <!-- <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" remote="los" /> -->
     <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" remote="los" />-->
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" remote="los" />-->
     <!-- add guards for CAF repositories -->
+  <!--
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
@@ -83,17 +88,20 @@
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-sm8350" remote="los" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="los" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="los" />
+  -->
 
   <!-- Packages -->
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="los" />
-  <!--<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
+  <!--
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="los" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="los" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="los" />
-  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="los" /> -->
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="los" /> 
+  -->
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
@@ -114,25 +122,32 @@
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="los" revision="lineage-19.0" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="los" revision="lineage-19.0" />
 
-  <!-- Sepolicy 
+  <!-- Sepolicy -->
+  <!--
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="los" />
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy" />-->
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy" />
+  -->
 
-  <!-- System Repos 
+  <!-- System Repos -->
+  <!--
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="los" />
   <project path="system/qcom" name="android_system_qcom" remote="los" revision="lineage-17.1" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="los" />
   <project path="system/libufdt" name="android_system_libufdt" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" remote="los" />
-  <project path="system/timezone" name="android_system_timezone" remote="los" />-->
+  <project path="system/timezone" name="android_system_timezone" remote="los" />
+  -->
 
-  <!-- Tools 
-  <project path="tools/metalava" name="android_tools_metalava" remote="los" />-->
+  <!-- Tools -->
+  <!--
+  <project path="tools/metalava" name="android_tools_metalava" remote="los" />
+  -->
 
   <!-- Vendor -->
+  <!--
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="los" />
@@ -157,4 +172,5 @@
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="los" />
+  -->
 </manifest>
