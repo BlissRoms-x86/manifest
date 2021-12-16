@@ -158,7 +158,7 @@
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
-  <!--<project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" /> -->
+  <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" /> 
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms"/>
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="platform_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/vibrator" name="platform_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="BlissRoms" />
