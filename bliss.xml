@@ -36,6 +36,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -109,6 +110,7 @@
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan-caf" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sdm845/audio" name="platform_hardware_qcom_audio" revision="s-sdm845" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sdm845/display" name="platform_hardware_qcom_display" revision="s-sdm845" remote="BlissRoms" />
