@@ -96,6 +96,7 @@
   <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/sm8150/display" />
   <remove-project name="platform/hardware/qcom/sm8150/media" />
+  <remove-project name="platform/libcore" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Dialer" />
@@ -146,7 +147,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-
+  <project path="libcore" name="platform_libcore" remote="BlissRoms" />
   <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
