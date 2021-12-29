@@ -1,7 +1,14 @@
-<img src="https://i.imgur.com/0GnrwaU.png">
+<img src="https://imgur.com/jmiT0ss.png">
+<p align="center">
+<a href="https://blissroms.org">Website</a> |
+<a href="https://downloads.blissroms.org">Download</a> |
+<a href="https://www.paypal.com/donate/?hosted_button_id=J5SLZ7MQNCT24">Donate</a> |
+<a href="https://docs.blissroms.org">Documentation</a> |
+<a href="https://www.instagram.com/blissroms">Instagram</a> |
+<a href="https://t.me/BlissROM_Updates">Telegram</a>
 
-BlissRoms
------------------------
+## BlissRoms
+
 Download the BlissRoms source code, based on [AOSP](https://android.googlesource.com) & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
 
 ---------------------------------------------------
@@ -9,8 +16,8 @@ Download the BlissRoms source code, based on [AOSP](https://android.googlesource
 Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
 -----------------------
-What you need to build [BlissRoms](https://github.com/BlissROMs/platform_manifest)
------------------------
+## What you need to build [BlissRoms](https://github.com/BlissROMs/platform_manifest)
+
 
     Latest Ubuntu LTS Releases https://www.ubuntu.com/download/server
     Decent CPU (Dual Core or better for a faster performance)
@@ -30,30 +37,27 @@ Installing Java 8
     
 -----------------------
 
-Grabbing Dependencies
------------------------
+## Grabbing Dependencies
 
-    $ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso xmlstarlet
+    sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso xmlstarlet
 
-Initializing Repository
------------------------
+## Initializing Repository
 
 **Repo initialization**
    
-    ## Releases Repo ##
     repo init -u https://github.com/BlissRoms/platform_manifest.git -b arcadia
 
 **Sync repo**
 
     repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 
-Options
---------
+## Options
+
 	BLISS_BUILD_VARIANT - (vanilla, gapps, foss) - We currently use this to specify what type of extra apps and services to iunclude in the build. 
 ***Note: Default BLISS_BUILD_VARIANT is VANILLA.***
 
-Building
---------
+## Building
+
      . build/envsetup.sh
      blissify options deviceCodename
      
@@ -89,3 +93,5 @@ Building
 ```
      blissify deviceCodename
 ```
+## Report build issues
+- You can reach us via [Telegram (BlissRoms Build Support)](https://t.me/Team_Bliss_Build_Support)
