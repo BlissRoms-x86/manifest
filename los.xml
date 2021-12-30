@@ -56,6 +56,7 @@
   </project>
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" groups="qcom_sm8150" remote="lineage" />
   <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="lineage" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
   <!--<project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.0-caf-apq8084" remote="lineage" />-->
   <!--<project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.0-caf-apq8084" remote="lineage" />-->
   <!--<project path="hardware/qcom-caf/apq8084/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-apq8084" remote="lineage" />-->
