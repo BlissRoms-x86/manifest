@@ -75,7 +75,6 @@
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/mediatek/wembley-sepolicy" />
-  <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
   <remove-project name="platform/external/tinycompress" />
