@@ -185,7 +185,6 @@
   <project path="hardware/qcom-caf/sm8250/media" name="platform_hardware_qcom_media" groups="qcom" remote="BlissRoms" revision="arcadia-caf-sm8250" />
   <project path="hardware/qcom-caf/thermal" name="platform_hardware_qcom_thermal" remote="BlissRoms" />
 
-
   <!-- Inputmethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
 
@@ -194,6 +193,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
+  <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
