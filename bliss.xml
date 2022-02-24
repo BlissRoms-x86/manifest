@@ -172,6 +172,7 @@
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
+  <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" />
   <project path="hardware/qcom-caf/bootctrl" name="platform_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="BlissRoms" revision="arcadia-caf" />
   <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="BlissRoms" revision="arcadia-caf-msm8998" />
@@ -233,7 +234,7 @@
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" /> 
-  <project path="vendor/gms" name="platform_vendor_gms" remote="BlissRoms-gitlab" clone-depth="1" revision="s" />
+  <project path="vendor/gms" name="platform_vendor_gms" remote="BlissRoms-gitlab" clone-depth="1" revision="arcadia" />
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms"/>
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="platform_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="BlissRoms" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="BlissRoms" />
