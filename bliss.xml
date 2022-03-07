@@ -140,7 +140,7 @@
   <!-- End Remove AOSP repos -->
 
   <!-- General Repos -->
-  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="9bf4ed25373dda901521dd256f9b406e8d976f14" />
+  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="5a35b817d6ee1bb55d2a98f0ab10e7f9d5cb90cc" />
   <project path="art" name="platform_art" remote="BlissRoms" />
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
   <project path="build/make" name="platform_build_make" remote="BlissRoms" >
