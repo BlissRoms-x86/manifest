@@ -161,6 +161,7 @@
 
   <!-- External -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
+  <project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
   <project path="external/colorkt" name="platform_external_colorkt" remote="BlissRoms" />
   <project path="external/themelib" name="platform_external_themelib" remote="BlissRoms" />
 
@@ -203,6 +204,7 @@
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="BlissRoms-gitlab" />
   <project path="packages/apps/GamingMode" name="platform_packages_apps_GamingMode" remote="BlissRoms" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
