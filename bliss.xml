@@ -140,7 +140,7 @@
   <!-- End Remove AOSP repos -->
 
   <!-- General Repos -->
-  <project path="manifest" name="platform_manifest" remote="BlissRoms" revision="5a35b817d6ee1bb55d2a98f0ab10e7f9d5cb90cc" />
+  <project path="manifest" name="platform_manifest" remote="BlissRoms" />
   <project path="art" name="platform_art" remote="BlissRoms" />
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
   <project path="build/make" name="platform_build_make" remote="BlissRoms" >
@@ -166,8 +166,8 @@
   <project path="external/themelib" name="platform_external_themelib" remote="BlissRoms" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="b871bcd51c6a889ba54f56d3df64a0274b9fb3b0"/>
-  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" revision="d8c9a6ee159d4487b4e01d0ab76131126f2b9fff"/>
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
 
@@ -199,7 +199,7 @@
   <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="BlissRoms" />
 
   <!-- Packages -->
-  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="fb9aa54f403527b621cfe27f908a608fdf6b9e3c" />
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
   <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
@@ -209,7 +209,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="4ccdb2634ce7ea14547f12cb2b0ee98196a6bf80" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
@@ -235,10 +235,10 @@
   <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
 
   <!-- Vendor -->
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="e7743b12364c3e19d113b3478c6da55191291cd8" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" /> 
   <project path="vendor/gms" name="platform_vendor_gms" remote="BlissRoms-gitlab" clone-depth="1" revision="arcadia" />
-  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" revision="cb2ccaebb639aaffde9f7ba19eba910383466dec"/>
+  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="platform_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="BlissRoms" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="platform_vendor_nxp_interfaces_opensource_nfc" remote="BlissRoms" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="platform_vendor_nxp_opensource_external_libnfc-nci" remote="BlissRoms" />
