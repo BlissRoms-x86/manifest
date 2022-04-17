@@ -136,6 +136,7 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -226,6 +227,7 @@
   <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="BlissRoms" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
+  <project path="system/security" name="platform_system_security" remote="BlissRoms" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
 
   <!-- Vendor -->
