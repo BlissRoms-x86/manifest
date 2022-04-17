@@ -9,7 +9,19 @@
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" groups="pdk-lassen" remote="lineage" />
   <project path="external/armnn" name="android_external_armnn" groups="pdk-lassen" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
-  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
+  <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" groups="pdk"  remote="lineage" revision="main" >
+    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" groups="pdk" clone-depth="1" remote="lineage" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" groups="pdk" clone-depth="1" remote="lineage" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" remote="lineage" revision="main" />
+  <!-- The below will sync if you have a gitlab remote defined, but review/approval
+       does not run through Gerrit. Additionally, those who sync referncing a
+       mirror won't get that benefit from this remote/project. Place a line in
+       a local manifest if you desire x86_64 Webview -->
+  <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" clone-depth="1" revision="main" remote="gitlab" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="lineage" />
