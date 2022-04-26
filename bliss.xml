@@ -185,6 +185,7 @@
   <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom_media" groups="qcom,qcom_media" remote="BlissRoms" revision="arcadia-caf-sdm660" />
   <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sdm660" />
   <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom_display" groups="qcom,qcom_display" remote="BlissRoms" revision="arcadia-caf-sdm660" />
+  <project path="hardware/qcom-caf/sm8250/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="arcadia-caf-sm8250" remote="BlissRoms" />
 
   <!-- Inputmethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
