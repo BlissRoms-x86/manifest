@@ -30,26 +30,6 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
-  <remove-project name="device/amlogic/yukawa" />
-  <remove-project name="device/amlogic/yukawa-kernel" />
-  <remove-project name="device/common" />
-  <remove-project name="device/generic/arm64" />
-  <remove-project name="device/generic/armv7-a-neon" />
-  <remove-project name="device/generic/art" />
-  <remove-project name="device/generic/car" />
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/goldfish" />
-  <remove-project name="device/generic/goldfish-opengl" />
-  <remove-project name="device/generic/mini-emulator-arm64" />
-  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
-  <remove-project name="device/generic/mini-emulator-x86" />
-  <remove-project name="device/generic/mini-emulator-x86_64" />
-  <remove-project name="device/generic/opengl-transport" />
-  <remove-project name="device/generic/qemu" />
-  <remove-project name="device/generic/trusty" />
-  <remove-project name="device/generic/uml" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/barbet" />
   <remove-project name="device/google/barbet-kernel" />
@@ -132,11 +112,18 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/libhwbinder" />
+  <remove-project name="platform/system/logging" />
+  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -223,14 +210,7 @@
   <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="BlissRoms" />
 
   <!-- System -->
-  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
-  <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
-  <project path="system/core" name="platform_system_core" remote="BlissRoms" />
-  <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="BlissRoms" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
-  <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
-  <project path="system/security" name="platform_system_security" remote="BlissRoms" />
-  <project path="system/update_engine" name="platform_system_update_engine" remote="BlissRoms" />
+
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />

@@ -76,6 +76,15 @@
   <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 
+  <!-- System -->
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
+  <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
+  <project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="lineage" />
+  <project path="system/logging" name="android_system_logging" groups="pdk" remote="lineage" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="lineage" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="lineage" />
+
   <!-- CAF hardware -->
   <!--<project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-apq8084" remote="lineage" />-->
   <!--<project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-apq8084" remote="lineage" />-->
