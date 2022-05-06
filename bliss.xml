@@ -24,113 +24,7 @@
           fetch="https://gitlab.com/" />
 
   <!-- Remove first some AOSP repos -->
-
-  <remove-project name="platform/art" />
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/soong" />
-  <remove-project name="platform/bionic" />
-  <remove-project name="platform/bootable/recovery" />
-  <remove-project name="device/google/atv" />
-  <remove-project name="device/google/barbet" />
-  <remove-project name="device/google/barbet-kernel" />
-  <remove-project name="device/google/bonito" />
-  <remove-project name="device/google/bonito-kernel" />
-  <remove-project name="device/google/bramble" />
-  <remove-project name="device/google/coral" />
-  <remove-project name="device/google/coral-kernel" />
-  <remove-project name="device/google/redbull" />
-  <remove-project name="device/google/redbull-kernel" />
-  <remove-project name="device/google/redfin" />
-  <remove-project name="device/google/crosshatch" />
-  <remove-project name="device/google/crosshatch-kernel" />
-  <remove-project name="device/google/fuchsia" />
-  <remove-project name="device/google/trout" />
-  <remove-project name="device/google/sunfish" />
-  <remove-project name="device/google/sunfish-kernel" />
-  <remove-project name="device/google/gs101" />
-  <remove-project name="device/google/gs101-sepolicy" />
-  <remove-project name="device/google/gs-common" />
-  <remove-project name="device/google/raviole" />
-  <remove-project name="device/google/raviole-kernel" />
-  <remove-project name="device/google/vrservices" />
-  <remove-project name="device/google_car" />
-  <remove-project name="device/linaro/dragonboard" />
-  <remove-project name="device/linaro/dragonboard-kernel" />
-  <remove-project name="device/linaro/hikey" />
-  <remove-project name="device/linaro/hikey-kernel" />
-  <remove-project name="device/linaro/poplar" />
-  <remove-project name="device/linaro/poplar-kernel" />
-  <remove-project name="device/mediatek/wembley-sepolicy" />
-  <remove-project name="device/ti/beagle-x15" />
-  <remove-project name="device/ti/beagle-x15-kernel" />
-  <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/gptfdisk" />
-  <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/external/chromium-webview" />
-  <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/sdm845/display" />
-  <remove-project name="platform/hardware/qcom/sdm845/media" />
-  <remove-project name="platform/hardware/qcom/sm7250/display" />
-  <remove-project name="platform/hardware/qcom/sm7250/media" />
-  <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/sm8150/display" />
-  <remove-project name="platform/hardware/qcom/sm8150/media" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/libcore" />
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/apps/Camera2" />
-  <remove-project name="platform/packages/apps/Contacts" />
-  <remove-project name="platform/packages/apps/Dialer" />
-  <remove-project name="platform/packages/apps/DeskClock" />
-  <remove-project name="platform/packages/apps/Gallery2" />
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/packages/apps/Messaging" />
-  <remove-project name="platform/packages/apps/Nfc" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
-  <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <remove-project name="platform/packages/modules/Connectivity" />
-  <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <remove-project name="platform/packages/providers/ContactsProvider" />
-  <remove-project name="platform/packages/providers/CallLogProvider" />
-  <remove-project name="platform/packages/providers/CalendarProvider" />
-  <remove-project name="platform/packages/providers/BookmarkProvider" />
-  <remove-project name="platform/packages/providers/BlockedNumberProvider" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />
-  <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/system/bt" />
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" />
-  <remove-project name="platform/system/keymaster" />
-  <remove-project name="platform/system/libhidl" />
-  <remove-project name="platform/system/libziparchive" />
-  <remove-project name="platform/system/libhwbinder" />
-  <remove-project name="platform/system/logging" />
-  <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/netd" />
-  <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/vold" />
-  <remove-project name="platform/system/security" />
-  <remove-project name="platform/system/tools/mkbootimg" />
-  <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <include name="remove.xml" />
 
   <!-- End Remove AOSP repos -->
 
@@ -138,6 +32,7 @@
   <project path="manifest" name="platform_manifest" remote="BlissRoms" />
   <project path="art" name="platform_art" remote="BlissRoms" />
   <project path="bionic" name="platform_bionic" remote="BlissRoms" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
   <project path="build/make" name="platform_build_make" remote="BlissRoms" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -147,12 +42,11 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="libcore" name="platform_libcore" remote="BlissRoms" />
   <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
+  <project path="libcore" name="platform_libcore" remote="BlissRoms" />
 
   <!-- External -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r45" />
@@ -167,7 +61,6 @@
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
   <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom_media" groups="qcom,qcom_media" remote="BlissRoms" revision="arcadia-caf-sdm660" />
   <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sdm660" />
@@ -184,15 +77,12 @@
   <!-- Packages -->
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
   <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="BlissRoms-gitlab" />
   <project path="packages/apps/GamingMode" name="platform_packages_apps_GamingMode" remote="BlissRoms" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
@@ -210,7 +100,9 @@
   <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy-legacy" remote="BlissRoms" />
 
   <!-- System -->
-
+  <project path="system/core" name="platform_system_core" remote="BlissRoms" />
+  <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="BlissRoms" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
@@ -218,8 +110,4 @@
   <project path="vendor/gms" name="platform_vendor_gms" remote="BlissRoms-gitlab" clone-depth="1" revision="arcadia" />
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" />
   <project path="vendor/qcom/opensource/libfmjni" name="platform_vendor_qcom_opensource_libfmjni" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="platform_vendor_qcom_opensource_bluetooth_ext" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="platform_vendor_qcom_opensource_system_bt" remote="BlissRoms" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="BlissRoms" />
 </manifest>
