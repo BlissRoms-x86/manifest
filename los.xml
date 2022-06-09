@@ -54,14 +54,10 @@
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-  <project path="system/bt" name="android_system_bt" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
   <project path="system/logging" name="android_system_logging" groups="pdk" remote="lineage" />
-  <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
-  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="lineage" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="lineage" groups="pdk" clone-depth="1" />
