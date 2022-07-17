@@ -62,6 +62,7 @@
 
   <!-- Hardware -->
   <project path="hardware/bliss/interfaces" name="platform_hardware_bliss_interfaces" remote="BlissRoms" />
+  <project path="hardware/lineage/livedisplay" name="platform_hardware_lineage_livedisplay" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom_media" groups="qcom,qcom_media" remote="BlissRoms" revision="arcadia-caf-sdm660" />
   <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="BlissRoms" revision="arcadia-caf-sdm660" />
   <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom_display" groups="qcom,qcom_display" remote="BlissRoms" revision="arcadia-caf-sdm660" />
