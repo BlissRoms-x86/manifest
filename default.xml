@@ -838,6 +838,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <include name="remove.xml" />
   <include name="bliss.xml" />
   <include name="los.xml" />
 
