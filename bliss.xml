@@ -14,7 +14,8 @@
           revision="r" />
   
   <remote name="BR-x86" 
-          fetch="https://github.com/BlissRoms-x86" />
+          fetch="https://github.com/BlissRoms-x86"
+          revision="r11-r58" />
 
   <remote name="github"
           fetch="https://github.com/" />
@@ -27,11 +28,11 @@
           revision="lineage-18.1" />
 
   <!-- General Repos -->
-  <project path="manifest" name="platform_manifest" remote="BlissRoms" />
-  <project path="art" name="platform_art" remote="BlissRoms" />
-  <project path="bionic" name="platform_bionic" remote="BlissRoms" />
-  <project path="build/blueprint" name="platform_build_blueprint" remote="BlissRoms" />
-  <project path="build/make" name="platform_build" remote="BlissRoms" >
+  <project path="manifest" name="manifest" remote="BR-x86" />
+  <project path="art" name="platform_art" remote="BR-x86" />
+  <project path="bionic" name="platform_bionic" remote="BR-x86" />
+  <project path="build/blueprint" name="platform_build_blueprint" remote="BR-x86" />
+  <project path="build/make" name="platform_build" remote="BR-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -41,65 +42,65 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="platform_build_soong" remote="BlissRoms" >
+  <project path="build/soong" name="platform_build_soong" remote="BR-x86" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissRoms" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="BR-x86" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissRoms" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" revision="8070aa5c098ffffbfecc0ce59098bbaf1aad7345" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="BlissRoms" />
-  <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="BlissRoms" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BlissRoms" />
+  <project path="frameworks/av" name="frameworks_av" remote="BR-x86" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" />
+  <project path="frameworks/native" name="frameworks_native" remote="BR-x86" />
+  <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="BR-x86" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BR-x86" />
 
   <!-- External -->
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
-  <project path="external/perfetto" name="platform_external_perfetto" remote="BlissRoms" />
+  <project path="external/perfetto" name="platform_external_perfetto" remote="BR-x86" />
   <project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
   <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="BlissRoms" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissRoms" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BR-x86" />
   <project path="hardware/lineage/interfaces" name="platform_hardware_lineage_interfaces" remote="BlissRoms" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BlissRoms" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BlissRoms" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="BR-x86" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="BR-x86" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio-sm8150-caf" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display-sm8150-caf" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media-sm8150-caf" remote="BlissRoms" />
 
   <!-- Inputmethods -->
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BlissRoms" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BR-x86" />
 
   <!-- Packages -->
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="a9f0a090a1a3e322f20a9a2a8a184e4ef97a6b4c" />
   <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BlissRoms" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BlissRoms" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BlissRoms" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BlissRoms" />
-  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BlissRoms" />
-  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BlissRoms" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissRoms" />
-  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BlissRoms" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BlissRoms" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BR-x86" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="BR-x86" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="BR-x86" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="BR-x86" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="BR-x86" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="BR-x86" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BR-x86" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="BR-x86" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="BR-x86" />
   <project path="packages/apps/Plugins" name="platform_packages_apps_Plugins" remote="BlissRoms" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissRoms" revision="b34f02f419f2adcc93c0e60bc5002abec74b577a" />
-  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BlissRoms" />
-  <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="BlissRoms" />
-  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BlissRoms" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BlissRoms" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BlissRoms" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" />
+  <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BR-x86" />
+  <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="BR-x86" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BR-x86" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BR-x86" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BR-x86" />
   <project path="packages/overlays/Lineage" name="platform_packages_overlays_Lineage" remote="BlissRoms" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BlissRoms" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BR-x86" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="BlissRoms-gitlab" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
   <project path="packages/apps/OmniJaws" name="platform_packages_apps_OmniJaws" remote="BlissRoms" />
   <project path="packages/apps/SoftAPManager" name="platform_packages_apps_SoftAPManager" remote="BlissRoms" />
   <project path="packages/apps/GamingMode" name="platform_packages_apps_GamingMode" remote="BlissRoms" />
-  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="BlissRoms" />
+  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="BR-x86" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="BlissRoms" />
@@ -112,13 +113,13 @@
   <project path="device/lineage/sepolicy" name="platform_device_aosp_sepolicy" remote="BlissRoms" />
 
   <!-- System -->
-  <project path="system/iorap" name="platform_system_iorap" remote="BlissRoms" />
-  <project path="system/netd" name="platform_system_netd" remote="BlissRoms" />
-  <project path="system/bt" name="platform_system_bt" remote="BlissRoms" />
-  <project path="system/core" name="platform_system_core_old" remote="BlissRoms" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
-  <project path="system/security" name="platform_system_security" remote="BlissRoms" />
-  <project path="system/vold" name="platform_system_vold" remote="BlissRoms" />
+  <project path="system/iorap" name="platform_system_iorap" remote="BR-x86" />
+  <project path="system/netd" name="platform_system_netd" remote="BR-x86" />
+  <project path="system/bt" name="platform_system_bt" remote="BR-x86" />
+  <project path="system/core" name="platform_system_core" remote="BR-x86" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="BR-x86" />
+  <project path="system/security" name="system_security" remote="BR-x86" />
+  <project path="system/vold" name="platform_system_vold" remote="BR-x86" />
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="cc83eb8e984112908d69b532d49ea682cc6439fe" />
