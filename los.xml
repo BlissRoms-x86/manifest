@@ -4,6 +4,9 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="los" />
+
   <!-- libcore -->
   <project path="libcore" name="android_libcore" groups="pdk" remote="los" />
 
