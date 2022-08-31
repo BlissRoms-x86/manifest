@@ -15,7 +15,7 @@
   
   <remote name="BR-x86" 
           fetch="https://github.com/BlissRoms-x86"
-          revision="r11-r58" />
+          revision="r11" />
 
   <remote name="github"
           fetch="https://github.com/" />
