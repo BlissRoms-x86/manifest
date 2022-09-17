@@ -173,7 +173,6 @@
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk" />
   <project path="external/ethtool" name="platform/external/ethtool" groups="pdk" />
   <project path="external/exoplayer" name="platform/external/exoplayer" groups="pdk" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fastrpc" name="platform/external/fastrpc" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
