@@ -67,6 +67,8 @@ Options
     for example -jupiter for Steam Deck or -surface for Microsoft Surface series
 
 Setup FOSS apps or OpenGapps
+----------------------------
+
 - If you want to build with FOSS (this will include microG Services & some extra apps), go to vendor/foss and then type
 ```
     ./update.sh
@@ -119,16 +121,21 @@ Extras
 -------
 
 We do offer some extra libraries that can be compiled into the build. These include :
-***ChromeOS's libhoudini/Widevine DRM L3***
+
+***ChromeOS's libhoudini/Widevine DRM L3*** 
+
 https://github.com/supremegamers/android_vendor_google_chromeos-x86
+
 Clone to `vendor/google/chromeos-x86`, go to the folder and open terminal
 `./extract-files.sh`
 
 The variable to activate this is `USE_CROS_HOUDINI_NB=true` for libhoudini and `USE_CROS_WIDEVINE=true` for Widevine.
 
 
+
 ***Windows Subsystem for Android's libhoudini*** 
+
 https://github.com/supremegamers/vendor_intel_proprietary_houdini
 
-The variable to activate this is `ANDROID_USE_INTEL_HOUDINI=true`
+Clone to `vendor/intel/proprietary/houdini`, The variable to activate this is `ANDROID_USE_INTEL_HOUDINI=true`
 
