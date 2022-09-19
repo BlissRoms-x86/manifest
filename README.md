@@ -1,8 +1,15 @@
-<img src="https://i.imgur.com/0GnrwaU.png">
+<img src="https://i.imgur.com/pOad4eK.png">
 
-BlissRoms
+BlissOS
 -----------------------
-Download the BlissRoms source code, based on [AOSP](https://android.googlesource.com), [phhusson](https://github.com/phhusson/treble_manifest) & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
+Download the BlissOS source code, based on [AOSP](https://android.googlesource.com), [Android-x86](https://www.android-x86.org/), [phhusson](https://github.com/phhusson/treble_manifest) & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
+
+<div align="center">
+<strong><i>Modified for PC build using Android-Generic Project</i></strong>
+<br>
+<img src="https://i.ibb.co/rf2rv3M/Yep1l4L.png">
+<br>
+</div>
 
 ---------------------------------------------------
 
@@ -33,7 +40,11 @@ Installing Java 8
 Grabbing Dependencies
 -----------------------
 
-    $ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso xmlstarlet
+    $ sudo apt-get install git-core git-lfs gnupg flex bison maven gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso libncurses5 xmlstarlet build-essential git imagemagick lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libxml2 lzop pngcrush rsync schedtool python-enum34 python3-mako libelf-dev
+
+If you plan on building the kernel with the NO_KERNEL_CROSS_COMPILE flag, you will need to also have gcc-10+ installed:
+
+    $ sudo apt-get install gcc-10 g++-10
 
 Initializing Repository
 -----------------------
@@ -41,7 +52,7 @@ Initializing Repository
 **Repo initialization**
     
     ## Releases Repo ##
-    repo init -u https://github.com/BlissRoms-x86/manifest.git -b r11
+    repo init -u https://github.com/BlissRoms-x86/manifest.git -b r11-x86
 
 **Sync repo**
 
@@ -49,43 +60,75 @@ Initializing Repository
 
 Options
 --------
-	BLISS_BUILD_VARIANT - (vanilla, gapps, foss) - We currently use this to specify what type of extra apps and services to iunclude in the build. 
+	BLISS_BUILD_VARIANT - (vanilla, opengapps, foss) - We currently use this to specify what type of extra apps and services to iunclude in the build. 
 ***Note: Default BLISS_BUILD_VARIANT is VANILLA.***
+
+    BLISS_SPECIAL_VARIANT - This can be custom set if you wanna build a version for a specific device 
+    for example -jupiter for Steam Deck or -surface for Microsoft Surface series
+
+Setup FOSS apps or OpenGapps
+- If you want to build with FOSS (this will include microG Services & some extra apps), go to vendor/foss and then type
+```
+    ./update.sh
+```
+And then choose 1 (x86/x86_64) to fetch all the apps. If you want to include Bromite Webview in, type this instead
+```
+    ./update.sh "" bromite
+```
+
+- If you want to build with OpenGapps, first make sure to get `git-lfs` (already listed in above). Once you got `git-lfs`, type this
+```
+    repo forall -c git lfs pull
+```
+To fetch the packages.
 
 Building
 --------
-     . build/envsetup.sh
-     blissify options deviceCodename
+    $ . build/envsetup.sh
+    $ lunch bliss_x86_64-userdebug
+    $ make iso_img
      
+***Adding build options***
 
-**Options:**
-```
--h | --help: Shows the help dialog
--c | --clean: Clean up before running the build
--d | --devclean: Clean up device only before running the build
--v | --vanilla: Build with no added app store solution **default option**
--g | --gapps: Build with Google Play Services added
--f | --foss: build with FOSS (arm64-v8a) app store solutions added **requires vendor/foss**
-```
-
-**Examples:**
-
-- **To build with gapps**
-```
-     blissify -g deviceCodename
-```
+Before running `make iso_img`, you can adding variables into the build to integrate more stuff into the image.
+Note that you can put different variables into the build.
 
 - **To build with FOSS**
 ```
-     blissify -f deviceCodename
+    export BLISS_BUILD_VARIANT=foss
 ```
 
-- **To build with gapps and deviceclean**
+- **To build with OpenGapps**
 ```
-     blissify -g -d deviceCodename
+    export BLISS_BUILD_VARIANT=opengapps
 ```
 
-**This method is also backwards compatible with the legacy blissify command also**
+- **To build with proprietary libhoudini extracted from WSA**
 ```
-     blissify deviceCodename
+    export ANDROID_USE_INTEL_HOUDINI=true
 ```
+
+- **To add a custom label into a device-specific build**
+```
+    export BLISS_SPECIAL_VARIANT := jupiter
+```
+
+**More build options will be in Extras part including proprietary native-bridge/widevine libraries**
+
+Extras
+-------
+
+We do offer some extra libraries that can be compiled into the build. These include :
+***ChromeOS's libhoudini/Widevine DRM L3***
+https://github.com/supremegamers/android_vendor_google_chromeos-x86
+Clone to `vendor/google/chromeos-x86`, go to the folder and open terminal
+`./extract-files.sh`
+
+The variable to activate this is `USE_CROS_HOUDINI_NB=true` for libhoudini and `USE_CROS_WIDEVINE=true` for Widevine.
+
+
+***Windows Subsystem for Android's libhoudini*** 
+https://github.com/supremegamers/vendor_intel_proprietary_houdini
+
+The variable to activate this is `ANDROID_USE_INTEL_HOUDINI=true`
+

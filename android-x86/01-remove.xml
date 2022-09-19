@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Remove first some AOSP/Lineage repos -->
+	<remove-project name="platform/tools/repohooks" />
+	<remove-project name="platform_bionic" />
+	<remove-project name="android_device_qcom_sepolicy" />
+	<remove-project name="android_device_qcom_sepolicy_vndr" />
+    <remove-project name="platform/external/drm_hwcomposer" />
+    <remove-project name="platform/external/libdrm" />
+    <remove-project name="platform/external/minigbm" />
+    <!-- <remove-project name="device/generic/x86_64" />
+    <remove-project name="device/generic/x86" /> -->
+    <remove-project name="android_external_libncurses" />
+    <remove-project name="platform/external/mksh" />
+    <remove-project name="platform/external/squashfs-tools" />
+    <remove-project name="platform/external/mesa3d" />
+    <remove-project name="device/generic/common" />
+    <remove-project name="frameworks_av" />   
+    <remove-project name="platform_frameworks_base" />
+    <remove-project name="frameworks_native" />
+    <remove-project name="packages_apps_Settings" />
+    <remove-project name="platform_system_bt" />   
+    <remove-project name="platform_system_core" />   
+    <remove-project name="platform/system/hardware/interfaces" />   
+    <remove-project name="platform/system/linkerconfig" />   
+    <remove-project name="platform_system_vold" />
+    <!-- Remove some ROM-made repo -->
+    <remove-project name="platform_vendor_bliss" />   
+    <remove-project name="vendor_foss" />
+    <remove-project name="platform_vendor_overlays" />
+
+</manifest>
