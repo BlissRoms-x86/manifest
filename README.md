@@ -16,7 +16,7 @@ Download the BlissOS source code, based on [AOSP](https://android.googlesource.c
 Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
 -----------------------
-What you need to build [BlissRoms](https://github.com/BlissROMs/platform_manifest)
+What you need in order to build [BlissOS](https://github.com/BlissRoms-x86/manifest)
 -----------------------
 
     Latest Ubuntu LTS Releases https://www.ubuntu.com/download/server
