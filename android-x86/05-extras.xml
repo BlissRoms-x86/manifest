@@ -4,7 +4,7 @@
     <project name="vendor_foss" path="vendor/foss" remote="sg" revision="hmchoice" />
 
     <!-- Android-Generic Apps -->
-    <project name="vendor_prebuilts_agp-apps" path="vendor/prebuilts/agp-apps" remote="gitlab" revision="master" />
+    <project name="android-generic/vendor_prebuilts_agp-apps" path="vendor/prebuilts/agp-apps" remote="gitlab" revision="master" />
 
     <!-- Gearlock -->
 <!--
