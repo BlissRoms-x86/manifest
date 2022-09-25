@@ -63,6 +63,8 @@
   <project path="external/roboto-fonts" name="ProtonAOSP/android_external_roboto-fonts" remote="github" groups="pdk" />
   <project path="external/noto-fonts" name="ProtonAOSP/android_external_noto-fonts" remote="github" groups="pdk" />
   <project path="external/google-fonts/cutive-mono" name="ProtonAOSP/android_external_google-fonts_cutive-mono" remote="github" groups="pdk" />
+  <project path="external/toybox" name="android_external_toybox" remote="BR-x86" revision="r11" />
+
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BR-x86" />

@@ -56,7 +56,6 @@
   <project path="external/cldr" name="android_external_cldr" remote="los" />
   <project path="external/icu" name="android_external_icu" remote="los" />
   <project path="external/boringssl" name="android_external_boringssl" remote="los" />
-  <project path="external/toybox" name="android_external_toybox" remote="los" />
   <project path="external/tremolo" name="android_external_tremolo" groups="pdk" remote="los" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" groups="pdk" remote="los" />
 
