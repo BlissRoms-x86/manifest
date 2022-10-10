@@ -30,6 +30,7 @@
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="los" />
   <project path="external/bash" name="android_external_bash" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
+  <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="los" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" />
   <project path="external/expat" name="android_external_expat" remote="los" />
