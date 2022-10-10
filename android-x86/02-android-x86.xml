@@ -16,6 +16,7 @@
   <project path="external/gbm_gralloc" name="gbm_gralloc" remote="BR-x86" revision="main" />
   <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.113_r-x86" />
   <project path="external/libncurses" name="android_external_libncurses" remote="sg" revision="q-x86" />
+  <project path="external/libva-utils" name="libva-utils" remote="sg" revision="master" />  
   <project path="external/llvm-project" name="llvm" remote="hm" revision="release_14.x" />
   <project path="external/mesa" name="mesa" remote="hm" revision="22.2.0_r-x86" />
   <project path="external/minigbm" name="minigbm" remote="sg" revision="gbm_mesa" />
@@ -25,8 +26,10 @@
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="r-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="r-x86" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="r-x86" />
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" remote="x86" revision="r-x86" />
-  <project path="hardware/intel/common/vaapi" name="platform/hardware/intel/common/vaapi" remote="x86" revision="r-x86" />
+  <project path="hardware/intel/common/libva" name="libva" remote="sg" revision="11-x86" />
+  <project path="hardware/intel/common/gmmlib" name="gmmlib" remote="sg" revision="master" />
+  <project path="hardware/intel/common/media-driver" name="media-driver" remote="sg" revision="master" />
+  <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="sg" revision="11-x86" />
   <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="r-x86" />
   <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="sg" revision="11-x86" />
   <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="q-x86" />
