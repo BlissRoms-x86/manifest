@@ -12,7 +12,7 @@
   <project path="external/drm_hwcomposer" name="drm_hwcomposer.git" remote="sg" revision="r-x86" />
   <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="r-x86" />
   <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="r-x86" />
-  <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="r-x86" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="sg" revision="release/5.1" />
   <project path="external/gbm_gralloc" name="gbm_gralloc" remote="BR-x86" revision="main" />
   <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.113_r-x86" />
   <project path="external/libncurses" name="android_external_libncurses" remote="sg" revision="q-x86" />
@@ -21,7 +21,7 @@
   <project path="external/mesa" name="mesa" remote="hm" revision="22.2.0_r-x86" />
   <project path="external/minigbm" name="minigbm" remote="sg" revision="gbm_mesa" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="r-x86" />
-  <project path="external/stagefright-plugins" name="stagefright-plugins" remote="sg" revision="r11-r36" />
+  <project path="external/stagefright-plugins" name="stagefright-plugins" remote="sg" revision="11-x86_new" />
   <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="r-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="r-x86" />
