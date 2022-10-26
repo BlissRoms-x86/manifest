@@ -10,6 +10,8 @@
 <!--
     <project name="gearlock" path="vendor/gearlock" remote="axon" revision="main" />
 -->
+    <!-- aptX/aptX HD encoders-->
+    <project name="external_aosp_aptx" path="external/aosp_aptx" remote="sg" revision="master" />
 
     <!-- BoringDroid -->
     <project name="vendor_boringdroid" path="vendor/boringdroid" remote="bd" revision="boringdroid-11.0.0" />
