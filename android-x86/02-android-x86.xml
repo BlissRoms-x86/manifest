@@ -39,5 +39,6 @@
   <project path="hardware/x86power" name="hardware-x86power" remote="sg" revision="r11" />
   <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
   <project path="system/memory/libdmabufheap" name="platform/system/memory/libdmabufheap" remote="aosp" revision="android12L-d2-s8-release" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="b5bbcb383357b92acb10082878b32bbe831a2137" />
 
 </manifest>
