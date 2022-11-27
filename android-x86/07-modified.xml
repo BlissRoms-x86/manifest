@@ -5,6 +5,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="r11-x86" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="r11-x86" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="r11-x86" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BR-x86" revision="r11-x86" />
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="r11-x86" />  
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="r11-x86" />
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="r11-x86" />
