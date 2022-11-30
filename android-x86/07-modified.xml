@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="art" name="platform_art" remote="BR-x86" revision="r11-x86" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="r11-x86" />
   <project path="external/mksh" name="platform_external_mksh" remote="BR-x86" revision="r11-r36" />
   <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="r11-x86" />
