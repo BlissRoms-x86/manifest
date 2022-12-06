@@ -17,6 +17,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="los" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="los" />
 
   <!-- libcore -->
   <project path="libcore" name="android_libcore" groups="pdk" remote="los" />
