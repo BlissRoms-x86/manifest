@@ -53,7 +53,7 @@ Installing Java 8
 
 ## Options
 
-	BLISS_BUILD_VARIANT - (vanilla, gapps, foss) - We currently use this to specify what type of extra apps and services to iunclude in the build. 
+	BLISS_BUILD_VARIANT - (vanilla, gapps, foss) - We currently use this to specify what type of extra apps and services to include in the build. 
 ***Note: Default BLISS_BUILD_VARIANT is VANILLA.***
 
 ## Building
