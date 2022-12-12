@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="arcadia-x86" />
+  <project path="external/alsa-lib" name="alsa-lib" remote="sg" revision="pie-x86" />
+  <project path="external/alsa-utils" name="alsa-utils" remote="sg" revision="pie-x86" />
+  <project path="external/alsa-ucm-conf" name="alsa-ucm-conf" remote="sg" revision="pie-x86" />
+  <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="r-x86" />
+  <project path="external/drmfb-composer" name="drmfb-composer" remote="BR-x86" revision="master" />
+  <project path="external/drm_gralloc" name="hardware_drm_gralloc" remote="maurossi" revision="mesa-21.2" />
+  <project path="external/drm_hwcomposer" name="drm_hwcomposer.git" remote="sg" revision="r-x86" />
+  <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="r-x86" />
+  <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="r-x86" />
+  <project path="external/erofs-utils" name="external_erofs-utils" remote="sg" revision="12l" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="sg" revision="release/5.1" />
+  <project path="external/gbm_gralloc" name="gbm_gralloc" remote="BR-x86" revision="main" />
+  <project path="external/hcitools" name="hcitools" remote="sg" revision="12l-x86" />
+  <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.114_st-x86" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="sg" revision="q-x86" />
+  <project path="external/libva-utils" name="libva-utils" remote="sg" revision="master" />
+  <project path="external/llvm-project" name="llvm" remote="hm" revision="release_14.x" />
+  <project path="external/mesa" name="mesa" remote="hm" revision="22.2.0_r-x86" />
+  <project path="external/minigbm" name="minigbm" remote="sg" revision="gbm_mesa_13" />
+  <project path="external/toybox" name="android_external_toybox" remote="BR-x86" revision="arcadia-x86" />
+  <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="r-x86" />
+  <project path="external/stagefright-plugins" name="stagefright-plugins" remote="sg" revision="13-x86" />
+  <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" />
+  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="r-x86" />
+  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="r-x86" />
+  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="r-x86" />
+  <project path="hardware/intel/common/libva" name="libva" remote="sg" revision="11-x86" />
+  <project path="hardware/intel/common/gmmlib" name="gmmlib" remote="sg" revision="latest" />
+  <project path="hardware/intel/common/media-driver" name="media-driver" remote="sg" revision="22.4" />
+  <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="sg" revision="11-x86" />
+  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="r-x86" />
+  <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="sg" revision="11-x86" />
+  <project path="hardware/libcamera" name="platform_hardware_libcamera" remote="sg" revision="12l-x86" />
+  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="r-x86" />
+  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="r-x86" />
+  <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="r-x86" />
+  <project path="hardware/x86power" name="hardware-x86power" remote="sg" revision="r11" />
+  <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="13-x86" />
+
+</manifest>

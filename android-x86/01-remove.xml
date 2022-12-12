@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Remove first some AOSP/Lineage repos -->
+	<!-- <remove-project name="platform/tools/repohooks" /> -->
+	<remove-project name="platform_manifest" />
+	<remove-project name="platform_art" />
+	<remove-project name="platform_bionic" />
+    <remove-project name="platform/development" />
+    <remove-project name="platform_bootable_recovery" />
+	<remove-project name="platform_device_qcom_sepolicy" />
+	<remove-project name="platform_device_qcom_sepolicy_vndr" />
+    <remove-project name="platform/external/drm_hwcomposer" />
+    <remove-project name="platform/external/erofs-utils" />
+    <remove-project name="platform/external/libdrm" />
+	<remove-project name="toolchain/llvm-project" />
+    <remove-project name="platform/external/minigbm" />
+    <remove-project name="device/generic/x86_64" />
+    <remove-project name="device/generic/x86" />
+    <remove-project name="android_external_libncurses" />
+    <remove-project name="android_external_mksh" />
+    <remove-project name="platform/external/toybox" />
+    <remove-project name="platform/external/mesa3d" />
+    <remove-project name="device/generic/common" />
+    <remove-project name="platform_frameworks_av" />   
+    <remove-project name="platform_frameworks_base" />
+    <remove-project name="platform_frameworks_native" />
+    <remove-project name="android_hardware_interfaces" />
+    <remove-project name="platform_packages_apps_Settings" />
+    <remove-project name="platform_system_bt" />
+    <remove-project name="platform_system_core" />   
+    <remove-project name="platform/system/hardware/interfaces" />   
+    <remove-project name="platform/system/linkerconfig" />   
+    <remove-project name="platform_system_vold" />
+    <!-- Remove some ROM-made repo -->
+    <remove-project name="platform_vendor_bliss" />
+    <remove-project name="platform_vendor_overlays" />
+    <remove-project name="platform_packages_apps_Blissify" />
+
+</manifest>
