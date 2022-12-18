@@ -129,13 +129,18 @@ https://github.com/supremegamers/android_vendor_google_chromeos-x86
 Clone to `vendor/google/chromeos-x86`, go to the folder and open terminal
 `./extract-files.sh`
 
-The variable to activate this is `USE_CROS_HOUDINI_NB=true` for libhoudini and `USE_CROS_WIDEVINE=true` for Widevine.
+The variable to activate this is `USE_CROS_HOUDINI_NB=true` for libhoudini and `USE_WIDEVINE=true` for Widevine.
 
+***Prebuilt Widevine from Windows Subsystem for Android***
 
+https://github.com/supremegamers/vendor_google_proprietary_widevine-prebuilt
+
+Clone to `vendor/google/proprietary/widevine-prebuilt`, The variable to activate this is `USE_WIDEVINE=true`
 
 ***Windows Subsystem for Android's libhoudini*** 
 
 https://github.com/supremegamers/vendor_intel_proprietary_houdini
 
 Clone to `vendor/intel/proprietary/houdini`, The variable to activate this is `ANDROID_USE_INTEL_HOUDINI=true`
-
+## Report build issues
+- You can reach us via [Telegram (Android™-Generic (x86 PC) Community Development)](https://t.me/androidgenericpc)
