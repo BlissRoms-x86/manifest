@@ -99,7 +99,6 @@
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BR-x86" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BR-x86" />
   <project path="packages/overlays/Lineage" name="platform_packages_overlays_Lineage" remote="BlissRoms" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BR-x86" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="BlissRoms-gitlab" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
   <project path="packages/apps/OmniJaws" name="platform_packages_apps_OmniJaws" remote="BlissRoms" />

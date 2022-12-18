@@ -160,6 +160,7 @@
 
   <!-- Packages -->
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="los" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="los" groups="pdk-fs" />
