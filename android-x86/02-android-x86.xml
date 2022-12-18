@@ -18,8 +18,8 @@
   <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.114_st-x86" />
   <project path="external/libncurses" name="android_external_libncurses" remote="sg" revision="q-x86" />
   <project path="external/libva-utils" name="libva-utils" remote="sg" revision="master" />
-  <project path="external/llvm-project" name="llvm" remote="hm" revision="release_14.x" />
-  <project path="external/mesa" name="mesa" remote="hm" revision="22.2.0_r-x86" />
+  <project path="external/llvm-project" name="llvm" remote="hm" revision="release_15.x" />
+  <project path="external/mesa" name="mesa" remote="hm" revision="22.3.0_branch" />
   <project path="external/minigbm" name="minigbm" remote="sg" revision="gbm_mesa_13" />
   <project path="external/toybox" name="android_external_toybox" remote="BR-x86" revision="arcadia-x86" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="r-x86" />
