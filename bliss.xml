@@ -42,7 +42,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="platform_build_soong" remote="BR-x86" >
+  <project path="build/soong" name="platform_build_soong" remote="BR-x86" revision="r11-x86" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
