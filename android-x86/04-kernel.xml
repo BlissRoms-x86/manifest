@@ -8,7 +8,7 @@
 	<project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" />
 	<project path="kernel" name="kernel/common" remote="aosp" revision="4fd92aab91320f10627d288eb4b6f973ece3b01c" />
 	-->  
-	<project path="kernel" name="Darkmatter-kernel" remote="hm" revision="umbral" />
+	<project path="kernel" name="Darkmatter-kernel" remote="AndroidOS-PRO" revision="umbral" />
 	<project path="external/kernel-drivers" name="external_kernel-drivers" sync-s="true" remote="sg" revision="5.15_wip" />
 	<project path="external/kernel-drivers/rtw88" name="lwfinger/rtw88" remote="github" revision="master" />
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r450784" remote="gitlab" revision="12.1" />
