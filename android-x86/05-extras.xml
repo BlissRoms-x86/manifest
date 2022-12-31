@@ -17,5 +17,7 @@
 	<project path="external/thermal_daemon" name="thermal_daemon" remote="sg" revision="master" />
 	<project path="vendor/intel/hardware/interfaces" name="vendor-hardware-interfaces" remote="sg" revision="12l-x86" />
 	<project path="hardware/libbt-vendor-intel" name="libbt-vendor-intel" remote="sg" revision="master" />
+	<project path="hardware/intel/civ/thermal" name="device-intel-civ-thermal" remote="celadon" revision="master" />
+	<project path="hardware/intel/civ/battery" name="device-intel-civ-battery" remote="celadon" revision="master" />
 
 </manifest>
