@@ -20,6 +20,7 @@
     <remove-project name="platform_frameworks_base" />
     <remove-project name="frameworks_native" />
     <remove-project name="platform_hardware_interfaces" />
+    <remove-project name="toolchain/pgo-profiles" />
     <remove-project name="packages_apps_Settings" />
     <remove-project name="platform_system_bt" />   
     <remove-project name="platform_system_core" />   
