@@ -30,7 +30,7 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="r-x86" />
   <project path="hardware/intel/common/libva" name="libva" remote="sg" revision="11-x86" />
   <project path="hardware/intel/common/gmmlib" name="gmmlib" remote="sg" revision="latest" />
-  <project path="hardware/intel/common/media-driver" name="media-driver" remote="sg" revision="22.4" />
+  <project path="hardware/intel/common/media-driver" name="media-driver" remote="sg" revision="22.6" />
   <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="sg" revision="11-x86" />
   <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="r-x86" />
   <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="sg" revision="12l-x86" />
