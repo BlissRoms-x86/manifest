@@ -170,6 +170,7 @@
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="los" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="los" />
   <project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" groups="pdk" remote="los" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk" remote="los" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk" remote="los" />
 
   <!-- Prebuilts -->
