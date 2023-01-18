@@ -41,7 +41,7 @@
   <project path="hardware/x86power" name="hardware-x86power" remote="sg" revision="r11" />
   <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="BR-x86" revision="13-x86" />
   <project path="external/angle" name="platform/external/angle" remote="aosp" revision="master" groups="pdk" />
-  <project path="external/swiftshader" name="hmtheboy154/swiftshader" remote="gl" revision="12l-x86_revert" groups="pdk" />
+  <project path="external/swiftshader" name="hmtheboy154/swiftshader" remote="gl" revision="12l-x86" groups="pdk" />
   <project path="external/swiftshader_egl" name="hmtheboy154/swiftshader" remote="gl" revision="legacy" groups="pdk" />
 
 </manifest>
