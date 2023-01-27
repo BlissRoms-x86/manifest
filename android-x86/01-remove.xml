@@ -25,6 +25,7 @@
     <remove-project name="platform/external/squashfs-tools" />
     <remove-project name="platform/external/toybox" />
     <remove-project name="platform/external/mesa3d" />
+    <remove-project name="platform/external/zstd" />
     <remove-project name="device/generic/common" />
     <remove-project name="platform_frameworks_av" />   
     <remove-project name="platform_frameworks_base" />
