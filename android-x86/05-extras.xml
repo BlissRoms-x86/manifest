@@ -20,4 +20,7 @@
 	<project path="hardware/intel/civ/thermal" name="device-intel-civ-thermal" remote="celadon" revision="master" />
 	<project path="hardware/intel/civ/battery" name="device-intel-civ-battery" remote="celadon" revision="master" />
 
+    <!-- AOSP components but newer -->
+    <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" revision="ccce28963e7acfb81eb211b49dc5e83a64274ffc" />
+
 </manifest>
