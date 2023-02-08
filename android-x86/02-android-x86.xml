@@ -9,7 +9,8 @@
   <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="r-x86" />
   <project path="external/drmfb-composer" name="drmfb-composer" remote="BR-x86" revision="master" />
   <project path="external/drm_gralloc" name="hardware_drm_gralloc" remote="maurossi" revision="mesa-21.2" />
-  <project path="external/drm_hwcomposer" name="drm_hwcomposer.git" remote="sg" revision="r-x86" />
+  <project path="external/drm_hwcomposer" name="drm_hwcomposer.git" remote="sg" revision="main" />
+  <project path="external/drm_hwcomposer_celadon" name="drm_hwcomposer.git" remote="sg" revision="celadon" />
   <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="r-x86" />
   <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="r-x86" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="sg" revision="release/5.1" />
