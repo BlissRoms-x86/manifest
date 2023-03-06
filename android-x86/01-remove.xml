@@ -32,6 +32,7 @@
     <remove-project name="platform_frameworks_native" />
     <remove-project name="android_hardware_interfaces" />
     <remove-project name="platform_packages_apps_Settings" />
+    <remove-project name="platform_packages_modules_Wifi" />
     <remove-project name="toolchain/pgo-profiles" />
     <remove-project name="platform_system_bt" />
     <remove-project name="platform_system_core" />   
