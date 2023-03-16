@@ -55,7 +55,7 @@
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
   <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="lineage" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="lineage" />
+  <!-- <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="lineage" /> -->
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="lineage" />

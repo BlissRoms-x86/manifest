@@ -29,6 +29,7 @@
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="BR-x86" revision="arcadia-x86" />
   <project path="toolchain/pgo-profiles" name="platform_toolchain_pgo-profiles" remote="BR-x86" revision="arcadia-x86" />
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BR-x86" revision="arcadia-x86" />
-  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BR-x86" revision="arcadia-x86" />  
+  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BR-x86" revision="arcadia-x86" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="BR-x86" revision="arcadia-x86" />
 
 </manifest>
