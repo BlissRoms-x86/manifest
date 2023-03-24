@@ -45,7 +45,7 @@ Installing Java 8
 
 **Repo initialization**
    
-    repo init -u https://github.com/BlissRoms/platform_manifest.git -b arcadia-next
+    repo init -u https://github.com/BlissRoms/platform_manifest.git -b arcadia-next --git-lfs
 
 **Sync repo**
 
