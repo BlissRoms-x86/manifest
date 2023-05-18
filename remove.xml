@@ -59,6 +59,7 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/angle" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/minikin" />
@@ -118,6 +119,7 @@
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/nfc" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
