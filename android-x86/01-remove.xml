@@ -11,7 +11,7 @@
 	<remove-project name="platform_device_bliss_sepolicy" />
 	<remove-project name="platform_device_qcom_sepolicy" />
 	<remove-project name="platform_device_qcom_sepolicy_vndr" />
-    <remove-project name="platform/external/angle" />
+    <remove-project name="android_external_angle" />
     <remove-project name="platform/external/drm_hwcomposer" />
     <remove-project name="platform/external/erofs-utils" />
     <remove-project name="platform/external/libdrm" />
