@@ -76,6 +76,7 @@
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
   <project path="system/logging" name="android_system_logging" groups="pdk" remote="lineage" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage" />
+  <project path="system/nfc" name="android_system_nfc" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="lineage" groups="pdk" clone-depth="1" />
