@@ -33,8 +33,8 @@
   <project path="external/drmfb-composer" name="drmfb-composer" remote="BR-x86" revision="master" />
   <project path="external/gbm_gralloc" name="gbm_gralloc" remote="BR-x86" revision="main" />
   <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.114_st-x86" />
-  <project path="external/llvm-project" name="llvm" remote="hm" revision="release_15.x" />
-  <project path="external/mesa" name="mesa" remote="hm" revision="22.3.0_branch" />
+  <project path="external/llvm-project" name="llvm" remote="hm" revision="release_16.x" />
+  <project path="external/mesa" name="mesa" remote="hm" revision="23.1_branch" />
   <project path="external/minigbm" name="minigbm" remote="sg" revision="gbm_mesa" />
   <project path="external/swiftshader" name="hmtheboy154/swiftshader" remote="gl" revision="12l-x86" groups="pdk" />
   <project path="external/swiftshader_egl" name="hmtheboy154/swiftshader" remote="gl" revision="legacy" groups="pdk" />
