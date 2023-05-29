@@ -839,10 +839,7 @@
   <include name="android-x86/00-remotes.xml" />
   <include name="android-x86/01-remove.xml" />
   <include name="android-x86/02-android-x86.xml" />
-  <include name="android-x86/03-device.xml" />
-  <include name="android-x86/04-kernel.xml" />
-  <include name="android-x86/05-extras.xml" />
-  <include name="android-x86/06-others.xml" />
-  <include name="android-x86/07-modified.xml" />
+  <include name="android-x86/03-extras.xml" />
+  <include name="android-x86/04-modified.xml" />
 
 </manifest>
