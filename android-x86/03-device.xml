@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<!-- DEVICE -->
-	<project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="arcadia-x86" sync-s="true" />
-	<project path="device/generic/firmware" name="device_generic_firmware" remote="hm" revision="main" />
-	<project path="device/generic/x86_64" name="platform_device_generic_x86_64" remote="BR-x86" revision="r11" />
-	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="r-x86" />
-
-</manifest>
