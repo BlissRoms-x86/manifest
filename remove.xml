@@ -59,6 +59,8 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/angle" />
+  <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/minikin" />
@@ -101,6 +103,7 @@
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
