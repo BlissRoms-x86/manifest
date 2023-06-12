@@ -18,11 +18,11 @@
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="r-x86" />
   <project path="vendor/intel/hardware/interfaces" name="vendor-hardware-interfaces" remote="sg" revision="12l-x86" sync-s="true" />
 
-	<!-- Device tree -->
-	<project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="arcadia-x86" sync-s="true" />
-	<project path="device/generic/firmware" name="device_generic_firmware" remote="hm" revision="main" />
-	<project path="device/generic/x86_64" name="platform_device_generic_x86_64" remote="BR-x86" revision="r11" />
-	<project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="r-x86" />
+  <!-- Device tree -->
+  <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="arcadia-x86" sync-s="true" />
+  <project path="device/generic/firmware" name="device_generic_firmware" remote="hm" revision="main" />
+  <project path="device/generic/x86_64" name="platform_device_generic_x86_64" remote="BR-x86" revision="r11" />
+  <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="r-x86" />
 
   <!-- Graphics -->
   <project path="external/angle" name="platform/external/angle" remote="aosp" groups="pdk" revision="refs/tags/android-13.0.0_r30" />
@@ -42,11 +42,11 @@
   <!-- Initrd & installer -->
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="arcadia-x86" />
 
-	<!-- Kernel -->
-	<project path="kernel" name="Darkmatter-kernel" remote="hm" sync-s="true" revision="umbral" />
-	<project path="external/kernel-drivers" name="external_kernel-drivers" sync-s="true" remote="sg" revision="5.15_wip" />
-	<project path="external/kernel-drivers/rtw88" name="lwfinger/rtw88" remote="github" revision="master" />
-	<project path="prebuilts/clang/host/linux-x86/clang-r450784" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r450784" remote="gitlab" revision="12.1" />
+  <!-- Kernel -->
+  <project path="kernel" name="Darkmatter-kernel" remote="hm" sync-s="true" revision="umbral" />
+  <project path="external/kernel-drivers" name="external_kernel-drivers" sync-s="true" remote="sg" revision="5.15_wip" />
+  <project path="external/kernel-drivers/rtw88" name="lwfinger/rtw88" remote="github" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r450784" remote="gitlab" revision="12.1" />
 
   <!-- Media HAL & VAAPI drivers -->
   <project path="external/stagefright-plugins" name="stagefright-plugins" remote="sg" revision="12l-x86" />
