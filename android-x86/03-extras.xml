@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Android-Generic Apps -->
-    <project name="android-generic/vendor_prebuilts_agp-apps" path="vendor/prebuilts/agp-apps" remote="gitlab" revision="master" />
+    <project name="android-generic/vendor_prebuilts_agp-apps" path="vendor/agp-apps" remote="gitlab" revision="master" />
 
     <!-- aptX/aptX HD encoders-->
     <project name="external_aosp_aptx" path="external/aosp_aptx" remote="sg" revision="master" />
