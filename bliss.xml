@@ -10,7 +10,7 @@
           fetch="https://github.com/BlissRoms-Devices" />
 
   <remote name="BlissRoms-gitlab"
-          fetch="https://gitlab.com/BlissRoms"
+          fetch="https://gitlab.com/BlissLabs/BlissRoms"
           revision="arcadia" />
   
   <remote name="BR-x86" 
