@@ -1113,5 +1113,6 @@
   <include name="android-x86/02-android-x86.xml" />
   <include name="android-x86/03-extras.xml" />
   <include name="android-x86/04-modified.xml" />
+  <include name="device/surface.xml" />
 
 </manifest>

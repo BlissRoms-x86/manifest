@@ -40,7 +40,7 @@ Please read the [AOSP building instructions](http://source.android.com/source/in
 
 **Repo initialization**
    
-    repo init -u https://github.com/BlissRoms-x86/manifest.git -b arcadia-x86
+    repo init -u https://github.com/BlissRoms-x86/manifest.git -b arcadia-x86-surface
 
 **Sync repo**
 

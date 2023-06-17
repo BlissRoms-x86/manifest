@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="manifest" name="manifest" remote="BR-x86" revision="arcadia-x86" />
+  <project path="manifest" name="manifest" remote="BR-x86" revision="arcadia-x86-surface" />
   <project path="art" name="platform_art" remote="BR-x86" revision="arcadia-x86" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" revision="arcadia-x86" />
   <project path="build/make" name="platform_build" remote="BR-x86" revision="arcadia-x86" >

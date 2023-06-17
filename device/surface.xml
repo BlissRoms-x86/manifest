@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+          fetch="https://github.com/" />
+
+    <remove-project name="device_generic_common" />
+    <remove-project name="Darkmatter-kernel" />
+
+	<!-- For BlissOS 15.8 -->
+    <project path="device/generic/common" name="supremegamers/device_generic_common" remote="github" revision="bliss/12l-x86_surface" sync-s="true" />
+
+    <!-- Kernel -->
+    <project path="kernel" name="hmtheboy154/Darkmatter-kernel" remote="github" revision="umbral-surface" sync-s="true" />
+
+    <!-- iptsd required components -->
+    <!-- libinih -->
+    <project path="external/inih" name="supremegamers/inih" remote="github" revision="master" />
+
+    <!-- CLI11 -->
+    <project path="external/CLI11" name="supremegamers/CLI11" remote="github" revision="aosp" />
+
+    <!-- Microsoft-GSL -->
+    <project path="external/Microsoft-GSL" name="supremegamers/GSL" remote="github" revision="aosp" />
+
+    <!-- libhidrd -->
+    <project path="external/hidrd" name="supremegamers/hidrd" remote="github" revision="master" />
+
+    <!-- spdlog -->
+    <project path="external/spdlog" name="supremegamers/spdlog" remote="github" revision="v1.x" />
+
+    <!-- fmtlib9 -->
+    <project path="external/fmtlib9" name="supremegamers/fmt" remote="github" revision="android" />
+
+    <!-- eigen3 -->
+    <project path="external/eigen3" name="supremegamers/eigen" remote="github" revision="android" />
+
+</manifest>
