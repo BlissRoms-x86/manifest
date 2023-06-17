@@ -52,7 +52,7 @@ Initializing Repository
 **Repo initialization**
     
     ## Releases Repo ##
-    repo init -u https://github.com/BlissRoms-x86/manifest.git -b r11-x86 --git-lfs
+    repo init -u https://github.com/BlissRoms-x86/manifest.git -b r11-x86-surface --git-lfs
 
 **Sync repo**
 

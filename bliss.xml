@@ -28,7 +28,7 @@
           revision="lineage-18.1" />
 
   <!-- General Repos -->
-  <project path="manifest" name="manifest" remote="BR-x86" revision="r11-x86" />
+  <project path="manifest" name="manifest" remote="BR-x86" revision="r11-x86-surface" />
   <project path="art" name="platform_art" remote="BR-x86" />
   <project path="bionic" name="platform_bionic" remote="BR-x86" />
   <project path="build/blueprint" name="platform_build_blueprint" remote="BR-x86" />
