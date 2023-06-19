@@ -39,8 +39,8 @@ Please read the [AOSP building instructions](http://source.android.com/source/in
 ## Initializing Repository
 
 **Repo initialization**
-   
-    repo init -u https://github.com/BlissRoms-x86/manifest.git -b arcadia-x86-surface
+
+    repo init -u https://github.com/BlissRoms-x86/manifest.git -b arcadia-x86-surface --git-lfs
 
 **Sync repo**
 
