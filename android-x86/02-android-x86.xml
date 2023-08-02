@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="arcadia-x86" />
   <project path="external/alsa-lib" name="alsa-lib" remote="sg" revision="pie-x86" />
   <project path="external/alsa-utils" name="alsa-utils" remote="sg" revision="pie-x86" />
   <project path="external/alsa-ucm-conf" name="alsa-ucm-conf" remote="sg" revision="pie-x86" />
@@ -21,7 +20,6 @@
   <project path="external/libva-utils" name="libva-utils" remote="sg" revision="master" />
   <project path="external/llvm-project" name="llvm" remote="hm" revision="release_15.x" />
   <project path="external/mesa" name="mesa" remote="hm" revision="22.3.0_branch" />
-  <project path="external/minigbm" name="minigbm" remote="sg" revision="gbm_mesa_13" />
   <project path="external/toybox" name="android_external_toybox" remote="BR-x86" revision="arcadia-x86" />
   <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="r-x86" />
   <project path="external/stagefright-plugins" name="stagefright-plugins" remote="sg" revision="13-x86" />

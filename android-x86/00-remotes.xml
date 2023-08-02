@@ -21,5 +21,6 @@
   <remote name="hm" fetch="https://github.com/hmtheboy154" />
   <remote name="axon" fetch="https://github.com/axonasif/" />
   <remote name="sg" fetch="https://github.com/supremegamers" />
+  <remote name="bbp" fetch="ssh://git@github.com/BlissBass-Private/" />
 
 </manifest>

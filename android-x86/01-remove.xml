@@ -6,6 +6,7 @@
 	<remove-project name="platform_art" />
 	<remove-project name="platform_bionic" />
 	<remove-project name="platform_build_make" />
+	<remove-project name="platform_build_soong" />
     <remove-project name="platform/development" />
     <remove-project name="platform_bootable_recovery" />
 	<remove-project name="platform_device_bliss_sepolicy" />
