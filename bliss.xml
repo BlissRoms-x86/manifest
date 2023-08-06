@@ -10,7 +10,7 @@
           fetch="https://github.com/BlissRoms-Devices" />
 
   <remote name="BlissRoms-gitlab"
-          fetch="https://gitlab.com/BlissRoms"
+          fetch="https://gitlab.com/BlissLabs/BlissRoms"
           revision="arcadia" />
   
   <remote name="BR-x86" 
@@ -116,7 +116,7 @@
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" /> 
-  <project path="vendor/gms" name="platform_vendor_gms" remote="BlissRoms-gitlab" clone-depth="1" revision="arcadia-next" />
+  <project path="vendor/gms" name="platform_vendor_gms_old" remote="BlissRoms-gitlab" clone-depth="1" revision="arcadia-next" />
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissRoms" />
   <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="BlissRoms-gitlab" clone-depth="1" revision="typhoon" />
   <project path="vendor/pixel-framework" name="platform_vendor_pixel-framework" remote="BlissRoms" />
