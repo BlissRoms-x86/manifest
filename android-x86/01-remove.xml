@@ -37,7 +37,8 @@
     <remove-project name="platform_system_bt" />
     <remove-project name="platform_system_core" />   
     <remove-project name="platform/system/hardware/interfaces" />   
-    <remove-project name="platform/system/linkerconfig" />   
+    <remove-project name="platform/system/linkerconfig" />
+    <remove-project name="platform_system_sepolicy" />
     <remove-project name="platform_system_vold" />
     <!-- Remove some ROM-made repo -->
     <remove-project name="platform_vendor_bliss" />
