@@ -142,4 +142,10 @@
   <remove-project name="platform/packages/providers/BookmarkProvider" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
 
+  <remove-project name="platform/packages/apps/Car/Settings" />
+  <remove-project name="platform/packages/apps/Traceur" />
+  <remove-project name="platform/packages/apps/TvSettings" />
+  <remove-project name="platform/tools/apksig" />
+  <remove-project name="platform/external/freetype" />
+
 </manifest>
