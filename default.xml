@@ -25,8 +25,10 @@
   
   <default remote="aosp" revision="refs/tags/android-12.1.0_r22" sync-j="4"/>
   
+  <project name="BlissRoms-x86/kernel_common" path="kernel" remote="ghub" revision="edb0bf4e7c5e47e76a2ffc21610768c7c332cbc0" upstream="umbral-20230822" dest-branch="umbral-20230822" sync-s="true"/>
   <project name="BlissRoms-x86/platform_packages_apps_Camera2" path="packages/apps/Camera2" remote="ghub" revision="3a6e06671ffb3e8461573a606fb5bfc3add28815" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
-  <project name="Darkmatter-kernel" path="kernel" remote="hm" revision="ab1c1647ca686c97e42e5e3935133da105217b27" upstream="umbral" dest-branch="umbral" sync-s="true"/>
+  <project name="BlissRoms-x86/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="ghub" revision="860e4472792d1e1a62c5b72b4fcd56b3fd69d151" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="LineageOS/android_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="ghub" revision="2b2bf5ba8844f54ca685a3db831e8c4053015280" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="alsa-lib" path="external/alsa-lib" remote="sg" revision="875bc84f28e198ee1ed614d8f26e85e176d9953e" upstream="pie-x86" dest-branch="pie-x86"/>
   <project name="alsa-ucm-conf" path="external/alsa-ucm-conf" remote="sg" revision="21660aac405eec1a021a1a8f605cce8048c37aaf" upstream="pie-x86" dest-branch="pie-x86"/>
   <project name="alsa-utils" path="external/alsa-utils" remote="sg" revision="0fecd09a49472c5b54d527246b636233c5e7a251" upstream="pie-x86" dest-branch="pie-x86"/>
@@ -38,20 +40,21 @@
   <project name="android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="lineage" revision="d9f8441d418c9dbf469accaba0e2447509330567" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
   <project name="android_external_armnn" path="external/armnn" remote="lineage" revision="a8874c08bee9c863092ebb06849fccd81c87f785" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-lassen"/>
   <project name="android_external_bash" path="external/bash" remote="lineage" revision="9f59ea3199a83697b4e1adcd4ac35484ac824c67" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
-  <project name="android_external_chromium-webview_patches" path="external/chromium-webview/patches" remote="lineage" revision="acd8a98b8d4afdaa453ac5f25880e9674605667f" upstream="main" dest-branch="main" groups="pdk">
+  <project name="android_external_chromium-webview_patches" path="external/chromium-webview/patches" remote="lineage" revision="54a6f96e4439f860bd3509aba8a866d6f9b71a58" upstream="main" dest-branch="main" groups="pdk">
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk"/>
     <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk"/>
     <linkfile src="README" dest="external/chromium-webview/README"/>
   </project>
-  <project name="android_external_chromium-webview_prebuilt_arm" path="external/chromium-webview/prebuilt/arm" remote="lineage" revision="80e30cebae93bb9c717c0dd3a8c6c3d2dfc0079e" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
-  <project name="android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" remote="lineage" revision="1a7d42b6e2aa4662b5884bb291162873a68652d7" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
-  <project name="android_external_chromium-webview_prebuilt_x86" path="external/chromium-webview/prebuilt/x86" remote="lineage" revision="e4645fb137a1734cff679bbee3280c54d4d1a27a" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
-  <project name="android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" remote="lineage" revision="4c0eb44bf8fcec1a48d2c44c0e82c6b99ff7f70a" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_arm" path="external/chromium-webview/prebuilt/arm" remote="lineage" revision="9792d33d8757b0f2a712edc04f727487460dddea" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" remote="lineage" revision="8760bd64b61d81ea4f98678373ff6267cd122118" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_x86" path="external/chromium-webview/prebuilt/x86" remote="lineage" revision="9adf3cd9a79d737b5e0f7f51fa67eaeaa2d433f1" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" remote="lineage" revision="9b1673b225842bdbc1edc4071a9c23723e7806b3" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
   <project name="android_external_dtc" path="external/dtc" remote="lineage" revision="6c6c2f97320da1625a2d35e9086b5c4b41c49787" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk"/>
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="lineage" revision="582d894c116bcef635491b9f9eae38a12499758b" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk"/>
   <project name="android_external_exfatprogs" path="external/exfatprogs" remote="lineage" revision="2f4a66f1eeb6284d5a5ae31d81b80d6177406a4a" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="android_external_expat" path="external/expat" remote="lineage" revision="b3482b704e42238e508d0f974a3c417b25409b5f" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk"/>
   <project name="android_external_ffmpeg" path="external/ffmpeg" remote="sg" revision="0ec156b599e2bb0a5d40f7ce0b8b337a81347ded" upstream="release/5.1" dest-branch="release/5.1"/>
+  <project name="android_external_freetype" path="external/freetype" remote="lineage" revision="e73609cb5c40af163a43061f9937e4fd6964fd41" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk"/>
   <project name="android_external_gptfdisk" path="external/gptfdisk" remote="lineage" revision="08af84d346d0806185db4c61693121e659f100ff" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk"/>
   <project name="android_external_htop" path="external/htop" remote="lineage" revision="6e15b36adc280daf996abc87d7684aed22732688" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="android_external_json-c" path="external/json-c" remote="lineage" revision="f14798f08614523f6d9f52c6bacdb425e8dac664" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
@@ -96,7 +99,7 @@
     <linkfile src="os_pickup_qssi_bt.bp" dest="device/qcom/qssi/Android.bp"/>
   </project>
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="lineage" revision="c23ba18f5fec994489d0a296546cb0e7c294d157" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qcom_audio,pdk-qcom"/>
-  <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8953/audio" remote="lineage" revision="22860727b031bedee31f8faceeb6d21f0a86589c" upstream="lineage-19.1-caf-msm8953" dest-branch="lineage-19.1-caf-msm8953" groups="qcom,msm8953"/>
+  <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8953/audio" remote="lineage" revision="d7e2d8e90cf6b95736898c65def2ff8dd2dd6c7c" upstream="lineage-19.1-caf-msm8953" dest-branch="lineage-19.1-caf-msm8953" groups="qcom,msm8953"/>
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="lineage" revision="dc179c8962e809222334afc30b182bf293b97d31" upstream="lineage-19.1-caf-msm8996" dest-branch="lineage-19.1-caf-msm8996" groups="qcom,legacy-qcom"/>
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="lineage" revision="7c876ef1284621789ab1bfb8b9530f5efe6dc46f" upstream="lineage-19.1-caf-msm8998" dest-branch="lineage-19.1-caf-msm8998" groups="qcom,legacy-qcom"/>
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sdm845/audio" remote="lineage" revision="8e67bf9cbd96710fbeb8c7c871cc5bfc7d3d91fd" upstream="lineage-19.1-caf-sdm845" dest-branch="lineage-19.1-caf-sdm845" groups="qcom,sdm845"/>
@@ -137,14 +140,16 @@
   <project name="android_hardware_ril" path="hardware/ril" remote="lineage" revision="decca067c5bc0e2eb0c824837506168151d98c10" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk"/>
   <project name="android_kernel_configs" path="kernel/configs" remote="lineage" revision="ba916dd10a79dfe0851e02109451588c8444d838" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="vts,pdk"/>
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="lineage" revision="725c555df1337810c5637bc49f8203a14b6a7b5c" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,pdk-qcom"/>
-  <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="lineage" revision="66f9445e670b33b71abe46790ed9116aaf4b83d9" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-fs"/>
+  <project name="android_packages_apps_Car_Settings" path="packages/apps/Car/Settings" remote="lineage" revision="b532db8cc62cf9d0a8c73e1e9f0ba3cf69ff173b" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-fs"/>
+  <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="lineage" revision="5f454b795da1800794d6f63217bee72966ff5924" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-fs"/>
   <project name="android_packages_apps_EmergencyInfo" path="packages/apps/EmergencyInfo" remote="lineage" revision="174b50f8221c5878f77885115ab51fc90cf427af" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-fs"/>
-  <project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="lineage" revision="dca10fe5c540ed75d24bfbe3f3c4e6138ef58f0e" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
+  <project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="lineage" revision="4d59984019d490dafff43641ce6460f794e397fd" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="lineage" revision="f7fb3170b1e6e3dbb2d1915254f9730ac70bb3f8" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
-  <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="lineage" revision="3ce951b6406fc7c5a7d3c6fb68f39e019e89034c" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
+  <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="lineage" revision="490c156ba0104d0e97495a8d6b771435164ac1f8" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="lineage" revision="7c346e3d7ed7f6960240881f0a3bac4e15a6efd8" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="apps_nfc,pdk-fs"/>
-  <project name="android_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="lineage" revision="2b2bf5ba8844f54ca685a3db831e8c4053015280" upstream="lineage-19.1" dest-branch="lineage-19.1" />
-  <project name="android_packages_modules_NeuralNetworks" path="packages/modules/NeuralNetworks" remote="lineage" revision="01ea3da8680f5e84d17481eca3a0bf261ed91143" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="android_packages_apps_Traceur" path="packages/apps/Traceur" remote="lineage" revision="b5e983189ce82742037f76e3ae1340e4cb74d80e" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-fs"/>
+  <project name="android_packages_apps_TvSettings" path="packages/apps/TvSettings" remote="BR-x86" revision="add38ed43d16a0797dea272d5a04056f5331e810" upstream="arcadia-next" dest-branch="arcadia-next"/>
+  <project name="android_packages_modules_NeuralNetworks" path="packages/modules/NeuralNetworks" remote="lineage" revision="fb6396bb15257090ec327781877e8a4ca9735182" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-cw-fs,pdk-fs"/>
   <project name="android_packages_modules_common" path="packages/modules/common" remote="lineage" revision="40c73c9b73e44706671df071dc22c335dfbee64b" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-cw-fs,pdk-fs"/>
   <project name="android_packages_providers_BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" remote="lineage" revision="56bad6270a52bac2ac1ea7c9524d6e2ec001361b" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-cw-fs,pdk-fs"/>
   <project name="android_packages_providers_BookmarkProvider" path="packages/providers/BookmarkProvider" remote="lineage" revision="0730b1783a1be4e86a1ede16f664efec0eaeda74" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-cw-fs,pdk-fs"/>
@@ -152,8 +157,8 @@
   <project name="android_packages_providers_CallLogProvider" path="packages/providers/CallLogProvider" remote="lineage" revision="51e50de218110378b602b9294c9b83dfb112aa0c" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-cw-fs,pdk-fs"/>
   <project name="android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="lineage" revision="030d60da325ac7505d9fc392e40ac9afb3055308" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-cw-fs,pdk-fs"/>
   <project name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="lineage" revision="737038d5af229d46107696c4b1f1b1621d1a8882" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="lineage" revision="10f0ead36fe9a42df43863bf3fd4c0ec67d5240f" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" revision="e0fb04f324852288cd65169e4728be71c9e050bb" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
+  <project name="android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="lineage" revision="69456869a17bff5052fecfba127faf0d9af52a5d" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" revision="c34dd19e6cf65eb8cf43afa800371623e07a227e" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="android_prebuilts_build-tools" path="prebuilts/build-tools" remote="lineage" revision="36b93f12a381e5d6d6d7996e9b816ed23f0d2f10" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk" clone-depth="1"/>
   <project name="android_prebuilts_extract-tools" path="prebuilts/extract-tools" remote="lineage" revision="eb05519ca5b4a796ea3bf8c2c807342839cabc9b" upstream="lineage-19.1" dest-branch="lineage-19.1" clone-depth="1"/>
   <project name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" remote="lineage" revision="bde6053ede75d819106d6a4eec630578c8752437" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk,darwin,arm" clone-depth="1"/>
@@ -168,13 +173,14 @@
   <project name="android_system_libhidl" path="system/libhidl" remote="lineage" revision="c147bfaed9b2f42afb1b5ab928c0b6719b3fe24a" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk"/>
   <project name="android_system_linkerconfig" path="system/linkerconfig" remote="BR-x86" revision="4d72f156a89021aabde0569815a014e149a7c20a" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="android_system_logging" path="system/logging" remote="lineage" revision="dc2db268eaa2012461ce7e01aab4e8e47eb1d6d2" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk"/>
-  <project name="android_system_nfc" path="system/nfc" remote="lineage" revision="02de64c7a5464d73ddd926ac066967070b223b5a" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
+  <project name="android_system_nfc" path="system/nfc" remote="lineage" revision="4514f6081f3a7ffabfacd83c0330ddbc774a77d5" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="android_system_tools_mkbootimg" path="system/tools/mkbootimg" remote="lineage" revision="e8b10356a6335b29b3e7fa044bf271d385826b55" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
+  <project name="android_tools_apksig" path="tools/apksig" remote="lineage" revision="26529aa3f2308795afe8f4fd1ddf377120277cbf" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk,tradefed"/>
   <project name="android_tools_extract-utils" path="tools/extract-utils" remote="lineage" revision="c12d3941893a6d1187986d85be04308104d13269" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="lineage" revision="e0b679866e3f9bcb350b9e0ae809fd560e6ab796" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
   <project name="android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="lineage" revision="222d05de80e1aad205c0246d35c2df5af6a39261" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
   <project name="android_vendor_nxp_nfc" path="vendor/nxp/nfc" remote="lineage" revision="7b3d30c22a56c8200d3a87a2a120497382103633" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="nxp"/>
-  <project name="android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="lineage" revision="ae94f63eb850038b0a41e98403fb89e5314bc92c" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
+  <project name="android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="lineage" revision="8d3e1167e960cd341591dc726786c9430cf21c37" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
   <project name="android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="lineage" revision="f96583d0ee45dd177f7404040d87a1a4af9d3a4e" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
   <project name="android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/pn5xx/halimpl" remote="lineage" revision="86e47c887aa0d92d38267d774f1412861158da27" upstream="lineage-19.1-pn5xx" dest-branch="lineage-19.1-pn5xx" groups="qcom,sdm845"/>
   <project name="android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="lineage" revision="85118f91a90b97d31d2c4d6f51f8ab27f8097f77" upstream="lineage-19.1-sn100x" dest-branch="lineage-19.1-sn100x" groups="qcom,lahaina"/>
@@ -193,11 +199,11 @@
   <project name="android_vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" remote="lineage" revision="69f7b0550973a0f6bfb3ff9a244b75dfe008c781" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom"/>
   <project name="android_vendor_qcom_opensource_display-commonsys" path="vendor/qcom/opensource/commonsys/display" remote="lineage" revision="9fceface2db07457e0253576ca63d4fb86a75155" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" revision="1b983da4adfc9318dae482ac1b93387852399e88" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
-  <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="lineage" revision="503ee26d16c521ccd339d7c84da552c3afbde72e" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
+  <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="lineage" revision="a13ad4db40c90d1cd380291eea9e2e8dabf8bb14" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="lineage" revision="e4f86a7a878d672a8455b4d5af3664c7cb50bf6a" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" remote="lineage" revision="bec78ecec03fe60e16e237a34591a4fbbb690c76" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="lineage" revision="0f465490f1956d090de82aad5f57ebebb350b438" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,lahaina"/>
-  <project name="android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="lineage" revision="b6b20749d6ab1520ab6d0e1c89d849d25e4a064d" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
+  <project name="android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="lineage" revision="52faf7ee76d7d54e6cafd3dbc0d1df24424310e2" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="lineage" revision="fdf8503199cc34e2c03c0151881fb659e574ebb9" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,lahaina"/>
   <project name="android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" remote="lineage" revision="7f62e2e05a5c3031453b3e232160aebed02c8434" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,lahaina"/>
   <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="lineage" revision="1a1e0f178b3e899ab6162bc164baee9eaf72b33b" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="qcom,lahaina"/>
@@ -228,18 +234,18 @@
   <project name="device/google/vrservices" revision="67138ba6299bbfa77a93a03e6d2ae37b8c96526e" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="device/sample" revision="f408a1b4662ba1dda78f2843584cc3b18196cef8" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="device_generic_common" path="device/generic/common" remote="BR-x86" revision="d6f6c278f26ce05b0db205767ba5656ca2aa6533" upstream="arcadia-x86" dest-branch="arcadia-x86" sync-s="true"/>
-  <project name="device_generic_firmware" path="device/generic/firmware" remote="hm" revision="2e615d278d553470408cbd99f2f113b43f26450f" upstream="main" dest-branch="main"/>
-  <project name="drm_hwcomposer.git" path="external/drm_hwcomposer" remote="sg" revision="345b3cbd7755e342e6ba61d15456f3d55b9a4638" upstream="main" dest-branch="main"/>
-  <project name="drm_hwcomposer.git" path="external/drm_hwcomposer_celadon" remote="sg" revision="a101afc2cc2ed70fb9252e33e569da4f2ed645b4" upstream="celadon" dest-branch="celadon"/>
+  <project name="device_generic_firmware" path="device/generic/firmware" remote="hm" revision="714914a0751f5a1c2f50583fe6164c1b1dba1412" upstream="main" dest-branch="main"/>
+  <project name="drm_hwcomposer.git" path="external/drm_hwcomposer" remote="sg" revision="38b307cdb68e02c3f38ff1b569e6fb85ae53dbc7" upstream="main" dest-branch="main"/>
+  <project name="drm_hwcomposer.git" path="external/drm_hwcomposer_celadon" remote="sg" revision="dc2ea64db00fa623243f5a7d35c23f81a0c5fea2" upstream="celadon" dest-branch="celadon"/>
   <project name="drmfb-composer" path="external/drmfb-composer" remote="BR-x86" revision="156ccca213f4f088e152bb4ff809c377ca7852b9" upstream="master" dest-branch="master"/>
   <project name="external_aosp_aptx" path="external/aosp_aptx" remote="sg" revision="608b873c40e7dedce86e8c6bc945a2736908577a" upstream="master" dest-branch="master"/>
   <project name="external_erofs-utils" path="external/erofs-utils" remote="sg" revision="9e66fbcc323175eff7876a0e84ef01652e4e91d5" upstream="12l" dest-branch="12l"/>
-  <project name="external_kernel-drivers" path="external/kernel-drivers" remote="sg" revision="19a4c454f9d2b1b399cd32c77fdbb7cd9aaf5b74" upstream="5.15_wip" dest-branch="5.15_wip" sync-s="true"/>
+  <project name="external_kernel-drivers" path="external/kernel-drivers" remote="sg" revision="1e0440b53c7022d9895f6e7461dbf80dab68170c" upstream="5.15_wip" dest-branch="5.15_wip" sync-s="true"/>
   <project name="external_unlock" path="external/faceunlock" remote="BlissRoms-gitlab" revision="72017e95f4b89cf94fed9d4315e0ea38fc6a9a99" upstream="arcadia" dest-branch="arcadia"/>
-  <project name="frameworks_av" path="frameworks/av" remote="BR-x86" revision="4d1b54295a6f6bea3abe079b45649a2f0d0d1b1a" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="frameworks_av" path="frameworks/av" remote="BR-x86" revision="68d3999d5f975dcb8bc171b7c2bb14a91a4bd7c2" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="frameworks_native" path="frameworks/native" remote="BR-x86" revision="0543e65f18275cac5111dfceaa63109c7749a3ca" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
-  <project name="gbm_gralloc" path="external/gbm_gralloc" remote="BR-x86" revision="039d9db6dfee244aa6a9885b6cc8e151f58f83d4" upstream="main" dest-branch="main"/>
-  <project name="gmmlib" path="hardware/intel/common/gmmlib" remote="sg" revision="c05608ae5e4ddc648aeee89558464438facb758d" upstream="latest" dest-branch="latest"/>
+  <project name="gbm_gralloc" path="external/gbm_gralloc" remote="BR-x86" revision="1ad5fd5a226cc2c32103e351ecf2404aaa9216d2" upstream="main" dest-branch="main"/>
+  <project name="gmmlib" path="hardware/intel/common/gmmlib" remote="sg" revision="aac8272ad770435a175104e672c581bfc23fc6ac" upstream="latest" dest-branch="latest"/>
   <project name="hardware-x86power" path="hardware/x86power" remote="sg" revision="458578936b2f77374eeaa16cdc1d23deb327a9b9" upstream="r11" dest-branch="r11"/>
   <project name="hardware_drm_gralloc" path="external/drm_gralloc" remote="maurossi" revision="4b86f3e4fc7dd6de9b04e8bb33e73b2255d53c51" upstream="mesa-21.2" dest-branch="mesa-21.2"/>
   <project name="hcitools" path="external/hcitools" remote="sg" revision="8a75944fef92aab98b24d209f1eca03735bc5a95" upstream="12l-x86" dest-branch="12l-x86"/>
@@ -261,16 +267,16 @@
   <project name="kernel/prebuilts/mainline/arm64" revision="5e247fe827692adb03c68e021974d8d641d4d63c" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk" clone-depth="1"/>
   <project name="kernel/tests" revision="a767ef06de075dab6ea26fe2314f7860d5b114e5" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="vts,pdk"/>
   <project name="libbt-vendor-intel" path="hardware/libbt-vendor-intel" remote="sg" revision="e98e61e99dbe36959db3e57652d230d31c24f428" upstream="master" dest-branch="master"/>
-  <project name="libva" path="hardware/intel/common/libva" remote="sg" revision="de64df7c2f2f05d29fdd075bea536ffb3a5c2ebc" upstream="11-x86" dest-branch="11-x86"/>
-  <project name="libva-utils" path="external/libva-utils" remote="sg" revision="d4fbc47b6a677d3e63f2b17645040c0cad18464e" upstream="master" dest-branch="master"/>
-  <project name="llvm" path="external/llvm-project" remote="hm" revision="532d9a7b2d259fb2d2a6059ea6d428c55f90ec58" upstream="release_16.x" dest-branch="release_16.x"/>
-  <project name="lwfinger/rtw88" path="external/kernel-drivers/rtw88" remote="github" revision="7076e934c9c5d69b5a67d22a952d0780f87059fc" upstream="master" dest-branch="master"/>
-  <project name="manifest" remote="BR-x86" revision="97881a3d7bb4c60ff9d6948f04050dfe65f129ad" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
-  <project name="media-driver" path="hardware/intel/common/media-driver" remote="sg" revision="466c6127dd304464d0ff33d926302f7c1bbc43cf" upstream="22.6" dest-branch="22.6"/>
-  <project name="mesa" path="external/mesa" remote="hm" revision="3a5ed3bbc62e1e68c6cdd01090cf657c5c8aa5fb" upstream="23.1_branch" dest-branch="23.1_branch"/>
+  <project name="libva" path="hardware/intel/common/libva" remote="sg" revision="c520bc7602ff630ec37540d9f9127d5792488eeb" upstream="11-x86" dest-branch="11-x86"/>
+  <project name="libva-utils" path="external/libva-utils" remote="sg" revision="6964c939609346c5f7f64a873ddd271a817e702d" upstream="master" dest-branch="master"/>
+  <project name="llvm" path="external/llvm-project" remote="hm" revision="5737eecde1d4ac782415a386c3095d78b6124670" upstream="release_16.x" dest-branch="release_16.x"/>
+  <project name="lwfinger/rtw88" path="external/kernel-drivers/rtw88" remote="github" revision="9b6fe04a741a6b0a1edc5ca134927784bff033a5" upstream="master" dest-branch="master"/>
+  <project name="manifest" remote="BR-x86" revision="ecb04503239ecca46234cdcf7a53ece7062b995e" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="media-driver" path="hardware/intel/common/media-driver" remote="sg" revision="5bea0be8573c2db58850e8e1eb6f93b82b39d6df" upstream="23.2" dest-branch="23.2"/>
+  <project name="mesa" path="external/mesa" remote="hm" revision="48167688453bd502e5574c185ae9f3660963ac56" upstream="23.1_branch" dest-branch="23.1_branch"/>
   <project name="minigbm" path="external/minigbm" remote="sg" revision="6e7402f1e7308c2a8d8185842ae532871de05a82" upstream="12l-x86" dest-branch="12l-x86"/>
   <project name="packages_apps_FaceUnlockService" path="packages/apps/FaceUnlockService" remote="BlissRoms-gitlab" revision="2ba796ab92c5bf629d60888b98ef316cdf2246d9" upstream="arcadia" dest-branch="arcadia"/>
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="BR-x86" revision="e949b077af3cd6205f0ce878cf8d075977f8ed2d" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="BR-x86" revision="800e806a56dd88d72be053b973c6241afea8c3fd" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="packages_apps_TSCalibration2" path="packages/apps/TSCalibration2" remote="BR-x86" revision="aca92e7653bd98cd4dfe9552e45ad644d5aff603" upstream="13-x86" dest-branch="13-x86"/>
   <project name="platform/bootable/libbootloader" path="bootable/libbootloader" revision="b44eeefd365e023a96ea36682cc60b46827a47cc" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="vts,pdk"/>
   <project name="platform/build/bazel" path="build/bazel" revision="f3015c3bbd520d95216123e6761a2860e17acebf" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk">
@@ -378,7 +384,6 @@
   <project name="platform/external/flatbuffers" path="external/flatbuffers" revision="9ead39923633f4454b46c8b0ae6ebe4f98c449a0" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="platform/external/fmtlib" path="external/fmtlib" revision="15656e588e7119c989c94d10650055bf2fa23be2" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="platform/external/fonttools" path="external/fonttools" revision="c1d5ba5438b639565b0c35ab2cd58555d0fa7645" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
-  <project name="platform/external/freetype" path="external/freetype" revision="f9102744be779483675fbc5318be131c3d0284ed" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="platform/external/fsck_msdos" path="external/fsck_msdos" revision="6df6319da8adf369af3a692adba484afc7d87ed7" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="platform/external/fsverity-utils" path="external/fsverity-utils" revision="388ef29f71dfe906687ad5a6c37c4bc96f45e1fb" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="platform/external/gemmlowp" path="external/gemmlowp" revision="7a2032172179e15bb194d97e9719f8ffa92ae007" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
@@ -949,7 +954,6 @@
   <project name="platform/packages/apps/Car/Provision" path="packages/apps/Car/Provision" revision="8d66f0da382ff60741fa436365fce3a95fac90e4" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
   <project name="platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio" revision="bc674378d8dc3a07442921bdb748cdb022115be1" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
   <project name="platform/packages/apps/Car/RotaryController" path="packages/apps/Car/RotaryController" revision="50b802f464a2d63dc0b085535891bb8c24303489" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
-  <project name="platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings" revision="b2dbd3f911245da059bde043a7b21d84806b9193" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
   <project name="platform/packages/apps/Car/SettingsIntelligence" path="packages/apps/Car/SettingsIntelligence" revision="a97031a7e8d0421faecae979159229b3b9d853af" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
   <project name="platform/packages/apps/Car/SystemUI" path="packages/apps/Car/SystemUI" revision="8db03c3c65c802eff9ada6c63e17f12c60b921e3" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
   <project name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater" revision="4aa8e9a668c0034aa210d8a28915f83ea5f123ce" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
@@ -988,8 +992,6 @@
   <project name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" revision="72673fb14a6f0bbbf7323fc4ee4a956de23e857f" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData" revision="9369391c9385cb7cc880dc03ec34706332ba4176" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater" revision="7a785bef7d7c18accf590a856dbfba82ceb368ac" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
-  <project name="platform/packages/apps/Traceur" path="packages/apps/Traceur" revision="9dd81ae68ec52e4b0d941e80a793435415666c7b" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
-  <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="14a2deac0d2740077fc682f515969d4049bcb75b" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
   <project name="platform/packages/apps/UniversalMediaPlayer" path="packages/apps/UniversalMediaPlayer" revision="3a912bc775d662a075ed7c8d278e77d780c57213" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22"/>
   <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="5c7f50d877c7cef8870019127232aefead8a31c1" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
   <project name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2" revision="c21fb4624f8e5bb321ea48165a08b03be07f265e" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs"/>
@@ -1042,7 +1044,7 @@
   <project name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="90d40ed0c7855653d569186f24228c813a642f28" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk" clone-depth="1"/>
   <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="2459c02a893af1c5108cfaa7807e454e8f012ec5" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk" clone-depth="1"/>
   <project name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="ad1ed390874f1b636d28bd7d0191883fe2033a7d" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk,darwin" clone-depth="1"/>
-  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="2cddc8015b6a61bbcb8bb58e55d67e4e4b4db6d2" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk" clone-depth="10"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="2cddc8015b6a61bbcb8bb58e55d67e4e4b4db6d2" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk" clone-depth="1"/>
   <project name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" revision="8a1a7882d5a7540ea17a5b1e35682796d4626af9" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs" clone-depth="1"/>
   <project name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="7880027af1a44ffe1c2b4ef8c874ff9c3a414b69" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs" clone-depth="1"/>
   <project name="platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk" revision="57eacf50cd83dd0919a8b4478bf07fa000c74d5c" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk-fs" clone-depth="1"/>
@@ -1145,7 +1147,6 @@
   <project name="platform/tools/aadevtools" path="tools/aadevtools" revision="c643acf55d14865e817de02386eceda6be95cb0b" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="platform/tools/acloud" path="tools/acloud" revision="965713390056bfd27dd4bc22558169eade3ff2f5" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="tools,vts,projectarch,pdk,tradefed"/>
   <project name="platform/tools/apifinder" path="tools/apifinder" revision="511638b7a7e7512a8c9538ecf96b44c6e6467d98" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk,tools"/>
-  <project name="platform/tools/apksig" path="tools/apksig" revision="5d01d1d2178e9841c730c589d2f8d5f716cef32b" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk,tradefed"/>
   <project name="platform/tools/apkzlib" path="tools/apkzlib" revision="a07241891a91496d7ba8168ce4678ea1d5948a4b" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk,tradefed"/>
   <project name="platform/tools/asuite" path="tools/asuite" revision="bcfeabd53430425dab6e30e2733c7ffe1717ad50" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk"/>
   <project name="platform/tools/carrier_settings" path="tools/carrier_settings" revision="50d35183ef3987bccd80375c37fd1fe8ef42a4ee" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="tools"/>
@@ -1164,7 +1165,7 @@
   <project name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" revision="477f1e58308678cfca2559bf9af19be1c1e6da24" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="pdk,tradefed"/>
   <project name="platform/tools/treble" path="tools/treble" revision="1b18efe53304a3c3d7112e91250b885ed5437a9e" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="tools,pdk"/>
   <project name="platform/tools/trebuchet" path="tools/trebuchet" revision="6d2c711220d72620090941cf14ac33037d402523" upstream="refs/tags/android-12.1.0_r22" dest-branch="refs/tags/android-12.1.0_r22" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs"/>
-  <project name="platform_art" path="art" remote="BR-x86" revision="b373c74b168c63fe797cde4f986312b45b1874aa" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="platform_art" path="art" remote="BR-x86" revision="9a5a5ca3355740425502e848a1f9e76e44eb5efc" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_bionic" path="bionic" remote="BR-x86" revision="145acec53cc398129499fdc2f21f4d30933e8393" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="BR-x86" revision="b828e8efe675c5d7fae74888f874fbf9afa6297d" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_build" path="build/make" remote="BR-x86" revision="fa58cd4e1cae2051b92db6b21aad0e645d454dbd" upstream="arcadia-x86" dest-branch="arcadia-x86">
@@ -1187,7 +1188,7 @@
   <project name="platform_external_colorkt" path="external/colorkt" remote="BlissRoms" revision="c1f631fecaa8a36e69237b1913602675aa26c07a" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_external_libdrm" path="external/libdrm" remote="BR-x86" revision="62097b80fedf4bec73a53094a567a71019f59363" upstream="2.4.114_st-x86" dest-branch="2.4.114_st-x86"/>
   <project name="platform_external_themelib" path="external/themelib" remote="BlissRoms" revision="9b8f8b3b1797bd3b8718775df4ef35f9b4cafcb5" upstream="arcadia-next" dest-branch="arcadia-next"/>
-  <project name="platform_frameworks_base" path="frameworks/base" remote="BR-x86" revision="e1d5b915581606ac98ccf088dd13b0628e75809d" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="platform_frameworks_base" path="frameworks/base" remote="BR-x86" revision="5a74b61ad91425b33efd31edd1b371ce5815376a" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="BlissRoms" revision="2da0e0aff36dd681e778186939648b82447cfaad" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_hardware_bliss_interfaces" path="hardware/bliss/interfaces" remote="BlissRoms" revision="8204e4c19b2ef95fab0c44398ca3423f1e346d73" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_hardware_intel_common_vaapi" path="hardware/intel/common/vaapi" remote="sg" revision="c47cb07395f93df1c08135e0ec3215cc399ee8ab" upstream="11-x86" dest-branch="11-x86"/>
@@ -1207,32 +1208,31 @@
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="BlissRoms" revision="9a19a26aa6c725e75894d91860bb3c732b15b23e" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="BlissRoms" revision="434c053ab77e56ba1d870ec4d30aa06345de6db3" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="BlissRoms" revision="a98120744dfb0652fb819c80909a8745d8f0736b" upstream="arcadia-next" dest-branch="arcadia-next"/>
-  <project name="platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="BR-x86" revision="860e4472792d1e1a62c5b72b4fcd56b3fd69d151" upstream="arcadia-x86" dest-branch="arcadia-x86" />
   <project name="platform_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="BlissRoms" revision="28924310410c1c09d18e8e6720b8df47c0d23a35" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" revision="90342d88ee4192842d89fa88b3afeda35fd7631b" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="BlissRoms" revision="afcf53f0080a7aef5715d199e5cb60cdd48a907a" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_packages_modules_Permission" path="packages/modules/Permission" remote="BlissRoms" revision="babfdb1b8fdaf1f0b3b784df75ebab882f7e6b4e" upstream="arcadia-next" dest-branch="arcadia-next"/>
-  <project name="platform_packages_modules_Wifi" path="packages/modules/Wifi" remote="BR-x86" revision="9bc9ff80b1829dfb4dca808de793e18ddba7c272" upstream="arcadia-next" dest-branch="arcadia-next"/>
+  <project name="platform_packages_modules_Wifi" path="packages/modules/Wifi" remote="BR-x86" revision="2b0024340e8aaf498d4e7dcb07841e4305a86400" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_packages_modules_adb" path="packages/modules/adb" remote="BlissRoms" revision="72e515387c43834113cf6cfe4ad067879a5192e0" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="BlissRoms" revision="1c98b1db04aae744317f144c93e778f3c8852d05" upstream="arcadia-next" dest-branch="arcadia-next"/>
-  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" revision="2e7e6143a17ad6ce8aa7f32a62d6c00af112c0c6" upstream="arcadia-next" dest-branch="arcadia-next"/>
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" revision="196c4446d8c048a2a1c6712bd2626e83447a51d7" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" revision="fcc894b48b1629c55dcb2e307c7d2dfe0dde542c" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_system_bpf" path="system/bpf" remote="BlissRoms" revision="860fa57e5ad47e1be73061834e96b8331166bde1" upstream="arcadia-next" dest-branch="arcadia-next" groups="pdk"/>
-  <project name="platform_system_bt" path="system/bt" remote="BR-x86" revision="459242745e57cbc75d7b4ba3b061888ced815c98" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
-  <project name="platform_system_core" path="system/core" remote="BR-x86" revision="408b2dee54396f501f65eac84b329666d5dfe236" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="platform_system_bt" path="system/bt" remote="BR-x86" revision="9d62699ac531696aded997c880a9c2fa199e23f6" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="platform_system_core" path="system/core" remote="BR-x86" revision="44416459a4848c2d763ab7139e7b187a8276fc3f" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_system_hardware_interfaces" path="system/hardware/interfaces" remote="BR-x86" revision="c5220badfefcf4055a6710268c7631264bdcb1f0" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_system_libhwbinder" path="system/libhwbinder" remote="BlissRoms" revision="7d855b13ae77578c6e261964fc9eed1ef4261a7b" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_system_netd" path="system/netd" remote="BlissRoms" revision="267c52413e4255d5cb44368ebdb452264af017b1" upstream="arcadia-next" dest-branch="arcadia-next" groups="pdk"/>
   <project name="platform_system_security" path="system/security" remote="BlissRoms" revision="13bcee8d8e3703f2c7891dfc91f5ade7aecd0da5" upstream="arcadia-next" dest-branch="arcadia-next" groups="pdk"/>
-  <project name="platform_system_sepolicy" path="system/sepolicy" remote="BlissRoms" revision="4e9d6b85d9500bdcc4f242c32d04d6ce9765a659" upstream="arcadia-next" dest-branch="arcadia-next"/>
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="BR-x86" revision="9049ee8d2a46e244936e608bd0d8616c9f981ffd" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_system_update_engine" path="system/update_engine" remote="BlissRoms" revision="0d9235980ed67a370b0d387813a9ab3713d32bb4" upstream="arcadia-next" dest-branch="arcadia-next" groups="pdk"/>
   <project name="platform_system_vold" path="system/vold" remote="BR-x86" revision="0768bc13bd7644a3f7292c3e64f707b3de56d00e" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_toolchain_pgo-profiles" path="toolchain/pgo-profiles" remote="BR-x86" revision="3e40bbeb30d6fd7d526ab86d026c7340c2945a31" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
-  <project name="platform_vendor_bliss" path="vendor/bliss" remote="BR-x86" revision="e6643fcd48b01754c5391ac275c24484671a2502" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
-  <project name="platform_vendor_gms-old" path="vendor/gms" remote="BlissRoms-gitlab" revision="69dd0e1f7a832c4b9de1175a274b93edf66997bb" upstream="arcadia-next" dest-branch="arcadia-next" clone-depth="1"/>
+  <project name="platform_vendor_bliss" path="vendor/bliss" remote="BR-x86" revision="9a07aad2f37a5036c846090a781a26b1fc5a4f93" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="platform_vendor_gms_old" path="vendor/gms" remote="BlissRoms-gitlab" revision="69dd0e1f7a832c4b9de1175a274b93edf66997bb" upstream="arcadia-next" dest-branch="arcadia-next" clone-depth="1"/>
   <project name="platform_vendor_overlays" path="vendor/overlays" remote="BR-x86" revision="472c40329ee20edb7f19de9eda8ee54d2ba76d9d" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_vendor_pixel-framework" path="vendor/pixel-framework" remote="BlissRoms" revision="7c3a0486f15df31e1f046d39c3e54c9472cbb1bb" upstream="arcadia-next" dest-branch="arcadia-next"/>
-  <project name="platform_vendor_prebuilts" path="vendor/prebuilts" remote="BlissRoms-gitlab" revision="fe5847216781e508704cce36eebb972f1be1c2cb" upstream="typhoon" dest-branch="typhoon" clone-depth="1"/>
+  <project name="platform_vendor_prebuilts" path="vendor/prebuilts" remote="BlissRoms-gitlab" revision="dafde1e5ced3604cd7750708ae3626ee99c59721" upstream="typhoon" dest-branch="typhoon" clone-depth="1"/>
   <project name="platform_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="BlissRoms" revision="e33227ed63c6b8e7df0b638f556bf14fa99acd83" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_vendor_support" path="vendor/support" remote="BlissRoms" revision="ff10f297d8d27ba20343d227c83f4955196e5f0c" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="stagefright-plugins" path="external/stagefright-plugins" remote="sg" revision="c2266a5622b63248a44ad1508b1a56bcc0daefab" upstream="12l-x86" dest-branch="12l-x86"/>
