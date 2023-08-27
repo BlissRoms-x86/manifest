@@ -148,5 +148,7 @@
   <remove-project name="platform/packages/apps/TvSettings" />
   <remove-project name="platform/tools/apksig" />
   <remove-project name="platform/external/freetype" />
-
+  <remove-project name="platform/external/aac" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
+  <remove-project name="platform/system/ca-certificates" />
 </manifest>
