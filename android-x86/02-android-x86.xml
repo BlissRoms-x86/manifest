@@ -43,7 +43,7 @@
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="arcadia-x86" />
 
   <!-- Kernel -->
-  <project path="kernel" name="BlissRoms-x86/kernel_common" remote="ghub" sync-s="true" revision="umbral-20230822" />
+  <project path="kernel" name="BlissRoms-x86/kernel_common" remote="ghub" sync-s="true" revision="umbral-20230826" />
   <project path="external/kernel-drivers" name="external_kernel-drivers" sync-s="true" remote="sg" revision="5.15_wip" />
   <project path="external/kernel-drivers/rtw88" name="lwfinger/rtw88" remote="github" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r450784" remote="gitlab" revision="12.1" />
