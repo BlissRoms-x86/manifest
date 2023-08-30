@@ -36,6 +36,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" />
   <project path="external/expat" name="android_external_expat" remote="los" />
+  <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="los" />
   <project path="external/guice" name="android_external_guice" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
@@ -164,13 +165,16 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="los" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="los" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" groups="pdk-fs" remote="los" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="los" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="los" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="los" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="los" />
+  <project path="packages/apps/QuickAccessWallet" name="android_packages_apps_QuickAccessWallet" remote="los" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="los" />
+  <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" groups="pdk-fs" remote="los" />
   <project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" groups="pdk" remote="los" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk" remote="los" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk" remote="los" />
@@ -201,6 +205,7 @@
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-18.1-legacy" />
 
   <!-- System Repos -->
+  <project path="system/ca-certificates" name="android_system_ca-certificates" groups="pdk" remote="los" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="los" />
   <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="los" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="los" />
@@ -216,6 +221,7 @@
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="los" />
 
   <!-- Tools -->
+  <project path="tools/apksig" name="android_tools_apksig" groups="pdk,tradefed" remote="los" />
   <project path="tools/metalava" name="android_tools_metalava" remote="los" />
 
   <!-- Vendor -->
