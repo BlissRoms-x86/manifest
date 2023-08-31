@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Audio -->
-  <project path="external/alsa-lib" name="alsa-lib" remote="sg" revision="pie-x86" />
-  <project path="external/alsa-utils" name="alsa-utils" remote="sg" revision="pie-x86" />
+  <project path="external/alsa-lib" name="external_alsa-lib" remote="ag-github" revision="pie-x86" />
+  <project path="external/alsa-utils" name="external_alsa-utils" remote="ag-github" revision="pie-x86" />
   <!-- Note : libncurses is required for alsa_mixer -->
-  <project path="external/alsa-ucm-conf" name="alsa-ucm-conf" remote="sg" revision="pie-x86" />
-  <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="sg" revision="11-x86" />
+  <project path="external/alsa-ucm-conf" name="external_alsa-ucm-conf" remote="ag-github" revision="pie-x86" />
+  <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="ag-github" revision="11-x86" />
+  <project path="hardware/intel/audio_media" name="hardware_intel_audio_media" remote="ag-github" revision="r-x86" />
 
   <!-- Bluetooth, camera, GPS, sensors, thermal HALs & tools -->
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="r-x86" />
-  <project path="external/thermal_daemon" name="thermal_daemon" remote="sg" revision="master" />
-  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="r-x86" />
-  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="q-x86" />
-  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="r-x86" />
-  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="r-x86" />
-  <project path="hardware/libbt-vendor-intel" name="libbt-vendor-intel" remote="sg" revision="master" />
-  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="r-x86" />
-  <project path="vendor/intel/hardware/interfaces" name="vendor-hardware-interfaces" remote="sg" revision="sakura/11-x86" />
+  <project path="external/thermal_daemon" name="external_thermal_daemon" remote="ag-github" revision="master" />
+  <project path="hardware/intel/libsensors" name="hardware_intel_libsensors" remote="ag-github" revision="r-x86" />
+  <project path="hardware/libcamera" name="hardware_libcamera" remote="ag-github" revision="r-x86" />
+  <project path="hardware/liblights" name="platform_hardware_liblights" remote="ag-github" revision="r-x86" />
+  <project path="hardware/libsensors" name="platform_hardware_libsensors" remote="ag-github" revision="r-x86" />
+  <project path="hardware/libbt-vendor-intel" name="hardware_libbt-vendor-intel" remote="ag-github" revision="master" />
+  <project path="hardware/gps" name="platform_hardware_gps" remote="ag-github" revision="r-x86" />
+  <project path="vendor/intel/hardware/interfaces" name="vendor_intel_hardware_interfaces" remote="ag-github" revision="11-x86" />
 
   <!-- Device tree -->
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="r11-x86" sync-s="true" />
-  <project path="device/generic/firmware" name="device_generic_firmware" remote="hm" revision="main" />
+  <project path="device/generic/firmware" name="device_generic_firmware" remote="ag-github" revision="main" />
   <project path="device/generic/x86_64" name="platform_device_generic_x86_64" remote="BR-x86" revision="r11" />
-  <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="r-x86" />
+  <project path="device/generic/x86" name="platform_device_generic_x86" remote="BR-x86" revision="r-x86" />
 
   <!-- Graphics -->
-  <project path="external/angle" name="angle" remote="sg" revision="r11" groups="pdk" />
-  <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="r-x86" />
-  <project path="external/drm_gralloc" name="hardware_drm_gralloc" remote="maurossi" revision="mesa-21.2" />
-  <project path="external/drm_hwcomposer" name="drm_hwcomposer.git" remote="sg" revision="main" />
-  <project path="external/drm_hwcomposer_celadon" name="drm_hwcomposer.git" remote="sg" revision="celadon" />
-  <project path="external/drmfb-composer" name="drmfb-composer" remote="BR-x86" revision="master" />
-  <project path="external/gbm_gralloc" name="gbm_gralloc" remote="BR-x86" revision="main" />
-  <project path="external/libdrm" name="platform_external_libdrm" remote="BR-x86" revision="2.4.114_r-x86" />
-  <project path="external/llvm-project" name="llvm" remote="hm" revision="release_16.x" />
-  <project path="external/mesa" name="mesa" remote="hm" revision="23.1_branch" />
-  <project path="external/minigbm" name="minigbm" remote="sg" revision="11-x86" />
-  <project path="external/swiftshader" name="hmtheboy154/swiftshader" remote="gl" revision="11-x86" groups="pdk" />
-  <project path="external/swiftshader_egl" name="hmtheboy154/swiftshader" remote="gl" revision="legacy_11-x86" groups="pdk" />
+  <project path="external/angle" name="external_angle" remote="ag-github" revision="r11" groups="pdk" />
+  <project path="external/drm_framebuffer" name="external_drm_framebuffer" remote="ag-github" revision="r-x86" />
+  <project path="external/drm_gralloc" name="external_drm_gralloc" remote="ag-github" revision="mesa-21.2" />
+  <project path="external/drm_hwcomposer" name="external_drm_hwcomposer" remote="ag-github" revision="main" />
+  <project path="external/drm_hwcomposer_celadon" name="external_drm_hwcomposer" remote="ag-github" revision="celadon" />
+  <project path="external/drmfb-composer" name="external_drmfb-composer" remote="ag-github" revision="master" />
+  <project path="external/gbm_gralloc" name="external_gbm_gralloc" remote="ag-github" revision="main" />
+  <project path="external/libdrm" name="platform_external_libdrm" remote="ag-github" revision="2.4.114_r-x86" />
+  <project path="external/llvm-project" name="external_llvm-project" remote="ag-github" revision="release_16.x" />
+  <project path="external/mesa" name="external_mesa" remote="ag-github" revision="23.1_branch" />
+  <project path="external/minigbm" name="external_minigbm" remote="ag-github" revision="11-x86" />
+  <project path="external/swiftshader" name="external_swiftshader" remote="ag-gitlab" revision="11-x86" groups="pdk" />
+  <project path="external/swiftshader_egl" name="external_swiftshader" remote="ag-gitlab" revision="legacy_11-x86" groups="pdk" />
 
   <!-- Initrd & installer -->
   <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="r11-x86" />
 
   <!-- Kernel -->
-  <project path="kernel" name="Darkmatter-kernel" remote="hm" sync-s="true" revision="umbral" />
-  <project path="external/kernel-drivers" name="external_kernel-drivers" sync-s="true" remote="sg" revision="5.15_wip" />
+  <project path="kernel" name="kernel_common" remote="ag-github" sync-s="true" revision="umbral-20230826" />
+  <project path="external/kernel-drivers" name="external_kernel-drivers" sync-s="true" remote="ag-github" revision="5.15" />
   <project path="external/kernel-drivers/rtw88" name="lwfinger/rtw88" remote="github" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-r450784" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r450784" remote="gitlab" revision="12.1" />
 
   <!-- Media HAL & VAAPI drivers -->
-  <project path="external/stagefright-plugins" name="stagefright-plugins" remote="sg" revision="11-x86" />
-  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="sg" revision="release/5.1" />
-  <project path="external/libva-utils" name="libva-utils" remote="sg" revision="master" /> 
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" remote="x86" revision="r-x86" />
-  <project path="hardware/intel/common/libva" name="libva" remote="sg" revision="11-x86" />
-  <project path="hardware/intel/common/gmmlib" name="gmmlib" remote="sg" revision="latest" />
-  <project path="hardware/intel/common/media-driver" name="media-driver" remote="sg" revision="23.2" />
-  <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="sg" revision="11-x86" />
+  <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="ag-github" revision="11-x86" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="ag-github" revision="release/5.1" />
+  <project path="external/libva-utils" name="external_libva-utils" remote="ag-github" revision="master" /> 
+  <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="ag-github" revision="11-x86" />
+  <project path="hardware/intel/common/gmmlib" name="hardware_intel_common_gmmlib" remote="ag-github" revision="latest" />
+  <project path="hardware/intel/common/media-driver" name="hardware_intel_common_media-driver" remote="ag-github" revision="23.2" />
+  <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="ag-github" revision="11-x86" />
 
   <!-- Misc -->
-  <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="r-x86" />
-  <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="r-x86" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="sg" revision="q-x86" />
-  <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="r-x86" />
+  <project path="external/efibootmgr" name="external_efibootmgr" remote="ag-github" revision="main" />
+  <project path="external/efivar" name="external_efivar" remote="ag-github" revision="main" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="ag-github" revision="6.4" />
+  <project path="external/s2tc" name="external_s2tc" remote="ag-github" revision="r-x86" />
   <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" />
-  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="r-x86" />
-  <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="q-x86" />
+  <project path="external/v86d" name="external_v86d" remote="ag-github" revision="r-x86" />
+  <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="ag-github" revision="r-x86" />
 
   <!-- Power & Memtrack HALs-->
-  <project path="hardware/memtrack" name="platform/hardware/memtrack" remote="x86" revision="r-x86" />
-  <project path="hardware/x86power" name="hardware-x86power" remote="sg" revision="r11" />
+  <project path="hardware/memtrack" name="hardware_memtrack" remote="ag-github" revision="r-x86" />
+  <project path="hardware/x86power" name="hardware_x86power" remote="ag-github" revision="r11" />
 
   <!-- Projects from AOSP but upstream -->
   <project path="external/zstd" name="platform/external/zstd" groups="pdk" remote="aosp" revision="10c80c9b2ef44fb88f88f44a6fd45209cd56faa0" />

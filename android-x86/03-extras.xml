@@ -11,7 +11,7 @@
     <project name="vendor_prebuilts_bdapps" path="vendor/prebuilts/bdapps" remote="bd" revision="boringdroid-11.0.0" />
 
     <!-- FOSS Apps -->
-    <project name="vendor_foss" path="vendor/foss" remote="sg" revision="hmchoice" />
+    <project name="vendor_foss" path="vendor/foss" remote="ag-github" revision="hmchoice" />
 
     <!--OpenGapps-->
     <remote name="opengapps" fetch="https://github.com/opengapps/"  />
