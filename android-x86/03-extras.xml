@@ -9,6 +9,9 @@
     <!-- FOSS Apps -->
     <project name="vendor_foss" path="vendor/foss" remote="ag-github" revision="hmchoice" />
 
+    <!-- nano -->
+    <project name="android_external_nano" path="external/nano" remote="ag-github" revision="7.2" />
+
     <!--SettingsIntelligenceGooglePrebuilt-->
     <project path="vendor/google/proprietary/SettingsIntelligenceGooglePrebuilt" name="vendor_google_proprietary_SettingsIntelligenceGooglePrebuilt" revision="12l" remote="sg" />
 

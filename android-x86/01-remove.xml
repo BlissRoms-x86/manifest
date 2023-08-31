@@ -21,6 +21,7 @@
     <remove-project name="device/generic/x86_64" />
     <remove-project name="device/generic/x86" />
     <remove-project name="android_external_libncurses" />
+    <remove-project name="android_external_nano" />
     <remove-project name="android_external_mksh" />
     <remove-project name="platform/external/squashfs-tools" />
     <remove-project name="platform/external/toybox" />
