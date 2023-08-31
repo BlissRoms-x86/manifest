@@ -7,7 +7,7 @@
     <project name="external_aosp_aptx" path="external/aosp_aptx" remote="sg" revision="master" />
 
     <!-- FOSS Apps -->
-    <project name="vendor_foss" path="vendor/foss" remote="sg" revision="hmchoice" />
+    <project name="vendor_foss" path="vendor/foss" remote="ag-github" revision="hmchoice" />
 
     <!--SettingsIntelligenceGooglePrebuilt-->
     <project path="vendor/google/proprietary/SettingsIntelligenceGooglePrebuilt" name="vendor_google_proprietary_SettingsIntelligenceGooglePrebuilt" revision="12l" remote="sg" />
