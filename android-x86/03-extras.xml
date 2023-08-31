@@ -13,6 +13,9 @@
     <!-- FOSS Apps -->
     <project name="vendor_foss" path="vendor/foss" remote="ag-github" revision="hmchoice" />
 
+    <!-- nano -->
+    <project name="android_external_nano" path="external/nano" remote="ag-github" revision="7.2" />
+
     <!--OpenGapps-->
     <remote name="opengapps" fetch="https://github.com/opengapps/"  />
     <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />	
