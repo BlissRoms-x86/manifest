@@ -18,11 +18,8 @@
   <project path="hardware/gps" name="platform_hardware_gps" remote="ag-github" revision="r-x86" />
   <project path="vendor/intel/hardware/interfaces" name="vendor_intel_hardware_interfaces" remote="ag-github" revision="12l-x86" sync-s="true" />
 
-  <!-- Device tree -->
-  <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="arcadia-x86" sync-s="true" />
+  <!-- Firmware -->
   <project path="device/generic/firmware" name="device_generic_firmware" remote="ag-github" revision="main" />
-  <project path="device/generic/x86_64" name="platform_device_generic_x86_64" remote="BR-x86" revision="r11" />
-  <project path="device/generic/x86" name="platform_device_generic_x86" remote="BR-x86" revision="r-x86" />
 
   <!-- Graphics -->
   <project path="external/angle" name="platform/external/angle" remote="aosp" groups="pdk" revision="refs/tags/android-13.0.0_r30" />
@@ -38,9 +35,6 @@
   <project path="external/minigbm" name="external_minigbm" remote="ag-github" revision="12l-x86" />
   <project path="external/swiftshader" name="external_swiftshader" remote="ag-gitlab" revision="12l-x86" groups="pdk" />
   <project path="external/swiftshader_egl" name="external_swiftshader" remote="ag-gitlab" revision="legacy" groups="pdk" />
-
-  <!-- Initrd & installer -->
-  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="arcadia-x86" />
 
   <!-- Kernel -->
   <project path="kernel" name="kernel_common" remote="ag-github" sync-s="true" revision="umbral-20230826" />
