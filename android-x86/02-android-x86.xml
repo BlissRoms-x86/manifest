@@ -69,7 +69,7 @@
   <!-- AOSP components but newer -->
   <project path="external/erofs-utils" name="external_erofs-utils" remote="ag-github" revision="12l" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" revision="ccce28963e7acfb81eb211b49dc5e83a64274ffc" />
-  <project path="external/toybox" name="android_external_toybox" remote="BR-x86" revision="arcadia-x86" />
+  <project path="external/toybox" name="android_external_toybox" remote="ag-github" revision="12l" />
   <project path="external/zstd" name="platform/external/zstd" groups="pdk" remote="aosp" revision="fe4839b865f5cb3d94ff82545f783aad9a1df146" />
 
 </manifest>
