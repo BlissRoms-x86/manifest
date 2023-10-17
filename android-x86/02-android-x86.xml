@@ -58,7 +58,6 @@
   <project path="external/efivar" name="external_efivar" remote="ag-github" revision="main" />
   <project path="external/libncurses" name="android_external_libncurses" remote="ag-github" revision="6.4" />
   <project path="external/s2tc" name="external_s2tc" remote="ag-github" revision="r-x86" />
-  <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" />
   <project path="external/v86d" name="external_v86d" remote="ag-github" revision="r-x86" />
   <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="ag-github" revision="13-x86" />
 
