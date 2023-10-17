@@ -60,7 +60,6 @@
   <project path="external/libncurses" name="android_external_libncurses" remote="ag-github" revision="6.4" />
   <project path="external/s2tc" name="external_s2tc" remote="ag-github" revision="r-x86" />
   <project path="external/rsync" name="android_external_rsync" remote="ag-github" revision="r11" />
-  <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" />
   <project path="external/v86d" name="external_v86d" remote="ag-github" revision="r-x86" />
   <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="ag-github" revision="r-x86" />
   <project path="external/tree" name="external_tree" remote="ag-gitlab" revision="master" />
