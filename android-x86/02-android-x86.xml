@@ -59,6 +59,7 @@
   <project path="external/efivar" name="external_efivar" remote="ag-github" revision="main" />
   <project path="external/libncurses" name="android_external_libncurses" remote="ag-github" revision="6.4" />
   <project path="external/s2tc" name="external_s2tc" remote="ag-github" revision="r-x86" />
+  <project path="external/rsync" name="android_external_rsync" remote="ag-github" revision="r11" />
   <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" />
   <project path="external/v86d" name="external_v86d" remote="ag-github" revision="r-x86" />
   <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="ag-github" revision="r-x86" />
@@ -68,7 +69,7 @@
   <project path="hardware/x86power" name="hardware_x86power" remote="ag-github" revision="r11" />
 
   <!-- Projects from AOSP but upstream -->
-  <project path="external/zstd" name="platform/external/zstd" groups="pdk" remote="aosp" revision="10c80c9b2ef44fb88f88f44a6fd45209cd56faa0" />
+  <project path="external/zstd" name="android_external_zstd" groups="pdk" remote="ag-github" revision="r11" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" revision="ccce28963e7acfb81eb211b49dc5e83a64274ffc" />
   <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="b5bbcb383357b92acb10082878b32bbe831a2137" />
   <project path="external/toybox" name="android_external_toybox" remote="ag-github" revision="11" />

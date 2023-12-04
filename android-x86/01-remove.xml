@@ -18,9 +18,10 @@
     <remove-project name="platform/external/mksh" />
     <remove-project name="platform/external/squashfs-tools" />
     <remove-project name="platform/external/mesa3d" />
+    <remove-project name="android_external_rsync" />
     <remove-project name="android_external_toybox" />
     <remove-project name="device/generic/common" />
-    <remove-project name="frameworks_av" />   
+    <remove-project name="frameworks_av" />
     <remove-project name="platform_frameworks_base" />
     <remove-project name="frameworks_native" />
     <remove-project name="platform_hardware_interfaces" />
