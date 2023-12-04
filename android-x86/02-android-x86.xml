@@ -42,7 +42,7 @@
   <project path="kernel" name="kernel_common" remote="ag-github" sync-s="true" revision="umbral-20230826" />
   <project path="external/kernel-drivers" name="external_kernel-drivers" sync-s="true" remote="ag-github" revision="5.15" />
   <project path="external/kernel-drivers/rtw88" name="lwfinger/rtw88" remote="github" revision="master" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r450784" remote="gitlab" revision="12.1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="gitlab" revision="14.0" />
 
   <!-- Media HAL & VAAPI drivers -->
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="ag-github" revision="12l-x86" />
