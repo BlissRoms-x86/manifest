@@ -63,6 +63,10 @@
   <project path="external/syslinux" name="platform/external/syslinux" remote="aosp" revision="master" />
   <project path="external/v86d" name="external_v86d" remote="ag-github" revision="r-x86" />
   <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="ag-github" revision="r-x86" />
+  <project path="external/tree" name="external_tree" remote="ag-gitlab" revision="master" />
+  <project path="external/pciutils" name="external_pciutils" remote="ag-github" revision="master" />
+  <project path="external/dialog" name="external_dialog" remote="ag-github" revision="20230209" />
+  <project path="external/dmidecode" name="external_dmidecode" remote="ag-github" revision="3.5" />
 
   <!-- Power & Memtrack HALs-->
   <project path="hardware/memtrack" name="hardware_memtrack" remote="ag-github" revision="r-x86" />
