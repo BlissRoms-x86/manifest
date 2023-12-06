@@ -33,9 +33,11 @@
   <project path="external/openssh" name="android_external_openssh" groups="pdk" remote="lineage" />
   <project path="external/setupcompat" name="android_external_setupcompat" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="lineage" />
+  <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="lineage" />
+  <project path="external/zstd" name="android_external_zstd" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="android_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="lineage" />
