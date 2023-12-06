@@ -60,6 +60,8 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/webp" />
+  <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/minikin" />
@@ -101,6 +103,8 @@
   <remove-project name="platform/packages/modules/NeuralNetworks" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
+  <remove-project name="platform/packages/modules/StatsD" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
@@ -121,6 +125,7 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/ca-certificates" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
@@ -149,5 +154,4 @@
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
-  <remove-project name="platform/system/ca-certificates" />
 </manifest>

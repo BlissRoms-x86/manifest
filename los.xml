@@ -64,7 +64,6 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   <project path="packages/modules/common" name="android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/modules/NeuralNetworks" name="android_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/CallLogProvider" name="android_packages_providers_CallLogProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
@@ -72,7 +71,6 @@
   <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" groups="pdk" remote="lineage" />
-  <project path="system/ca-certificates" name="android_system_ca-certificates" groups="pdk" remote="lineage" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
   <project path="system/logging" name="android_system_logging" groups="pdk" remote="lineage" />

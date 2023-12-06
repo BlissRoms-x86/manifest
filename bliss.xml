@@ -53,6 +53,8 @@
   <project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
   <project path="external/colorkt" name="platform_external_colorkt" remote="BlissRoms" />
   <project path="external/themelib" name="platform_external_themelib" remote="BlissRoms" />
+  <project path="external/webp" name="platform_external_webp" remote="BlissRoms" />
+  <project path="external/libxml2" name="platform_external_libxml2" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
@@ -76,6 +78,8 @@
   <project path="packages/modules/adb" name="platform_packages_modules_adb" remote="BlissRoms" />
   <project path="packages/modules/Permission" name="platform_packages_modules_Permission" remote="BlissRoms" />
   <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" remote="BlissRoms" />
+  <project path="packages/modules/DnsResolver" name="platform_packages_modules_DnsResolver" remote="BlissRoms" />
+  <project path="packages/modules/StatsD" name="platform_packages_modules_StatsD" remote="BlissRoms" />
 
   <!-- Packages -->
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
@@ -95,6 +99,7 @@
 
   <!-- Providers -->
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BlissRoms" />
+  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" remote="BlissRoms" />
 
   <!-- Sepolicy -->
   <project path="device/bliss/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
@@ -113,6 +118,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="BlissRoms" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="BlissRoms" />
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="BlissRoms" />
+  <project path="system/ca-certificates" name="platform_system_ca-certificates" remote="BlissRoms" />
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
