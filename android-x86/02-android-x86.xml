@@ -21,7 +21,7 @@
 
   <!-- Firmware -->
   <project path="device/generic/firmware" name="device_generic_firmware" remote="ag-github" revision="main" />
-  <project path="vendor/intel/proprietary/sof-bin" name="vendor_intel_proprietary_sof-bin" remote="ag-github" revision="2.2.6" />
+  <project path="vendor/intel/proprietary/sof-bin" name="vendor_intel_proprietary_sof-bin" remote="ag-github" revision="20230902" />
   <project path="vendor/silead/proprietary/firmware" name="vendor_silead_proprietary_firmware" remote="ag-github" revision="master" />
 
   <!-- Graphics -->
