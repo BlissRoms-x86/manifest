@@ -8,6 +8,7 @@
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/cts" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/libavc" />
@@ -21,6 +22,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />

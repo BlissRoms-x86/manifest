@@ -4,6 +4,9 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
 
+  <!-- CTS -->
+  <project path="cts" name="android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="los" />
+
   <!-- Webview -->
   <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" groups="pdk" remote="los" revision="main" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
@@ -51,6 +54,7 @@
   <project path="external/nano" name="android_external_nano" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
   <project path="external/p7zip" name="android_external_p7zip" remote="los" />
+  <project path="external/pdfium" name="android_external_pdfium" groups="pdk" remote="los" />
   <project path="external/pigz" name="android_external_pigz" remote="los" />
   <project path="external/rsync" name="android_external_rsync" remote="los" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="los" />
