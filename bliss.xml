@@ -19,7 +19,6 @@
   <remote name="github"
           fetch="https://github.com/" />
 
-
   <remote name="gitlab"
           fetch="https://gitlab.com/" />
 
@@ -27,6 +26,10 @@
   <include name="remove.xml" />
 
   <!-- End Remove AOSP repos -->
+
+  <!-- ASB -->
+  <project path="cts" name="platform_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="BlissRoms" />
+  <project path="external/pdfium" name="platform_external_pdfium" groups="pdk" remote="BlissRoms" />
 
   <!-- General Repos -->
   <project path="manifest" name="platform_manifest" remote="BlissRoms" />
