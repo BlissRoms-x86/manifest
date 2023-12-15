@@ -31,6 +31,7 @@
     <remove-project name="platform_frameworks_av" />   
     <remove-project name="platform_frameworks_base" />
     <remove-project name="platform_frameworks_native" />
+    <remove-project name="platform/frameworks/opt/net/ethernet" />
     <remove-project name="android_hardware_interfaces" />
     <remove-project name="platform_packages_apps_Settings" />
     <remove-project name="platform_packages_modules_Wifi" />

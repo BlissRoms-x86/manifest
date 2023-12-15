@@ -19,4 +19,8 @@
     <remote name="mindthegapps" fetch="https://gitlab.com/MindTheGapps"  />
     <project path="vendor/gapps" name="vendor_gapps" revision="sigma" remote="mindthegapps" />
 
+    <!-- BlissBass -->
+    <remote name="BlissBass" fetch="https://github.com/Bliss-Bass" />
+    <project path="vendor/bliss/blissethernet" name="platform_external_blissethernet" revision="arcadia-x86" remote="BlissBass" />
+
 </manifest>
