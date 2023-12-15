@@ -35,6 +35,5 @@
   <project path="vendor/overlays" name="platform_vendor_overlays" remote="BR-x86" revision="arcadia-x86" />
   <project path="packages/apps/Camera2" name="BlissRoms-x86/platform_packages_apps_Camera2" remote="ghub" revision="arcadia-x86" />
   <project path="packages/apps/SetupWizard" name="BlissRoms-x86/platform_packages_apps_SetupWizard" remote="ghub" revision="arcadia-x86" />
-  <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" remote="ghub" revision="lineage-19.1" />
 
 </manifest>
