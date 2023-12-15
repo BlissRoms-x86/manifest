@@ -14,6 +14,7 @@
     <remove-project name="platform/external/angle" />
     <remove-project name="platform/external/drm_hwcomposer" />
     <remove-project name="platform/external/erofs-utils" />
+    <remove-project name="platform/external/libcxx" />
     <remove-project name="platform/external/libdrm" />
     <remove-project name="platform/external/swiftshader" />
     <remove-project name="toolchain/llvm-project" />

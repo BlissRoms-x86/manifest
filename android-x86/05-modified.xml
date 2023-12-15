@@ -14,6 +14,7 @@
   </project>
   <project path="development" name="platform_development" remote="BR-x86" revision="arcadia-x86" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="BR-x86" revision="arcadia-x86" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="BR-x86" revision="arcadia-x86" groups="pdk" />
   <project path="external/mksh" name="android_external_mksh" remote="sg" revision="lineage/12l-x86" />
   <project path="frameworks/av" name="frameworks_av" remote="BR-x86" revision="arcadia-x86" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" revision="arcadia-x86" />

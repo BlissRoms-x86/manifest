@@ -74,4 +74,9 @@
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" revision="ccce28963e7acfb81eb211b49dc5e83a64274ffc" />
   <project path="external/toybox" name="android_external_toybox" remote="ag-github" revision="12l" />
 
+  <!-- GloDroid -->
+  <project path="glodroid/aospext" name="aospext" remote="BR-x86" revision="main" />
+  <project path="glodroid/dav1d" name="videolan/dav1d" remote="ghub" revision="1.3.0" />
+  <!-- put libcamera here if needed -->
+
 </manifest>
