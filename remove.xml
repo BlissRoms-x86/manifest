@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- ASB -->
+  <remove-project name="platform/cts" />
+  <remove-project name="platform/external/pdfium" />
+
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/google/barbet" />
