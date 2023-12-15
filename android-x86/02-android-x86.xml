@@ -34,7 +34,7 @@
   <project path="external/gbm_gralloc" name="external_gbm_gralloc" remote="ag-github" revision="main" />
   <project path="external/libdrm" name="platform_external_libdrm" remote="ag-github" revision="2.4.114_r-x86" />
   <project path="external/llvm-project" name="external_llvm-project" remote="ag-github" revision="release_16.x" />
-  <project path="external/mesa" name="external_mesa" remote="ag-github" revision="23.1_branch" />
+  <project path="external/mesa" name="external_mesa" remote="ag-github" revision="23.2.0_branch" />
   <project path="external/minigbm" name="external_minigbm" remote="ag-github" revision="11-x86" />
   <project path="external/swiftshader" name="external_swiftshader" remote="ag-gitlab" revision="11-x86" groups="pdk" />
   <project path="external/swiftshader_egl" name="external_swiftshader" remote="ag-gitlab" revision="legacy_11-x86" groups="pdk" />
