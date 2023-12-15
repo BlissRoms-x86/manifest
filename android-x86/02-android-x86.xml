@@ -6,7 +6,7 @@
   <!-- Note : libncurses is required for alsa_mixer -->
   <project path="external/alsa-ucm-conf" name="external_alsa-ucm-conf" remote="ag-github" revision="pie-x86" />
   <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="ag-github" revision="11-x86" />
-  <project path="hardware/intel/audio_media" name="hardware_intel_audio_media" remote="ag-github" revision="r-x86" />
+  <project path="hardware/intel/audio" name="hardware_intel_audio" remote="ag-github" revision="12l-x86" />
 
   <!-- Bluetooth, camera, GPS, sensors, thermal HALs & tools -->
   <project path="external/hcitools" name="external_hcitools" remote="ag-github" revision="12l-x86" />
