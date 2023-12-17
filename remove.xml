@@ -75,6 +75,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
+  <remove-project name="platform/frameworks/opt/colorpicker" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
   <remove-project name="platform/hardware/libhardware" />

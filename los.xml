@@ -40,6 +40,7 @@
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="lineage" />
   <project path="external/zstd" name="android_external_zstd" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="android_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="lineage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
