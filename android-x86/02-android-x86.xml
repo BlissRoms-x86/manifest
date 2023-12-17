@@ -75,7 +75,7 @@
   <project path="external/toybox" name="android_external_toybox" remote="ag-github" revision="12l" />
 
   <!-- GloDroid -->
-  <project path="glodroid/aospext" name="aospext" remote="BR-x86" revision="main" />
+  <project path="glodroid/aospext" name="glodroid_aospext" remote="ag-github" revision="main" />
   <project path="glodroid/dav1d" name="videolan/dav1d" remote="ghub" revision="48035599cdd4e4415732e408c407e0c1cd1c7444" />
   <!-- put libcamera here if needed -->
 
