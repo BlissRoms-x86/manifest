@@ -57,7 +57,6 @@
   <project path="external/colorkt" name="platform_external_colorkt" remote="BlissRoms" />
   <project path="external/themelib" name="platform_external_themelib" remote="BlissRoms" />
   <project path="external/webp" name="platform_external_webp" remote="BlissRoms" />
-  <project path="external/libxml2" name="platform_external_libxml2" remote="BlissRoms" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="BlissRoms" />
