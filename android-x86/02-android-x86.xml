@@ -9,7 +9,7 @@
   <project path="hardware/intel/audio_media" name="hardware_intel_audio_media" remote="ag-github" revision="r-x86" />
 
   <!-- Bluetooth, camera, GPS, sensors, thermal HALs & tools -->
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="r-x86" />
+  <project path="external/hcitools" name="external_hcitools" remote="ag-github" revision="12l-x86" />
   <project path="external/thermal_daemon" name="external_thermal_daemon" remote="ag-github" revision="master" />
   <project path="hardware/intel/libsensors" name="hardware_intel_libsensors" remote="ag-github" revision="r-x86" />
   <project path="hardware/libcamera" name="hardware_libcamera" remote="ag-github" revision="r-x86" />
