@@ -21,7 +21,8 @@
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" revision="arcadia-x86" />
   <project path="frameworks/opt/net/ethernet" name="platform_frameworks_opt_net_ethernet" remote="BR-x86" revision="arcadia-x86" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BR-x86" revision="arcadia-x86" />
-  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="arcadia-x86" />  
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BR-x86" revision="arcadia-x86" />
+  <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BR-x86" revision="arcadia-x86" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="BR-x86" revision="arcadia-x86" />
   <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" remote="BR-x86" revision="arcadia-next" />
   <project path="system/core" name="platform_system_core" remote="BR-x86" revision="arcadia-x86" />

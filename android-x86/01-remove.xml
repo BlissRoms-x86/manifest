@@ -46,5 +46,6 @@
     <remove-project name="platform_vendor_bliss" />
     <remove-project name="platform_vendor_overlays" />
     <remove-project name="platform_packages_apps_Blissify" />
+    <remove-project name="platform_packages_apps_BlissUpdater" />
 
 </manifest>
