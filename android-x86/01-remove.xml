@@ -37,5 +37,6 @@
     <remove-project name="vendor_foss" />
     <remove-project name="platform_vendor_overlays" />
     <remove-project name="platform_packages_apps_Blissify" />
+    <remove-project name="platform_packages_apps_BlissUpdater" />
 
 </manifest>
