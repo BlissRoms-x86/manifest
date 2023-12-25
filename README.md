@@ -97,8 +97,7 @@ Note that you can put different variables into the build.
 
 - **To build the special "go" variant for BlissOS Go**
 ```
-    export IS_GO_VERSION=true
-    export BLISS_SPECIAL_VARIANT=-go
+    export BOARD_IS_SURFACE_BUILD=true
 ```
 
 
