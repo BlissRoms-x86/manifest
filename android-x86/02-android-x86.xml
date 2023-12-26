@@ -84,7 +84,7 @@
   <project path="external/CLI11" name="CLI11" remote="ag-github" revision="aosp" />
   <project path="external/Microsoft-GSL" name="GSL" remote="ag-github" revision="aosp" />
   <project path="external/spdlog" name="spdlog" remote="ag-github" revision="v1.x" />
-  <project path="external/fmtlib9" name="fmt" remote="ag-github" revision="android" />
+  <project path="external/fmtlib9" name="fmt" remote="ag-github" revision="android_11" />
   <project path="external/eigen3" name="eigen" remote="ag-github" revision="android" />
 
 </manifest>
