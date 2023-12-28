@@ -13,6 +13,10 @@
           fetch="https://gitlab.com/BlissLabs/BlissRoms"
           revision="r" />
 
+  <remote name="BlissOS-gitlab"
+          fetch="https://gitlab.com/BlissLabs/blissos"
+          revision="r11" />
+
   <remote name="BR-x86" 
           fetch="https://github.com/BlissRoms-x86"
           revision="r11" />
@@ -127,7 +131,7 @@
 
   <!-- Vendor -->
   <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" revision="cc83eb8e984112908d69b532d49ea682cc6439fe" />
-  <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="BlissRoms-gitlab" clone-depth="1" revision="typhoon" />
+  <project path="vendor/prebuilts" name="platform_vendor_prebuilts" remote="BlissOS-gitlab" clone-depth="1" revision="r11" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="BlissRoms" />
   <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" revision="r" />
   <project path="vendor/gapps" name="BlissRoms/android_vendor_gapps" remote="gitlab" revision="r" />
