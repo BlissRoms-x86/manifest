@@ -87,17 +87,17 @@ Note that you can put different variables into the build.
 ```
 - **To add a custom label into a device-specific build**
 ```
-    export BLISS_SPECIAL_VARIANT := jupiter
+    export BLISS_SPECIAL_VARIANT=-Jupiter
 ```
 
 - **To build the special "surface" variant which include kernel with patches from linux-surface and the iptsd userspace touchscreen daemon**
 ```
-    export BOARD_IS_SURFACE_BUILD := true
+    export BOARD_IS_SURFACE_BUILD=true
 ```
 
 - **To build the special "go" variant for BlissOS Go**
 ```
-    export BOARD_IS_SURFACE_BUILD=true
+    export BOARD_IS_GO_BUILD=true
 ```
 
 
