@@ -26,9 +26,14 @@ Please read the [AOSP building instructions](http://source.android.com/source/in
 
 
     Latest Ubuntu LTS Releases https://www.ubuntu.com/download/server
-    Decent CPU (Dual Core or better for a faster performance)
-    8GB RAM (16GB for Virtual Machine)
-    250GB Hard Drive (about 170GB for the Repo and then building space needed)
+    Decent CPU (16 Cores or better for a faster performance)
+    16GB RAM (32GB for Virtual Machine)
+    350GB Hard Drive (about 170GB for the Repo and then building space needed)
+
+    Time to compile:
+    Laptop: 6-8 hours
+    Desktop/Workstation: 4-6 hours
+    Server: 1-2 hours
   
 -----------------------
 
