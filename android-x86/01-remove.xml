@@ -33,6 +33,7 @@
     <remove-project name="platform_frameworks_native" />
     <remove-project name="platform/frameworks/opt/net/ethernet" />
     <remove-project name="android_hardware_interfaces" />
+    <remove-project name="platform_packages_apps_Launcher3" />
     <remove-project name="platform_packages_apps_Settings" />
     <remove-project name="platform_packages_modules_Wifi" />
     <remove-project name="toolchain/pgo-profiles" />
