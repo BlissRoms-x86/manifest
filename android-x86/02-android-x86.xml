@@ -47,7 +47,7 @@
 
   <!-- Media HAL & VAAPI drivers -->
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="ag-github" revision="12l-x86" />
-  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="ag-github" revision="release/5.1" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="ag-github" revision="release/6.1" />
   <project path="external/libva-utils" name="external_libva-utils" remote="ag-github" revision="master" /> 
   <project path="hardware/intel/common/libva" name="hardware_intel_common_libva" remote="ag-github" revision="11-x86" />
   <project path="hardware/intel/common/gmmlib" name="hardware_intel_common_gmmlib" remote="ag-github" revision="latest" />
