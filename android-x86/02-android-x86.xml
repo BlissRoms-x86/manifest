@@ -40,8 +40,8 @@
   <project path="external/swiftshader_egl" name="external_swiftshader" remote="ag-gitlab" revision="legacy_11-x86" groups="pdk" />
 
   <!-- Kernel -->
-  <project path="kernel/x86/common" name="kerNel_common" remote="ag-github" sync-s="true" revision="gloria-20240227" />
-  <project path="kernel/x86/surface" name="kernel_cOmmon" remote="ag-github" sync-s="true" revision="gloria-surface-20240227" />
+  <project path="kernel/x86/common" name="kernel_common" remote="ag-github" sync-s="true" revision="gloria-20240227" />
+  <project path="kernel/x86/surface" name="android-generic/kernel_common" remote="ghub" sync-s="true" revision="gloria-surface-20240227" />
   <project path="external/kernel-drivers" name="external_kernel-drivers" sync-s="true" remote="ag-github" revision="6.1" />
   <project path="external/kernel-drivers/rtw88" name="lwfinger/rtw88" remote="github" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="gitlab" revision="14.0" />
