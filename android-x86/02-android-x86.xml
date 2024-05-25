@@ -58,6 +58,7 @@
   <!-- Misc -->
   <project path="external/efibootmgr" name="external_efibootmgr" remote="ag-github" revision="main" />
   <project path="external/efivar" name="external_efivar" remote="ag-github" revision="main" />
+  <project path="external/evtest" name="external_evtest" remote="ag-github" revision="master" />
   <project path="external/libncurses" name="android_external_libncurses" remote="ag-github" revision="6.4" />
   <project path="external/s2tc" name="external_s2tc" remote="ag-github" revision="r-x86" />
   <project path="external/rsync" name="android_external_rsync" remote="ag-github" revision="r11" />
