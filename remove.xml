@@ -20,6 +20,7 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/pdfium" />

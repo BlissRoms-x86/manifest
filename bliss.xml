@@ -68,7 +68,7 @@
   <project path="external/noto-fonts" name="ProtonAOSP/android_external_noto-fonts" remote="github" groups="pdk" revision="rvc" />
   <project path="external/google-fonts/cutive-mono" name="ProtonAOSP/android_external_google-fonts_cutive-mono" remote="github" groups="pdk" revision="rvc" />
   <project path="external/toybox" name="android_external_toybox" remote="BR-x86" revision="r11" />
-
+  <project path="external/sonivox" name="android_external_sonivox" remote="BR-x86" revision="lineage-18.1" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BR-x86" />
