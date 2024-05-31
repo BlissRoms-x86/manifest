@@ -195,6 +195,7 @@
   
   <!-- ASB -->
   <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="lineage" />
+  <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="lineage" />
   <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" groups="pdk-fs" remote="lineage" />
   <project path="tools/apksig" name="android_tools_apksig" groups="pdk,tradefed" remote="lineage" />
