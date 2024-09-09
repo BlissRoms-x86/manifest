@@ -199,5 +199,7 @@
   <project path="external/sonivox" name="android_external_sonivox" groups="pdk" remote="lineage" />
   <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" groups="pdk-fs" remote="lineage" />
+  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="lineage" />
+  <project path="system/libfmq" name="android_system_libfmq" groups="pdk" remote="lineage" />
   <project path="tools/apksig" name="android_tools_apksig" groups="pdk,tradefed" remote="lineage" />
 </manifest>
