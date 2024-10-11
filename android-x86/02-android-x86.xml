@@ -40,8 +40,8 @@
   <project path="external/swiftshader_egl" name="external_swiftshader" remote="ag-gitlab" revision="legacy_11-x86" groups="pdk" />
 
   <!-- Kernel -->
-  <project path="kernel/x86/common" name="kernel_common" remote="ag-github" sync-s="true" revision="gloria-20240908" />
-  <project path="kernel/x86/surface" name="android-generic/kernel_common" remote="ghub" sync-s="true" revision="gloria-surface-20240908" />
+  <project path="kernel/x86/common" name="kernel_common" remote="ag-github" sync-s="true" revision="hm/gloria" />
+  <project path="kernel/x86/surface" name="android-generic/kernel_common" remote="ghub" sync-s="true" revision="hm/gloria-surface" />
   <project path="external/kernel-drivers" name="external_kernel-drivers" sync-s="true" remote="ag-github" revision="6.1" />
   <project path="external/kernel-drivers/rtw88" name="lwfinger/rtw88" remote="github" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/clang-r498229b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="gitlab" revision="14.0" />
@@ -85,7 +85,7 @@
   <project path="external/CLI11" name="CLI11" remote="ag-github" revision="aosp" />
   <project path="external/Microsoft-GSL" name="GSL" remote="ag-github" revision="aosp" />
   <project path="external/spdlog" name="spdlog" remote="ag-github" revision="v1.x" />
-  <project path="external/fmtlib9" name="fmt" remote="ag-github" revision="android_11" />
+  <project path="external/fmtlib11" name="fmt" remote="ag-github" revision="android" />
   <project path="external/eigen3" name="eigen" remote="ag-github" revision="android" />
 
 </manifest>
