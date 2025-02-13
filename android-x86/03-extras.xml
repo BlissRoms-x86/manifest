@@ -16,6 +16,9 @@
     <!-- nano -->
     <project name="android_external_nano" path="external/nano" remote="ag-github" revision="7.2" />
 
+    <!-- ntfs-3g -->
+    <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="ag-github" revision="20240316" />
+
     <!--OpenGapps-->
     <remote name="opengapps" fetch="https://github.com/opengapps/"  />
     <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />	
