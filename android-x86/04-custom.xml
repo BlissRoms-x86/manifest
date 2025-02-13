@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Initrd & installer -->
-  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="BR-x86" revision="r11-x86" />
+  <project path="bootable/aaropa" name="BlissOS/bootable_aaropa" remote="ghub" revision="r11-x86" />
 
   <!-- Device tree -->
   <project path="device/generic/common" name="device_generic_common" remote="BR-x86" revision="r11-x86" sync-s="true" />
