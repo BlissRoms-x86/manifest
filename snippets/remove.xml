@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Core -->
+  <remove-project name="platform/art" />
+  <remove-project name="platform/build/bazel" />
+  <remove-project name="LineageOS/android_bootable_recovery" />
+  <remove-project name="LineageOS/android_build" />
+  <remove-project name="LineageOS/android_build_soong" />
+
+  <!-- External -->
+  <remove-project name="LineageOS/android_external_robolectric" />
+
+  <!-- Frameworks -->
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_frameworks_libs_systemui" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+
+  <!-- Hardware -->
+  <remove-project name="LineageOS/android_hardware_interfaces" />
+
+  <!-- Modules -->
+  <remove-project name="LineageOS/android_packages_modules_Bluetooth" />
+  <remove-project name="LineageOS/android_packages_modules_Wifi" />
+
+  <!-- Packages -->
+  <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <remove-project name="LineageOS/android_packages_apps_Messaging" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <remove-project name="LineageOS/android_packages_apps_WallpaperPicker2" />
+
+  <!-- Services -->
+  <remove-project name="LineageOS/android_packages_services_Telecomm" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
+
+  <!-- System -->
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
+  <remove-project name="LineageOS/android_system_update_engine" />
+
+</manifest>

@@ -1014,6 +1014,7 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
+  <include name="snippets/bliss.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
 </manifest>

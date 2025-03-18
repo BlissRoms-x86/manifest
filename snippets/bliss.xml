@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="BlissRoms"
+          fetch="ssh://git@github.com/BlissRoms"
+          revision="voyager-qpr2"
+          review="review.blissroms.org" />
+
+  <remote name="BlissRoms-Devices"
+          fetch="https://github.com/BlissRoms-Devices" />
+
+  <!-- Remove first some AOSP repos -->
+  <include name="snippets/remove.xml" />
+
+  <project path="art" name="platform_art" groups="pdk" remote="BlissRoms" />
+
+  <!-- Build -->
+  <project path="build/bazel" name="platform_build_bazel" groups="pdk" remote="BlissRoms" >
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
+
+  <project path="build/make" name="platform_build_make" groups="pdk,sysui-studio" remote="BlissRoms" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="BlissRoms" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="device/lineage/sepolicy" name="platform_device_bliss_sepolicy" remote="BlissRoms" />
+
+  <!-- External -->
+  <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="aosp" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="BlissRoms" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="BlissRoms" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="BlissRoms" />
+  <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="BlissRoms" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="BlissRoms" />
+
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk,sysui-studio" remote="BlissRoms" />
+
+  <!-- Modules -->
+  <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" groups="pdk" remote="BlissRoms" />
+  <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="BlissRoms" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Backgrounds" name="platform_packages_apps_Backgrounds" remote="BlissRoms" />
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" />
+  <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="BlissRoms" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="BlissRoms" />
+  <project path="packages/apps/FaceUnlock" name="platform_packages_apps_FaceUnlock" remote="BlissRoms" />
+  <project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="BlissRoms" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="BlissRoms" />
+  <project path="packages/apps/LineageParts" name="platform_packages_apps_LineageParts" remote="BlissRoms" />
+  <project path="packages/apps/LMOFreeform" name="platform_packages_apps_LMOFreeform" remote="BlissRoms" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="BlissRoms" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="BlissRoms" />
+  <project path="packages/apps/SetupWizard" name="platform_packages_apps_SetupWizard" remote="BlissRoms" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="BlissRoms" />
+  <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="BlissRoms" />
+
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="BlissRoms" />
+
+  <!-- SDK -->
+  <project path="lineage-sdk" name="platform_lineage-sdk" remote="BlissRoms" />
+
+  <!-- Services -->
+  <project path="packages/services/OmniJaws" name="platform_packages_services_OmniJaws" remote="BlissRoms" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="BlissRoms" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="BlissRoms" />
+
+  <!-- System -->
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="BlissRoms" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="BlissRoms" />
+  <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="BlissRoms" />
+
+  <!-- Vendor -->
+  <project path="vendor/extras" name="platform_vendor_extras" remote="BlissRoms" />
+  <project path="vendor/lineage" name="platform_vendor_bliss" remote="BlissRoms" />
+
+</manifest>
