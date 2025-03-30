@@ -57,10 +57,13 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="BR-x86" />
   <project path="frameworks/native" name="frameworks_native" remote="BR-x86" />
   <project path="frameworks/libs/systemui" name="platform_frameworks_libs_systemui" remote="BR-x86" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="BR-x86" revision="r11-x86" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="BR-x86" />
 
   <!-- External -->
   <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="BlissRoms" />
+  <project path="external/dng_sdk" name="android_external_dng_sdk" remote="BR-x86" revision="r11-x86" />
+  <project path="external/giflib" name="android_external_giflib" remote="BR-x86" revision="r11-x86" />
   <project path="external/perfetto" name="platform_external_perfetto" remote="BR-x86" />
   <project path="external/faceunlock" name="external_unlock" remote="BlissRoms-gitlab" />
   <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="BlissRoms" />
@@ -68,6 +71,7 @@
   <project path="external/noto-fonts" name="ProtonAOSP/android_external_noto-fonts" remote="github" groups="pdk" revision="rvc" />
   <project path="external/google-fonts/cutive-mono" name="ProtonAOSP/android_external_google-fonts_cutive-mono" remote="github" groups="pdk" revision="rvc" />
   <project path="external/toybox" name="android_external_toybox" remote="BR-x86" revision="r11" />
+  <project path="external/skia" name="android_external_skia" remote="BR-x86" revision="r11-x86" />
   <project path="external/sonivox" name="android_external_sonivox" remote="BR-x86" revision="lineage-18.1" />
 
   <!-- Hardware -->
@@ -80,10 +84,14 @@
   <project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display-sm8150-caf" remote="BlissRoms" />
   <project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media-sm8150-caf" remote="BlissRoms" />
 
+  <!-- libcore -->
+  <project path="libcore" name="android_libcore" groups="pdk" remote="BR-x86" revision="r11-x86" />
+
   <!-- Inputmethods -->
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="BR-x86" />
 
   <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="BR-x86" revision="r11-x86" />
   <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissRoms" revision="a9f0a090a1a3e322f20a9a2a8a184e4ef97a6b4c" />
   <project path="packages/apps/BlissUpdater" name="platform_packages_apps_BlissUpdater" remote="BlissRoms" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="BR-x86" />
@@ -100,7 +108,8 @@
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="BR-x86" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" remote="BR-x86" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="BR-x86" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BR-x86" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="BR-x86" revision="r11-x86" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="BR-x86" revision="r11-x86" />
   <project path="packages/overlays/Lineage" name="platform_packages_overlays_Lineage" remote="BlissRoms" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="BlissRoms-gitlab" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="BlissRoms" />
@@ -110,9 +119,11 @@
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="BR-x86" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PermissionController" groups="pdk-cw-fs,pdk-fs" remote="BR-x86" />
   <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="BR-x86" revision="r11" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="BR-x86" revision="r11-x86" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="BR-x86" revision="r11-x86" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" remote="BR-x86" revision="r11-x86" />
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="BlissRoms" />
 
   <!-- Sepolicy -->
