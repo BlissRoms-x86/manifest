@@ -127,7 +127,7 @@
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" clone-depth="1" remote="BlissRoms" />
 
   <!-- Sepolicy -->
-  <project path="device/lineage/sepolicy" name="platform_device_aosp_sepolicy" remote="BlissRoms" />
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="BR-x86" revision="r11-x86" />
 
   <!-- System -->
   <project path="system/iorap" name="platform_system_iorap" remote="BR-x86" />
