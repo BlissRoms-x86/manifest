@@ -65,6 +65,7 @@
   <project path="packages/apps/LineageParts" name="platform_packages_apps_LineageParts" remote="BlissRoms" />
   <project path="packages/apps/LMOFreeform" name="platform_packages_apps_LMOFreeform" remote="BlissRoms" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="BlissRoms" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs,pdk-cw-fs" remote="BlissRoms" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="BlissRoms" />
   <project path="packages/apps/SetupWizard" name="platform_packages_apps_SetupWizard" remote="BlissRoms" />
   <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="BlissRoms" />

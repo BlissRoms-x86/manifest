@@ -29,6 +29,7 @@
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
