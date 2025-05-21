@@ -27,7 +27,7 @@ What you need in order to build [BlissOS](https://github.com/BlissRoms-x86/manif
 Grabbing Dependencies
 -----------------------
 
-    sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python3-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso xmlstarlet meson glslang-tools git-lfs libncurses5 libncurses5:i386 libelf-dev aapt zstd rdfind nasm
+    sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python3-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso xmlstarlet meson glslang-tools git-lfs libncurses6 libncurses6:i386 libelf-dev aapt zstd rdfind nasm
 
     Rust toolchain & programs are also required. We recommend you to install them using rustup !
     First, remove distro' Rust toolchain:
@@ -41,6 +41,16 @@ Grabbing Dependencies
     rustup target add x86_64-linux-android i686-linux-android
     cargo install --version 0.69.1 bindgen-cli
     cargo install cbindgen
+
+    As Ubuntu 24.04+ removed libncurses5, we need to symlink some libncurses6 libraries
+    to be libncurses5 in order to make the toolchain work.
+    !!!WARNING: These commands are poking into /lib, please proceed with cautions
+    sudo ln -s /lib/x86_64-linux-gnu/libncurses.so.6 /lib/x86_64-linux-gnu/libncurses.so.5
+    sudo ln -s /lib/x86_64-linux-gnu/libncursesw.so.6 /lib/x86_64-linux-gnu/libncursesw.so.5
+    sudo ln -s /lib/x86_64-linux-gnu/libtinfo.so.6 /lib/x86_64-linux-gnu/libtinfo.so.5
+    sudo ln -s /lib/i386-linux-gnu/libncurses.so.6 /lib/i386-linux-gnu/libncurses.so.5
+    sudo ln -s /lib/i386-linux-gnu/libncursesw.so.6 /lib/i386-linux-gnu/libncursesw.so.5
+    sudo ln -s /lib/i386-linux-gnu/libtinfo.so.6 /lib/i386-linux-gnu/libtinfo.so.5
 
 Initializing Repository
 -----------------------
