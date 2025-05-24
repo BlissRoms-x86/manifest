@@ -50,7 +50,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="BR-x86" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="BR-x86" revision="r11-x86" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="BR-x86" />
