@@ -89,6 +89,6 @@
 
   <!-- Vendor -->
   <project path="vendor/extras" name="platform_vendor_extras" remote="BlissRoms" />
-  <project path="vendor/lineage" name="platform_vendor_bliss" remote="BlissRoms" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissRoms" />
 
 </manifest>

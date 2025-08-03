@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Core -->
-  <remove-project name="platform/art" />
+  <remove-project name="LineageOS/android_art" />
   <remove-project name="platform/build/bazel" />
   <remove-project name="LineageOS/android_bootable_recovery" />
   <remove-project name="LineageOS/android_build" />
