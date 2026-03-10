@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Android-Generic Apps -->
+    <project name="android-generic/vendor_prebuilts_agp-apps" path="vendor/agp-apps" remote="gl" revision="master" />
+
+    <!-- nano -->
+    <project name="android_external_nano" path="external/nano" remote="ag-github" revision="7.2" />
+
+    <!-- ntfs-3g -->
+    <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="ag-github" revision="20240316" />
+
+    <!-- Extra Bliss OS Wallpapers -->
+    <project path="packages/apps/BOSWallpapers" name="platform_packages_apps_BOSWallpapers" remote="BlissOS" revision="voyager-x86" />
+
+</manifest>

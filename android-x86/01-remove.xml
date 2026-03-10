@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Remove first some AOSP/Lineage repos -->
+	<!-- <remove-project name="platform/tools/repohooks" /> -->
+	<remove-project name="platform_art" />
+	<remove-project name="LineageOS/android_bionic" />
+    <!--<remove-project name="platform/development" />-->
+    <remove-project name="platform_bootable_recovery" />
+	<remove-project name="platform_device_bliss_sepolicy" />
+	<remove-project name="LineageOS/android_device_qcom_sepolicy" />
+	<remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
+    <remove-project name="platform/external/drm_hwcomposer" />
+    <!-- <remove-project name="platform/external/erofs-utils" /> -->
+    <remove-project name="platform/external/libdrm" />
+	<!-- <remove-project name="toolchain/llvm-project" /> -->
+    <remove-project name="platform/external/minigbm" />
+    <remove-project name="device/generic/x86_64" />
+    <remove-project name="device/generic/x86" /> -->
+    <remove-project name="LineageOS/android_external_libncurses" />
+    <remove-project name="LineageOS/android_external_nano" />
+    <remove-project name="LineageOS/android_external_ntfs-3g" />
+    <remove-project name="LineageOS/android_external_mksh" />
+    <remove-project name="platform/external/toybox" />
+    <remove-project name="platform/external/mesa3d" />
+    <remove-project name="LineageOS/android_device_generic_common" />
+    <remove-project name="platform_frameworks_av" />   
+    <remove-project name="platform_frameworks_base" />
+    <remove-project name="platform_frameworks_native" />
+    <remove-project name="platform_hardware_interfaces" />
+    <remove-project name="platform_packages_apps_Launcher3" />
+    <remove-project name="platform_packages_apps_Settings" />
+    <remove-project name="platform_packages_modules_Bluetooth" />
+    <remove-project name="toolchain/pgo-profiles" />
+    <remove-project name="platform_system_core" />   
+    <remove-project name="LineageOS/android_system_media" />   
+    <remove-project name="platform/system/hardware/interfaces" />   
+    <remove-project name="platform/system/linkerconfig" />   
+    <remove-project name="LineageOS/android_system_vold" />
+    <!-- Remove some ROM-made repo -->
+    <remove-project name="platform_vendor_bliss" />
+    <remove-project name="platform_packages_apps_Blissify" />
+    <remove-project name="platform_packages_apps_BlissUpdater" />
+    <!-- Remove some qpr2 repos -->
+    <remove-project name="platform/external/libva" />
+    <remove-project name="platform/external/pciutils" />
+    <remove-project name="platform_build_make" />
+    <remove-project name="LineageOS/android_packages_modules_NetworkStack" />
+    <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+    <remove-project name="platform/system/apex" />
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="build/make" name="platform_build_make" remote="BlissOS">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="manifest" name="platform_manifest" remote="BlissOS" />
+  <project path="art" name="platform_art" remote="BlissOS" />
+  <project path="bionic" name="platform_bionic" remote="BlissOS" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="BlissOS" />
+  <project path="external/mksh" name="platform_external_mksh" remote="BlissOS" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="BlissOS" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="BlissOS" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="BlissOS" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="BlissOS" />
+  <project path="packages/apps/Blissify" name="platform_packages_apps_Blissify" remote="BlissOS" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="BlissOS" />
+  <project path="packages/apps/ParanoidSense" name="BlissLabs/BlissOS/platform_packages_apps_paranoidsense" remote="gl" revision="universe" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="BlissOS" />
+  <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="BlissOS" />
+  <project path="packages/modules/NetworkStack" name="platform_packages_modules_NetworkStack" remote="BlissOS" />
+  <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="BlissOS" />
+  <project path="system/apex" name="platform_system_apex" remote="BlissOS" />
+  <project path="system/core" name="platform_system_core" remote="BlissOS" />
+  <project path="system/media" name="platform_system_media" remote="BlissOS" />
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="BlissOS" />
+  <project path="system/vold" name="platform_system_vold" remote="BlissOS" />
+  <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" remote="BlissOS" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="BlissOS" />
+  <project path="vendor/overlays" name="platform_vendor_overlays" remote="BlissOS" />  
+</manifest>

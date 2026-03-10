@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Audio -->
+  <project path="external/alsa-lib" name="external_alsa-lib" remote="ag-github" revision="v-x86" />
+  <project path="external/alsa-utils" name="external_alsa-utils" remote="ag-github" revision="pie-x86" />
+  <!-- Note : libncurses is required for alsa_mixer -->
+  <project path="external/alsa-ucm-conf" name="external_alsa-ucm-conf" remote="ag-github" revision="pie-x86" />
+  <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="ag-github" revision="14-x86" />
+  <project path="hardware/intel/audio" name="hardware_intel_audio" remote="ag-github" revision="13-x86" />
+
+  <!-- Bluetooth, camera, GPS, sensors, thermal HALs & tools -->
+  <project path="external/hcitools" name="external_hcitools" remote="ag-github" revision="13-x86" />
+  <project path="external/thermal_daemon" name="external_thermal_daemon" remote="ag-github" revision="master" />
+  <project path="hardware/intel/libsensors" name="hardware_intel_libsensors" remote="ag-github" revision="u-x86" />
+  <project path="hardware/liblights" name="platform_hardware_liblights" remote="ag-github" revision="u-x86" />
+  <project path="hardware/libsensors" name="platform_hardware_libsensors" remote="ag-github" revision="14-x86" />
+  <project path="hardware/libbt-vendor-intel" name="hardware_libbt-vendor-intel" remote="ag-github" revision="13-x86" />
+  <project path="hardware/gps" name="platform_hardware_gps" remote="ag-github" revision="u-x86" />
+  <project path="vendor/intel/hardware/interfaces" name="vendor_intel_hardware_interfaces" remote="ag-github" revision="14-x86" sync-s="true" />
+
+  <!-- Firmware -->
+  <project path="device/generic/firmware" name="device_generic_firmware" remote="ag-github" revision="main" />
+  <project path="vendor/intel/proprietary/sof-bin" name="vendor_intel_proprietary_sof-bin" remote="ag-github" revision="202403" />
+  <project path="vendor/silead/proprietary/firmware" name="vendor_silead_proprietary_firmware" remote="ag-github" revision="master" />
+
+  <!-- Graphics -->
+  <project path="external/drm_framebuffer" name="external_drm_framebuffer" remote="ag-github" revision="u-x86" />
+  <project path="external/drm_gralloc" name="external_drm_gralloc" remote="ag-github" revision="mesa-21.2" />
+  <project path="external/drm_hwcomposer" name="external_drm_hwcomposer" remote="ag-github" revision="main" />
+  <project path="external/drm_hwcomposer_celadon" name="external_drm_hwcomposer" remote="ag-github" revision="celadon" />
+  <project path="external/drmfb-composer" name="external_drmfb-composer" remote="ag-github" revision="u-x86" />
+  <project path="external/gbm_gralloc" name="external_gbm_gralloc" remote="ag-github" revision="main" />
+  <project path="external/libdrm" name="platform_external_libdrm" remote="ag-github" revision="2.4.123_u-x86" />
+  <project path="external/llvm-project" name="external_llvm-project" remote="ag-github" revision="release_19.x_llvm-min-tblgen" />
+  <project path="prebuilts/llvm-min-tblgen" name="llvm-min-tblgen" remote="ag-github" revision="release_19.x_old-glibc" />
+  <project path="external/mesa" name="external_mesa" remote="ag-github" revision="24.3_v-x86" />
+  <project path="external/minigbm" name="external_minigbm" remote="ag-github" revision="15-x86" />
+  <project path="external/hbm-prebuilts" name="external_hbm-prebuilts" remote="ag-github" revision="11" />
+
+  <!-- Kernel -->
+  <project path="kernel/x86/common" name="kernel_common" remote="ag-github" sync-s="true" revision="hm/crimson" />
+  <project path="kernel/x86/surface" name="android-generic/kernel_common" remote="ghub" sync-s="true" revision="hm/crimson-surface" />
+  <project path="kernel/x86/zenith" name="kernel-zenith" remote="ag-github" sync-s="true" revision="6.12" />
+  <project path="external/kernel-drivers" name="exTernal_kernel-drivers" sync-s="true" remote="ag-github" revision="6.6" />
+  <project path="external/kernel-drivers-zenith" name="external_keRnel-drivers" sync-s="true" remote="ag-github" revision="zenith" />
+
+  <!-- Media HAL & VAAPI drivers -->
+  <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="ag-github" revision="14-x86" />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="ag-github" revision="release/7.0-14" />
+  <project path="external/libva" name="hardware_intel_common_libva" remote="ag-github" revision="15-x86" />
+  <project path="external/libva-utils" name="external_libva-utils" remote="ag-github" revision="14-x86" />
+  <project path="hardware/intel/common/gmmlib" name="hardware_intel_common_gmmlib" remote="ag-github" revision="latest" />
+  <project path="hardware/intel/common/media-driver" name="hardware_intel_common_media-driver" remote="ag-github" revision="24.3" />
+  <project path="hardware/intel/common/vaapi" name="platform_hardware_intel_common_vaapi" remote="ag-github" revision="14-x86" />
+
+  <!-- Misc -->
+  <project path="external/dialog" name="external_dialog" remote="ag-github" revision="20240619" />
+  <project path="external/dmidecode" name="external_dmidecode" remote="ag-github" revision="3.5" />
+  <project path="external/efibootmgr" name="external_efibootmgr" remote="ag-github" revision="main" />
+  <project path="external/efivar" name="external_efivar" remote="ag-github" revision="main" />
+  <project path="external/evtest" name="external_evtest" remote="ag-github" revision="master" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="ag-github" revision="6.5" />
+  <project path="external/pciutils" name="external_pciutils" remote="ag-github" revision="15-x86" />
+  <project path="external/s2tc" name="external_s2tc" remote="ag-github" revision="r-x86" />
+  <project path="external/tree" name="external_tree" remote="ag-gitlab" revision="u-x86" />
+  <project path="external/v86d" name="external_v86d" remote="ag-github" revision="r-x86" />
+
+  <!-- Power HAL-->
+  <project path="hardware/x86power" name="hardware_x86power" remote="ag-github" revision="r11" />
+
+  <!-- AOSP components but newer -->
+  <project path="external/toybox" name="android_external_toybox" remote="ag-github" revision="14" />
+
+  <!-- GloDroid -->
+  <project path="glodroid/aospext" name="glodroid_aospext" remote="ag-github" revision="main" />
+  <!-- put libcamera here if needed -->
+
+  <!-- linux-surface -->
+  <project path="external/inih" name="inih" remote="ag-github" revision="master" />
+  <project path="external/CLI11" name="CLI11" remote="ag-github" revision="aosp" />
+  <project path="external/Microsoft-GSL" name="GSL" remote="ag-github" revision="aosp" />
+  <project path="external/spdlog" name="spdlog" remote="ag-github" revision="v1.x" />
+  <project path="external/fmtlib11" name="fmt" remote="ag-github" revision="android" />
+  <project path="external/eigen3" name="eigen" remote="ag-github" revision="android" />
+
+</manifest>

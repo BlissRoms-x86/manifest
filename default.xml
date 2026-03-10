@@ -1016,4 +1016,10 @@
   <include name="snippets/bliss.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="android-x86/00-remotes.xml" />
+  <include name="android-x86/01-remove.xml" />
+  <include name="android-x86/02-android-x86.xml" />
+  <include name="android-x86/03-extras.xml" />
+  <include name="android-x86/04-custom.xml" />
+  <include name="android-x86/05-modified.xml" />
 </manifest>
