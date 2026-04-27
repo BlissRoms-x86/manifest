@@ -1181,7 +1181,7 @@
   <project name="platform_device_generic_x86_64" path="device/generic/x86_64" remote="BR-x86" revision="1e2589cb560c338c567af7a3cf32ec4bf5deaf5e" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_device_qcom_sepolicy-legacy" path="device/qcom/sepolicy-legacy" remote="BlissRoms" revision="0b8eedc89e2ccc10940bf27c2f960c348541710f" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="BlissRoms" revision="76f2bd6f2ce60ffc005a13be015eef4bb63eb061" upstream="arcadia-next" dest-branch="arcadia-next"/>
-  <project name="platform_external_blissethernet" path="vendor/bliss/blissethernet" remote="BlissBass" revision="ee226e6cd96370e39dd467d0e784275754ea7b5a" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="platform_external_blissethernet" path="vendor/bliss/blissethernet" remote="BlissBass" revision="f28f204cd1dda5d5016efa4a645d8ce0f77787a3" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
   <project name="platform_external_colorkt" path="external/colorkt" remote="BlissRoms" revision="c1f631fecaa8a36e69237b1913602675aa26c07a" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="BR-x86" revision="7cd991bde082f07040d12d8f6e2860a93f0605e8" upstream="arcadia-x86" dest-branch="arcadia-x86" groups="pdk"/>
   <project name="platform_external_libdrm" path="external/libdrm" remote="ag-github" revision="dc07862b5e27d45fc08a0d3684c9d2e923db1e37" upstream="2.4.131/st-x86" dest-branch="2.4.131/st-x86"/>
@@ -1189,7 +1189,7 @@
   <project name="platform_external_themelib" path="external/themelib" remote="BlissRoms" revision="9b8f8b3b1797bd3b8718775df4ef35f9b4cafcb5" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_external_webp" path="external/webp" remote="BlissRoms" revision="26033dd23e9422eddfc35b400f8d29a3f12833ed" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_frameworks_base" path="frameworks/base" remote="BR-x86" revision="5341ad34f843e0df76d09d316158b4814ee7c09a" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
-  <project name="platform_frameworks_opt_net_ethernet" path="frameworks/opt/net/ethernet" remote="BR-x86" revision="c9c4c0e8bc3e9bd19621e332a7119d1bde5708f0" upstream="arcadia-x86" dest-branch="arcadia-x86"/>
+  <project name="platform_frameworks_opt_net_ethernet" path="frameworks/opt/net/ethernet" remote="BlissBass" revision="5193c9fb9b34623a98015f606fa10ce073245b62" upstream="arcadia-x86-bass" dest-branch="arcadia-x86-bass"/>
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="BlissRoms" revision="2da0e0aff36dd681e778186939648b82447cfaad" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_hardware_bliss_interfaces" path="hardware/bliss/interfaces" remote="BlissRoms" revision="8204e4c19b2ef95fab0c44398ca3423f1e346d73" upstream="arcadia-next" dest-branch="arcadia-next"/>
   <project name="platform_hardware_gps" path="hardware/gps" remote="ag-github" revision="a76ab3c238e46d84016c4462b15fe6effa24cb10" upstream="r-x86" dest-branch="r-x86"/>
